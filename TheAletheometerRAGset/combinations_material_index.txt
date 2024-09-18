@@ -1,0 +1,49 @@
+OAoC_index
+
+premises
+
+The document outlines Leibniz's premises in the "Dissertation on the Art of Combinations" through three introductory sections which lay the metaphysical and logical foundations for his work. These sections are summarized as follows:
+
+    Demonstration of the Existence of God: Leibniz begins with a philosophical grounding, proposing definitions and postulates that lead to a proof of God's existence. Key among these are:
+        God is defined as an incorporeal substance with infinite power.
+        Substance is anything that moves or is moved.
+        Infinite power is described as the capacity to move the infinite.
+        Axioms related to motion and divisibility of bodies are introduced to support the argument that an ultimate mover, which is God, must exist.
+
+    Corollaries for Disputation: This section introduces logical and metaphysical principles, including:
+        The principle of contradiction and the existence of something rather than nothing as foundational to all theorems and observations.
+        Assertions about the nature of perfect demonstrations, the theoretical versus practical applications of disciplines, and the ends of logic.
+        Metaphysical statements about the nature of infinity, God, substance, and the need for a discipline concerning created beings.
+
+    Definitions Introducing the Work: Leibniz lays out definitions related to variation, variability, and situs (location or arrangement of parts), distinguishing between absolute and relative situs. This section forms the basis for discussing complexions (combinations) and their significance in various fields, suggesting a universal method for understanding and manipulating the concepts of order, combination, and variation.
+
+Leibniz's premises, therefore, set a broad and ambitious foundation for his work, aiming to establish a universal language or calculus for reasoning. He seeks to demonstrate the interconnectedness of metaphysical truths, logical principles, and their applications across different fields of knowledge. This groundwork reflects his larger philosophical and scientific goals, including the development of a calculus ratiocinator and characteristica universalis that would enable systematic and error-free reasoning across all domains of knowledge.
+
+The derivatives in Leibniz's "On the Art of Combinations" are expanded upon through the exploration of various principles and their applications. This section delves into the logical and methodological advancements that stem from the initial premises, focusing on the elaboration of complexions and their implications across different fields such as logic, metaphysics, physics, and practical disciplines. Here's a synopsis of these derivatives:
+Logic
+
+    Establishes primary propositions, emphasizing the binary nature of existence and the possibility of perfect demonstrations across disciplines.
+    Differentiates between theoretical knowledge and its practical application, suggesting a universal method that can be adapted to either realm.
+
+Metaphysics
+
+    Discusses the concepts of substance and accident, proposing the necessity of a discipline that deals with created beings, which he considers part of metaphysics.
+    Questions the unified concept of causality, pointing towards a nuanced understanding of different types of causes.
+
+Physics
+
+    Introduces innovative ideas about the movement of celestial bodies, including the earth, and proposes explanations for the primary qualities (humidity, dryness, warmth, coldness) based on their physical properties.
+
+Practical Applications
+
+    Examines justice, arguing for a balanced approach to human affections and actions, and revisits traditional concepts with a critical eye.
+    Discusses the utility of justice from a theological perspective, suggesting that the glory of God should be the measure of all laws.
+
+Leibniz uses these derivatives to build upon his premises, employing his methodological framework to address complex problems in logic, law, theology, and beyond. His approach showcases the versatility of complexions (combinations) and their practical utility in solving theoretical and applied problems. The exploration of these derivatives further demonstrates Leibniz's commitment to a universal method of reasoning that could potentially unify various fields of knowledge under a common framework.
+
+Leibniz’s exploration culminates in the practical applications of his theories, demonstrating their relevance across various fields such as logic, law, theology, and beyond. He illustrates how the principles of combinations and variations can be applied to solve complex problems and understand diverse phenomena, from celestial movements to the nature of justice and the classification of knowledge.
+
+The lack of a traditional conclusion section suggests that Leibniz intended the document to be a foundational work that provides the tools and methods for further exploration and application, rather than offering a closed set of conclusions. This approach aligns with his broader philosophical goals of creating a universal language or calculus for reasoning that could be applied across all domains of knowledge.
+
+Instead of a summarizing conclusion, the document showcases the breadth of Leibniz’s ambition to apply his inventions—the calculus ratiocinator and characteristica universalis—to a wide range of intellectual pursuits, emphasizing the practical utility of his methodologies in addressing complex problems and advancing knowledge across disciplines.
+

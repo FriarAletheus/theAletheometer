@@ -1,0 +1,326 @@
+[
+  {
+  "Categories": {
+    "Equivocal, Univocal, and Derivative Naming": {
+      "Equivocal": {
+        "Definition": "∀x ∀y (Name(x, y) ∧ DefinitionDifferent(x, y))"
+      },
+      "Univocal": {
+        "Definition": "∀x ∀y (Name(x, y) ∧ DefinitionSame(x, y))"
+      },
+      "Derivative": {
+        "Definition": "∀x ∃y (DerivedName(x, y) ∧ NameChange(x))"
+      }
+    },
+    "Speech Forms, Predication, and Subject Presence": {
+      "Simple vs. Composite Speech": {
+        "Simple": "SimpleSpeech(x) ↔ ¬Composite(x)",
+        "Composite": "CompositeSpeech(x) ↔ ∃y,z (Simple(y) ∧ Simple(z) ∧ Combines(y, z, x))"
+      },
+      "Predication": {
+        "Definition": "∀x ∀y (Predicable(x, y) ∨ PresentInSubject(x, y))"
+      },
+      "Examples": {
+        "Predicated": "Predicated(x, Subject(y))",
+        "Present in Subject": "PresentInSubject(x, Subject(y))"
+      }
+    },
+    "Substance and Its Categories": {
+      "Primary Substances": {
+        "Definition": "∀x (¬Predicable(x, Subject) ∧ ¬PresentInSubject(x, Subject))"
+      },
+      "Secondary Substances": {
+        "Definition": "∀x ∀y (PredicatedOf(x, Primary(y)))"
+      }
+    },
+    "Quantity": {
+      "Discrete": {
+        "Definition": "∀x (Discrete(x) → ¬RelativePosition(PartsOf(x)))"
+      },
+      "Continuous": {
+        "Definition": "∀x (Continuous(x) ↔ RelativePosition(PartsOf(x)))"
+      }
+    },
+    "Relative Terms and Correlatives": {
+      "Relative Terms": {
+        "Definition": "∀x (RelativeTerm(x) ↔ ExplainedByReference(x, y))"
+      },
+      "Contraries and Variation": {
+        "Definition": "∀x ∃y (Contraries(x, y) ∧ VariationDegree(x, y))"
+      }
+    }
+  }
+}
+{
+  "Prior Analytics": {
+    "Structure of Syllogisms": {
+      "Definition": "∀x ∀y ∀z ((Premise1(x, z) ∧ Premise2(z, y)) → Conclusion(x, y))"
+    },
+    "Figures of Syllogisms": {
+      "First Figure": {
+        "Definition": "∀x ∀y ∀z ((P(x, z) ∧ P(z, y)) → P(x, y))"
+      },
+      "Second Figure": {
+        "Definition": "∀x ∀y ∀z ((P(x, z) ∧ P(y, z)) → P(x, y))"
+      },
+      "Third Figure": {
+        "Definition": "∀x ∀y ∀z ((P(z, x) ∧ P(z, y)) → P(x, y))"
+      }
+    },
+    "Moods of Syllogisms": {
+      "AAA": {
+        "Definition": "All M are P; All S are M; Therefore, All S are P."
+      },
+      "EAE": {
+        "Definition": "No M are P; All S are M; Therefore, No S are P."
+      }
+    },
+    "Rules for Valid Syllogisms": {
+      "General Rules": [
+        "A valid syllogism must have exactly three terms, each of which is used consistently throughout the premises and conclusion.",
+        "The middle term must be distributed at least once in the premises.",
+        "No term can be distributed in the conclusion unless it is distributed in the premises."
+      ],
+      "Logical Notation": "∀x ∀y ∀z (ValidSyllogism(x) ↔ (ConsistentTerms(x, y, z) ∧ MiddleTermDistributed(x)))"
+    },
+    "Conversion of Propositions": {
+      "Simple Conversion": {
+        "Definition": "∀x ∀y ((P(x, y) → P(y, x)) ∧ (¬P(x, y) → ¬P(y, x)))"
+      },
+      "Conversion per Accidens": {
+        "Definition": "∀x ∀y (A(x, y) → I(y, x))"
+      }
+    },
+    "Reductio ad Absurdum and Indirect Proofs": {
+      "Reductio ad Absurdum": {
+        "Definition": "∀p (¬p → Contradiction → p)"
+      },
+      "Indirect Proofs": {
+        "Definition": "∀p ∀q ((¬q ∧ Premises → Contradiction) → q)"
+      }
+    },
+    "Application of Syllogisms to Demonstrative Sciences": {
+      "Role in Demonstrative Sciences": {
+        "Definition": "∀x (Syllogism(x) ∧ Demonstration(x)) ↔ CertaintyAchieved(x)"
+      }
+    }
+  }
+}
+{
+  "Posterior Analytics": {
+    "Definition of Scientific Knowledge (Episteme)": {
+      "Scientific Knowledge": {
+        "Definition": "∀x (Episteme(x) ↔ (Necessity(x) ∧ Universality(x) ∧ Demonstrated(x)))"
+      },
+      "Distinction": {
+        "Definition": "Episteme(x) ≠ Doxa(x)"
+      }
+    },
+    "Method of Demonstration": {
+      "Demonstration (Apodeixis)": {
+        "Definition": "∀x (Demonstration(x) ↔ (PremisesTrue(x) ∧ PremisesPrimary(x) ∧ PremisesImmediate(x)))"
+      }
+    },
+    "The Role of Axioms and First Principles": {
+      "Axioms": {
+        "Definition": "∀x (Axiom(x) → (SelfEvident(x) ∧ NoProofRequired(x)))"
+      },
+      "First Principles": {
+        "Definition": "∀x (FirstPrinciple(x) ↔ (BasicPremise(x) ∧ ¬Derived(x)))"
+      }
+    },
+    "Requirements for Valid Demonstrations": {
+      "Valid Demonstrations": {
+        "Conditions": [
+          "Premises must be true.",
+          "Premises must be immediate and not require further proof.",
+          "Premises must be causally related to the conclusion."
+        ],
+        "Logical Notation": "∀x (ValidDemonstration(x) ↔ (PremisesTrue(x) ∧ PremisesImmediate(x) ∧ CausalRelation(x)))"
+      },
+      "Difference from Non-Demonstrative Knowledge": {
+        "Definition": "∀x (NonDemonstrativeKnowledge(x) ↔ (¬Necessity(x) ∨ ¬Universality(x)))"
+      }
+    },
+    "Types of Syllogisms in Scientific Demonstration": {
+      "Perfect Syllogisms": {
+        "Definition": "∀x (PerfectSyllogism(x) ↔ (ConclusionFollowsNecessarily(x) ∧ NoAdditionalPremises(x)))"
+      },
+      "Imperfect Syllogisms": {
+        "Definition": "∀x (ImperfectSyllogism(x) ↔ (AdditionalPremisesRequired(x) ∧ ConclusionNotImmediate(x)))"
+      }
+    },
+    "Causality and Explanation": {
+      "Four Causes": {
+        "Material Cause": {
+          "Definition": "The substance or material out of which something is made."
+        },
+        "Formal Cause": {
+          "Definition": "The form or essence of a thing, which defines its structure or nature."
+        },
+        "Efficient Cause": {
+          "Definition": "The agent or force that brings something into being."
+        },
+        "Final Cause": {
+          "Definition": "The purpose or end for which something exists or is done."
+        }
+      }
+    },
+    "Inductive Reasoning and its Role in Science": {
+      "Induction (Epagoge)": {
+        "Definition": "∀x (Induction(x) ↔ (GeneralPrinciple(x) ∧ DerivedFromSpecificInstances(x)))"
+      },
+      "Relation to Demonstrative Syllogisms": {
+        "Definition": "∀x (InductivePremises(x) → UsedInDemonstration(x))"
+      }
+    }
+  }
+}
+{
+  "Topics": {
+    "Dialectical Reasoning and Endoxa": {
+      "Dialectical Reasoning": {
+        "Definition": "∀x (DialecticalReasoning(x) ↔ (Dialogue(x) ∧ ArgumentExchange(x) ∧ BasedOnEndoxa(x)))"
+      },
+      "Endoxa": {
+        "Definition": "Widely accepted opinions serving as starting points for arguments."
+      }
+    },
+    "Structure of Dialectical Arguments": {
+      "Components": {
+        "Premises": "Foundational statements leading to a conclusion.",
+        "Forms of Reasoning": "Patterns connecting premises to conclusions, e.g., categorical syllogisms."
+      }
+    },
+    "Categories of Argumentation": {
+      "Refutative": {
+        "Definition": "∀x (Refutative(x) ↔ (Disproves(x) ∨ Counters(x)))"
+      },
+      "Constructive": {
+        "Definition": "∀x (Constructive(x) ↔ (SupportsThesis(x)))"
+      },
+      "Inductive": {
+        "Definition": "∀x (Inductive(x) ↔ (SpecificToGeneral(x)))"
+      }
+    },
+    "Topoi (Commonplaces) and Lines of Argument": {
+      "Topoi": {
+        "Definition": "General strategies for constructing arguments."
+      }
+    },
+    "Techniques for Questioning and Answering": {
+      "Questioning": {
+        "Guidelines": [
+          "Ask clear questions",
+          "Expose weaknesses",
+          "Guide discussions"
+        ]
+      },
+      "Answering": {
+        "Guidelines": [
+          "Be direct",
+          "Maintain consistency",
+          "Strengthen your position"
+        ]
+      }
+    },
+    "Fallacies and Weak Arguments": {
+      "Identification": {
+        "Examples": ["Ad hominem", "Straw man", "Begging the question"]
+      },
+      "Refutation Techniques": {
+        "Strategies": [
+          "Point out inconsistencies",
+          "Highlight irrelevant premises"
+        ]
+      }
+    },
+    "Applications of Dialectical Reasoning": {
+      "Fields": {
+        "Ethics": "Explores moral principles.",
+        "Politics": "Debates policies.",
+        "Science": "Challenges hypotheses."
+      },
+      "Critical Thinking": {
+        "Definition": "∀x (CriticalThinking(x) ↔ (Analyzes(x) ∧ IdentifiesFlaws(x) ∧ Persuades(x)))"
+      }
+    }
+  }
+}
+{
+  "Sophistical Refutations": {
+    "Definition and Purpose": {
+      "Definition": "Sophistical refutations are arguments that appear valid but are actually fallacious.",
+      "Purpose": "To expose the difference between genuine arguments and deceptive ones."
+    },
+    "Classification of Fallacies": {
+      "Types": {
+        "In Dictione (In Language)": {
+          "Equivocation": {
+            "Definition": "Using a word with multiple meanings in different parts of the argument.",
+            "Example": "'Bank' can mean a financial institution or the side of a river."
+          },
+          "Amphiboly": {
+            "Definition": "Ambiguity arising from the grammatical structure of a sentence.",
+            "Example": "'Flying planes can be dangerous' is ambiguous."
+          },
+          "Composition and Division": {
+            "Definition": "Confusing the whole with its parts, or vice versa.",
+            "Example": "'All the bricks in the building are small, so the building must be small.'"
+          }
+        },
+        "Extra Dictionem (Outside Language)": {
+          "False Cause": {
+            "Definition": "Assuming a causal relationship without sufficient evidence.",
+            "Example": "'Event A occurred before Event B; therefore, A caused B.'"
+          },
+          "Accident": {
+            "Definition": "Misapplying a general rule to a specific case that is an exception.",
+            "Example": "Assuming that 'Cutting people with knives is a crime' applies to surgeons."
+          },
+          "Begging the Question": {
+            "Definition": "Assuming the truth of what one is trying to prove.",
+            "Example": "'God exists because the Bible says so, and the Bible is true because it is the word of God.'"
+          }
+        }
+      }
+    },
+    "Techniques for Detecting and Refuting Fallacies": {
+      "Detection Strategies": {
+        "Guidelines": [
+          "Identify ambiguous terms.",
+          "Check for logical consistency.",
+          "Analyze the structure of the argument for hidden assumptions."
+        ]
+      },
+      "Refutation Methods": {
+        "Strategies": [
+          "Expose ambiguities.",
+          "Provide counterexamples.",
+          "Demonstrate logical inconsistencies."
+        ]
+      }
+    },
+    "Strategies for Arguing Against Sophistical Reasoning": {
+      "Direct Refutation": {
+        "Definition": "Directly showing the fallacy in the reasoning.",
+        "Examples": ["Pointing out contradictions or false premises."]
+      },
+      "Indirect Refutation": {
+        "Definition": "Demonstrating the absurdity or implausibility of the argument's conclusion.",
+        "Examples": ["Using reductio ad absurdum to show that accepting the argument leads to a contradiction."]
+      }
+    },
+    "Applications in Rhetoric and Dialectic": {
+      "Rhetorical Use": {
+        "Definition": "Using fallacies deliberately to persuade or deceive an audience.",
+        "Examples": ["Appeal to emotion", "Straw man argument"]
+      },
+      "Dialectical Importance": {
+        "Definition": "Understanding fallacies is crucial in dialectic for distinguishing between valid and invalid arguments.",
+        "Examples": ["Recognizing fallacies helps maintain productive dialogue and avoid misunderstanding."]
+      }
+    }
+  }
+}
+]

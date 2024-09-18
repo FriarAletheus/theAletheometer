@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#" 
+    xml:base="http://www.semanticweb.org/philosophical-calculation-ontology" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:xml="http://www.w3.org/XML/1998/namespace" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+    ontologyIRI="http://www.semanticweb.org/philosophical-calculation-ontology">
+
+  <Prefix name="" IRI="http://www.semanticweb.org/philosophical-calculation-ontology#"/>
+  <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+  <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+  <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+  <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+  <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+
+  <!-- Classes -->
+  <Declaration><Class IRI="#SymbolicEntity"/></Declaration>
+  <Declaration><Class IRI="#AtomicSymbol"/></Declaration>
+  <Declaration><Class IRI="#CompositeSymbol"/></Declaration>
+  <Declaration><Class IRI="#ConceptualRelation"/></Declaration>
+  <Declaration><Class IRI="#LogicalRelation"/></Declaration>
+  <Declaration><Class IRI="#SemanticRelation"/></Declaration>
+  <Declaration><Class IRI="#CalculativeRelation"/></Declaration>
+  <Declaration><Class IRI="#Operation"/></Declaration>
+  <Declaration><Class IRI="#Transformation"/></Declaration>
+  <Declaration><Class IRI="#Combination"/></Declaration>
+  <Declaration><Class IRI="#Decomposition"/></Declaration>
+  <Declaration><Class IRI="#Domain"/></Declaration>
+  <Declaration><Class IRI="#Abstract"/></Declaration>
+  <Declaration><Class IRI="#Concrete"/></Declaration>
+  <Declaration><Class IRI="#Representation"/></Declaration>
+  <Declaration><Class IRI="#Formal"/></Declaration>
+  <Declaration><Class IRI="#Informal"/></Declaration>
+  <Declaration><Class IRI="#Calculability"/></Declaration>
+  <Declaration><Class IRI="#Computable"/></Declaration>
+  <Declaration><Class IRI="#NonComputable"/></Declaration>
+  <Declaration><Class IRI="#InferentialStructure"/></Declaration>
+  <Declaration><Class IRI="#Deductive"/></Declaration>
+  <Declaration><Class IRI="#Inductive"/></Declaration>
+  <Declaration><Class IRI="#Abductive"/></Declaration>
+  <Declaration><Class IRI="#SemanticContent"/></Declaration>
+  <Declaration><Class IRI="#Extensional"/></Declaration>
+  <Declaration><Class IRI="#Intensional"/></Declaration>
+  <Declaration><Class IRI="#EpistemicEntity"/></Declaration>
+  <Declaration><Class IRI="#CognitiveProcess"/></Declaration>
+  <Declaration><Class IRI="#EthicalConcept"/></Declaration>
+  <Declaration><Class IRI="#AestheticEntity"/></Declaration>
+  <Declaration><Class IRI="#TemporalEntity"/></Declaration>
+  <Declaration><Class IRI="#SpatialEntity"/></Declaration>
+
+  <!-- Class Hierarchy -->
+  <SubClassOf><Class IRI="#AtomicSymbol"/><Class IRI="#SymbolicEntity"/></SubClassOf>
+  <SubClassOf><Class IRI="#CompositeSymbol"/><Class IRI="#SymbolicEntity"/></SubClassOf>
+  <SubClassOf><Class IRI="#LogicalRelation"/><Class IRI="#ConceptualRelation"/></SubClassOf>
+  <SubClassOf><Class IRI="#SemanticRelation"/><Class IRI="#ConceptualRelation"/></SubClassOf>
+  <SubClassOf><Class IRI="#CalculativeRelation"/><Class IRI="#ConceptualRelation"/></SubClassOf>
+  <SubClassOf><Class IRI="#Transformation"/><Class IRI="#Operation"/></SubClassOf>
+  <SubClassOf><Class IRI="#Combination"/><Class IRI="#Operation"/></SubClassOf>
+  <SubClassOf><Class IRI="#Decomposition"/><Class IRI="#Operation"/></SubClassOf>
+  <SubClassOf><Class IRI="#Abstract"/><Class IRI="#Domain"/></SubClassOf>
+  <SubClassOf><Class IRI="#Concrete"/><Class IRI="#Domain"/></SubClassOf>
+  <SubClassOf><Class IRI="#Formal"/><Class IRI="#Representation"/></SubClassOf>
+  <SubClassOf><Class IRI="#Informal"/><Class IRI="#Representation"/></SubClassOf>
+  <SubClassOf><Class IRI="#Computable"/><Class IRI="#Calculability"/></SubClassOf>
+  <SubClassOf><Class IRI="#NonComputable"/><Class IRI="#Calculability"/></SubClassOf>
+  <SubClassOf><Class IRI="#Deductive"/><Class IRI="#InferentialStructure"/></SubClassOf>
+  <SubClassOf><Class IRI="#Inductive"/><Class IRI="#InferentialStructure"/></SubClassOf>
+  <SubClassOf><Class IRI="#Abductive"/><Class IRI="#InferentialStructure"/></SubClassOf>
+  <SubClassOf><Class IRI="#Extensional"/><Class IRI="#SemanticContent"/></SubClassOf>
+  <SubClassOf><Class IRI="#Intensional"/><Class IRI="#SemanticContent"/></SubClassOf>
+
+  <!-- Object Properties -->
+  <Declaration><ObjectProperty IRI="#hasRelation"/></Declaration>
+  <Declaration><ObjectProperty IRI="#undergoes"/></Declaration>
+  <Declaration><ObjectProperty IRI="#belongsToDomain"/></Declaration>
+  <Declaration><ObjectProperty IRI="#hasRepresentation"/></Declaration>
+  <Declaration><ObjectProperty IRI="#hasCalculability"/></Declaration>
+  <Declaration><ObjectProperty IRI="#usesInferentialStructure"/></Declaration>
+  <Declaration><ObjectProperty IRI="#hasSemanticContent"/></Declaration>
+  <Declaration><ObjectProperty IRI="#isRelatedTo"/></Declaration>
+  <Declaration><ObjectProperty IRI="#influences"/></Declaration>
+  <Declaration><ObjectProperty IRI="#isPartOf"/></Declaration>
+  <Declaration><ObjectProperty IRI="#resultsIn"/></Declaration>
+
+  <!-- Object Property Domains and Ranges -->
+  <ObjectPropertyDomain>
+    <ObjectProperty IRI="#hasRelation"/>
+    <Class IRI="#SymbolicEntity"/>
+  </ObjectPropertyDomain>
+  <ObjectPropertyRange>
+    <ObjectProperty IRI="#hasRelation"/>
+    <Class IRI="#ConceptualRelation"/>
+  </ObjectPropertyRange>
+
+  <ObjectPropertyDomain>
+    <ObjectProperty IRI="#undergoes"/>
+    <Class IRI="#SymbolicEntity"/>
+  </ObjectPropertyDomain>
+  <ObjectPropertyRange>
+    <ObjectProperty IRI="#undergoes"/>
+    <Class IRI="#Operation"/>
+  </ObjectPropertyRange>
+
+  <ObjectPropertyDomain>
+    <ObjectProperty IRI="#belongsToDomain"/>
+    <Class IRI="#SymbolicEntity"/>
+  </ObjectPropertyDomain>
+  <ObjectPropertyRange>
+    <ObjectProperty IRI="#belongsToDomain"/>
+    <Class IRI="#Domain"/>
+  </ObjectPropertyRange>
+
+  <ObjectPropertyDomain>
+    <ObjectProperty IRI="#hasRepresentation"/>
+    <Class IRI="#SymbolicEntity"/>
+  </ObjectPropertyDomain>
+  <ObjectPropertyRange>
+    <ObjectProperty IRI="#hasRepresentation"/>
+    <Class IRI="#Representation"/>
+  </ObjectPropertyRange>
+
+  <ObjectPropertyDomain>
+    <ObjectProperty IRI="#hasCalculability"/>
+    <Class IRI="#SymbolicEntity"/>
+  </ObjectPropertyDomain>
+  <ObjectPropertyRange>
+    <ObjectProperty IRI="#hasCalculability"/>
+    <Class IRI="#Calculability"/>
+  </ObjectPropertyRange>
+
+  <ObjectPropertyDomain>
+    <ObjectProperty IRI="#usesInferentialStructure"/>
+    <Class IRI="#ConceptualRelation"/>
+  </ObjectPropertyDomain>
+  <ObjectPropertyRange>
+    <ObjectProperty IRI="#usesInferentialStructure"/>
+    <Class IRI="#InferentialStructure"/>
+  </ObjectPropertyRange>
+
+  <ObjectPropertyDomain>
+    <ObjectProperty IRI="#hasSemanticContent"/>
+    <Class IRI="#SymbolicEntity"/>
+  </ObjectPropertyDomain>
+  <ObjectPropertyRange>
+    <ObjectProperty IRI="#hasSemanticContent"/>
+    <Class IRI="#SemanticContent"/>
+  </ObjectPropertyRange>
+
+  <ObjectPropertyDomain>
+    <ObjectProperty IRI="#isRelatedTo"/>
+    <Class IRI="#SymbolicEntity"/>
+  </ObjectPropertyDomain>
+  <ObjectPropertyRange>
+    <ObjectProperty IRI="#isRelatedTo"/>
+    <Class IRI="#SymbolicEntity"/>
+  </ObjectPropertyRange>
+ <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#SymbolicEntity"/>
+    </ObjectPropertyDomain>
+   v <ObjectPropertyDomain>
+        <ObjectProperty IRI="#influences"/>
+        <Class IRI="#SymbolicEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#influences"/>
+        <Class IRI="#SymbolicEntity"/>
+    </ObjectPropertyRange>
+
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class IRI="#SymbolicEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class IRI="#SymbolicEntity"/>
+    </ObjectPropertyRange>
+
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#resultsIn"/>
+        <Class IRI="#Operation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#resultsIn"/>
+        <Class IRI="#SymbolicEntity"/>
+    </ObjectPropertyRange>
+
+    <!-- Integration with JSON Ontology Extensions -->
+
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/philosophical-calculation-ontology#usesOntologyExtension"/>
+        <IRI>#SymbolicEntity</IRI>
+        <Literal datatypeIRI="xsd:string">SwitchFunction</Literal>
+    </AnnotationAssertion>
+
+    <!-- Switch Mechanism for JSON Extensions -->
+
+    <SwitchFunction name="SelectOntology">
+        <!-- Switch based on input context -->
+        <Case condition="inputContext = 'epistemic'">
+            <Import IRI="general_ontology.json"/>
+        </Case>
+        <Case condition="inputContext = 'philosophical'">
+            <Import IRI="SPEMO_ontology.json"/>
+        </Case>
+        <Case condition="inputContext = 'artistic'">
+            <Import IRI="otsia.json"/>
+        </Case>
+        <Default>
+            <!-- Default ontology if no specific context is matched -->
+            <Import IRI="general_ontology.json"/>
+        </Default>
+    </SwitchFunction>
+
+    <!-- Further Custom Properties for Nonlinear Cognitive and Intuitive Functions -->
+
+    <Declaration><ObjectProperty IRI="#hasNonlinearFunction"/></Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNonlinearFunction"/>
+        <Class IRI="#CognitiveProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNonlinearFunction"/>
+        <Class IRI="#EpistemicEntity"/>
+    </ObjectPropertyRange>
+
+    <Declaration><ObjectProperty IRI="#hasIntuitiveFunction"/></Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIntuitiveFunction"/>
+        <Class IRI="#CognitiveProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIntuitiveFunction"/>
+        <Class IRI="#EpistemicEntity"/>
+    </ObjectPropertyRange>
+
+    <!-- Closing Ontology -->
+    
+</Ontology>

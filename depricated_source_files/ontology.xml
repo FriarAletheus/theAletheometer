@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:epistemic="http://www.example.org/epistemic#">
+
+  <!-- Defining the Primary Epistemic Domains -->
+  <owl:Class rdf:about="&epistemic;AdditivePrimaries"/>
+  <owl:Class rdf:about="&epistemic;SubjectivePrimaries"/>
+  
+  <!-- Additive Primaries -->
+  <owl:Class rdf:about="&epistemic;Empiricism">
+    <rdfs:subClassOf rdf:resource="&epistemic;AdditivePrimaries"/>
+    <rdfs:comment>Knowledge derived from sensory experience and observation.</rdfs:comment>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/categories_index.txt"/>
+  </owl:Class>
+  <owl:Class rdf:about="&epistemic;Logic">
+    <rdfs:subClassOf rdf:resource="&epistemic;AdditivePrimaries"/>
+    <rdfs:comment>Knowledge obtained through structured reasoning and formal principles of inference.</rdfs:comment>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/Logic_and_theQuestionofTruth.txt"/>
+  </owl:Class>
+  <owl:Class rdf:about="&epistemic;Pragmatism">
+    <rdfs:subClassOf rdf:resource="&epistemic;AdditivePrimaries"/>
+    <rdfs:comment>Knowledge judged by practical outcomes and utility.</rdfs:comment>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/onTheArtofCombinations.txt"/>
+  </owl:Class>
+
+  <!-- Subjective Primaries -->
+  <owl:Class rdf:about="&epistemic;Dialogue">
+    <rdfs:subClassOf rdf:resource="&epistemic;SubjectivePrimaries"/>
+    <rdfs:comment>Knowledge arising from interactive, communicative processes.</rdfs:comment>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/Colorwheel_application.json"/>
+  </owl:Class>
+  <owl:Class rdf:about="&epistemic;Creativity">
+    <rdfs:subClassOf rdf:resource="&epistemic;SubjectivePrimaries"/>
+    <rdfs:comment>Knowledge generated through imaginative and creative processes.</rdfs:comment>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/knots.json"/>
+  </owl:Class>
+  <owl:Class rdf:about="&epistemic;Revelation">
+    <rdfs:subClassOf rdf:resource="&epistemic;SubjectivePrimaries"/>
+    <rdfs:comment>Knowledge perceived through spiritual or divine insight.</rdfs:comment>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/Tao Te Ching.txt"/>
+  </owl:Class>
+
+  <!-- Integrating Hypersphere Model with Internal and External Interlock -->
+  <owl:Class rdf:about="&epistemic;HypersphereModel"/>
+  
+  <!-- Internal Epistemic Domain Orders -->
+  <owl:Class rdf:about="&epistemic;InternalEpistemicDomain"/>
+  <owl:Class rdf:about="&epistemic;ShadowOrder">
+    <rdfs:subClassOf rdf:resource="&epistemic;InternalEpistemicDomain"/>
+    <epistemic:driver>instinct</epistemic:driver>
+    <epistemic:interaction>Dialogue processes, instincts, interpersonal dynamics.</epistemic:interaction>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/categories_index.txt"/>
+  </owl:Class>
+  <owl:Class rdf:about="&epistemic;EtherealOrder">
+    <rdfs:subClassOf rdf:resource="&epistemic;InternalEpistemicDomain"/>
+    <epistemic:driver>passion</epistemic:driver>
+    <epistemic:interaction>Creativity, emotional insights, imaginative processes.</epistemic:interaction>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/Hua Hu Jing - Educate the Barbarian.txt"/>
+  </owl:Class>
+  <owl:Class rdf:about="&epistemic;CelestialOrder">
+    <rdfs:subClassOf rdf:resource="&epistemic;InternalEpistemicDomain"/>
+    <epistemic:driver>intuition</epistemic:driver>
+    <epistemic:interaction>Revelation, spiritual insight, divine experiences.</epistemic:interaction>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/Taoist_scripture_index.txt"/>
+  </owl:Class>
+
+  <!-- External Epistemic Domain Orders -->
+  <owl:Class rdf:about="&epistemic;ExternalEpistemicDomain"/>
+  <owl:Class rdf:about="&epistemic;MaterialOrder">
+    <rdfs:subClassOf rdf:resource="&epistemic;ExternalEpistemicDomain"/>
+    <epistemic:driver>appetite</epistemic:driver>
+    <epistemic:interaction>Empiricism, sensory data, observable phenomena.</epistemic:interaction>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/Colorwheel_application.json"/>
+  </owl:Class>
+  <owl:Class rdf:about="&epistemic;AstralOrder">
+    <rdfs:subClassOf rdf:resource="&epistemic;ExternalEpistemicDomain"/>
+    <epistemic:driver>reason</epistemic:driver>
+    <epistemic:interaction>Logic, rational analysis, structured thought.</epistemic:interaction>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/tractatus_index.txt"/>
+  </owl:Class>
+  <owl:Class rdf:about="&epistemic;QuantumOrder">
+    <rdfs:subClassOf rdf:resource="&epistemic;ExternalEpistemicDomain"/>
+    <epistemic:driver>dreaming</epistemic:driver>
+    <epistemic:interaction>Pragmatism, envisioning potentialities, practical results.</epistemic:interaction>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/tractatus_index.txt"/>
+  </owl:Class>
+
+  <!-- Defining Interlocks Between Internal and External Domains -->
+  <owl:ObjectProperty rdf:about="&epistemic;Interlock">
+    <rdf:type rdf:resource="&owl;ObjectProperty"/>
+  </owl:ObjectProperty>
+  <epistemic:Interlock rdf:about="&epistemic;Dialogue-Empiricism">
+    <epistemic:description>How internal dialogues and instinctual drives shape and are shaped by empirical observation.</epistemic:description>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/Colorwheel_application.json"/>
+  </epistemic:Interlock>
+  <epistemic:Interlock rdf:about="&epistemic;Creativity-Logic">
+    <epistemic:description>Interplay between imaginative creation and logical structuring.</epistemic:description>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/Categories.txt"/>
+  </epistemic:Interlock>
+  <epistemic:Interlock rdf:about="&epistemic;Revelation-Pragmatism">
+    <epistemic:description>Influence of spiritual insight on practical decision-making and vice versa.</epistemic:description>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/Logic_and_theQuestionofTruth.txt"/>
+  </epistemic:Interlock>
+
+  <!-- Additional Ontological Components and Relationships -->
+  <owl:Class rdf:about="&epistemic;OntologyComponents"/>
+  <epistemic:Component rdf:about="&epistemic;EquivocalNaming">
+    <epistemic:description>Multiple meanings under one term, varying in context and definition.</epistemic:description>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/tractatus.pdf"/>
+  </epistemic:Component>
+  <epistemic:Component rdf:about="&epistemic;SubstanceCategories">
+    <epistemic:description>Primary and secondary substances, their relations and attributes.</epistemic:description>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/categories_index.txt"/>
+  </epistemic:Component>
+  <epistemic:Component rdf:about="&epistemic;QualityTypes">
+    <epistemic:description>Various qualities and their classifications.</epistemic:description>
+    </epistemic:description>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/categories_index.txt"/>
+  </epistemic:Component>
+
+  <!-- Additional Relationships and Properties -->
+  <owl:ObjectProperty rdf:about="&epistemic;hasOrder">
+    <rdf:type rdf:resource="&owl;ObjectProperty"/>
+    <rdfs:domain rdf:resource="&epistemic;EpistemicDomains"/>
+    <rdfs:range rdf:resource="&epistemic;Order"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="&epistemic;drives">
+    <rdf:type rdf:resource="&owl;ObjectProperty"/>
+    <rdfs:domain rdf:resource="&epistemic;Order"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:comment>Specifies the driving force behind each Order.</rdfs:comment>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="&epistemic;interactsWith">
+    <rdf:type rdf:resource="&owl;ObjectProperty"/>
+    <rdfs:domain rdf:resource="&epistemic;Order"/>
+    <rdfs:range rdf:resource="&epistemic;Order"/>
+    <rdfs:comment>Defines how different Orders interact with each other within the hypersphere model.</rdfs:comment>
+  </owl:ObjectProperty>
+
+  <!-- Example Instances of Orders and Interactions -->
+  <epistemic:MaterialOrder rdf:about="&epistemic;Instance_MaterialOrder">
+    <epistemic:drives>appetite</epistemic:drives>
+    <epistemic:interactsWith rdf:resource="&epistemic;Instance_ShadowOrder"/>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/Colorwheel_application.json"/>
+  </epistemic:MaterialOrder>
+
+  <epistemic:ShadowOrder rdf:about="&epistemic;Instance_ShadowOrder">
+    <epistemic:drives>instinct</epistemic:drives>
+    <epistemic:interactsWith rdf:resource="&epistemic;Instance_MaterialOrder"/>
+    <epistemic:fileReference rdf:resource="file:///mnt/data/categories_index.txt"/>
+  </epistemic:ShadowOrder>
+
+  <!-- Further Ontological Definitions and Instances -->
+  <owl:Class rdf:about="&epistemic;Knowledge">
+    <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    <rdfs:comment>Represents the concept of knowledge in the ontology, encompassing various epistemic domains and orders.</rdfs:comment>
+  </owl:Class>
+
+  <owl:NamedIndividual rdf:about="&epistemic;EmpiricalKnowledge">
+    <rdf:type rdf:resource="&epistemic;Knowledge"/>
+    <epistemic:associatedWith rdf:resource="&epistemic;Empiricism"/>
+    <rdfs:comment>Empirical knowledge as derived from the empiricism domain.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&epistemic;LogicalKnowledge">
+    <rdf:type rdf:resource="&epistemic;Knowledge"/>
+    <epistemic:associatedWith rdf:resource="&epistemic;Logic"/>
+    <rdfs:comment>Logical knowledge as derived from the logic domain.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&epistemic;PragmaticKnowledge">
+    <rdf:type rdf:resource="&epistemic;Knowledge"/>
+    <epistemic:associatedWith rdf:resource="&epistemic;Pragmatism"/>
+    <rdfs:comment>Pragmatic knowledge as derived from the pragmatism domain.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Finalizing the Ontology -->
+  <owl:Ontology rdf:about="http://www.example.org/epistemic">
+    <rdfs:comment>Ontology defining the interlocking epistemic domains and orders within the hypersphere model.</rdfs:comment>
+    <owl:imports rdf:resource="file:///mnt/data/tractatus_index.txt"/>
+    <owl:imports rdf:resource="file:///mnt/data/categories_index.txt"/>
+  </owl:Ontology>
+
+</rdf:RDF>

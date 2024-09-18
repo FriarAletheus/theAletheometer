@@ -1,0 +1,19 @@
+categories_index
+
+In "The Categories," Aristotle delves into an analysis of several key philosophical concepts. The text is divided into several parts, each focusing on different aspects of these concepts:
+
+Equivocal, Univocal, and Derivative Naming (Part 1): Aristotle discusses how things can be named in different ways. Equivocal naming refers to when different things have a common name but different definitions (e.g., a real man and a figure in a picture both called 'animal'). Univocal naming is when things share both a name and a definition (e.g., a man and an ox both named 'animal' with the same definition). Derivative naming occurs when things derive their names from other names but differ in termination (e.g., 'grammarian' from 'grammar').
+
+Speech Forms, Predication, and Subject Presence (Part 2): He distinguishes between simple and composite speech forms and explains how some things can be predicated of a subject (e.g., 'man' predicated of an individual man) or be present in a subject (e.g., a point of knowledge present in the mind but not predicable of any subject).
+
+Predication and Genera (Part 3): Aristotle explores the idea that what can be predicated of a predicate can also be predicated of the subject (e.g., 'animal' predicated of 'man' can also be predicated of an individual man). He also discusses the differences between genera, their differentiae, and how they relate to each other.
+
+Substance and Its Categories (Part 4): He outlines categories such as substance, quantity, quality, relation, place, time, position, state, action, and affection. He explains that non-composite expressions do not involve affirmation and that true or false assertions arise from the combination of such terms.
+
+Substance and Primary and Secondary Substances (Part 5): Aristotle defines substance in the truest sense as something neither predicable of a subject nor present in a subject (e.g., individual man or horse). Secondary substances include species and genera, which are more closely related to primary substances than other categories. He emphasizes the importance of primary substances as the foundation for all else.
+
+Quantity: Discrete and Continuous (Part 6): Aristotle distinguishes between discrete quantities (e.g., number and speech) and continuous quantities (e.g., lines, surfaces, solids, time, and space). He explains how quantities are either composed of parts with relative positions or without such relations.
+
+Relative Terms and Correlatives (Part 7): He discusses relative terms, which are explained by reference to something else (e.g., 'master' in relation to 'slave'). Aristotle also notes that some relatives have contraries, can admit variation in degree, and have correlatives, which are interdependent.
+
+Quality and Its Types (Part 8): Aristotle defines quality as what makes people be regarded in specific ways and categorizes quality into habits/dispositions, capacities/incapacities, affective qualities/affections, and shapes/figures. He discusses the nature of these qualities, their contraries, and the concept of variation in degree within qualities.

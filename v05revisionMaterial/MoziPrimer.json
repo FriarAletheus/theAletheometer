@@ -1,0 +1,442 @@
+[
+  {
+  "Mozi": {
+    "hasBook": {
+      "Title": "Mozi",
+      "hasSection": [
+        {
+          "hasSectionTitle": "Heaven’s Will",
+          "hasContent": {
+            "hasMainIdeas": [
+              {
+                "hasIdea": "Heaven’s will dictates that human beings should act virtuously and care for others."
+              },
+              {
+                "hasIdea": "Those who follow Heaven’s will are rewarded with prosperity, while those who defy it face punishment."
+              }
+            ],
+            "hasPhilosophicalPrinciples": [
+              {
+                "hasPrinciple": "Divine Command Theory",
+                "hasExplanation": "Moral obligations are derived from the will of Heaven, which must be obeyed for the betterment of society."
+              },
+              {
+                "hasPrinciple": "Moral Retribution",
+                "hasExplanation": "Heaven rewards the righteous and punishes the wicked, guiding human behavior toward virtue."
+              }
+            ]
+          }
+        },
+        {
+          "hasSectionTitle": "Against Fatalism",
+          "hasContent": {
+            "hasMainIdeas": [
+              {
+                "hasIdea": "Fatalism, the belief that everything is predetermined, leads to passivity and neglect of moral duty."
+              },
+              {
+                "hasIdea": "People should strive to improve their circumstances and not rely on fate."
+              }
+            ],
+            "hasPhilosophicalPrinciples": [
+              {
+                "hasPrinciple": "Moral Agency",
+                "hasExplanation": "Human beings have the power and responsibility to act morally and shape their own destiny."
+              },
+              {
+                "hasPrinciple": "Anti-Determinism",
+                "hasExplanation": "Rejecting fatalism means believing in free will and moral accountability."
+              }
+            ]
+          }
+        },
+        {
+          "hasSectionTitle": "Moderation in Funerals",
+          "hasContent": {
+            "hasMainIdeas": [
+              {
+                "hasIdea": "Excessive funerals waste resources and place undue burden on the family and the community."
+              },
+              {
+                "hasIdea": "Funerals should be modest, focusing on respect for the deceased without extravagance."
+              }
+            ],
+            "hasPhilosophicalPrinciples": [
+              {
+                "hasPrinciple": "Practicality",
+                "hasExplanation": "Resources should be used wisely and not wasted on lavish funerals, which do not benefit the living."
+              },
+              {
+                "hasPrinciple": "Respect for the Deceased",
+                "hasExplanation": "Respect for the dead is important, but it should be expressed through meaningful rituals, not excessive expenses."
+              }
+            ]
+          }
+        },
+        {
+          "hasSectionTitle": "Moderation in Music",
+          "hasContent": {
+            "hasMainIdeas": [
+              {
+                "hasIdea": "Music, while enjoyable, can become a distraction from more important duties if overindulged."
+              },
+              {
+                "hasIdea": "Excessive focus on music can lead to the neglect of practical responsibilities, such as governing the state."
+              }
+            ],
+            "hasPhilosophicalPrinciples": [
+              {
+                "hasPrinciple": "Balance",
+                "hasExplanation": "A well-ordered life requires moderation in all things, including recreation like music."
+              },
+              {
+                "hasPrinciple": "Duty over Pleasure",
+                "hasExplanation": "Leaders and individuals should prioritize their responsibilities over entertainment."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+{
+  "hasSection": [
+    {
+      "hasSectionTitle": "Heaven’s Will",
+      "hasContent": {
+        "hasMainIdeas": [
+          "Heaven’s will dictates that human beings should act virtuously and care for others.",
+          "Those who follow Heaven’s will are rewarded with prosperity, while those who defy it face punishment."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Divine Command Theory",
+            "hasExplanation": "Moral obligations are derived from the will of Heaven, which must be obeyed for the betterment of society."
+          },
+          {
+            "hasPrinciple": "Moral Retribution",
+            "hasExplanation": "Heaven rewards the righteous and punishes the wicked, guiding human behavior toward virtue."
+          }
+        ]
+      }
+    },
+    {
+      "hasSectionTitle": "Against Fatalism",
+      "hasContent": {
+        "hasMainIdeas": [
+          "Fatalism leads to passivity and neglect of moral duty.",
+          "People should strive to improve their circumstances and not rely on fate."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Moral Agency",
+            "hasExplanation": "Human beings have the power and responsibility to act morally and shape their own destiny."
+          },
+          {
+            "hasPrinciple": "Anti-Determinism",
+            "hasExplanation": "Rejecting fatalism means believing in free will and moral accountability."
+          }
+        ]
+      }
+    },
+    {
+      "hasSectionTitle": "Moderation in Funerals",
+      "hasContent": {
+        "hasMainIdeas": [
+          "Excessive funerals waste resources and place undue burden on the family and community.",
+          "Funerals should be modest, focusing on respect for the deceased without extravagance."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Practicality",
+            "hasExplanation": "Resources should be used wisely and not wasted on lavish funerals."
+          },
+          {
+            "hasPrinciple": "Respect for the Deceased",
+            "hasExplanation": "Respect should be expressed through meaningful rituals, not excessive expenses."
+          }
+        ]
+      }
+    },
+    {
+      "hasSectionTitle": "Moderation in Music",
+      "hasContent": {
+        "hasMainIdeas": [
+          "Music, while enjoyable, can become a distraction from more important duties if overindulged.",
+          "Excessive focus on music can lead to the neglect of practical responsibilities."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Balance",
+            "hasExplanation": "A well-ordered life requires moderation in all things, including recreation like music."
+          },
+          {
+            "hasPrinciple": "Duty over Pleasure",
+            "hasExplanation": "Leaders and individuals should prioritize their responsibilities over entertainment."
+          }
+        ]
+      }
+    }
+  ]
+}
+{
+  "hasSection": [
+    {
+      "hasSectionTitle": "Frugality in Government",
+      "hasContent": {
+        "hasMainIdeas": [
+          "Government should minimize unnecessary expenditures to ensure resources are available for the people.",
+          "A frugal government is better able to address the needs of the population and avoid waste."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Frugality",
+            "hasExplanation": "Leaders should practice moderation in spending to maximize the well-being of their citizens."
+          },
+          {
+            "hasPrinciple": "Utilitarianism",
+            "hasExplanation": "Government policies should aim to benefit the greatest number of people by using resources efficiently."
+          }
+        ]
+      }
+    },
+    {
+      "hasSectionTitle": "Reverence for Ghosts and Spirits",
+      "hasContent": {
+        "hasMainIdeas": [
+          "Respect for ghosts and spirits is crucial, as they play a role in ensuring harmony and prosperity.",
+          "Neglecting reverence for spirits can bring misfortune to both individuals and society."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Spiritual Reverence",
+            "hasExplanation": "The unseen forces of ghosts and spirits must be respected to maintain cosmic balance."
+          },
+          {
+            "hasPrinciple": "Cultural Tradition",
+            "hasExplanation": "Respecting ancient customs regarding spirits ensures social continuity and stability."
+          }
+        ]
+      }
+    },
+    {
+      "hasSectionTitle": "Against Confucian Rituals",
+      "hasContent": {
+        "hasMainIdeas": [
+          "The elaborate rituals promoted by Confucians are a waste of resources and time.",
+          "True virtue lies in actions that benefit society, not in adherence to costly and impractical ceremonies."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Pragmatism",
+            "hasExplanation": "Rituals should be simplified to focus on practical benefit rather than excessive display."
+          },
+          {
+            "hasPrinciple": "Anti-Ritualism",
+            "hasExplanation": "Excessive focus on rituals detracts from the moral and practical duties of individuals."
+          }
+        ]
+      }
+    }
+  ]
+}
+{
+  "hasSection": [
+    {
+      "hasSectionTitle": "Upholding Trustworthiness",
+      "hasContent": {
+        "hasMainIdeas": [
+          "Trustworthiness is fundamental to the stability of social and political relationships.",
+          "Without trust, no promises or contracts can be reliable, leading to chaos."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Trustworthiness",
+            "hasExplanation": "Honesty and dependability in personal and state affairs ensure social cohesion."
+          },
+          {
+            "hasPrinciple": "Social Contract",
+            "hasExplanation": "Society relies on mutual agreements, which can only function if trust is upheld."
+          }
+        ]
+      }
+    },
+    {
+      "hasSectionTitle": "Against Aggressive Expansion",
+      "hasContent": {
+        "hasMainIdeas": [
+          "Aggressive expansionism causes unnecessary suffering and depletes the state’s resources.",
+          "Instead of seeking conquest, rulers should focus on improving the well-being of their own citizens."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Non-Aggression",
+            "hasExplanation": "Peaceful coexistence and mutual respect among states are more beneficial than conquest."
+          },
+          {
+            "hasPrinciple": "Utilitarian Governance",
+            "hasExplanation": "The ruler's focus should be on improving the quality of life within the state, not external ambitions."
+          }
+        ]
+      }
+    },
+    {
+      "hasSectionTitle": "Encouraging Hard Work",
+      "hasContent": {
+        "hasMainIdeas": [
+          "A prosperous society is built on the hard work and diligence of its people.",
+          "Leaders should encourage industriousness and reward it to strengthen the state."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Diligence",
+            "hasExplanation": "Hard work and productivity are essential for the growth and stability of society."
+          },
+          {
+            "hasPrinciple": "Merit-Based Rewards",
+            "hasExplanation": "Those who contribute to society through hard work should be rewarded and recognized."
+          }
+        ]
+      }
+    }
+  ]
+}
+{
+  "hasSection": [
+    {
+      "hasSectionTitle": "Condemning Fatalism",
+      "hasContent": {
+        "hasMainIdeas": [
+          "Fatalism, the belief that one’s fate is predetermined, is harmful to society.",
+          "People should take action and responsibility rather than resigning themselves to fate."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Anti-Fatalism",
+            "hasExplanation": "Fatalism discourages personal and societal progress by promoting passivity."
+          },
+          {
+            "hasPrinciple": "Moral Responsibility",
+            "hasExplanation": "Humans have the capacity to shape their own destinies through virtuous action."
+          }
+        ]
+      }
+    },
+    {
+      "hasSectionTitle": "Objections to Music",
+      "hasContent": {
+        "hasMainIdeas": [
+          "Music, while enjoyable, can lead to excessive indulgence and distract people from their duties.",
+          "Leaders should focus on practical matters that benefit society rather than promoting music."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Duty over Leisure",
+            "hasExplanation": "Leaders and citizens should prioritize their responsibilities to society over entertainment."
+          },
+          {
+            "hasPrinciple": "Moderation",
+            "hasExplanation": "Recreation like music should not dominate people’s time, preventing them from fulfilling their societal roles."
+          }
+        ]
+      }
+    },
+    {
+      "hasSectionTitle": "Universal Love",
+      "hasContent": {
+        "hasMainIdeas": [
+          "All people should practice universal love, caring for others as much as they care for themselves.",
+          "Universal love leads to harmony, peace, and the avoidance of conflict and war."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Universalism",
+            "hasExplanation": "Love should not be restricted by personal or national boundaries, but extended equally to all people."
+          },
+          {
+            "hasPrinciple": "Pacifism",
+            "hasExplanation": "When people practice universal love, wars and conflicts can be avoided, resulting in societal harmony."
+          }
+        ]
+      }
+    },
+    {
+      "hasSectionTitle": "Against Partiality",
+      "hasContent": {
+        "hasMainIdeas": [
+          "Favoritism and partiality lead to societal divisions and conflicts.",
+          "Governments and individuals should treat everyone equally to maintain harmony."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Equality",
+            "hasExplanation": "All people deserve equal treatment and consideration, regardless of personal relationships or status."
+          },
+          {
+            "hasPrinciple": "Impartiality",
+            "hasExplanation": "Governments must be fair and impartial to avoid disorder and societal imbalance."
+          }
+        ]
+      }
+    },
+    {
+      "hasSectionTitle": "Obedience to Superiors",
+      "hasContent": {
+        "hasMainIdeas": [
+          "Citizens must obey virtuous superiors, as this ensures order and stability in society.",
+          "If leaders are morally upright, their commands will lead to the greater good of the state."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Moral Leadership",
+            "hasExplanation": "Superiors must lead by example, and their orders must align with virtue to maintain social order."
+          },
+          {
+            "hasPrinciple": "Authority and Obedience",
+            "hasExplanation": "Citizens should trust and follow their leaders, provided those leaders are acting virtuously."
+          }
+        ]
+      }
+    },
+    {
+      "hasSectionTitle": "Self-Restraint",
+      "hasContent": {
+        "hasMainIdeas": [
+          "Practicing self-restraint is key to maintaining societal harmony and avoiding conflicts.",
+          "Leaders and citizens alike must practice moderation in all aspects of life."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Self-Control",
+            "hasExplanation": "Individuals should control their desires and impulses to live harmoniously within society."
+          },
+          {
+            "hasPrinciple": "Moderation",
+            "hasExplanation": "Excess in any form leads to instability; therefore, moderation is essential for both personal and societal well-being."
+          }
+        ]
+      }
+    },
+    {
+      "hasSectionTitle": "Just Governance",
+      "hasContent": {
+        "hasMainIdeas": [
+          "A just government prioritizes the welfare of its citizens and promotes fairness in all its policies.",
+          "Injustice leads to societal discord, while fairness leads to stability and prosperity."
+        ],
+        "hasPhilosophicalPrinciples": [
+          {
+            "hasPrinciple": "Justice",
+            "hasExplanation": "Governments must be fair in their laws and practices to ensure the well-being of all citizens."
+          },
+          {
+            "hasPrinciple": "Utilitarianism",
+            "hasExplanation": "The greatest happiness for the greatest number should be the guiding principle of governance."
+          }
+        ]
+      }
+    }
+  ]
+}
+]

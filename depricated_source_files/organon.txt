@@ -1,0 +1,3193 @@
+"Skip to main content
+ Wayback Machine  Books  Video  Audio  Software  Images  Donate  More
+Sign up for free
+Log in
+ Search metadata
+ Search text contents
+ Search TV news captions
+ Search radio transcripts
+ Search archived web sites
+Advanced Search
+Full text of "Aristotle The Organon"
+See other formats
+THE ORGANON 
+
+
+THE CATEGORIES 
+ON INTERPRETATION 
+
+
+BY 
+HAROLD P COOKE, MA 
+
+
+FORMERI Y LECTURER IN PHILOSOPHY AND CLASSICS 
+IN ARMSTRONG COLLEGE, UNIVFRSITY OF DURHAM 
+
+
+PRIOR ANALYTICS 
+BY 
+
+
+HUGH TREDENNICK, MA 
+
+
+UNIVIRSITK RFADFR IN CLASSICS AND HFAD 
+OF THF DEPARTMENT OF CLASSICS AT QUEEN 
+MAR COLLEGE IN THE UNIVERSIT’ OF LONDON 
+
+
+CAMBRIDGE, MASSACHUSETTS, 
+HARVARD UNIVERSITY PRYwSS 
+LONDON 
+
+
+WILLIAM HEINEMANN LTD 
+MOMT V 
+
+
+
+
+
+Forst printed 1938 
+Reprinted 1949 1955 
+
+
+irinted on Great Britain 
+
+
+CONTENTS 
+
+
+PREFACE 
+
+
+Tue CaTecoriIrs— 
+Introduction 
+Summary of the Principal Themes 
+Text and Translation 
+
+
+On InTERPRETATION— 
+
+
+Summary of the Principal Themes 
+Text and Translation 
+
+
+Prion ANALYTICS— 
+Introduction 
+Select Bibhography 
+The Traditional Mood-Names 
+Text and Translation— 
+Book I 
+Book II 
+
+
+InpEX 
+
+
+PREFACE 
+
+
+Witu an eye to the English reader, who knows, 
+perhaps, little of logic and less in that case of 
+Auistotle’s, I have tried in translating these texts 
+to bring out the pmlosopher’s meaning as clearly as 
+was in my power How far I have succeeded in 
+doing so, provided I interpret 1t rightly, the reader 
+alone can determine I cannot, in consequence, 
+pretend that I hterally translate the Gieeh, where 
+it seemed that a literal translation would fail to 
+achieve this main purpose Some scholars ma 
+possibly object that at times I paraphrase Aristotle 
+I can in that case only plead that a more οἱ less 
+intelligible paraphrase does convey something to the 
+reader, unlike stiict adherence to the letter More- 
+over, a literal translation might often repel English 
+readeis and read hke some alien jargon, as well as 
+in all piobability demanding rathei copious notes, 
+which are foreign from the scope of this series 
+
+The Greek text here printed is Bekker’s, except 
+fo. some shght deviations that are noted at the foot 
+of the page 
+
+The short introduction that follows was submitted 
+to the Piovost of Oriel I have to thank my friend 
+and former tutor, Lt -Col A S L Farquharson, for 
+help and advice on certain points in regaid to the 
+meaning of the texts 
+
+
+H PC 
+
+
+Cambridge, 1934 
+vu 
+
+
+ARISTOTLE 
+THE CATEGORIES 
+
+
+VOL I A? 
+
+
+INTRODUCTION 
+
+
+Wuat is the subject of the Categories? In ordinary 
+usage aatyyopia, rendered in English as ‘ category,’ 
+meant nothing more than ἡ ἃ predicate ’ This mean- 
+ing it seems highly probable that 1t retains in this 
+text The ten categories, then, are ten predicates 
+What sort of predicates, however, and predicates also 
+of what? Let us first raise another point here If 
+we ask how Aristotle came by them, the critics 
+are not mm agreement The following seems, on 
+the whole, the most plausible view of the matter 
+‘ Aristotle,’ says Theodor Gomperz, ‘ :magines a man 
+standing before him, say in the Lyceum, and passes 
+in successive review the questions which may be put 
+and answered about him All the predicates which 
+can be attached to that subject fall under one or 
+other of the ten heads, from the supreme question 
+
+What 1s the object here perceived ἢ down to such a 
+subordinate question, dealing with mere externalities, 
+as What has he on’ What equipment or accoutie- 
+ments, eg shoes or weapons’ Other questions are 
+concerned with his qualities and his size (white, 
+instructed in grammar, so many feet tall), under 
+the head of relation (Related to what) come answers 
+mn which a term such as Greater or Less, Handsomer 
+or Ugher, implies a reference to an object or objects 
+of comparison The “When” is explained by a 
+
+
+2 
+
+
+INTRODUCTION 
+
+
+Yesterday or To-morrow, the Doing and Suffering 
+by the sentences ‘‘ He is cutting or burning,” 
+‘““He is bemg cut or burnt’ The enumeration is 
+intended to comprise the maximum of predicates 
+which can be assigned to any thing or being A 
+maximum, be 1t observed, for it can hardly be by 
+chance that the full number is found in only two 
+passages of the worh, while the two which are at 
+once the most special and the least important, those 
+relating to Having, or possession, and to Lying, or 
+attitude, are in every other case passed over without 
+mention And indeed, what sense could there be 
+in speaking of the possessions of a stone or a piece of 
+iron, or of the attitude of a sphere or a cube * We 
+further observe that several others of the categories 
+are often lumped together under the one name of 
+“ Affections, while others are collectively designated 
+“ Motions ”’’* Grote took a similar view ‘ Now 
+what 1s remarkable,’ he wrote, ‘ about the ninth and 
+tenth Categories 1s, that individual persons or animals 
+are the only Subjects respecting whom they are ever 
+predicated, and are at the same time Subjects 
+respecting whom they are constantly (or at least 
+frequently) predicated An individual person 15 
+habitually clothed in some particular way im all or 
+part of his body, he (and perhaps his horse also) 
+are the only Subjects that are ever so clothed More- 
+over animals are the only Subjects, and among them 
+man 18 the principal Subject, whose changes of posture 
+are frequent, various, determined by internal 1m- 
+pulses, and at the same time interesting to others to 
+know Hence we may infer that when Aristotle 
+
+
+5 Greek Thinkers (Eng tr), vol w Ὁ 39 ‘A maximum,’ 
+too, for a man, for a man might have no clothing on! 
+
+
+3 
+
+
+ARISTOTLE 
+
+
+lays down the Ten Categories, as Summa Genera for 
+all predications which can be made about any given 
+Subject, the Subject which he has wholly, or at least 
+principally, τῷ his mind is an individual Man We 
+understand, then, how 1t 1s that he declares Habere 
+and Jacere to be so plain as to need no further 
+explanation What is a man’s posture’ What 1s 
+his clothing or equipment ἢ are questions understood 
+by every one *2 
+
+If the views thus expressed are correct (and they 
+seem to admit of no doubt) in regard to the source 
+of the doctrine, we can draw, I think, certain con- 
+clusions respecting the nature of the categories, as 
+they appear in this text, as distinct from other texts 
+of Aristotle, and, at least, in their primary significance 
+They constitute the most general predicates assign- 
+able to one single subject That subject can only 
+be either an individual man or an ammal Of any 
+other subject whatever not all of them are possible 
+predicates They constitute, therefore, ‘a maxi- 
+mum, as Theodor Gomperz well puts 1+ To certam 
+other namable entities a number may, doubiless, 
+belong, and, moreover, on a secondary view, at 
+least one may belong to all others We may thus 
+describe everything existing as a substance or quan- 
+tity or quality or refer it to one of the others 
+
+This latter pomt brings us, I think, to a common 
+explanation of the doctrine Dr Ross, for e,ample, 
+considers that ἡ the categories are a list of the widest 
+predicates which are predicable essentially of the 
+various namable entities, 26, which tell us what 
+kinds of entity at bottom they are’® IfI understand 
+
+
+® Aristotle (ed 2, 1880), p 79 
+» Aristotle, Ὁ 23 
+
+
+INTRODUCTION 
+
+
+this statement correctly, this means that the ultimate 
+answer to the question what 1s red 15 a quality,’ 
+the ultimate answer to the question what space 15 
+or time 15 ‘a quantity’ On that view each namable 
+entity falls under only one category, having one only 
+ἔοι predicate And surely one category only can tell 
+us what a thing 1s ‘at bottom’ Now, a careful 
+mspection of the text shows, I think, that this view 
+1s correct Aristotle, m particular, of quantity 
+enumerates several examples, such as time, space, 
+speech, lines, sohds, numbers And if you were to 
+ash what these are, then the ultimate answer to the 
+question 1s ‘ quantities discrete or continuous ’ More- 
+over, he expressly reminds us that only some things, 
+strictly speaking, belong to the category of quantity 
+This imphes that all namable things can be classed 
+unde: one or another And the fact that he admits 
+the possibility of a thing’s falling under two categories 
+scarcely affects the main point And this view 18 
+consistent with our statement that one of the cate- 
+gories, at least, will belong to each namable entity 
+
+These contentions, I think, will hold good Not, 
+however, of the classification τῷ its earhest form 
+and significance Fo nothing, indeed, in that case 
+appears clearer, at least to my mind, than that all of 
+the ten were envisaged as the predicates of one sengle 
+subject This 1s not to deny that the doctrine has 
+additional aspects or meanings and that 1t might 
+come to be made to serve purposes other than the 
+primal and, possibly, far more mmportant 
+
+So, again, we may properly argue that one subject 
+of our text is the meanings of ‘ uncombined,’ “ 1so- 
+lated words ’ (or of terms as opposed to propositions) 
+and the things signified by those terms Thus the 
+
+
+5 
+
+
+ARISTOTLE 
+
+
+doctrine of the categou1es may serve as ἃ classification 
+of such meanings It is only again im regard to 
+the primary sense of that doctrine that I do not 
+quite follow Dr Ross ‘It would seem,’ so he says 
+very briefly, ‘ that in its earliest form the doctrine 
+was a classification of the meanings of, ze of the 
+things meant by, ‘‘ uncombined words,’ in other 
+words an inventory of the main aspects of reality, 
+so far at least as language takes account of them ἡ“ 
+This seems to me only to be true of the doctrine ‘in 
+its earhest form,’ if ‘reality 15 taken as meaning an 
+individual man or an animal 
+
+Then the terms of the text make it evident, as 
+Gomperz has nghtly observed, that the doctrine 
+had a definite bearmg, in the uses to which it was 
+put, on the theory and practice of disputation—a 
+matter of small interest now Otherwise we should 
+not find it dealing with the subject of dialectical 
+questions 
+
+That the subject of all the ten categoules 1s an 
+mdividual man or an animal may be possibly due in 
+some measure not only to actual observation of men 
+in the market-place of Athens but also to Aristotle’s 
+holding that the real 15 the concrete individual And 
+what better instance could he take with a view to 
+iullustratmg his lectures than a Plato, a Callas, a 
+Socrates, or (being possessed of some humour) some 
+member of his logical classes ἢ 
+
+This view presupposes, of course, that the doctrine 
+derives from Anstotle Some scholars deny this or 
+doubt it, supposing he found it ready-made and took 
+it over complete from the Academy  Ceitain pomts 
+may lend colour to this theory, among them the fact 
+
+
+® Aristotle, p 23 
+6 
+
+
+INTRODUCTION 
+
+
+we have noticed, that some of the categories only 
+appear to possess real importance or even come m 
+for much notice Any positive evidence τῇ its favour 
+it is difficult, however, to adduce And the wnitings 
+of Plato himself do not seem to lend any support to 1t 4 
+
+One objection to regarding the categories as pre- 
+dicates calls for brief notice It is true, the first 
+category 1s substance and so-called first substance Ὁ 
+individual, and what 15 individual can never be, 
+properly speahing, a predicate But, τῇ we ask what 
+Plato is, then the answer we shall give in the long 
+run as being the broadest about him 15 that he 1s ‘a 
+primary substance,’ a concrete and mdividual man 
+So in that sense ‘ first substance ’ 1s a predicate 
+
+The text, On Interpretation, does not require much 
+comment here It was seemmgly so called since 
+language was regarded as interpreting thought If 
+we say that the Categories for subject has ‘ isolated,’ 
+‘uncombined terms,’ then this text has propositions, 
+their theory, analysis and so on for subject and 1s 
+specially concerned with developing the possible 
+oppositions between them The distinction between 
+‘true’ and ‘ false’ also naturally finds a place here 
+Propositions are called “ true’ and ‘ false,’ a distinc- 
+tion without any meaning as applied to mere ‘ un- 
+combined terms’ Aristotle assumes here that truth 
+is a kind of correspondence with realty Concepts 
+are ‘likenesses’ of things Propositions combine 
+or separate them They are true, when the things 
+represented are similarly combmed or separated , 
+they are false in the contrary cases Apart from 
+
+
+¢ Failing positive evidence to the contrarv, I take the 
+traditional view that the first nine chapters of this text are 
+the genuine work of Aristotle 
+
+
+7 
+
+
+ARISTOTLE 
+
+
+what Aristotle says or implies of the concepts them- 
+selves, this 1s open to all the objections that are valid 
+against Locke and others The reader may com- 
+pare this from Locke ‘Truth, then, seems to me, 
+m the proper import of the word, to signify nothing 
+but the young or separating of Signs, as the Things 
+signified by them do agree or desagree one nth another 
+
+The joming or separating of signs here meant, 1s 
+what by another name we call propositzon So that 
+truth properly belongs only to propositions whereof 
+there are two sorts, viz mental and verbal, as 
+there are two sorts of signs commonly made use of, 
+viz ideas and words ’4 
+
+
+“ An Essay concerning Human Understanding, Bk τν 
+e ὃ 
+
+
+Ch 
+Ch 
+
+
+Ch 
+
+
+Ch 
+Ch 
+
+
+Οὐ πὰ 
+
+
+THE CATEGORIES 
+
+
+SUMMARY OF THE PrincrpaL THEMES 
+
+
+The meaning of univocal, equivocal and 
+deiivative terms 
+
+Expressions are simple Οἱ complex 
+
+Things are (1) asserted of a subject, (2) 
+present in a subject, (3) both (1) and (2) or 
+(4) neither (1) nor (2) 
+
+Predicates of the predicate are predicable 
+also of the subject 
+
+The categories stated in outhne 
+
+Of Substance 
+
+Pimmary and secondary substance defined 
+What is not pimmaiy substance is either 
+asseited of 01 present in a primary substance 
+If puumairy substances did not exist, neither 
+would anything else 
+
+Of secondary substances species more tiuly 
+substance than genus 
+
+All species, not being genera, are substance 
+in the same degiee, so are all primary 
+substances 
+
+No secondary substance other than genus 
+and species 
+
+Primary substance related to secondary sub- 
+stance and all other predicates as secondary 
+substance to all othe: predicates 
+
+
+9 
+
+
+Ch 6 
+
+
+Ch 7 
+
+
+10 
+
+
+ARISTOTLE 
+
+
+Neither primary nor secondary substances 
+present in a subject 
+
+Primary substance individual, secondary sub- 
+stance a qualification of the individual 
+Substances have no contraries 
+
+Substances never admit of degrees 
+
+The characteristic peculiar to substance 19 
+that contrary quahties are predicable of 1t 
+Of Quantity 
+
+Quantity discrete or continuous 
+
+The parts of some quantities have relative 
+positions, while the parts of others have not 
+Quantitative terms may be used of things 
+other than quantity 
+
+‘Great,’ ‘small’ and similar terms not 
+quantitative but relative 
+
+Quantities never admit of degrees 
+
+The characteristic peculiar to quantity 1s that 
+we predicate ‘ equal’ and ‘ unequal οὗ υὖ 
+Of Relation 
+
+Preliminary definition 
+
+Some relatives have contraries 
+
+Some relatives admit of degrees 
+
+Every relative has a correlative 
+
+The relative must have its proper name, 
+only so 15 the correlative evident Necessity 
+in certam cases for coming new names for 
+the purpose 
+
+Relatives usually come into being together 
+Exceptions in the case of perception and 
+knowledge 
+
+Primary substance never relative, neither 
+any pait of such substance 
+
+Corrected definition of relatives 
+
+
+Ch 8 
+
+
+Ch 
+Ch 
+
+
+Ch 
+
+
+Ch 
+Ch 
+Ch 
+Ch 
+
+
+9 
+10 
+
+
+11 
+
+
+12 
+13 
+14 
+15 
+
+
+CATEGORIES 
+
+
+Impossible to know that a thing 1s relative, 
+unless its correlative 15 known 
+
+Of Quality 
+
+Qualities defined 
+
+Ther kinds (1) habits and dispositions, 
+(2) capacities, (3) affective qualities and 
+affections, (4) shape, figure and so on 
+
+Most qualities have contraries 
+
+If one of two contraries 1s a quality, so 1s 
+the other 
+
+Most qualities admit of degrees 
+
+The characteristic pecuhar to quality is that 
+we predicate ‘ke ’and‘ unlike in reference 
+to it 
+
+Of the remaining categories 
+
+Of the four classes of opposites (1) cor- 
+relatives, (2) contraries, (3) positives and 
+privatives, (4) affirmation and negation 
+Further discussion of contraries with special 
+relation to good and evil 
+
+The five senses of prior ἡ 
+
+The three senses of ‘simultaneous ’ 
+
+The srs hinds of motion 
+
+The various meanings of ‘ to have ’ 
+
+
+11 
+
+
+APIS TOTEAOTS 
+KATHTOPIAI 
+
+
+ξ ; , “ 2 ᾿ / e 
+ta I ὋὉμώνυμα λέγεται ὧν ὄνομα μόνον κοινόν, ὃ 
+“ “ 4 “ 
+
+dé κατὰ τοὔνομα λόγος τῆς οὐσίας ἕτερος, otov 
+“ 4 \ / 
+
+ζῶον 6 τε ἄνθρωπος Kat TO γεγραμμένον τούτων 
+? ¢ \ \ » ᾽ὔ 
+
+γὰρ ὄνομα μόνον κοινόν, ὁ δὲ κατὰ τοὔνομα λόγος 
+
+“ 7 ᾽ 3 ~ 
+
+τῆς οὐσίας ἕτερος av γάρ Tis ἀποδιδῷ τί ἐστιν 
+ὡς \ ἢ e , ἢ 
+
+5 αὐτῶν ἑκατέρῳ τὸ ζώω εἶναι, ἰδιον ἑκατέρου λόγον 
+
+\ / “ ; 
+
+ἀποδώσει συνώνυμα δὲ λέγεται wv TO TE ὄνομα 
+~ la 
+
+κοινὸν Kal 6 κατὰ τούνομα λόγος τῆς οὐσίας ὁ 
+
+" 7 ἮΝ “ ΄ + ἃ φ “ ξ 
+
+αὐτός, οἷον ζῷον ὅ τε ἄνθρωπος καὶ ὁ βοῦς ὁ 
+
+A ~ ~ / 
+γὰρ ἄνθρωπος Kat 6 Bots κοινῷ ὀνόματι mpoo- 
+ayopeverar ζῶον, καὶ 6 λόγος δὲ τῆς οὐσίας ὃ 
+“ 6 
+
+το αὐτός ἐὰν γὰρ ἀποδιδῶ τις τὸν ἑκατέρου λόγον, 
+
+τί ἐστιν αὐτῶν ἕκατέρω τὸ ζώω εἶναι, τὸν αὐτὸν 
+
+,ὔ > ᾽ ’ὔ \ 7 Ψ 2 ’] 
+
+λόγον ἀποδώσει παρώνυμα δὲ λέγεται ὅσα ἀπό 
+
+»“" \ 
+Twos διαφέροντα TH πτώσει THY κατὰ τούνομα 
+
+
+¢ Ἵ retain the traditional renderings, ‘ unrvocal,’ namely, 
+and ‘equivocal’ The ordinary reader, I suspect, will be 
+little familiar with the former He may, if he pleases, 
+substitute such terms as ‘ambiguous,’ ‘ unambiguous’ 
+* Univocal ’ has the advantage of being a posztive term 
+
+> Zgov in Greek had two meanings, that 1s to say, living 
+
+
+12 
+
+
+ARISTOTLE’S CATEGORIES 
+
+
+I Things are equivocally? named, when they have 
+the name only in common, the definition (or state- 
+ment of essence) corresponding with the name being 
+different Foi instance, while a man and a portrait 
+can properly both be called animals,’ these are 
+equivocally named ® Fo. they have the name only 
+un common, the definitions (or statements of essence) 
+corresponding with the name being different For 
+if you are asked to define what the being an animal 
+means in the case of the man and the portrait, you 
+give in either case a definition appropriate to that 
+case alone 
+
+Things are univocally named, when not only they 
+bear the same name but the name means the same 
+in each case—has the same definition corresponding 
+Thus a man and an ox are called anmals’ The 
+name 1s the same in both cases , so also the statement 
+of essence For if you are asked what 1s meant by 
+their both of them being called ‘ ammals,’ you give 
+that particular name in both cases the same definition 
+
+Things are ᾿ derivatively ᾿ named that derive their 
+own name from some other, that 1s given a new verbal 
+
+
+creature, and, secondly, a figure or image in painting, em- 
+bioidery, sculpture We have no ambiguous noun How- 
+ever, we use the word ‘living’ of portraits to mean ‘ true 
+to life ’ 
+
+
+13 
+
+
+1a 
+
+
+ARISTOTLE 
+
+
+προσηγορίαν ἔχει, οἷον ἀπὸ Tis γραμματικῆς ὁ 
+
+
+\ \ > \ o~ 3 } ε 5 a“ 
+τὸ γραμματικὸς καὶ ἀπὸ τῆς ἀνδρείας ὁ ἀνδρεῖος 
+
+
+20 
+
+
+1 Τῶν λεγομένων τὰ μὲν κατὰ συμπλοκὴν 
+a 4 \ ” \ 
+λέγεται, τὰ δ᾽ ἄνευ συμπλοκῆς τὰ μὲν οὖν κατὰ 
+“ ͵ lan 
+συμπλοκὴν οἷον ἄνθρωπος τρέχει, ἄνθρωπος νικᾶ 
+a“ ~ ~ 7 
+τὰ δ᾽ ἄνευ συμπλοκῆς otov ἄνθρωπος, βοῦς, τρέχει, 
+νικᾷ 
+΄“- 2 Ἁ 4 ? é 7 ‘ 
+Τῶν ὄντων τὰ μὲν καθ᾽ ὑποκειμένου τινὸς 
+λέγεται, ἐν ὑποκειμένω δὲ οὐδενί ἐστιν, οἷον 
+ἄνθρωπος καθ᾽ ὑποκειμένου μὲν λέγεται τοῦ τινὸς 
+> 7 ? ξ f \ NO ΄ 3 ‘ δὲ 
+ἀνθρώπου, ἐν ὑποκειμένω δὲ οὐδενί ἐστι τὰ δὲ 
+ἐν ὑποκειμένω μέν ἐστι, καθ᾽ ὑποκειμένου δὲ 
+> ‘ , > € / \ 4 a ft 
+οὐδενὸς λέγεται (ἐν ὑποκειμένω δὲ λέγω, ὃ ἐν τινι 
+
+
+95 μὴ ὡς μέρος ὑπάρχον ἀδύνατον χωρὶς εἶναι τοῦ 
+
+
+“- tf “᾿ Ἀ Α 3 
+ἐν ὦ €oTiv), olov ἡ Tis γραμματικὴ ἐν ὑποκειμένω 
+οι Fond / > 
+μέν ἐστι TH ψυχῆ, καθ᾽ ὑποκειμένου δ᾽ οὐδενὸς 
+3 ‘ 
+λέγεται, Kat τὸ τὶ λευκὸν ἐν ὑποκειμένω μὲν τῶ 
+σώματί ἐστιν (ἅπαν γὰρ χρῶμα ἐν σώματι), καθ᾽ 
+ς , \ > ‘ 7 A 4 > κα 
+ὑποκειμένου δὲ οὐδενὸς λέγεται τὰ δὲ καθ᾽ ὑπο- 
+
+
+, A 
+1b Κειμένου τε λέγεται Kal ἐν ὑποκειμένω ἐστίν, οἵον 
+
+
+ἡ ἐπιστήμη ἐν ὑποκειμένω μέν ἐστι TH ψυχῆ, καθ᾽ 
+ὑποκειμένου δὲ λέγεται τῆς γραμματικῆς τὰ δὲ 
+οὔτ᾽ ἐν ὑποκειμένω ἐστὶν οὔτε καθ᾽ ὑποκειμένου 
+τινὸς λέγεται, οἷον 6 τὶς ἄνθρωπος καὶ ὁ τὶς ἵππος 
+
+
+»ΔᾺ \ “ , iv 2 
+, οὐδὲν γὰρ τῶν τοιούτων οὔτε ἐν ὑποκειμένω ἐστὶν 
+
+
+οὔτε καθ᾽ ὑποκειμένου λέγεται ἁπλῶς δὲ τὰ ἄτομα 
+
+
+
+
+
+4 *Courageous man,’ ‘courage,’ in Greek But the 
+former obscures the real point by consisting of two words 
+in Enghsh By ‘a new verbal form’ is intended a new 
+termination or inflexion 
+
+
+14 
+
+
+CATEGORIES, 1-1 
+
+
+form, as, for instance, ‘ grammaiian ’ from‘ grammar,’ 
+from ‘ heroism,’ “ hero, and so on @ 
+
+II We may or we may not combine what we call 
+words, expressions and phrases Combine them, 
+you have propositions—for instance, ‘man runs’ or 
+“man wins ’—while examples of uncombined forms 
+are ‘man,’ ‘ ox,’ ‘runs’ and‘ wims_ and the hhe 
+
+But as for the things that are meant, when we thus 
+speak of uncombined words, you can predicate some 
+of a subject, but they never are present in one 
+You can predicate ἡ man,’ foi example, of this or that 
+man as the subject, but man 15 not found m a sub- 
+ject By ‘im,’ ‘ present,’ ‘found in a subject’ I do 
+not mean present or found as its parts are contained 
+ina whole , I mean that αὖ cannot exist as apart from 
+the subject referred to And then there 1s that class 
+of things which are present οὐ found m a subject, 
+although they cannot be asserted of any known sub- 
+ject whatever <A piece of grammatical hnowledge 
+is there in the mind as a subject but cannot be predi- 
+cated of any known subject whatever Again, a 
+particular whiteness is present or found in a body (all 
+colour imphes some such basis as what we intend by 
+“ἃ body ’) but cannot itself be asseited of any known 
+subject whatever We find there are some things, 
+moreover, not only affirmed of a subject but present 
+also in a subject Thus knowledge, for instance, 
+while present in this or that mind as a subject, 15 
+also asserted of giammar There 1s, finally, that 
+class of things which can neither be found τῇ a subject 
+nor yet be asserted of one—this o1 that man or horse, 
+for example For nothing of that hind 1s im or 18 
+ever affirmed of asubject More generally speaking, 
+indeed, we can never affirm of a subject what 1s 1n its 
+
+
+15 
+
+
+ARISTOTLE 
+
+
+καὶ ἕν ἀριθμῶ κατ᾽ οὐδενὸς ὑποκειμένου λεγεται, 
+ἐν ὑποκειμένω. δὲ ἔνια οὐδὲν κωλύει εἶναι ἡ γάρ 
+τις γραμματικὴ τῶν ἐν ὑποκειμένῳ ἐστί" 
+Il ‘Oray eTEpov καθ᾽ ἑτέρου κατηγορῆται ὡς 
+10 καθ᾽ ὑποκειμένου, ὅσα κατὰ τοῦ κατηγορουμένου 
+λέγεται, πάντα καὶ κατὰ τοῦ ὑποκειμένου ῥηθή- 
+σεται, οἷον ἄνθρωπος κατὰ τοῦ τινὸς ἀνθρώπου 
+κατηγορεῖται, τὸ δὲ ζῶον κατὰ τοῦ ἀνθρώπου 
+οὐκοῦν καὶ κατὰ τοῦ τινὸς ἀνθρώπου κατηγορηθή- 
+σεται τὸ ζῶον ὁ γάρ τις ἄνθρωπος καὶ ἄνθρωπός 
+18 ἐστι καὶ ζῷον 
+Τῶν ἑτέρων γενῶν" καὶ μὴ ὑπ᾽ ἄλληλα τεταγ- 
+μένων έτεραι τῶ εἴδει καὶ αἱ διαφοραί, οἷον ζώου 
+καὶ ἐπιστήμης ζώου μὲν γὰρ διαφοραὶ τό τε 
+πεζὸν καὶ τὸ δίπουν καὶ τὸ “πτηνὸν καὶ τὸ ἐνυδρον, 
+ἐπιστήμης δὲ οὐδεμία τούτων οὐ γὰρ διαφέρει 
+90 ἐπιστήμη ἐπιστήμης τῶ δίπους εἶναι 
+Τῶν δέ γε ὑπ᾽ ἄλληλα γενῶν οὐδὲν κωλύει τὰς 
+αὐτὰς διαφορὰς εἶναι τὰ γὰρ ἐπάνω τῶν ὑπ᾽ αὐτὰ 
+γενῶν κατηγορεῖται, ὥστε ὅσαι τοῦ κατηγορου- 
+μένου διαφοραί εἶσι, τοσαῦται καὶ τοῦ ὑποκειμένου 
+; 
+ἔσονται 
+2 IV Τῶν κατὰ μηδεμίαν συμπλοκὴν λεγομένων 
+ἕκαστον ἤτοι. οὐσίαν “σημαίνει ἡ ποσὸν 1) ποιὸν ὴ 
+
+
+\ 
+
+
+πρός Tb ἡ ποῦ 7 ποτὲ ἢ κεῖσθαι 7) ἔχειν 1) ποιεῖν 7 
+
+
+1 Bekker reads τῶν ev υποκειμένω μὲν ἐστι, Kad υποκειμενου 
+de ovdevos λέγεται 
+2 τῶν erepoyerav B 
+
+
+
+
+
+‘Co-ordinate’ 1s Jiterally in Greek ‘not arranged the 
+one ieee the other’ The differentia added to the genus 
+constitutes what is known as the species Supposing that 
+
+
+16 
+
+
+CATEGORIES, u-1v 
+
+
+nature individual and also numerically one Yet τῇ 
+some cases nothing prevents its being present or found 
+wn asubject Thus a piece of grammatical Lnowledge 
+15. present, as we said, in a mind 
+
+III A word upon predicates here When you 
+predicate this thing or that of another thing as of 
+a subject, the predicates then of the predicate will 
+also hold good of the subject We predicate ‘man’ 
+of a man, so of ‘man’ do we predicate ‘animal ἢ 
+Therefore, of this 01 that man we can predicate 
+‘ammmal’ too For a man is both ‘animal’ and 
+“man 
+
+When genera are co-ordinate and different, differ- 
+entiae will differ τῷ kind® Take the genera, animal 
+and knowledge ‘ Footed,’ ‘ two-footed,’ ‘ winged,’ 
+‘aquatic ᾿ 816 among the differentiae of animal But 
+none will be found to distinguish a particular species 
+of knowledge No species of knowledge will differ 
+fiom another in being ἡ two-footed ’ 
+
+Wheie the genera, however, are subordinate, 
+nothing whatever prevents them from having the 
+same differentiae For we predicate the higher or 
+large: of the smaller or subordinate class The 
+differentiae, then, of the predicate will also belong to 
+the subject 
+
+IV Each uncombined woid or expression means 
+one of the followmg things —what (or Substance), 
+how large (that 1s, Quantity), what sort of thing (that 
+is, Quality), related to what (or Relation), where (that 
+is, Place), when (or Time), in what attitude (Posture, 
+Position), how cucumstanced (State or Condition), 
+how active, what domg (or Action), how passive, 
+
+
+‘building’ 1s the genus and ‘used for a dwelling’ the 
+difference, we then have the species called ‘ house ’ 
+
+
+17 
+
+
+ARISTOTLE 
+
+
+ib , # Be > » \ ¢ 4 2 om * 
+TAOVEW ἘΠῚ τε € ea a μεν WS TUTW a eae olov 
+
+
+ἄνθρωπος, ἵππος ποσὸν δὲ οἷον δέπηχυ, τρίπηχυ 
+ποιὸν δὲ οἷον λευκόν, γραμματικόν. πρός τι δὲ 
+2a οἷον δυπλάσιον, ἥμισυ, “μεῖζον ποῦ δὲ οἷον ἐν 
+Λυκείω, ἐν ἀγορᾶ ποτὲ δὲ οἷον ἐχθές, πέρυσιν 
+κεῖσθαι δὲ οἷον ἀνάκειται, κάθηται ἔχειν δὲ οἷον 
+ὑποδέδεται, ὥπλισται ποιεῖν δὲ οἷον τέμνει, καίει 
+πάσχειν δὲ οἷον τέμνεται, καίεται 
+Ἕκαστον δὲ τῶν εἰρημένων αὐτὸ μὲν καθ᾽ αὑτὸ 
+5 ἐν οὐδεμιᾷ καταφάσει λέγεται, τῇ δὲ πρὸς ἄλληλα 
+τούτων συμπλοκῇ κατάφασις ἢ ἀπόφασις γίνεται 
+ἅπασα γὰρ δοκεῖ κατάφασις καὶ ἀπόφασις ἤτοι 
+ἀληθὴς ἡ ψευδὴς εἶναι τῶν δὲ κατὰ μηδεμίαν 
+συμπλοκὴν λεγομένων οὐδὲν οὔτε ἀληθὲς οὔτε 
+10 ψεῦδός ἐστιν, οἷον ἄνθρωπος, λευκόν, τρέχει, νικᾷ 
+V Οὐσία δέ ἐστιν ἡ κυριώτατά τε καὶ πρώτως 
+καὶ μάλιστα λεγομένη, ἣ ἣ μήτε καθ᾽ ὑποκειμένου 
+τινὸς λέγεται μήτ᾽ ἐν ὑποκειμένω τινί ἐστιν, οἷον 
+ὁ τὶς ἄνθρωπος ἢ ἢ ὁ τὶς ἵππος δεύτεραι δὲ οὐσίαι 
+λέγονται, ἐν οἷς εἰδεσιν at πρώτως οὐσίαι λεγόμεναι 
+ls ὑπάρχουσι, ταῦτά τε καὶ τὰ τῶν εἰδῶν τούτων 
+γένη, οἷον 6 τὶς ἄνθρωπος ἐν εἰδει μὲν ὑπάρχει 
+τῶ ἀνθρώπω, γένος δὲ τοῦ εἰδους ἐστὲ τὸ ζῶον 
+
+
+14 ἀποφασει omitted after λέγεται 
+
+
+
+
+
+* J give here two versions of each category The Greek 
+as a rule 1s more concrete than the customary Enghsh 
+translations The reader may here be referred to Theodor 
+Gomperz, Greek Thinkers (translated by G G _ Berry), 
+vol iv ὁ 4 
+
+b <* Asserted of ἃ subject ”* here refers to the relation 
+of universal to particular, ‘ ‘ present in a subject”’ to that 
+of an attribute to its possessor’ ΟἹ D_ Ross, Aristotle, 
+p 23) The distinction 1s the same as that into essential and 
+
+
+18 
+
+
+CATEGORIES, rv—v 
+
+
+what suffering (Affection) * Examples, to speak but 
+in outhne, of Substance are ‘man’ and ‘a hoise,’ 
+of Quantity “two cubits long,’ “three cubits m 
+length’ and the hke, of Quality ‘white’ and 
+‘grammatical Terms such as ‘half,’ ‘double,’ 
+‘greater’ are held to denote a Relation ‘In the 
+market-place,’ ‘in the Lyceum ’ and similar phrases 
+mean Place, while Time 1s intended by phrases hke 
+‘yesterday,’ ‘last year’ and so on ‘Is lying’ or 
+‘sitting’ means Posture, ‘1s shod’ or ‘1s armed’ 
+means a State ‘Cuts’ or ‘ burns,’ again, indicates 
+Action, ‘1s cut’ or ‘1s burnt’ an Affection 
+
+Not one of these terms in itself will involve any 
+positive statement Affirmations, as also demals, can 
+only arise when such terms are combined or united 
+together Each positive or negative statement must 
+either be true or be false—that, at least, 1s allowed 
+on all hands—but an uncombined wo1d or expression 
+(for instance, ‘man, “ white,’ ‘runs’ or ‘ conquers ’) 
+ean neither be true nor be false 
+
+V Substance in the truest and strictest, the 
+primary sense of that term,1is that which is neither 
+asserted of noi can be found im a subject ® We take 
+as examples of this a particular man or a horse But 
+we do speak of secondary substances—those within 
+which, being species, the primary or fust are included, 
+and those within which, bemg genera, the species 
+themselves are contamed For instance, a particular 
+man we include in the species called ‘ man’ and the 
+species itself in its turn 1s included in the genus called 
+accidental predicates Aristotle undersubstance distinguishes, 
+first of all, primary substance, that 1s to say, the individual 
+(or this or that man, for example), and, secondly, secondary 
+
+
+substances, that 1s, the species and genera in which the 
+individuals are included 
+19 
+
+
+ARISTOTLE 
+
+
+δεύτεραι οὖν αὗται λέγονται οὐσίαι, οἷον ὅ τε 
+ἄνθρωπος καὶ τὸ ζῶον 
+Φανερὸν δὲ ἐκ τῶν εἰρημένων ὅτι τῶν καθ᾽ ὕπο- 
+90 κειμένου λεγομένων ἀναγκαῖον καὶ τοὔνομα καὶ 
+τὸν λόγον κατηγορεῖσθαι τοῦ ὑποκειμένου, οἷον ὁ 
+ἄνθρωπος Kal ὑποκειμένου λέγεται τοῦ τινὸς 
+ἀνθρώπου, καὶ Karnyopetrat ye τούνομα τὸν γὰρ 
+ἄνθρωπον τοῦ τινὸς ἀνθρώπου κατηγορήσεις καὶ 
+ὁ λόγος δὲ ὁ τοῦ ἀνθρώπου κατὰ τοῦ τινὸς ἀν- 
+25 θρώπου κατηγορηθήσεται ὃ γάρ τις ἄνθρωπος καὶ 
+ἄνθρωπός ἐστι καὶ “ζῶον ὥστε καὶ τοὔνομα καὶ 
+ὁ λόγος κατὰ τοῦ ὑποκειμένου κατηγορηθήσεται. 
+Τῶν δ᾽ ἐν ὑποκειμένῳ ὄντων ἐπὶ μὲν τῶν 
+πλείστων οὔτε τοὔνομα οὔθ᾽ ὁ λόγος κατηγορεῖ- 
+ται τοῦ ὑποκειμένου ἐπ᾽ ἐνίων δὲ τοὔνομα μὲν 
+80) οὐδὲν κωλύει κατηγορεῖσθαί ποτε τοῦ ὕποκει- 
+μένου, τὸν δὲ λόγον ἀδύνατον, οἷον τὸ λευκὸν ἐν 
+ὑποκειμένῳ ὃν TH σώματι κατηγορεῖται τοῦ ὑπο- 
+κειμένου (λευκὸν γὰρ σῶμα λέγεται), ὃ δὲ λόγος 
+ὁ τοῦ λευκοῦ οὐδέποτε κατὰ σώματος κατηγορὴη- 
+θήσεται 
+Τὰ δ᾽ ἄλλα πάντα ἦτοι. καθ᾽ ὑποκειμένων λέ- 
+86 γέται τῶν , πρώτων οὐσιῶν ἢ ἐν ὑποκειμέναις 
+αὐταῖς €otly τοῦτο δὲ φανερὸν ἐκ τῶν καθ᾽ 
+ἕκαστα προχειριζομένων, οἷον τὸ ζῶον κατὰ τοῦ 
+ἀνθρώπου κατηγορεῖται οὐκοῦν καὶ κατὰ τοῦ 
+τινὸς ἀνθρώπου κατηγορηθήσεται τὸ ζῶον εἶ “γὰρ 
+Δυκατὰ μηδενὸς τῶν τινῶν ἀνθρώπων, οὐδὲ κατὰ 
+
+
+
+
+
+* Understand by ‘the name’ here τὸ λευκὸν, and not 
+the Greek substantive λευκότης, both of them signified 
+‘whiteness’ So also we use ‘ white’ in Enghsh as an 
+
+
+20 
+
+
+CATEGORIES, v 
+
+
+‘anmal’ These, then, are secondary substances, 
+that 15 to say, man and animal—othei wise, species and 
+genus 
+
+From what we have said it 1s plain that the name 
+and definition of the predicates can both be affirmed 
+of the subject For mstance, we predicate ‘man’ 
+of an individual man as the subject The name of 
+the species called ‘man’ 15 asserted of each indi- 
+vidual, you predicate “man’ of a man The de- 
+fintion or meaning of ‘ man’ will apply to ὦ man, in 
+hike manner, for a man is both man and an animal 
+The name and definition of the species will thus both 
+apply to the subject 
+
+When we come, on the contrary, to things which 
+are present οἱ found im a subject, we find that their 
+names and definitions we cannot, at least in most 
+cases, affirm or predicate of that subject Indeed, 
+the definition itself will in no case whatever apply 
+But in some cases nothing prevents us from using the 
+name of the subject Suppose we take ‘ white’ as an 
+unstance Now‘ white is, no doubt, in a body and 
+thus 1s affii:med of a body, fo. a body, of course, 1s 
+ealled ‘ white’ The definition, however, of ‘ white’ 
+—of the colour, that 1s, we call ‘ white ’"—can never 
+be predicated of any such body whatever ¢ 
+
+Everything else but first substance 15 either 
+affirmed of first substance or present in such as its 
+subject This 1s evident from particular imstances 
+taken by way of examples We predicate ‘ animal’ 
+of ‘man’ So we predicate ‘animal’ also of any 
+particular man Were there no mdividuals exist- 
+ing of whom it could thus be affirmed, 1t could 
+
+
+adjective, commonly speaking, but also at times as a noun, 
+when 1t means ‘ a white paint’ or ‘ white colour’ 
+
+
+21 
+
+
+ARISTOTLE 
+
+
+2 b 3 7 Ὁ , x Fa 3 ? 
+ἀνθρώπου ὅλως πάλιν τὸ χρῶμα ev σώματι 
+
+
+“- 4 ᾽ \ 3 ~ 
+οὐκοῦν Kal ἐν τινὶ σώματι εἶ yap μὴ ἐν τινὶ τῶν 
++ @ > \ > 4 Ὁ [-4 4 ΚΚΨ 
+καθ᾽ ἕκαστα, οὐδὲ ἐν σώματι ὅλως ὥστε τὰ ἄλλα 
+
+> ~ 
+πάντα ἤτοι καθ᾽ ὑποκειμένων λέγεται τῶν πρώτων 
+5 οὐσιῶν ἢ ἐν ὑποκειμέναις αὐταῖς ἐστίν μὴ οὐσῶν 
+οὖν τῶν πρώτων οὐσιῶν ἀδύνατον τῶν ἄλλων τι 
+εἶναι 
+~ 4 “Ὁ “ 
+Τῶν δὲ δευτέρων οὐσιῶν μᾶλλον οὐσία τὸ εἶδος 
+~ A “~ 
+τοῦ γένους ἔγγιον yap THs πρώτης οὐσίας ἐστίν 
+ἐὰν γὰρ ἀποδιδῷ τις τὴν πρώτην οὐσίαν τί ἐστι, 
+γνωριμώτερον καὶ οἰκειότερον ἀποδώσει τὸ εἴδος 
+5 4 Lia 4 7 ἣν t 4 ΄ 
+10 ἀποδιδοὺς ἥπερ τὸ γένος, οἷον τὸν τινὰ ἄνθρωπον 
+> 4 f ba) 2 f v * 
+ἀποδιδοὺς γνωριμώτερον av ἀποδοίη ἄνθρωπον ἢ 
+“» 2 / \ 4 \ , cal ~ 4 
+ζῶον ἀποδιδούς τὸ μὲν yap idvov μᾶλλον τοῦ τινὸς 
+5 / LS 4 7 \ 4 Ἁ “ 
+ἀνθρώπου, τὸ δὲ κοινότερον καὶ τὸ τὶ δένδρον 
+3 ‘ ΄ > ᾽ , 9 
+ἀποδιδοὺς γνωριμώτερον ἀποδώσει δένδρον ἄἅπο- 
+Ν Ἃ ? 
+διδοὺς ἢ φυτόν 
+” ξ lan > # \ 4 a » ῳ 
+1 "Ere at πρῶται οὐσίαι διὰ τὸ τοῖς ἄλλοις ἅπασιν 
+~ x 4 ‘ a x 7 
+ὑποκεῖσθαι καὶ πάντα τὰ ἄλλα κατὰ τούτων κατ- 
+»"» θ “Ὁ, 2 3 a ἢ ὃ 3 κων tA 
+ηγορεῖσθαι ἢ ἐν αὐταῖς εἶναι διὰ τοῦτο μάλιστα 
+οὐσίαι λέγονται wes δέ γε at πρῶται οὐσίαι πρὸς 
+Α Mv , 3 a ἃ 4 ων ἣ 
+τὰ ἄλλα πάντα ἔχουσιν, οὕτω καὶ τὸ εἶδος πρὸς 
+τὸ γένος ἔχει ὑπόκειται γὰρ τὸ εἶδος TH γένει 
+80. τὰ μὲν γὰρ γένη κατὰ τῶν εἰδῶν κατηγορεῖται, 
+τὰ δὲ εἴδη κατὰ τῶν γενῶν οὐκ ἀντιστρέφει ὥστε 
+1 2 Ζ 4 > “~ 7} lan > ἢ 
+καὶ ἐκ τούτων τὸ εἶδος τοῦ γένους μᾶλλον οὐσία 
+
+
+22 
+
+
+CATEGORIES, v 
+
+
+not be affirmed of the species Colour, again, is in 
+body , so also in this or that body For were there 
+no bodies existing wherein it could also exist, τὸ 
+could not be in body at all In fine, then, all things 
+whatsoever, save what we call pimary substances, 
+are predicates of primary substances or present in 
+such as their subjects And were there no primary 
+substance, nought else could so much as exist 
+
+Of secondary substances species 15 better called 
+substance than genus it 1s neare: to primary sub- 
+stance, while genus 15 more removed from it Sup- 
+pose someone asks you ‘what 1s it ἢ regarding a 
+primary substance Your answer is both more 
+instiuctive and also more apt to the subject, provided 
+you mention its species than 1f you should mention 
+rts genus Take this or that man, forexample You 
+would give a more instructive account, 1f you stated 
+the species or ‘man,’ than you would, if you called 
+him ‘an animal’ The former belongs the more to 
+him, the latter 1s somewhat too wide Or, again, 
+take an individual tree By mentioning the species 
+οἱ ‘ tree ’ you will give a more instructive account than 
+by giving the genus or ἡ plant ’ 
+
+Moreover, the primary substances most of all merit 
+that name, since they undeulie all other things, which 
+in tuin will be either their predicates or present in 
+such as their subjects But exactly as primary sub- 
+stances stand to all else that exists, so also stands 
+species to genus Species is related to genus as 
+subject is 1elated to predicate We predicate genus 
+of species, but never, indeed, can we predicate 
+species of genus conversely On this further ground 
+we may hold that of secondary substances species 
+is more truly substance than genus 
+
+
+23 
+
+
+ARISTOTLE 
+2b 3 o 4 “- > | ~ [2 3 A 3 4 
+Αὐτῶν δὲ τῶν εἰδῶν ὅσα μή ἐστι γένη, οὐδὲν 
+~ ¢ ¢ , > 7 3 ’; > A 4 
+
+μᾶλλον ἕτερον ἑτέρου οὐσία ἐστίν οὐδὲν yap 
+
+Ν “~ 4 
+οἰκειότερον ἀποδώσεις κατὰ τοῦ τινὸς ἀνθρώπου 
+
+* “~ 
+
+2761 ἄνθρωπον ἀποδιδοὺς ἢ κατὰ τοῦ τινὸς ἵππου 
+
+τὸν ἵππον ὡσαύτως δὲ καὶ τῶν πρώτων οὐσιῶν 
+5 4 ~ oe ¢ ra > ? > 7 " A 
+
+οὐδὲν μᾶλλον ἕτερον ἑτέρου οὐσία ἐστίν οὐδὲν 
+N SA ¢ 4 4 θ 5» ; a ξ 4 “a 
+
+yap μᾶλλον ὃ τὶς ἄνθρωπος οὐσία ἡ 6 τὶς βοῦς 
+
+so Εἰκότως δὲ μετὰ τὰς πρώτας οὐσίας μόνα τῶν 
+rd 4 ᾽ 4 x - 7 2 / ? 
+ἄλλων τὰ €ldn καὶ τὰ γένη δεύτεραι οὐσίαι λέγον - 
+ται μόνα γὰρ δηλοῖ τὴν πρώτην οὐσίαν τῶν κατ- 
+ηγορουμένων τὸν γάρ τινα ἄνθρωπον ἐὰν ἀποδιδῷ 
+
+A 
+τις τέ ἐστι, TO μὲν εἶδος ἡ TO γένος ἀποδιδοὺς 
+/ 
+οἰκείως ἀποδώσει Kal γνωριμώτερον ποιήσει ἄνθρω- 
+4 ~ 3 si Pant 3 2 Φ 4 
+mov ἡ ζῶον ἀποδιδούς τῶν δ᾽ ἄλλων ὅ τι av 
+“" ; 
+gs ἀποδιδῷ τις, ἀλλοτρίως ἔσται ἀποδεδωκώς, οἷον 
+»- ~ 3 
+λευκόν ἢ τρέχει 7) ὁτιοῦν τῶν τοιούτων ἀποδιδούς 
+ὥστε εἰκότως τῶν ἄλλων ταῦτα μόνα οὐσίαι λέ- 
+yovrat 
+Ww φ ΄ι 4 ¢ 4 § ”~ +f @ 
+
+8. Ἔτι at πρῶται οὐσίαι διὰ τὸ τοῖς ἄλλοις ἅπασιν 
+ὑποκεῖσθαι κυριώτατα οὐσίαι λέγονται wes δέ γε 
+αἱ πρῶται οὐσίαι πρὸς τὰ ἄλλα πάντα ἔχουσιν, 
+
+4 “ ~ 
+OUTW τὰ εἴδη καὶ τὰ γένη τῶν πρώτων οὐσιῶν πρὸς 
+, 
+τὰ λοιπὰ πάντα ἔχει κατὰ τούτων yap πάντα τὰ 
+λοιπὰ κατηγορεῖται τὸν γάρ τινα ἄνθρωπον ἐρεῖς 
+5 γραμματικόν οὐκοῦν καὶ ἄνθρωπον καὶ ζῶον γραμ- 
+4 3 -- } ~~ 
+ματικὸν ἐρεῖς ὡσαύτως δὲ καὶ ἐπὶ τῶν ἄλλων 
+Κοινὸν δὲ κατὰ πάσης οὐσίας τὸ μὴ ἐν ὑπα- 
+Τὰ εκ ¢ A 
+κειμένῳ εἶναι ἡ μὲν yap πρώτη οὐσία οὔτε ἐν 
+24, 
+
+
+CATEGORIES v 
+
+
+If we turn to the specics themselves, none, unless 
+itis also a genus, 1s moe of a substance than another 
+No apter description is ‘man’ of a conciete or 
+individual man than is ‘ hoise of a concrete hoise 
+So also of primaiy substances—none 1s more a sub- 
+stance than others For this οἱ that man, ἔοι example, 
+could not well be more truly substance than, let us 
+say, this or that ox 
+
+Apart, then, fiom primary substances, species and 
+genus alone of the things that will then remain over 
+are rightly called secondary substance, for they of all 
+possible predicates alone define primary substance 
+kor only by species or genus can this or that man be 
+defined in a fit or appropriate way, and we make 
+our definition preciser by stating the species or 
+‘man ’ than by stating the genus οἱ ‘ animal’ Any- 
+thing else we might state, as, for instance, ‘he runs’ 
+or ‘1s white,’ would be foreign from the purpose in 
+hand So species and genera only are nghtly 
+designated as substance, first substances only 
+excepted 
+
+“Substance, again, strictly speaking, applies to 
+first substances only, because they not only underlie 
+but provide all things else with thew subjects 
+Exactly as primary substance 15 1elated to all else 
+whatever, so also are genus and species, in which is 
+meluded that substance, related to all attirbutes not 
+included in genus and species Foi these are the 
+subjects of such You may call a man ‘ learned mn 
+grammar And, therefore, his species and genus, 
+that 1s to say, man and animal, you may also call 
+‘learned in grammar ’ And this will be soin all cases 
+
+That τὸ never is present in a subject holds good of 
+all substance whatever For what we call prmary 
+
+
+VOL 1 B 25 
+
+
+ARISTOTLE 
+
+
+3a ς , 3 \ δὰ 3 ε , 
+ὑποκειμένω ἐστὶν οὔτε καθ᾽ ὑποκειμένου λέγεται 
+
+
+τῶν δὲ δευτέρων οὐσιῶν φανερὸν μὲν καὶ οὕτως 
+10 ὅτι οὐκ εἰσὶν ἐν ὑποκειμέωη ὁ γὰρ ἄνθρωπος 
+καθ᾽ ὑποκειμένου μὲν τοῦ τινὸς ἀνθρώπου λέγεται, 
+ἐν ὑποκειμένω δὲ οὐκ ἔστιν οὐ γὰρ ἐν τῶ τινὶ 
+ἀνθρώπω ὃ ἄνθρωπός ἐστιν ὡσαύτως δὲ καὶ τὸ 
+ζῶον καθ᾽ ὑποκειμένου μὲν λέγεται τοῦ τινὸς 
+ἀνθρώπου, οὐκ ἐστι δὲ τὸ ζῶον ἐν τῷ τινὶ ἀν- 
+is θρώπω ἐτι δὲ τῶν ἐν ὑποκειμένω ὄντων τὸ μὲν 
+ὄνομα οὐδὲν κωλύει κατηγορεῖσθαΐί ποτε τοῦ ὑπο- 
+κειμένου, τὸν δὲ λόγον ἀδύνατον τῶν δὲ δευτέρων 
+οὐσιῶν κατηγορεῖται καὶ ὃ λόγος κατὰ τοῦ ὑπο- 
+κειμένου καὶ τοὔνομα τὸν γὰρ τοῦ ἀνθρώπου λόγον 
+κατὰ τοῦ τινὸς ἀνθρώπου κατηγορήσεις, καὶ τὸν 
+20. τοῦ ζώου ὡσαύτως ὥστε οὐκ av εἴη ἡ οὐσία 
+τῶν ἐν ὑποκειμένω 
+Οὐκ ὥτιον δὲ τοῦτο τῆς οὐσίας, ἀλλὰ καὶ ἡ 
+διαφορὰ τῶν μὴ ἐν ὑποκειμένω €or τὸ γὰρ 
+πεζὸν καὶ τὸ δίπουν καθ᾽ ὑποκειμένου μὲν λέγεται 
+τοῦ ἀνθρώπου, ἐν ὑποκειμένω δὲ οὐκ ἔστιν οὐ γὰρ 
+ἐν τῶ ἀνθρώπω ἐστὶ τὸ δίπουν ἡ τὸ πεζόν καὶ 
+2, ὁ λόγος δὲ κατηγορεῖται ὁ τῆς διαφορᾶς, καθ᾽ ov 
+av λέγηται ἡ διαφορά, οἷον εἰ τὸ πεζὸν κατὰ τοῦ 
+ἀνθρώπου λέγεται, καὶ 6 λόγος 6 τοῦ πεζοῦ κατ- 
+ηἡγορηθήσεται τοῦ ἀνθρώπου πεζὸν γάρ ἐστιν ὁ 
+ἄνθρωπος 
+My ταραττέτω δὲ ἡμᾶς τὰ μέρη τῶν οὐσιῶν ὡς 
+ἐν ὑποκειμένοις ὄντα τοῖς ὅλοις, μή ποτε ἀναγκασ- 
+80 θῶμεν οὐκ οὐσίας αὐτὰ φάσκειν εἶναι οὐ γὰρ οὕτω 
+τὰ ἐν ὑποκειμένω ἐλέγετο τὰ WS μέρη ὑπάρχοντα 
+Pd 
+ἔν τινι 
+
+
+26 
+
+
+CATEGORIES, v 
+
+
+substance can neither be present in a subject nor yet 
+predicited of one And as for the secondary sub- 
+stance, the following points, among otheis, will prove 
+it 18 not m a subject We predicate ‘man’ of a 
+min, ‘man,’ however, 1s not 2z a subject Tor man- 
+hood 15 not zz a man As the species, so also the 
+genus For ‘ animal’ 1s also asserted of this or that 
+man in particular but cannut be found piesent in 
+him Again, we may notice this pout When a 
+thmg can be found in a subject, then nothing prevents 
+us fiom using its name of the subject in question , 
+not so the definition, however And yetofasecondary 
+substance both name and definition hold good in the 
+case of the subject as well The definition of the 
+species (οι man) and that of the genus (or animal) are 
+used of an individual man Therefore, substance 1s 
+not in a subject 
+
+That they cannot be present in subjects 1s true 
+not of substances only but holds of differentiae, too 
+Thus we can of the species called “man” asseit 
+‘going on foot ’ and two-footed But these are not 
+found present init For neither of these 15 77 man 
+Where, again, you affirm the differentia, you also 
+afhim its definition Suppose of the species called 
+“man you should predicate ‘ gomg on foot’ The 
+definition also of that attribute then will apply to 
+that species Foi‘ man does, indeed, go on foot 
+
+That the parts of the substances are present o1 
+found in the wholes as in subjects 15 a fact that need 
+hardly disturb us or render us fearful of havmg to 
+biand all such parts as no substances Did we not 
+qualify ‘ present in a subject by ‘ not as the parts 
+in a whole ’? 4 
+
+
+@ See the definition, 1 a 24 
+27 
+
+
+3a 
+
+
+ARISTOTLE 
+
+
+Ὑπάρχει δὲ ταῖς οὐσίαις καὶ ταῖς διαφοραῖς τὸ 
+f 
+πάντα “συνωνύμως ἀπ᾽ αὐτῶν λέγεσθαι πᾶσαι γὰρ 
+
+
+85 αἱ ἀπ᾽ αὐτῶν κατηγορίαι. NTOL κατὰ τῶν ἀτόμων 
+
+
+κατηγοροῦνται ἢ κατὰ τῶν εἰδῶν ἀπὸ μὲν γὰρ 
+τῆς πρώτης οὐσίας οὐδεμία ἐστὶ ns κατ᾽ 
+οὐδενὸς γὰρ ὑποκειμένου λέγεται τῶν δὲ δευτέρων 
+οὐσιῶν τὸ μὲν εἶδος κατὰ τοῦ ἀτόμου κατηγο- 
+ρεῖται, τὸ δὲ γένος καὶ κατὰ τοῦ εἴδους καὶ κατὰ 
+
+
+”~ 2 , ξ ? ‘ ‘ € X 4 
+δυ τοῦ ἀτόμου ὡσαύτως δὲ καὶ αἱ διαφοραὶ κατὰ 
+
+
+τῶν εἰδῶν καὶ κατὰ τῶν ἀτόμων κατηγοροῦνται 
+καὶ τὸν λόγον δὲ ἐπιδέχονται αἱ πρῶται οὐσίαι 
+τὸν τῶν εἰδῶν καὶ τὸν τῶν γενῶν, καὶ τὸ εἶδος δὲ 
+τὸν τοῦ γένους ὅσα γὰρ κατὰ τοῦ κατηγορουμένου 
+
+
+i é A ‘ ~ ξ 4 © / 
+5 λέγεται, πάντα Kal κατὰ τοῦ ὑποκειμένου ῥηθή- 
+
+
+10 
+
+
+σεται ὡσαύτως δὲ καὶ τὸν τῶν διαφορῶν λόγον 
+ἐπιδέχεται τὰ εἴδη καὶ τὰ ἄτομα συνώνυμα δέ 
+γε ἣν ὧν καὶ τοὔνομα κοινὸν καὶ 0 λόγος ὁ αὐτός, 
+ὥστε πάντα τὰ ἀπὸ τῶν οὐσιῶν καὶ τὰ ἀπὸ τῶν 
+διαφορῶν συνωτύμως λέγεται 
+
+Πᾶσα δὲ οὐσία δοκεῖ τόδε σι σημαίνειν ἐπὶ 
+μὲν οὖν τῶν πρώτων οὐσιῶν ἀναμφισβήτητον καὶ 
+ἀληθές ἐστιν ὅτι τόδε τι σημαίνει ᾿ὅτομον γὰρ καὶ 
+ἕν ἀριθμῶ τὸ δηλούμενόν ἐστιν ἐπὶ δὲ τῶν δευ- 
+τέρων οὐσιῶν φαίνεται μὲν ὁμοίως τῶ σχήματι 
+
+
+16 τῆς προσηγορίας τόδε τι σημαΐνειν, ὁταν εἰπη 
+
+
+ἄνθραμτον ἡ ζῶον, οὐ μὴν ἀληθές γε, ἀλλὰ μᾶλλον 
+ποιόν τι σημαίνει οὐ γὰρ ἐν ἐστι τὸ ὑποκείμενον 
+ὥσπερ ἡ πρώτη οὐσία, ἀλλὰ κατὰ πολλῶν ὁ 
+ἄνθρωτος λέγεται καὶ τὸ ζῶον οὐχ ἁπλῶς δὲ 
+ποιόν Te σημαίνει, ὥσπερ τὸ λευκόν οὐδὲν γὰρ 
+
+
+40 ἄλλο onuatves τὸ λευκὸν ἀλλ᾽ ἢ ποιόν τὸ δὲ εἶδος 
+
+
+28 
+
+
+CATEGORIES, v 
+
+
+Differentia and substance alike have this charac- 
+tcristicin common that, wherever we predicate them, 
+we predicate them univocally For such propositions 
+have always individuals οἱ species ἔοι subjects The 
+primary substance, no doubt, being never predicated 
+ot anything, neve1 itself can be predicate of any pro- 
+poution whatever Not so with the secondary sub- 
+stince The species is predicated of all individual 
+examples, the genus of these and the species And 
+so with differentiae also Of species and individuals 
+we predicate these τὰ hike manner Both definitions, 
+moreover, or those of the genus and species, apply to 
+the primary substance and that of the genus to the 
+specics For all we affirm of the predicate will also 
+be affirmed of the subject The defimtion of each 
+differentia applies in a similar manner to both indi- 
+viduals and species But, as we have already noticed, 
+univocal 1s used of such things as not only possess 
+the same name but are also defined the same way 
+Hence it follows that in all propositions having sub- 
+stance or difference for predicate that predicate 1s 
+quite unequivocal 
+
+All substance appears individual And this 1s 
+indisputably true in the case of the primary sub- 
+stance, What each denotes is a unit In that of 
+the secondary substances language may make it 
+appear so, as when we say animal, man _ This, 
+how ever, 1s not really so, for a quality rather 1s meant 
+Second substance 1s not one and single, as, no doubt, 
+the pumary is, not of one but of many, indeed, do 
+we predicate ‘animal,’ ‘man’ Species and genus, 
+however, do not merely indicate quality, as ‘ white’ 
+merely indicates quality Accidents, that 1s, hke 
+‘white,’ meanaqualitysimplyand merely Butspecies 
+
+
+29 
+
+
+ARISTOTLE 
+
+
+Bb Ἀ 4 ‘4 \ +) ’ A 4 3 Ud 4 
+καὶ TO γένος περὶ οὐσίαν TO ποιὸν ἀφορίζει ποιὰν 
+/ > 4 “~ \ “~ 
+γάρ τινα οὐσίαν onuatver ἐπὶ πλεῖον δὲ τῶ γέ ει 
+»-ς A 3 4 ~ ¢ ~ 
+7) τῶ cider τὸν ἀφορισμὸν ποιεῖται ὁ γὰρ ζῶον 
+εἰπὼν ἐπὶ πλεῖον περιλαμβάνει ἢ ὁ τὸν ἄνθρωπον 
+2 “YT πάρχει δὲ ταῖς οὐσίαις καὶ τὸ μηδὲν αὐταῖς 
+éi αντίον εἶναι τῆ γὰρ πρώτη οὐσία τί av εἴη 
+ἐι αὐτίον, οἵον τῷ τινὶ ἀνθρώπω ἢ τῷ τινὶ ζώω, 
+~ > 
+οὐδὲν γάρ ἐστιν ἐναντίον οὐδέ ye τῶ ἀνθρώπω 
+»" ? 
+ἡ τῶ Caw οὐδέν ἐστιν ἐναντίον οὐκ ἴδιον δὲ 
+»- -ς > / > Ἁ 4 ? > », »" 
+τοῦτο τῆς οὐσίας, ἀλλὰ καὶ ἐπ᾽ ἄλλων πολλῶν, 
+“ ~ os ~ ‘ 4 
+οἵον ἐπὶ τοῦ ποσοῦ τῶ yap διπήχει ἡ τριπήχει 
+/ a ~ 
+80 οὐδέν ἐστιν ἐναντίον, οὐδέ γε τοῖς δέκα, οὐδὲ τῶν 
+’ὔ " ,ὔ 3 7 \ \ ~ 5Ὰ ἢ / 
+τοιούτων οὐδενί, εἰ μή τις TO πολὺ τῶ ὀλίγω φαίη 
+é 3 “~ ~ aa) 
+ἐναντίον εἶναι ἡ TO μέγα τῶ μικρῶ τῶν δὲ 
+ἀφωρισμένων ποσῶν οὐδὲν οὐδενὶ ἐναντίον ἐστίν 
+a a Ἁ 
+Δοκεῖ δὲ ἡ οὐσία μὴ ἐπιδέχεσθαι τὸ μᾶλλον καὶ 
+~ ,ὔ 
+τὸ ἥττον λέγω δὲ οὐχ ὅτι οὐσία οὐσίας οὐκ ἐστι 
+o~ ’ = om 
+a5 μᾶλλον οὐσία καὶ ἥττον οὐσία (τοῦτο μὲν yap 
+U Ψ ” > 9 ¢ ¢ / 2? # af}? 
+είἰρηται ὅτι ἔστιν), ἀλλ᾽ ὅτι ExdoTn οὐσία τοῦθ 
+ὅπερ ἐστίν, οὐ λέγεται μᾶλλον καὶ ἧττον οἷον εἰ 
+/ “ 
+ἔστιν αὐτη ἡ οὐσία ἄνθρωπος, οὐκ ἐσται μᾶλλον 
+καὶ ἥττον ἄνθρωπος, οὔτε αὐτὸς ἑαυτοῦ οὔτε ἕτερος 
+ἑτέρου οὐ γάρ ἐστιν ἕτερος ἑτέρου μᾶλλον αν- 
+θ [4 \ A ‘ “ ςο +f ~ / 
+4a flowmos, ὥσπερ TO λευκὸν ἕτερον ἑτέρου μᾶλλόν 
++ ah A 
+ἐστι καὶ ἧττον λευκόν, καὶ καλὸν τερον ἕτέρου 
+A 
+μᾶλλον καλὸν καὶ ἧττον λέγεται καὶ αὐτὸ δὲ 
+αὑτοῦ μᾶλλον καὶ ἧττον λέγεται, οἷον τὸ σῶμα 
+λευκὸν ον μᾶλλον λευκὸν εἶναι λέγεται νῦν ἡ 
+/ os \ = 
+ὃ πρότερον, Kat θερμὸν ov μᾶλλον θερμὸν Kai ἥττον 
+4 / , a Ὄ 
+λέγεται ἡ δέ γε οὐσία οὐδὲν μᾶλλον καὶ ἧττον 
+
+
+αὐτὴ Β 
+80 
+
+
+CATEGORIES, v 
+
+
+and genus determine a quality m reference to sub- 
+stance They tell you what sort of asubstance Inthe 
+cise of the genus, however, such determining qualifi- 
+cation will cover a much wider field than 1t does in the 
+case of the species Say ‘ animal’, you comprehend 
+more than you would, if instead you said ‘man Ὁ 
+
+Substances nevei have contiaries How could first 
+substances have them—this man, for example, that 
+animal? Nothing 1s contrary to them And species 
+and genus have none’ This particulai characteristic 
+belongs not to substance alone Tor it holds of a good 
+miny things and, among them, for instance, of quan- 
+tity Two cubits long’ has no contrary , neither 
+has ‘ thiee cubits long , nor has ‘ ten’ nor yet any- 
+thing lke it, unless, indeed, someone should say 
+‘large and small,’ “much and ‘little’ are con- 
+tranies Definite quantities, however, can certainly 
+nevci have contrazies 
+
+No substance, it seers, has degrees οἱ admits of a 
+more and a less I do not mean here that one sub- 
+stance may not be mote truly called substance, less 
+tiuly called substance, than otheis , deed, we have 
+said that 1t may But I mean that no substance as 
+such can admit of degiees initself For example, the 
+same substance, man, cannot really be more or less 
+man as compaied with himself οἱ another This man 
+15. not more man than that, as one white thing 1s more 
+or less white than another white object may be or, 
+again, as one beautiful object has more or less beauty 
+than others The same quality in the same object 
+may vary at times in degree For example, a 
+body, if white, is called white: just now than it 
+was or, 18 waim, is called more οἱ less warm But 
+a substance 15 not more or less of whatever, qua 
+
+
+31 
+
+
+ARISTOTLE 
+
+
+a # 3 & Ἁ , “-ο ~, ἌΡ 
+λέγεται οὐδὲ γὰρ ἀνθρωπος μᾶλλον νῦν ἄνθρωπος 
+ὴ πρότερον λέγεται, οὐδέ γε τῶν ἄλλων οὐδέν, ὅσα 
+ἐστὶν οὐσίαι ὥστε οὐκ ἂν ἐπιδέχοιτο ἡ οὐσία 
+τὸ μᾶλλον καὶ ἧττον 
+
+in Δίάλιστα δὲ ἰδιον τῆς οὐσίας δοκεῖ εἶναι τὸ 
+ταὐτὸν καὶ ἕν ἀριθμῶ ὃν τῶν ἐναντίων εἶναι δεκ- 
+τικόν, οἷον ἐπὶ μὲν τῶν ἄλλων οὐκ ἀν ἔχοι τις τὸ 
+τοιοῦτο προενεγκεῖν, ὅσα μή εἰσιν οὐσίαι, ὃ ἕν 
+ἀριθμῶ ὃν τῶν ἐναντίων δεκτικόν ἐστιν, OLOV τὸ 
+χρῶμα, ὁ ἐστιν ἕν καὶ ταὐτὸν τῶ ἀριθμῶ, οὐκ 
+
+15 ἔσται λευκὸν καὶ μέλαν, οὐδ᾽ ἡ αὐτὴ πρᾶξις καὶ 
+μία τῶ ἀριθμῶ οὐκ ἔσται φαύλη καὶ σπουδαία 
+ὡσαύτως ὃὲ καὶ ἐπὶ τῶν ἄλλων, ὅσα μή εἶσιν 
+οὐσίαι ἡ δέ γε οὐσία ἕν καὶ ταὐτὸν ἀριθμῷ ὃν 
+δεκτικὸν τῶν ἐναντίων ἐστίν, οἷον 6 τὶς ἄνθρωπος, 
+
+on εἰς καὶ 6 αὐτὸς ὦν, ὁτὲ μὲν λευκὸς ὁτὲ δὲ μέλας 
+γάεται, καὶ θερμὸς καὶ ψυχρός, καὶ φαῦλος καὶ 
+σπουδαῖος ἐπὶ δὲ τῶν ἄλλων οὐδενὸς φαίνεται 
+τὸ τοιοῦτον, εἰ μή τις ἐνίσταιτο τὸν λόγον καὶ 
+τὴν δόξαν φάσκων τῶν ἐναντίων elvar δεκτικά 
+ὁ γὰρ αὐτὸς λόγος ἀληθὴς καὶ ψευδὴς εἶναι δοκεῖ, 
+
+2,ovov εἰ ἀληθὴς ein 6 λόγος τὸ καθῆσθαΐί τινα, 
+ἀναστάντος αὐτοῦ ὁ αὐτὸς ovros λόγος ψευδὴς 
+έσται ὡσαύτως δὲ καὶ ἐπὶ τῆς δόξης εἰ , γάρ 
+τις ἀληθῶς δοξάζοι τὸ καθῆσθαί τινα, ἀναστάντος 
+αὐτοῦ ψευδῶς δοξάσει, τὴν αὐτὴν ἔχων περὶ αὐτοῦ 
+δόξαν εἰ δέ τις καὶ τοῦτο παραδέχοιτο, ἀλλὰ τῶ 
+γε τρόπω διαφέρει τὰ μὲν γὰρ ἐπὶ τῶν οὐσιῶν 
+
+80 αὐτὰ μεταβάλλοντα δεκτικὰ τῶν ἐναντίων ἐστί 
+
+ψυχρὸν γὰρ ἐκ θερμοῦ γενόμενον μετέβαλεν (ἡλ- 
+οἴωται γάρ) καὶ μέλαν ἐκ λευκοῦ καὶ σπουδαῖον 
+* Jrue at one time and false at another 
+
+
+32 
+
+
+CATEGORIES, v 
+
+
+substance, itis For a manis not more of a man than 
+he was at some time in the past And so of all 
+substances else Therefore, substance can have no 
+degrees 
+
+But whatis most characteristic of substance appears 
+to be this that, although it remains, notwithstand- 
+ing, numerically one and the same, 1t 15 capable of 
+being the recipient of contrary qualifications Of 
+things that are other than substance we could hardly 
+adduce an example possessed of this characteristic 
+For instance, a particular colour, numerically one and 
+the same, can 1n no wise be both black and white, and 
+an action, if one and the same, can in no wise be 
+both good and bad So of everything other than 
+substance But substance, remaining the same, yet 
+admits of such contrary qualities One and the same 
+individual at one time is white, warm or good, at 
+anothe: time blach, cold or bad This is not so with 
+anything else, though τὸ mght be maintained that 
+assertions or opmions admitted of contraries That 
+is to say, the same statement may appeai to be 
+both true and false? ‘He sits’ may, for instance, 
+be true If he mses, 1t then becomes false And 
+so with opimons as well One may be of opmion, 
+and truly, that such or such person is sitting 
+And yet, when that person has risen, that opmion, 
+if held still, is false Even though we allow 
+this exception, 1t would differ, in fact, from the rest 
+in its manner of coming about For whenever a 
+substance admits of such contrary qualifications, 1t 1s 
+by achange initself Itis by a change im itself that 
+a thing that was hot becomes cold (having passed 
+fiom one state to another) or a thing that was white 
+becomes black or a thing that was good becomes bad 
+
+
+VOL I B 2 838 
+
+
+ARISTOTLE 
+
+
+ἐκ φαύλυ ὡσαύτως δὲ καὶ ἐπὶ τῶν άλλων 
+ἕκαστον αὐτῶν μεταβολὴν δεχόμενον τῶν ἐναν- 
+τίων δεκτικόν ἐστιν ὁ δὲ λόγος καὶ ἡ δόξα αὖτα 
+8. μὲν ἀκίνητα πάντη πάντως διαμένει, τοῦ δὲ πράγ- 
+ee κινουμένου τὸ ἐναντίον περὶ αὐτὰ γίνεται 
+ὁ μὲν γὰρ λόγος διαμένει ὁ αὐτὸς τὸ καθῆσθαι 
+ἀν τίνα, τοῦ δὲ τράγματος κινηθέντος ὁτὲ μὲν ἀληθὴς 
+ὁτὲ δὲ ψευδὴς λέγεται ὡσαύτως δὲ καὶ ἐπὶ τῆς 
+δόξης ὥστε τῶ τρόπω γε ίδιον ἀν εἴη τῆς οὐσίας 
+τὸ κατὰ τὴν ἑαυτῆς μεταβολὴν δεκτικὴν τῶν 
+ἐναντίων εἶναι 
+Ki δή" τις καὶ ταῦτα παραδέχοιτο, τὸν λόγον καὶ 
+δ τὴν δόξαν δεκτικὰ τῶν ἐναντίων εἶναι, οὐκ ἔστιν 
+ἀληθὲς τοῦτο ὁ γὰρ λόγος καὶ ἡ δόξα οὐ τῶ 
+αὐτὰ δέχεσθαί τι τῶν ἐναντίων εἶναι δεκτικὰ 
+λέγεται, ἀλλὰ τῶ περὶ ἐτερόν τι τὸ πάθος γεγε- 
+τιῆσθαι τῶ γὰρ τὸ πρᾶγμα εἶναι ἢ μὴ εἶναι 
+τούτω καὶ ὃ λόγος ἀληθὴς ἡ ψευδὴς εἶναι λέγεται, 
+wot τῷ αὐτὸς δεκτικὸς εἶναι τῶν ἐναντίων ἁπλῶς 
+γὰρ οὐθὲν ὑπ᾽ οὐδενὸς οὔτε 6 λόγος κινεῖται οὔτε 
+ἡ δόξα, ὥστε οὐκ ἂν ein δεκτικὰ τῶν ἐναντίων 
+μηδενὸς ἐν αὐτοῖς γινομένου πάθους ἡ δέ γε 
+οὐσία τῶ αὐτὴ τὰ ἐναντία δέχεσθαι, τούτω δεκτικὴ 
+τῶι ἐναντίων εἶναι λέγεται νόσον γὰρ καὶ ὑγίειαν 
+1s δέχεται, καὶ λευκότητα καὶ μελανίαν καὶ ἕκαστον 
+τῶν τοιούτων αὐτὴ δεγομένη τῶν ἐναντίων εἶναι 
+δεκτικὴ λέγεται ὥστε ίδιον av οὐσίας εἴη τὸ 
+ταὐτὸν καὶ ἕν ἀριθμῶ ον δεκτικὸν εἶναι τῶν ἐναν- 
+τίων κατὰ τὴν ἑαυτῆς μεταβολήν περὶ μὲν οὖν 
+οὐσίας τοσαῦτα εἰρήσθω 
+2. VI Τοῦ δὲ ποσοῦ τὸ μέν ἐστι διωρισμένον, τὸ 
+1 δέ Β 
+84, 
+
+
+CATFGORIES v-v1 
+
+
+4nd so, too, in all other cases where substance admits 
+of such qualities The statement or opimon, how- 
+ever, 1¢mains in itself quite unaltered in any and 
+every respect Ifit takes on the contrary quality, 
+bemg now true and now false, then the facts of the 
+case will have changed For the statement ‘he 
+sits’ 1s unchanged, but according to existing con- 
+ditions we call it now true and now false As with 
+statements, so, too, with opmmons In its manner, 
+then, of coming about 1115 1eally peculiar to substance 
+to admit of the conti a1 y qualities—to wit, by a change 
+in itself 
+
+If a man, then, should make an exception in favour 
+of opinions and statements, maintaming that these 
+admit also of contrary qualifications, his view would, 
+intiuth,be unsound If opimions and statements are 
+said to admit of such qualifications, the fact 1s that 
+not they themselves but that something else undeigoes 
+change ἴοι it 1s by the tacts of the case, by their 
+being or not being so, that a statement 1s called true 
+οἱ false Itis not that the statement itself can admit 
+of such contiary qualities For nothing, in one word, 
+can alter the nature of opinions and statements, and, 
+seeing no change occurs in them, they cannot admit 
+of such contraties But substance admits of such 
+contraries by having received them itself 1 alter- 
+nately takes to itself health, disease, whiteness, 
+blackness, the hhe By receiving them into itself 
+is 1t said to admit of such contraizies So, to conclude, 
+we may call this above all distinctive of substance, 
+that, remaining still one and the same, 1t may yet 
+through a change im itself receive contrary quali- 
+fications Let so much on substance suffice 
+
+VI To quantity let us turn next This 1s either 
+
+
+35 
+
+
+ARISTOTLE 
+
+
+4b 
+δὲ συνεχές, καὶ τὸ μὲν ἐκ θέσιν ἐχόντων πρὸς 
+
+
+ἄλληλα τῶν ἐν αὑτοῖς μορίων συνέστηκε, τὸ δὲ 
+οὐκ ἐξ ἐχόντων θέσιν ἔστι δὲ διωρισμένον μὲν 
+οἷον ἀριθμὸς καὶ λόγος, συνεχὲς δὲ οἷον γραμμή, 
+25 ἐπιφάνεια, σῶμα, ἔτι δὲ “παρὰ ταῦτα χρόνος καὶ 
+τόπος τῶν μὲν γὰρ τοῦ ἀριθμοῦ μορίων οὐδείς 
+ἐστι κοινὸς ὅρος, πρὸς ὃν συνάπτει τὰ μόρια 
+αὐτοῦ, οἷον τὰ πέντε εἰ ἔστι τῶν δέκα μόριον, 
+πρὸς οὐδένα κοινὸν ὁρον συνάπτει τὰ πέντε καὶ 
+τὰ πέντε, ἀλλὰ διώρισται, καὶ τὰ τρία γε καὶ τὰ 
+80 ἑπτὰ πρὸς οὐδένα κοινὸν ὅρον συνάπτει οὐδ᾽ 
+ὅλως ἂν ἔχοις ἐπ᾽ ἀριθμοῦ κοινὸν ὁρον λαβεῖν τῶν 
+μορίων, ἀλλ᾽ ἀεὶ διώρισται ὥστε ὃ μὲν ἀριθμὸς 
+τῶν διωρισμένων ἐστίν ὡσαύτως δὲ καὶ ὁ λόγος 
+τῶν διωρισμένων ἐστίν ὅτι μὲν γὰρ ποσόν ἐστιν 
+ὁ λόγος, φανερόν καταμετρεῖται γὰρ συλλαβῆ 
+8 βραχεία καὶ μακρᾶ λέγω δὲ αὐτὸν τὸν μετὰ 
+φωνῆς λόγον γιγνόμενον πρὸς οὐδένα γὰρ κοινὸν 
+ὅρον αὐτοῦ τὰ μόρια συνάπτει οὐ γὰρ ἔστι κοινὸς 
+ὅρος πρὸς ὃν αἵ συλλαβαὶ συνάπτουσιν, ἀλλ᾽ 
+Ba ἑκάστη διώρισται αὐτὴ καθ᾽ αὑτήν 
+‘H δὲ γραμμὴ συνεχής ἐστιν ἔστι γὰρ λαβεῖν 
+κοινὸν όρον πρὸς ὃν τὰ μόρια αὐτῆς συνάπτει, 
+στιγμήν, καὶ τῆς ἐπιφανείας γραμμήν τὰ γὰρ τοῦ 
+ἐπιπέδου μόρια, πρός τινα κοινὸν ὅρον συνάπτει 
+δ ὡσαύτως δὲ καὶ ἐπὶ τοῦ σώματος ἔχοις av λαβεῖν 
+κοινὸν ὅρον, γραμμὴν ἢ ἐπιφάνειαν, πρὸς ἃ τὰ 
+
+
+
+
+
+α [hese divisions are not co-extensive Line, plane and 
+sohd and space are all called continuous quantities all, 
+too, consist of such parts as have interrelated positions 
+Time 1s a continuous quantity , its parts have, however, no 
+
+
+36 
+
+
+CATEGORIES, vr 
+
+
+diserete or continuous Some quantities, moreover, 
+consist of such parts as have relative positions in refer- 
+«nce each to the others, while otheis, on the contiary, 
+consist of such paits as have no such positions? Of 
+quantitus that aie discrete we may here instance 
+numbei and speech, of quantities that are continuous 
+line superficies and solid, to which time and place 
+inay be added Consider the parts of a number 
+You find there 1s no common limit at which they may 
+jJomnorumte For example, two fives will make ten 
+Ihese, however, are wholly distinct, there is no 
+common limit whatever at which these two fives 
+eoalesce And the same with the parts three and 
+seven And, indeed, in the case of all numbers you 
+neve1 will find such a boundary, common to any two 
+parts for the parts remain ever distinct Thus 1s 
+numbei discrete, not continuous The same may be 
+sud about speech, if by speech the spoken word 1s 
+intended Being measured in long and short syl- 
+lables, speech 1s an evident quantity, whose paits 
+possess no conmon boundary No common hmit 
+exists, where those parts—that 1s, syllables—join 
+Each, mndeed, is distinct from the rest 
+
+A lime 1s, however, continuous Here we discover 
+that mit of which we have just now been speaking 
+This hmuit οἱ termis a point So itis witha plane or 
+asolid Their parts also have such a lmit—a line in 
+the case of the former, a line or a plane in the latter 
+
+
+positions in refcrence the one to the other See the following 
+from the summary by Waitz ‘quod quantum est id vel 
+discretum esse (numerus, oratio) vel continuum (linea, 
+superficies, corpus, tempus, spatium) exemplis demon- 
+stratur,’ and * linea, supcrficies, corpus et spatium constant 
+e partibus positionem quandam inter se habentibus, non ita 
+numerus, tempus et oratio 
+
+
+37 
+
+
+ARISTOTLE 
+
+
+5a 
+~ [4 f ἃ Vis Sut td 
+TOU σώματος μόριω συνάπτει ἔστι δὲ καὶ ὁ χρόνος 
+
+
+καὶ 6 τόπος τῶν τοιούτων 6 γὰρ νῦν κρόιος 
+συνάπτει πρὸς τὸν παρεληλυθότα καὶ τὸν μέλ- 
+λοντα πάλιν ὃ τόπος τῶι συνεχῶν ἐστί τόπον 
+10 γάρ τινα τὰ τοῦ σώματος μόρια κατέχει, ἃ πρός 
+τα κοινὸν ὅροι συιάπτει οὐκοῦν καὶ τὰ τοῦ 
+τόπου μόρια, ἃ καπέχει έκαστον τῶν τοῦ σώματος 
+μορίων, πρὸς τὸν αὐτὸν ὅρον συνάπτει πρὸς ὃν 
+καὶ τὰ τοῦ σώματος μόρια ὥστε συνεχὴς ἂν εἴη 
+καὶ 6 τόπος πρὸς γὰρ ἕνα κοινὸν ὁρον αὐτοῦ τὰ 
+μόρια συιάπτει 
+1 Ἔτι δὲ τὰ μὲν ἐκ θέσιν ἐχόντων πρὸς ἀλληλα 
+τῶν ἐν αὑτοῖς μορίων συνέστηκε, τὰ δὲ οὐκ ἐξ 
+ἐχόιτων θέσιν, οἷον τὰ μὲν τῆς γραμ"ιῆς μόρια 
+θέσιν ἔχει πρὸς ἄλληλα έκαστον γὰρ αὐτῶν κεῖταί 
+που, καὶ ἔχοις ἂν διαλαβεῖν καὶ ἀποδοῦναι ὅπου 
+ἕκαστον κεῖται ἐν τῶ ἐπιπέδω καὶ πρὸς ποῖον 
+90 μόριον τῶν λοιπῶν συνάπτει ὡσαύτως δὲ καὶ τὰ 
+τοῦ ἐπιπέδου μόρια θέσιν ἔχει τινά ὁμοίως. γὰρ 
+ἂν ἀποδοθείη ἕκαστον ov κεῖται, καὶ ποῖα συνάπτει 
+πρὸς ἄλληλα καὶ τὰ τοῦ στερεοῦ δὲ ὡσαύτως, 
+καὶ τὰ τοῦ τοποῦ ἐπὶ δέ γε τοῦ ἀριθμοῦ οὐκ ἀν 
+2 ἔχοι τις ἐπιδεῖξαι ὡς τὰ μόρια αὐτοῦ θέσιν τινὰ 
+έχει πρὸς ἄλληλα ἢ κεῖταί που, ἡ ποῖά γε πρὸς 
+ἄλληλα συνάπτει τῶν μορίων οὐδὲ τὰ τοῦ χρόνου 
+ὑπομένει γὰρ οὐδὲν τῶν τοῦ χρόνου μορίων ὁ δὲ 
+μή ἐστιν ὑπομένον, πῶς av τοῦτο θέσιν τινὰ ἔχοι, 
+ἀλλὰ μᾶλλον τάξιν τινὰ εἶποις av ἔχειν τῶ τὸ μὲν 
+80 πρότερον εἶναι τοῦ χρόνου τὸ δ᾽ ὕστερον καὶ ἐπὶ 
+τοῦ ἀριθμοῦ δὲ ὡσαύτως τῶ τὸ ἕν πρότερον ἀριθ- 
+μεῖσθαι τῶν δύο καὶ τὰ δύο τῶν τριῶν καὶ οὕτω 
+τάξιν τινὰ ἂν ἔχοι, θέσιν δὲ οὐ πάνυ λάβοις ἂν 
+98 
+
+
+CATEGORIES, v1 
+
+
+Again time and space aie continuous Time 15 a 
+whole ind continuous, the present, past, future are 
+linked Space 1s also this kind of a quantity For 
+sceing the puts of a solid themselves occupy so 
+much space and these parts have a limit in common, 
+it follows the parts of space also, which those paits 
+themselves occupy, have exactly the same common 
+limit οἱ term as the parts of the sohd ΑΒ 1s time, so 
+1s space, then, continuous the paits meet at one 
+common boundary 
+
+All quantities are made up of parts, and those 
+parts as we saw, have position in reference one to 
+another or else they have no such position The 
+paits of a line, for example, must all have their 
+relative places Each without doubt, must he some- 
+mhere, and each can be clearly distinguished You 
+can say where each lies on the plane and to what 
+suit of pait it τὰ next So the parts of the plane 
+have position again you can say where each hes 
+and to what sort of paitsitis next This 1s true, too, 
+of sohds and spice But the case of a number 1s 
+different You never could show that its puts are 
+possessed of thar relative places οἱ even so much 
+ashaveplaces Nor could you determine which parts 
+ue contiguous οἱ adjacent to which And the same 
+may be sud of time also Fo. no part of time 1s 
+enduing And how can what docs not endure well 
+be said to have any position? Of time it were bettei 
+to say that the parts have a relative onde, since one 
+paitis prior to anothe: And so, in hkhe manner, of 
+number, for numbers are prior in the counting, as 
+one p1loi to two, two to three Thus of number also 
+we may saj that the parts have a relative order but 
+certainly have no positions This, also, will hold 
+
+
+39 
+
+
+ARISTOTLE 
+
+
+5a ; hs 
+καὶ 6 λόγος δὲ ὡσαύτως οὐδὲν yap ὑπομένει τῶν 
+
+
+᾿ 5 ~*~ > 5» f / 4 >] é » 
+3, μορίων αὐτοῦ, ἀλλ᾽ εἰρηταί τε καὶ οὐκ ἐστιν ἔτι 
+΄- - n a ἢ ~ f 
+τοῦτο λαβεῖν, wore οὐκ ἂν εἴη θέσις τῶν μορίων 
+“ςἾ ΤᾺ κεν 3 ‘a 
+αὐτοῦ, elye μηδὲν ὑπομένει τὰ μὲν οὖν ἐκ θέσιν 
+~ ᾽ὔ 4 4 > + 
+ἐχόιτων τῶν μορίων συνέστηκε, τὰ δὲ οὐκ ἐξ 
+ἐχόντων θέσιν 
+” , A 4 ~ ’ 7 A > 7 
+Kupiws δὲ ποσὰ ταῦτα μόνα λέγεται τὰ εἰρημένο, 
+4 4 / 7 4 ᾽ ? γον 
+δυτὰ δὲ ἄλλα πάντα κατὰ συμβεβηκός εἰς ταῦτα 
+γὰρ ἀποβλέποντες καὶ τάλλα ποσὰ λέγομεν, οἷον 
+Ἁ il 4 7 ~ 4 $ ? + 
+πολὺ τὸ λευκὸν λέγεται TH THY ἐπιφάνειαν πολλὴν 
+~ A ~ 4 
+εἶναι, Kal ἡ πρᾶξις μακρὰ τῶ ye τὸν χρόνον πολὺν 
+ων Ἀ ¢ / , 45 4 > ¢€ 4 
+εἶαι, καὶ ἡ κίνησις πολλή οὐ yap καθ᾽ αὑτὸ 
+f “ 3 ~ 
+δ έκαστον τούτων ποσὸν λέγεται otov ἐὰν ἀποδιδῶ 
+΄“.,» 7 “- / ~ 
+τις πόση τις ἡ πρᾶξίς ἐστι, TH χρόνω ὁριεῖ, 
+> ’ > 
+ἐιιαυσιαΐαν ἡ οὕτω πως ἀποδιδούς Kal TO λευκὸν 
+b »“: " fa - ἠὲ 
+ποσόν τι ἀποδιδοὺς TH ἐπιφανεία ὁριεῖ ὅση γὰρ 
+, % / ~ -~ 
+av ἡ ἐπιφάνεια ἢ, τοσοῦτον καὶ TO λευκὸν φήσειεν 
+ἂν εἶναι ὥστε μόνα κυρίως καὶ καθ᾽ αὑτὰ ποσὰ 
+10 λέγεται τὰ εἰρημέια, τῶν δὲ ἄλλων οὐδὲν καθ᾽ 
+¢ # % 3 3 xy 4 ¢ 
+αὑτό, ἀλλ᾽ εἰ apa, κατὰ συμβεβηκός 
+FE, ~ Fad " 7 4 3 , > A A 
+τι τῷ ποσῶ οὐδέν ἐστιν ἐναντίον ἐπὶ μὲν 
+4 ~ > 
+yap τῶν ἀφωρισμένων φανερὸν ὅτι οὐδέν ἐστιν 
+3 / ~ ? on 
+ἐναντίον, οἷον τῶ διπήχει 7 τριπήχει ἡ TH ἐπι- 
+7 4 ~ 
+gaveia ἡ τῶν τοιούτων τινί οὐδὲν γάρ ἐστιν 
+“ 3 f ~ 
+αὐτοῖς ἐναντίον, εἰ μὴ ἄρα τὸ πολὺ τῶ ὀλίγω 
+“ > ,ὔ “ ἂν 
+16 φαίη τις εἶναι ἐναντίον ἡ τὸ μέγα τῶ μικρῶ 
+? \ > ’ > 4 9 4 ot 7] 
+τούτων δὲ οὐδέν ἐστι ποσὸν ἀλλὰ τῶν πρός τι 
+οὐδὲν γὰρ αὐτὸ καθ᾽ αὑτὸ μέγα λέ ) ΄ 
+γὰρ αὐτὸ καθ᾽ αὑτὸ μέγα λέγεται ἡ μικρόν, 
+40 
+
+
+CATEGORIES, νι 
+
+
+good of speech, for the parts have no lasting exist- 
+ence Pronounce them, and then they are gone, 
+so that, since they pass out of existence, they cannot 
+have place or position Of quantities, then, to sum 
+up, some consist of parts having position and others 
+of parts that have not 
+
+The things we have mentioned alone can be called 
+in the strictest sense quantities Other things that 
+are so called are so called in a secondary sense—with 
+an eye to some one of the former To take an 
+example ortwo <A white objectis often called laige, 
+since the surface 1t covers 15 large, an action or pro- 
+cess called long, since the time that 1t occupies 1s long 
+The name ‘ quantity ’ cannot be given to such things 
+as of then own night Someone asks you ἡ how long 
+was that action?’ You mention the time that 1t 
+tooh, as ‘it lasted a year or the hke Someone 
+asks you ‘how large is that white thing?’ You 
+mention the sufaceit covers As large as the surface 
+it coveis, so large, you will say, that white object 
+The things, then, refered to alone in themselves can 
+be stuictly called quantities, other things thus desig- 
+nated can only lay claim to that name, if at all, ina 
+secondary sense—in a sort of derivative fashion and 
+not from their intrinsic nature 
+
+Quant ties never have contraries This will be 
+perfectly clear in the case of all definite quantities, 
+whereby I mean for example, ‘two cubits’ or 
+‘ three cubits long or a surface or something of that 
+soit These, it is clear, have no contraries But 
+possibly someone may say, great and ‘small,’ 
+‘much ’ and ‘little’ are contraries These are, how- 
+ever, more properly regarded as terms of relation 
+as such, things are not great or small They are so 
+
+
+41 
+
+
+ARISTOTLE 
+
+
+5b ~ δ \ 
+ἀλλὰ τῶ πρὸς érepov ἀναφέρεσθαι, οἷον ὄρος μὲν 
+
+
+μικρὸν λέγεται, κέγχρος δὲ μεγάλη τῶ τὴν μὲν 
+20 τῶν ὁμογενῶν μείζονα εἶναι, τὸ δὲ ἔλαττον τῶν 
+ὁμογενῶν οὐκοῦν πρὸς έτερον ἡ ἀναφορά, ἐπεὶ 
+εἰγε καθ᾽ αὑτὸ μικρὸν ἣ μέγα ἐλέγετο, οὐκ ἂν 
+ποτε TO lel ὄρος μικρὸν ἐλέγετο, ἡ δὲ κέγχρος 
+μεγάλη πάλιν ἐν μὲν τῇ κώμη φαμὲν πολλοὺς 
+ἀιθρώπους εἶναι, ἐν ᾿Αθήναις δὲ ὀλίγους πολ- 
+» λαπλασίους αὐτῶν ὄντας, καὶ ἐν μὲν τῆ οἰκία πολ- 
+λούς, ἐν δὲ τῶ θεάτρω ὀλίγους πολλῶ πλείους 
+ὄντας ἔτι τὸ μὲν δίπηχυ καὶ τρίπηχυ καὶ ἕκαστον 
+τῶν τοιούτων ποσὸν onpaiver, τὸ δὲ “μέγα ἢ μικρὸν 
+οὐ σημαΐνει ποσὸν ἀλλὰ μᾶλλον πρός τι πρὸς γὰρ 
+ἕτερον θεωρεῖται τὸ μέγα καὶ τὸ μικρόν ὥστε 
+φαιερὸν ὅτι ταῦτα τῶν πρός τί ἐστιν 
+τι ἐάν τε τιθῇ τις ταῦτα ποσὰ εἶναι ἐάν τε 
+μὴ τιθῆ, οὐκ ἔστων αὐτοῖς ἐναντίον οὐδέν 6 γὰρ 
+μή ἐστιν αὐτὸ καθ᾽ αὑτὸ λαβεῖν ἀλλὰ πρὸς ἕτερον 
+ἀναφέρεται, πῶς av dain τις τούτω τι ἐναντίον, 
+ἔτι δὲ εἰ ἔσται τὸ μέγα καὶ τὸ μικρὸν ἐναντία, 
+συμβήσεται τὸ αὐτὸ ἅμα τὰ ἐναντία ἐπιδέχεσθαι 
+καὶ αὐτὰ ἑαυτοῖς εἶναι ἐναντία συμβαίνει γάρ 
+ποτε ἅμα τὸ αὐτὸ μέγα τε καὶ μικρὸν εἶναι ἐστι 
+γὰρ πρὸς μὲν τοῦτο μικρόν, πρὸς éTepov δὲ τὸ 
+αὐτὸ τοῦτο μέγα ὥστε τὸ αὐτὸ καὶ μέγα καὶ 
+μικρὸν κατὰ τὸν αὐτὸν xpdvov εἶναι συμβαδνει 
+6a ὥστε ἅμα τὰ ἐναντία ἐπιδέχεσθαι ἀλλ΄ οὐδὲν 
+δοκεῖ ἅμα τὰ ἐναντία ἐπιδέχεσθαι, οἷον ἐπὶ τῆς 
+οὐσίας δεκτικὴ μὲν τῶν ἐναντίων δοκεῖ εἶναι, 
+ἀλλ᾽ οὔτι γε ἅμα νοσεῖ καὶ ὑγιαψει ἀλλ᾽ οὐδὲ 
+
+
+8 
+
+
+— 
+
+
+3 
+
+
+~ 
+
+
+42 
+
+
+CATFGORIES, vr 
+
+
+by compazison only Thus a hill is called small, a 
+oan lirge, but we 1eally mean greater or smaller 
+than similar things of the lind, for we look to some 
+extanal standard If such terms were used ab- 
+solutely, we nevei should call a hill small, as we never 
+should call a grain large So, again, we may ve1y 
+well say that a village Nae many ahabitadts. a eity 
+hike Athens but few , though the latter are many times 
+moire, or we say that a house contains many, while 
+those nm the theatre are few, though they greatly 
+outnumbei the others While ‘ two cubits,’ ‘ thee 
+cubits long and the like, therefore, ugmfy quantity, 
+‘great,’ small’ and the hike sigmfy not a quantity 
+but rather a relation, implying some exteinal stand ird 
+οἱ something above and beyond them The latter, 
+then, plainly are relative 
+
+Quantities, moreovel, or not, there is nothing that 
+is contiary to them Fo. what 1s not grasped by 
+itself but refered to some external standad—how 
+suppose that can have any contrary * Secondly, sup- 
+pose we allow “ gieat and ‘small’ and the lhe to be 
+contraiies, then the same subject, 1t follows, at one 
+and the same time admits of the contrary qualifica- 
+tions and things to themselves will be contrary Does 
+it not sometimes occur that the same thing 1s both 
+great and small? As compared with one thing, 1t 1s 
+small, χ 1s great, as compaied with anothe: And 
+so the same thing simultaneously comes to be both 
+gieat and small or at one and the same time admits 
+of the contiary qualifications But in dealing with 
+substance we stated that nothing can thus “sumul- 
+taneously admit of such quahfications Substance, 
+no doubt, 1s 1eceptive of contrary qualifications, but 
+not in such way that a man at the same time 15 both 
+
+
+48 
+
+
+ARISTOTLE 
+6 ἣχ 4 A / 2 4 , 3 > Δ ἢ fom , 
+evKov καὶ μέλαν ἐστὶν ἄμα ἀλλ᾽ οὐδὲ τῶν ἄλλων 
+δέ > a f 4 bi / ? ‘4 A 
+δοῦδέν ἐστιν ὃ ἅμα τὰ ἐναντία ἐπιδέχεται καὶ 
+> A 3 e ~ , 5 , ? f 
+αὐτὰ δ᾽ ἑαυτοῖς συμβαίνει ἐναντία εἶναι εἰ yap 
+3 t ~ ~ A 
+ἐστι TO μέγα τῷ μικρῶ ἐναντίον, τὸ δ᾽ αὐτό ἐστιν 
+dd ‘ ¢ οὶ 
+ἅμα μέγα καὶ μικρόν, αὐτὸ ἑαυτῶ ein av ἐναντίον 
+ἀλλὰ τῶν ἀδυιάτων ἐστὶν αὐτὸ ἑαυτῶ εἶναί τι 
+> , A ~ “~ 
+ἐναντίον οὐκ ἔστιν apa TO μέγα τῶ μικρῶ 
+bl 4 3 4 4 4 lan 3 ἢ Lyd 3 \ 
+ἐναντίοι, οὐδὲ TO πολὺ TH ὀλίγω ὥστε εἰ Kal 
+\ “ 7, “- “- ~ ~ 
+ny τῶν πρός TL ταῦτά τις ἐρεῖ ἀλλὰ TOU ποσοῦ, 
+οὐδὲν ἐναντίον ἕξει 
+- \ [2 > f ~ “ ‘ 4 
+Μάλιστα δὲ ἡ ἐναντιότης τοῦ ποσοῦ περὶ Tov 
+la “ “ 
+τόπον δοκεῖ ὑπάρχεν τὸ γὰρ ἄνω τῶ κάτω 
+f 
+ἐναντίον τιθέασι, THY πρὸς TO μέσον χώραν κάτω 
+4 3 ’ σι 
+λέγοντες διὰ τὸ πλείστην τῶ μέσω διάστασιν πρὸς 
+“-- ͵ ? \ 
+1δ τὰ πέρατα τοῦ κόσμου εἶναι ἐοίκασι δὲ Kal τὸν 
+~ 4 
+τῶν ἄλλων ἐναντίων ὁρισμὸν ἀπὸ τούτων ἐπι- 
+7 Ἁ Ἀ “ > / / ~ 
+φέρειν τὰ yap πλεῖστον ἀλλήλων διεστηκότα τῶν 
+os ~ / 
+ἐν τῶ αὐτῶ γένει ἐναντία ὁρίζονται 
+» \ , ~ 
+2 Οὐ δοκεῖ δὲ τὸ ποσὸν ἐπιδέχεσθαι τὸ μᾶλλον 
+καὶ ἥττον, οἷον τὸ δίτηχυ οὐ γάρ ἐστιν ἕτερον 
+¢ fF ~ / Δ. > A “~ > on 
+ἑτέρου μᾶλλον dimnyv οὐδ᾽ ἐπὶ τοῦ ἀριθμοῦ, 
+οἷον τὰ τρία τῶν πέντε οὐδὲν μᾶλλον τὰ τρία, 
+οὐδὲ τὰ πέντε τῶν τριῶν οὐδὲ χρόνος ετερος 
+¢ f/f ~ / f 299 3.4 
+ἑτέρου μᾶλλον χρόνος εἶναι λέγεται οὐδ᾽ ἐπὶ 
+
+
+σ « The extremities ’ apparently refers to the circumference 
+taken as a whole 
+
+> The meaning I give to this sentence the context appears 
+to require But the text must, I think, be corrupt 
+
+
+44: 
+
+
+CATEGORIES, vr 
+
+
+sick and healthy, a thing black and white simul- 
+taneously Neithcr can anything else be at any time 
+thus qualified Then,if great,’ ‘small’ and so forth 
+were contrary these to themselves would be contrary 
+Grantcd for argument’s sake both that ἡ gieat ἦ15 the 
+contrary of ‘small’ and that one and the same thing 
+can be at the same moment both great and small, 
+
+gieat’ or ‘small’ to itself will be contrary This 
+is, however, impossible nothing to itself can be con- 
+trary Therefore, we cannot describe ‘ great’ and 
+‘small’ ‘ much’ and ‘little’ as contraries Neither 
+could such terms have contraries, even though some- 
+one should call them terms not of relation but of 
+quantity 
+
+In dealing with space, the contention that quantity 
+admits of a contrary seems to have most plausibility 
+‘ Above’ and ‘ below ’ are called contraries, when by 
+‘below ’ what 1s meant 1s the region or space at the 
+eentie This use is, however, de1ived fiom the view 
+that we take of the world, since it 1s at the extremities 
+of the world that the distance from the centre 1s the 
+greatest * Indeed, in defining αἰΐ contraries, we seem 
+to have space in oui minds For we call those things 
+contrary which, being also within the same class, are 
+most distant the one from the other 
+
+Quantities do not appear to admit of a more and 
+aless For example, take ‘two cubits long Now, 
+this nevei admits of gradations A thing 1s not two 
+cubits long in a gieater degree than another And 
+so, m like manner, of numbers One three 15 not, 
+so to speak, three in a greater degree than another , 
+one five 1s not, so to speak, five in a gieater degree 
+than another ὃ One period of time 1s, moreovei, not 
+more of a time than anothe: Nor of any other 
+
+
+45 
+
+
+ARISTOTLE 
+
+
+8a 
+ὦ τῶν εἰρημένων ὅλως οὐδενὸς τὸ μᾶλλοι καὶ τὸ 
+
+
+ἧττον λέγεται ὥστε καὶ τὸ ποσὸν οὐκ ἐπιδέχεται 
+τὸ μᾶλλον καὶ τὸ ἥττον 
+Ἴδιον δὲ μάλιστα, τοῦ ποσοῦ τὸ ἴσον τε καὶ 
+ἄνισον "λέγεσθαι ἕκαστον γὰρ τῶν εἰρημένων 
+ποσῶν ἴσον τε καὶ ἄνισον λέγεται, οἷον σῶμα καὶ 
+ἴσον καὶ ἄνισον λέγεται, καὶ χρόνος καὶ loos καὶ 
+80 ἄνισος ὡσαύτως δὲ καὶ ἐπὶ τῶν ἄλλων τῶν 
+ῥηθέντων ἕκαστον ίσον τε καὶ ἄτισον λέγεται τῶν 
+δὲ λοιπῶν ὅσα μή ἐστι ποσά, οὐ πάνυ ἂν δόξαι 
+ion τε καὶ ἄνισα λέγεσθαι, οἷον ἡ διάθεσις οὐ 
+πάνυ ton τε καὶ ἄνισος λέγεται, ἀλλὰ μᾶλλον 
+ὁμοία, καὶ τὸ λευκὸν σον τε καὶ ἄνισον οὐ πάνυ, 
+ὃν ἀλλ᾽ ὅμοιον wore τοῦ ποσοῦ μάλιστα ἂν εἴη 
+idvov τὸ σον τε καὶ ἄνισον λέγεσθαι 
+VII Πρός τι δὲ τὰ τοιαῦτα λέγεται, ὅσα αὐτὰ 
+ἅπερ ἐστὶν ἑτέρων εἶναι λέγεται, 7 ὁπωσοῦν ἄλλως 
+πρὸς ἕτερον, OLOV τὸ μεῖζον τοῦθ᾽ ὅπερ ἐστὶν 
+ἑτέρου λέγεται τινὸς γὰρ λέγεται μεῖζον καὶ τὸ 
+διπλάσιον τοῦθ᾽ ὅπερ ἐστὶν ἑτέρου λέγεται τινὸς 
+eb γὰρ διπλάσιον λέγεται ὡσαύτως δὲ καὶ ὅσα ἄλλα 
+τοιαῦτα ἐστι δὲ καὶ τὰ τοιαῦτα τῶν πρός τι οἷον 
+ἔέξις, διάθεσις, αίσθησις, ἐπιστήμη, θέσις πάντα 
+γὰρ τὰ εἰρημένα αὐτὰ ἅπερ ἐστὶν ἑτέρων εἶναι 
+
+
+
+
+
+
+
+
+« Aristotle here classihes as relatives two distinct classes 
+of terms, those said to be of other things’ and those said 
+‘to be tow αἱ ds something else’ (ad uleguid) in some other 
+manner’ He means by the former all terms with a genitive 
+dependent upon them This distinction cannot be brought 
+out in the sime concise manner in English There 1s no 
+single form that will cover all the uses of the genitive in 
+Greek The (rreeh genitive for mstance, expresses not 
+only our ‘of but our ‘ than’ 
+
+
+46 
+
+
+CATEGORIRES, vi-vir 
+
+
+quantity mentioned can a ‘more’ or a ‘less’ be 
+affirmed The category, therefore, of quantity in no 
+wise admits of degrees 
+
+What 15 really pecuhar to quantities is that we 
+compare or contiast them in terms οἱ on grounds of 
+equality We predicate ‘ equal,’ ‘ unequal,’ of all 
+of the quantities mentioned One solid 1s equal to 
+another, another, per contra, unequal We use these 
+terms also of time mm compaiing the peiiods of 1t 
+So also of all other quantities that we have previously 
+mentioned Of nothing, moieover, save quantities 
+can we affirm these two terms For we neve) say 
+this disposition 1s “ equal’ to that or “ unequal’ We 
+say itis lhe’ on ‘unlike’ One quality—whuiteness, 
+for unstance—is never compared with another in 
+terms or on grounds of equahty Such things are 
+termed ‘hhe and‘ unhke Thus ou: calling some- 
+thing ‘equal, “ unequal,’ 1s the mark, above all marks, 
+of quantity 
+
+VII Let us now turn to Relation We call a thing 
+relative, when it 1s said to be such as 1¢ 18 fiom its 
+beng of some othe: thing οἱ, if not, fiom its 
+being related to something im some other way 2 
+Thus ‘the gieate: 15 said to be greater by 1efer- 
+ence to something outside 1t For, indeed, when 
+we call a thing ᾿ gieater, we mean by that gieater 
+than something ‘The double’ 15 called what it 15 
+fiom its being the double ofsomething For‘ double’ 
+means double of something And so with all terms 
+of that hind Other relatives also there are, such as 
+habit, disposition, perception, position or attitude, 
+knowledge All these are explained by a reference to 
+something to which they belong, and in no other way 
+
+
+47 
+
+
+ARISTOTLE 
+
+
+λέγεται καὶ οὐκ ἄλλο τι ἡ γὰρ efis τινὸς έξις 
+δ λέγεται καὶ ἡ ἐπιστήμη τινὸς ἐπιστήμη καὶ ἡ 
+θέσις τινὸς θέσις, καὶ τὰ ἄλλα δὲ ὡσαύτως πρός 
+τι οὖν ἐστὶν ὅσα αὐτὰ ἅπερ ἐστὶν ἑτέρων εἶναι 
+λέγεται, ἢ ὁπωσοῦν ἄλλως πρὸς έτερον, οἷον ὄρος 
+μέγα λέγεται πρὸς ἕτερον πρός τι γὰρ μέγα 
+έγεται τὸ ὄρος καὶ τὸ ὅ ὅμοιον τινὶ ὅμοιον λέγεται, 
+το καὶ τὰ ἄλλα δὲ τὰ τοιαῦτα ὡσαύτως πρός τι 
+λέγεται ἔτι δὲ καὶ ἡ ἀιάκλισις καὶ Ἃ στάσις καὶ 
+ἡ καθέδρα θέσεις τινές, ἢ δὲ θέσις τῶν πρός τι 
+τὸ δὲ ἀνακεῖσθαι 7) ἑστάναι n καθῆσθαι αὐτὰ μὲν 
+οὐκ εἰσὶ θέσεις, παρωνύμως δὲ ἀπὸ τῶν εἰρημένων 
+θέσεων λέγεται 
+Ὑπάρχει δὲ καὶ ἐναντιότης ἐν τοῖς πρός τι, οἷον 
+ἀρετὴ κακία ἐναντίον, ἑκάτερον ὃν τῶν πρός τι, 
+καὶ ἐπιστήμη ἀγνοία οὐ πᾶσι δὲ τοῖς πρός τι 
+ὑπάρχει τὸ ἐναντίον τῶ γὰρ διπλασίω οὐδέν ἐστιν 
+ἐναντίον, οὐδὲ τῶ τριπλασίω, οὐδὲ τῶν τοιούτων 
+οὐδενί 
+Δοκεῖ δὲ καὶ τὸ μᾶλλον καὶ τὸ ἥττον ἐπιδέχεσθαι 
+τὰ πρός τι ὅμοιον γὰρ καὶ ἀνόμοιον μᾶλλον καὶ 
+ἥττον λέγεται, καὶ ἴσον καὶ ἄνισον μᾶλλον καὶ 
+ἧττον λέγεται, ἑκάτερον αὐτῶν πρός τι ov τό τε 
+yap ὁμοιον τινὶ ὅμοιον λέγεται καὶ τὸ ἀνόμοιον τινὶ 
+2 ἀιϊιόμοιον οὐ πάντα δὲ τὰ πρός τι ἐπιδέχεται τὸ 
+μᾶλλον καὶ ἥττον τὸ γὰρ διπλάσιον οὐ λέγεται 
+μᾶλλον καὶ nrrov διπλάσιον, οὐδὲ τῶν τοιούτων 
+οὐδέν 
+Πάντα δὲ τὰ πρός τι πρὸς ἀντιστρέφοντα λέγεται, 
+8 οἷον 6 δοῦλος δεσπότου δοῦλος λέγεται καὶ ὁ 
+δεσπότης δούλου δεσπότης, καὶ τὸ διπλάσιον 
+ἡμίσεος διπλάσιον καὶ τὸ Hutov διπλασίου ἥμισυ, 
+48 
+
+
+μι 
+a 
+
+
+ἘΞ 
+
+
+2 
+
+
+CATEGORIES, vir 
+
+
+whatsoever A habit is a habit of something, know- 
+ledge is knowledge of something, position position 
+of something We speak, then, of relative terms, 
+when a thing’s being such as it 15 1s explained by a 
+genitive following οἱ else by some phiase or expres- 
+sion designed to bring out the relation For instance, 
+we call a hill ‘large, meaning large as compared 
+with another By such a comparison only 1t 1s that 
+a hillis called ‘large So we call a thing simular,’ 
+‘hhe ’“—‘ hke’ or ‘ similar’ ἐο something else [ 1s 
+thus with all terms ofthat nature This also we notice 
+m passing while lying and standing and sitting are 
+really specific positions, position itself is a relative 
+To he and to stand and to sit, these are not them- 
+selyes 1eally positions, their names aie, however, 
+derived fiom the attitudes just now referred to 
+
+Relatives sometimes have contraries Virtue 1s 
+contiary to vice, eithe: teim itself bemg a relative , 
+hnowledge to ignoiance also By no means all 
+relative terms can, however, be said to have con- 
+traries ‘Double and tiple’ have none, nor, 
+indeed, any terms of that soit 
+
+Relatives also, 1t seems, may admit of degrees in 
+some cases, as ‘like,’ ‘ unlike,’ ‘ equal, ‘ unequal,’ 
+which all may have ‘more or ‘less’ added, while 
+each is arelative term Tor by ‘hke’ we mean hke 
+something else and by unlike’ unhke something 
+else Itis not the case, nevertheless, that all relatives 
+admit of degiees We do not say more’ or ‘less 
+double,’ and so with all terms of that kind 
+
+All relatives have thei coirelatives ‘Slave’ 
+means the slave of a master, and ‘ master,’ in turn, 
+implies slave ‘Double means double its half, just 
+as half’ means the half ofits double By ‘ greater,’ 
+
+
+49 
+
+
+6G b 
+
+
+35 
+
+
+Za 
+
+
+a 
+
+
+10 
+
+
+15 
+
+
+ARISTOTLE 
+
+
+4 8 “~ 25, 2 ~ A \ f 
+καὶ τὸ μεῖζον ἐλάττονος μεῖζον καὶ τὸ έἔλαττοι 
+> ~ 
+μείζονος ἐλαττν ὡσαύτως δὲ Kal ἐπὶ τῶν 
+7 \ ~ ’ > Ff > , \ \ 
+ἄλλων, πλὴν τῇ πτώσει ἐνίοτε διοίσει κατὰ τὴν 
+- “-- ? 
+λέξων, olov ἡ ἐπιστήμη ἐπιστητοῦ λέγεται ἐτι- 
+στήμη καὶ τὸ ἐπιστητὸν ἐπιστήμη ἐπιστητόν, καὶ 
+~ x > \ 
+ἡ αἰίσθησις αἰσθητοῦ αἰσθησις Kat τὸ αἰσθητὸν 
+αἰσθήσει αἰσθητόν 
+? 
+Οὐ μὴν ἀλλ᾽ ἐνίοτε οὐ δόξει ἀντιστρέφειν, ἐὰν 
+Χ 3 f Ἁ 4 4 3 An > \ > 
+μὴ οἰκείως πρὸς ὁ λέγεται ἀποδοθῆῇ, ἀλλὰ δι- 
+, e > ὃ ὔ “~ \ ‘ 7A 3 ὃ An 
+αμάρτη ὁ ἀποδιδούς, οἵοι TO πτερὸν Edi ἀποδοθῆ 
+ὄρνιθος, οὐκ ἀντιστρέφει ὄρνις πτεροῦ οὐ γὰρ 
+“~ > 
+οἰκείως TO πρῶτον ἀποδέδοται πτερὸν ὄρνιθος οὐ 
+‘ ~ ’ \ 4 > ~ / ? > 
+yap ἢ ὄριις, ταύτη TO πτερὸν αὐτοῦ λέγεται, GAA 
+“-ι “- Ἁ 
+ἢ πτερωτόν ἐστι πολλῶν γὰρ καὶ ἄλλων πτερά 
+? 4 3 > 4 , Ὡ . 3 ~ 
+ἐστιν, a οὐκ εἰσὶν ὄρνιθες ὥστε ἐὰν ἀποδοθῆ 
+οἰκείως, καὶ ἀιτιστρέφει, οἵον τὸ πτερὸν πτερωτοῦ 
+πτερὸν καὶ τὸ T~EPWTOV πτερῶ πτερωτόν 
+᾿Ενίοτε δὲ καὶ ὀιοματοποιεῖν ἴσως ἀιαγκαῖον, 
+ἐὰν μὴ κείμενον 7) ὄνομα πρὸς ὃ οἰκείως ἂν ἀπο- 
+LS “ - 4 ~ 7 “" 7 3A 3 ~ 
+δοθείη, olor τὸ πηδάλιον τοῦ πλοίου ἐὰν ἀποδοθῆ, 
+οὐκ οἰκεία ἡ ἀπόδοσις γίνεται οὐ γὰρ ἢ πλοῖον, 
+ταύτη αὐτοῦ τὸ πηδάλιον λέγεται ἔστι γὰρ πλοῖα 
+ae ᾿ “ / \ ? > / \ 
+ὧν οὐκ ἔστι πηδάλια διὸ οὐκ ἀντιστρέφει τὸ 
+γὰρ πλοῖον οὐ λέγεται πηδαλίου πλοῖον ἀλλ’ 
+, 
+ἴσως οἰκειοτέρα av ἡ ἀπόδοσις ein, εἰ οὕτω πως 
+5 7 \ ᾽ὔ ~ 
+ἀποδοθείη, τὸ πηδάλιον πηδαλιωτοῦ πηδάλιον, 7 
+e ~ ld “". 
+ὁπωσοῦν ἄλλως σιομα γὰρ οὐ κεῖται καὶ ἀντι- 
+/ 2A 3 ’ 3 - Ἁ 4 
+στρέφει γε, ἐὰν οἰκείως ἀποδοθῇ τὸ yap πηδα- 
+50 
+
+
+CATEGORIES wir 
+
+
+gain, we mean greater than this οἱ that thing which 
+is less, by less’ less than that which 18 greater 
+‘0 1t 15 with all relative terms On occisions, how- 
+«vel, the case or grammatical inflexion will differ 
+Knowledge is thus of the hnowable, the hnowable 
+is knowable by knowledge Perception 1s of the per- 
+ceptible, which is peiceived by perception 
+
+At times the correlation, however, will not mani- 
+festly appeai—namely, when a mistake has been 
+made and the correlate itself wiongly stated Ifyou 
+call a wing wing of a bird, then will no correlation 
+appear , wing and bnd aie, I mean, not correlative 
+The wrong te1m was used at the outset in calling it 
+wing of a bid For the wing 1s the wing of a bird, 
+when considered as xinged, not as bird Many other 
+things, not buds, are winged When, however, the 
+right tczms are used, the correlation wall forthwith 
+appeal, as when, for example, we say that a wing 15 
+a wing of the winged and the winged thing 15 winged 
+by awing Wing belongs to the winged of necessity 
+
+At times there is no wo1d in Greek that will rightly 
+bring out the corielation Then, I think, we must 
+comanew word Let us take, for example, a ruddei 
+We may say this belongs to a boat ‘Toa boat’ 1s, 
+however, inappropriate and fails to bimg out the 
+eoriclation Not, indeed, to the boat viewed as boat 
+does the 1udde1 belong of necessity Are there not 
+boits without rudders ἡ Thus i1udde1 and bot are 
+not reciprocal ‘ Boat’ 1s not ‘ boat of a 1udde1,’ as 
+rudder 1s rudde: ofa boat Since no proper term now 
+exists, we must coin one to suit the occasion and speak 
+with more accuracy thus—the iudder 1s rudder of 
+‘the 1uddered ’ And, if we expiess ourselves thus, 
+then at least will the terms be reciprocal That 15 to 
+
+
+51 
+
+
+ARISTOTLE 
+
+
+7a 
+λιωτὸν πηδαλίω πηδαλιωτόν ὡσαύτως δὲ καὶ 
+
+
+> 4 ζω ” Fe e \ > a \ 
+ἐπὶ τῶν ἄλλων, οἷον ἡ κεφαλὴ οἰκειοτέρως ἂν 
+3 “~ 
+ἀποδοθείη Kedadwrod ἡ ζώου ἀποδιδομένη ov 
+‘ ae A A A rat ? 
+yap 7 Cwov, κεφαλὴν ἔχει πολλὰ yap τῶν ζώων 
+\ ~ 
+κεφαλὴν οὐκ ἔχει οὕτω δὲ ῥᾶστα ἂν tows τις 
+“ “ a A “ 
+on λάβοι οἷς μὴ κεῖται ὀνόματα, εἰ ἀπὸ τῶν πρώτων 
+4 “ > ἢ 
+Kat τοῖς πρὸς αὐτὰ ἀντιστρέφουσι τιθείη τὰ O10- 
+~ \ ~ 
+ματα, womep ἐπὶ τῶν προειρημένων ἀπὸ τοῦ 
+~ o~ f 4 
+πτεροῦ TO πτερωτὸν καὶ ἀπὸ τοῦ πηδαλίου TO 
+πηδαλιωτόν 
+“ “~ 3 , > 
+Ilavra οὖν τὰ πρός τι, ἐάν περ οἰκείως ἀπο- 
+ Ἂ 3 2» 
+διδῶται, πρὸς ἀντιστρέφοντα λέγεται, ἐπεὶ ἐάν γε 
+i! \ “" \ 4S \ eA 
+9% πρὸς TO τυχὸν ἀποδιδῶται καὶ μὴ πρὸς αὐτὸ ὃ 
+, ᾿ 3 / / ‘ v ON ~ 
+λέγεται, οὐκ ἀντιστρέφει λέγω δὲ ὅτι οὐδὲ τῶν 
+ὁμολογουμένως πρὸς ἀντιστρέφοντα λεγομένων, 
+καὶ ὀνομάτων αὐτοῖς κειμένων, οὐδὲν ἀντιστρέφει, 
+> ~ ~ \ 
+ἐὰν πρός τι τῶν συμβεβηκότων ἀποδιδῶται Kat 
+\ \ > A Δ λέ e ¢ ὃ 5A bm) \ 
+μὴ πρὸς αὐτὸ ὃ λέγεται, οἷον 6 δοῦλος ἐὰν μὴ 
+“ “ 4 
+30 δεσπότου ἀποδοθῆ ἀλλ᾽ ἀνθρώπου ἢ δίποδος 7 
+~ ~ ‘ 
+ὁτουοῦν τῶν τοιούτων, οὐκ ἀντιστρέφει οὐ yap 
+>? 7 ¢ 3 ? f 2 , > FA 4 ? / 
+οἰκεία ἡ ἀπόδοσίς ἐστιν = ETL δ᾽ ἐὰν μέν TL οἰκείως 
+> 
+ἀποδεδομένον ἢ πρὸς ὃ λέγεται, πάντων περι- 
+“ “-- bd ul ὔ > 4 
+αἱιρουμέέων τῶν ἄλλων ὅσα συμβεβηκότα ἐστί, 
+καταλειπομένου δὲ μόνου τούτου πρὸς ὃ ἀπεδόθη 
+> ἤ 35. A \ 3. NX ξ / Ἂν ¢ -- 
+8υ οἰκείως, ἀεὶ πρὸς αὐτὸ ῥηθήσεται, οἷον 6 δοῦλος 
+3% ι “- 
+ἐὰν πρὸς δεσπότην λέγηται, περιαιρουμένων τῶν 
+ld ~ 
+ἄλλων ἁπάντων ὅσα συμβεβηκότα ἐστὶ τῶ Se- 
+
+
+δῷ 
+
+
+CATEGORIES, vu 
+
+
+say, what 1s 1uddei:ed is ruddered by means of its 
+rudder So also in all othe: cases A head will be 
+better defined as correlative of that which 1s ‘ headed,’ 
+not, loosely, as head of an animal Animals, simply 
+as inimals, do not have heads of necessity Many, 
+indeed, have no heads We may thus, I think, best 
+understand to what this or that thing 1s 1elated, where 
+no name at present exists, 1f we take the thing having 
+a name and then, coming another name from it, 
+apply it to the former’s correlative Just as we coined 
+‘winged’ and ‘ruddered’ above from the names 
+“wing ’ and ‘ 1udder 
+Thus ill relatives are referred to their correlates, 
+provided they are rightly defined I must add this 
+proviso because, if the correlate happens to be stated 
+mn casual, inaccurate fashion, the terms cannot well 
+be reciprocal Let me explain what Imean Even 
+where the mght names do exist and the things are 
+admittedly co1elates, no correlation appears, when 
+we give one of these two a name that in no way brings 
+out the relation and has some irrelevant meaning 
+Let ‘slave’ be defined im ielation to ‘man’ or to 
+biped ᾿ οἱ what not, instead of its being defined (as 
+it should be) by 1eference to master,’ then no cor- 
+relation appears, for the 1efe1 ence 1s really maccurate 
+Again, let us grant that two things are correlative 
+one with another and that the correct term is uscd 
+for the purpose of stating the second Although we 
+remove all its other—I mean, its unelevant—attrni- 
+butes, leaving that only in virtue of which it was 
+ealled the correlative, then will the said correlation 
+be, none the less, found to exist The conelative of 
+‘slave, for example, is properly said to be ‘ master ’ 
+Suppose we remove all his other—I mean, his nie- 
+
+
+53 
+
+
+ARISTOTLE 
+
+
+7a / Φ \ ft 4 \ 3 ᾿ 
+σπότη, οἷον τὸ δίποδι εἶναι καὶ τὸ ἐπιστήμης δε- 
+
+
+“᾿ ‘ ‘ 32 7 ‘4 \ a 
+κτικῶ καὶ TO ἀνθρώπω, καταλειπομένου δὲ μόνου 
+τοῦ δεσπότην εἶναι, del 6 δοῦλος πρὸς αὐτὸ 
+e , £ Ἁ “ A “~ / 
+
+ap ῥηθήσεται 6 yap δοῦλος δεσπότου δοῦλος λέγεται 
+~ f 
+"Edy δέ ye μὴ οἰκείως ἀποδοθῆ πρὸς ὅ ποτε 
+λέγεται, περιαιρουμένων μὲν τῶν ἄλλων, κατα- 
+λειπομένου δὲ μόνου τοῦ πρὸς ὃ ἀπεδόθη, οὐ 
+¢t 2 A 3 4 3 ὃ δό θ 4 e ἴω 
+ῥηθήσεται πρὸς αὐτόέ ἀποδεδόσθω γὰρ ὁ δοῦλος 
+ἀνθρώπου καὶ τὸ πτερὸν ὄρνιθος, καὶ περιηρήσθω 
+τοῦ ἀνθρώπου τὸ δεσπότην αὐτὸν εἶναι οὐ γὰρ 
+“ 2 
+ἔτι ὁ δοῦλος πρὸς ἄνθρωπον ῥηθήσεται μὴ γὰρ 
+\ a 
+ὄντος δεσπότου οὐδὲ δοῦλός ἐστιν ὡσαύτως καὶ 
+τοῦ ὄρνιθος περιηρήσθω. τὸ πτερωτῶ εἶναι οὐ γὰρ 
+ἔτι ἔσται τὸ πτερὸν τῶν πρός τι μὴ γὰρ ὄντος 
+πτερωτοῦ οὐδὲ πτερὸν ἔσται τινός 
+10 Ὥστε δεῖ μὲν ἀποδιδόναι πρὸς ὃ ποτε οἰκείως 
+λέγεται Kav μὲν ὄνομα ῆ κείμενον, ῥαδία ἡ 
+ἀπόδοσις γίνεται μὴ ὄντος δὲ ἀναγκαῖον ἴσως 
+~ , 
+ὀνοματοποιέν οὕτω δὲ ἀποδιδομένων φανερὸν 
+ὅτι πάντα τὰ πρός τι πρὸς ἀντιστρέφοντα λέγεται 
+“-Ἅ 4 ΑΝ an 
+1 Δοκεῖ δὲ τὰ πρός TL ἅμα τῇ φύσει εἶναι, Kal 
+ἐπὶ μὲν τῶν πλείστων ἀληθές ἐστν dua γὰρ 
+διπλάσιόν τέ ἐστι καὶ ἥμισυ, καὶ ἡμίσεος ὄντος 
+Α ΄οΝ 
+διπλάσιόν ἐστι καὶ δεσπότου ὄντος δοῦλός ἐστι, 
+\ 5 iA é ὃ f > Ul J f A / 
+καὶ δούλου o1tos δεσπότης ἐστίν ὁμοίως δὲ τού- 
+4 \ / 4 »ἉἬ. \ “- ’ 
+9 τοις καὶ τὰ ἀλλα καὶ συναναιρεῖ δὲ ταῦτα ἄλληλα 
+4 
+μὴ yap ὄντος διπλασίου οὐκ έστιν ἥμισυ, καὶ 
+¢ “ \ , 
+ἡμίσεος μὴ ὄντος οὐκ ἔστι διπλάσιον ὡσαύτως δὲ 
+4 ~ ~ 
+Kal ἐπὶ τῶν ἄλλων ὅσα τοιαῦτα οὐκ ἐπὶ πάντων 
+4 »-»" / a on 
+δὲ τῶν πρός τι ἀληθὲς δοκεῖ τὸ cua τῇ φύσει 
+
+
+54 
+
+
+CATEGORIES vi 
+
+
+levant—attnibutes, such as his being ‘ two-footed,’ 
+‘receptive ot knowledge ’ or “ human,’ and leave but 
+his being ‘a master,’ then ‘slave’ will be still the 
+eorclatie, ‘slave meanmg slave of a master 
+
+On the other hand, let us suppose one conelative 
+nimed incorrectly Then, if we strip off its attiu- 
+bates swing that only in vitue of which it was called 
+a eouelative, all correlation will vanish Let ‘a 
+slave’ be defined as ‘a mans , let ‘a wing’ be 
+defined 1s ‘a bird’s’ Take the attribute ‘ master’ 
+fiom‘ man’ then indeed, the correlation subsisting 
+betwcen‘ man’ and‘ slave willhavevamshed No 
+master, 1n short, then no slave Take the attribute 
+‘winged from ‘the bnd’ Then the wing will no 
+mole bearelative nought will there now be a wing 
+of, the bund being no longer winged 
+
+And so, to sum up we must state all correlative 
+terms with exactness Ifa name 1s already to hand, 
+then the statement will piove to be easy If no 
+name already exists, then I thmkh it our duty to 
+coin one It 15 clear, when the names are correct, 
+that all relative terms are correlative 
+
+Conrelatives are commonly held to come into evist- 
+ence togethe1, and this for the most part is tiue, as, 
+for instance, of double and half That a half exists 
+means that the double of which it 1s half must exist 
+The existence of a master involves the existence also 
+of a slave If a slave exists, then must a master 
+And so in all similar eases Moreover, this holds of 
+them also to cancel one cancels the other For 
+instance, no double, no half, and, per contra, no half, 
+then no double and so with all similar terms 
+However, the view that coirelatives come into being 
+together does not appeai true at all times, for αὐ 
+
+
+55 
+
+
+ARISTOTLE 
+
+
+7b t ‘ 4 3 \ / \ Sa “- 
+εἰνρᾶυ TO YAP EMLOTYTOV TpoTCpOV ἂν ὀξειε ΤῊΝ 
+
+
+5 / > ¢ 4 > Ν A Aw 
+ἐπιστήμης εἶναι ws yap ἐπὶ τὸ “πολὺ προυπ- 
+“A > / 
+
+2 ἀρχόντων τῶν πραγμάτων τὰς ἐπιστήμας Aap- 
+ἤ 32. 5 SAL 4 a mS > 3 30) A ὃ 
+βάνομεν ἐπ᾽ ὀλίγων γὰρ ἂν ἢ ἐπ᾽ οὐδενὸς tor 
+
+οὶ -“ Ἀ f ᾽ὔ 
+Tis ἂν ἅμα τῶ ἐπιστητῶ τὴν ἐπιστήμηι γινομένην 
+" a \ 
+"Ere τὸ μὲν ἐπιστητὸν ἀναιρεθὲν cuvuratpel τὴν 
+4 3 
+ἐπιστήμην, ἡ δὲ ἐπιστήμη τὸ ἐπιστητὸν οὐ συν- 
+a“ “- 9 2 3 
+αναιρεῖ ἐπιστητοῦ μὲν yap μὴ ὄντος οὐκ ἐστιν ἐπι- 
+3 ? > 4 
+80 στήμη (οὐδενὸς yap ἔσται ἐπιστήμη), ἐπιστήμης 
+\ > ἮΝ 
+δὲ μὴ οὐσης οὐδὲν κωλύει ἐπιστητὸν εἶναι, οἷον 
+~ 7 , > 
+Kal 0 τοῦ κύκλου τετραγωνισμὸς εἴγε ἐστιν ἐπι- 
+“- 7 2 7 
+στητόν, ἐπιστήμη μὲν αὐτοῦ οὐκ ἔστιν οὐδέπω, 
+\ > 
+αὐτὸς δὲ ἐπιστητόν ἐστιν ere ζώου μὲν ἀν- 
+~ > 2 on 
+αἱρεθέντος οὐκ ἔσται ἐπιστήμη, τῶν δ᾽ ἐπιστητῶν 
+A 3 / 
+πολλὰ ἐνδέχεται εἶναι 
+BE ‘OC f δὲ ‘ A > ἃ ΄-θ 9 θ 4 
+ὃ μοίως δὲ τούτοις καὶ τὰ ἐπὶ τῆς αἰσθήσεως 
+\ ~ > / 
+ἔχει τὸ yap αἰσθητὸν πρότερον τῆς αἰσθήσεως 
+- : 4 3 
+δοκεῖ elvac τὸ μὲν yap αἰσθητὸν ἀναιρεθὲν 
+συναναιρεῖ τὴν αἰσθησιν, ἡ δὲ αίἰσθησις τὸ αἰσθητὸν 
+κ᾿ \ ~ 
+od συναναιρεῖ ai yap αἰσθήσεις περὶ σῶμα καὶ 
+> los 
+ἐν σώματί εἰσιν, αἰσθητοῦ δὲ ἀναιρεθέντος avat- 
+Ba ρεῖται καὶ τὸ σῶμα (τῶν γὰρ αἰσθητῶν τὸ σῶμα), 
+A , 
+σώματος δὲ μὴ ὄντος ἀναιρεῖται καὶ ἡ atobyats, 
+4 “A 
+ὥστε συναναιρεῖ τὸ αἰσθητὸν τὴν αἴσθησιν ἡ 
+᾽ -" 
+δέ γε αίσθησις τὸ αἰσθητὸν οὐ συναναιρεῖ ζώου 
+‘ 3 a 
+yap ἀναιρεθέντος αίσθησις μὲν ἀναιρεῖται, αἰσθητὸν 
+Ἀ 3» “Ἂ ~ 
+δ δὲ ἔσται, οἷον σῶμα, θερμόν, γλυκύ, πικρόν, Kal 
+TAA 4 v 3 Ἁ > A / 
+τἄλλα πάντα ὅσα ἐστὶν αἰσθητά 
+56 
+
+
+CATEGORIES, vu 
+
+
+seems that the object of Lnowledge is prioi to, exusts 
+befoie, knowledge We gain knowledge, commonly 
+speaking, of things that already exist, fo. m very 
+few cases or none cin our Lnowledge have come into 
+being along with its own proper object 
+
+Should the object of knowledge be 1emoved, 
+then the knowledge itsclf will be cancelled The 
+converse of this 1s not tiue If the object no 
+longer exists, there can no longei be any hnowledge, 
+there being now nothing to know If, howevei, of 
+this or that object no knowledge has yet been 
+aequued, yet that object itself may exist Take 
+the squaring of the circle, ἔοι mstance, if that can 
+be called such an object Although it exists as 
+an object, the knowledge does not yct exist It all 
+animals ceased to exist, there would then be no know- 
+ledge at all, though there might m that case, not- 
+withstanding, be still many objects of knowledge 
+
+The same may be 5816 οἵ perception Theobject, I 
+mean, would appeai tobe prior to the act of perception 
+Suppose that you cancel the peiceptible , you cancel 
+theperceptionas well Takeaway o11emove the pei- 
+ception, the perceptible still may exist for the act 
+of perception imphes or involves, first, a body per- 
+ceived, then a body τῇ whichit takes place Therefoue, 
+if you remove the perceptible body itself 1s 1emoved, 
+ἔοι the body itself 1s perceptible And, body not 
+being existent, perception must cease to exist Tahe 
+away the perceptible, then, and you take away also 
+peiception But the taking away of perception does 
+not take such objects away If the animal itself 15 
+destroyed, then perception 1s alsodestroyed But pei- 
+ceptibles yet will remain,such as body, heat, sweetness 
+and bitterness and everything else that 1s sensible 
+
+
+VOL I Cc 57 
+
+
+ARISTOTLE 
+
+
+8a Ἢ ξ 4 ft é ~ $ a) ? 
+Eve ἡ μὲν αἰσθησις apa τῶ aicOyTu® γίνεται 
+
+
+ΩΨ Ἁ “"- ᾿ 4 “ \ ul 
+apa yap τῶ ζώω yirerar καὶ αίἰσθησις τὸ δέ γε 
+αἰσθητόι ἐστι καὶ πρὸ τοῦ ζῶον ἢ αίσθησιν εἶναι 
+“ὦ ~ Ἵ ἮΝ \ 
+πῦρ yap καὶ ὕδωρ Kal τὰ τοιαῦτα, ἐξ ὧν καὶ τὸ 
+~ a ~ t 
+10 ζῶον συιίσταται, ἔστι καὶ πρὸ τοῦ ζῶον ὅλως 
+4 ~ > “ 
+εἶναι ἡ αἰσθησιν, ὥστε πρότερον av τῆς αἰσθήσεως 
+\ 3 \ > ‘4 
+τὸ αἰσθητὸν εἶναι δόξειεν 
+Ud \ 3 ’ / +) / 3 / “~ 
+Eyer δὲ ἀπορίαν πότερον οὐδεμία οὐσία τῶν 
+“. ~ 3 / 
+1s πρός τι λέγεται, καθάπερ δοκεῖ, ἡ τοῦτο ἐνδέχεται 
+“ς ~ > \ 
+κατά τινας τῶν δευτέρων οὐσιῶν ἐπὶ μὲν yap 
+~ ~ , 
+τῶν πρώτων οὐσιῶν ἀληθές ἐστιν οὔτε yap τὰ 
+ξ / 
+ὅλα οὔτε τὰ μέρη πρός τι λέγεται ὁ yap τις 
+2 3 “ / f OA ¢ 
+ἄνθρωπος οὐ λέγεται τινός τις ἄνθρωπος, οὐδὲ ὁ 
+\ κι ~ / \ 4 \ / 
+tis βοῦς τινός τις Bods ὡσαύτως δὲ καὶ τὰ μέρη 
+¢ ΄ 4 3 , / \ 3 ’ 
+90 ἡ γάρ τις χεὶρ οὐ λέγεται τινός τις χεὶρ ἀλλά 
+é 5) ὔ 
+τινος χείρ, καὶ ἡ τὶς κεφαλὴ οὐ λέγεται τινός τις 
+“ ἡ 4 A > 
+κεφαλὴ ἀλλά τινος κεῤαλή ὡσαύτως δὲ καὶ ἐπὶ 
+o~ ~ ~ / ~ 
+τῶν δευτέρων οὐσιῶν, ἐπί ye τῶν πλείστων, οἷον 
+¢€ wv > 7 A / > \ é 
+ὁ ἄνθρωπος οὐ λέγεται τινὸς ἀνθρωπος, οὐδὲ ὁ 
+“- -- \ ‘ / A 7 
+βοῦς τινὸς βοῦς, οὐδὲ τὸ ξύλον τινὸς ξύλον, ἀλλά 
+2ὅ τινος κτῆμα λέγεται ἐπὶ μὲν οὖν τῶν τοιούτων 
+ὔ ~ > 5 , 
+φανερὸν ὅτι οὐκ ἔστι τῶν πρός TL ἐπ᾽ ἐνίων δὲ 
+»- ~ ? 9 ta “ 
+τῶν δευτέρων οὐσιῶν ἔχει ἀμφισβήτησιν, οἷον ἡ 
+A \ 4 A A εξ \ \ 
+κεφαλὴ τινὸς λέγεται κεφαλὴ καὶ ἡ χεὶρ τινὸς 
+Ἀ ~ 
+λέγεται χεὶρ καὶ ἕκαστον τῶν τοιούτων, ὥστε 
+- ~ ; \ 3 “ 
+ταῦτα τῶν πρός τι δόξειεν ἂν εἶναι εἰ μὲν οὖν 
+“- -" 7 ‘ ~ 
+gu ἱκανῶς ὁ τῶν πρός TL ὁρισμὸς ἀποδέδοται, ἡ τῶν 
+
+
+58 
+
+
+CATEGORIES, wi 
+
+
+Perception, further, comes into being along with 
+the subject percer,ing—that 1s, with the live thing 
+itself The perceptible, however, 1s prior to the 
+animal and to perception For such things as wate1 
+and fire, out of which are composed living beings, 
+exist before any such beings and prior to all acts 
+of perception The perceptible, so we conclude, 
+would appear to be prior to perception 
+
+The view that no substance 1s relative—a view that 
+is commonly held—would appear to be open to 
+question Exception, perhaps, should be made in 
+the case of some secondaiy substances Doubtless, 
+the view we refer to holds good of the primary sub- 
+stance, for neither the wholes nor the parts of fist 
+substances ever 816 relative This man or that ox, 
+for example, 1s never defined with a reference to 
+something beyond or outside And the same also 
+holds of then parts Thus a certain hand or hed 1s 
+not said to be a certain hand of someone οἱ othcr, a 
+certain head of someone or other We call them 
+the hand and the head of this specified person 01 that 
+50, too, with the secondary substances, at least with 
+the vast generality Species, ike man,’ ‘ox andso 
+forth, are never defined with a reference to something 
+beyond or outside them Neither 1s ‘wood’ so 
+defined, and, τῇ wood 1s 1.egarded as relative, then 1s 
+it so as a property, belonging to someone or other, and 
+not nits character of wood It 1s evident, then, in 
+such cases that substance can hardly be 1elative 
+Opinions, however, may differ im the case of some 
+secondary substances Thus we define head and 
+‘hand’ in the lhght of the wholes they belong to, 
+and so these might seem to be relative Indeed, it 
+would prove very hard, not to say an rmpossible task, 
+
+
+59 
+
+
+ARISTOTLE 
+
+
+8a “ -~ ‘ ~ Pad f ? ἢ A ~ t 
+πάνυ yarer a. ἡ τῶν ἀδυνάτων ἐστὶ τὸ δεῖξαι ws 
+
+
+Φ , 7 f ~ , λέ 3 δὲ \ 
+οὐδεμία οὐσία τῶν πρός τι λέγεται εἰ δὲ μὴ 
+φ »“" δι " 4 4 f = 4 > > / 
+ἱκανῶς, ἀλλ᾽ ἐστι τὰ πρός τι οἷς TO εἶναι ταὐτόν 
+
+~ 4 e ‘ 
+ἐστι τῶ πρός τί πως ἔχειν, lows av ῥηθείη τι 
+Ὰ 5 “ ¢ 4 a ¢ ῖ om 
+πρὸς αὐτά ὁ δὲ πρότερος ὁρισμὸς παρακολουθεῖ 
+~ nw A f 4 3 ~ 
+30 μὲν πᾶσι τοῖς πρός TL, οὐ μὴν ταὐτόν γέ ἐστι TH 
+a“ 3 Ἁ e 
+πρός TL αὐτοῖς εἶναι TO αὐτὰ arep ἐστὶν ἑτέρων 
+λέγεσθαι 
+5 \ ? ay 2 3 4 >? IDA 
+Ex δὲ τούτων δῆλόν ἐστιν ὅτι ἐάν τις εἰδῆ τι 
+~ A at id 
+ὡρισμένως τῶν πρός TL, κἀκεῖνο πρὸς O λέγεται 
+ὡρισμένως εἰσεται φανερὸν μὲν οὖν καὶ ἐξ αὐτῶν 
+5 f 2 Ἃ ς ; ; , Ψ ~ / 
+ἐστίν εἰ yap οἷδέ τις τόδε τι ὅτι ἔστι τῶν πρός 
+- A ~ 7ὔ 
+δυτι, ἔστι δὲ τὸ εἶναι τοῖς πρός τι ταὐτὸν τῶ πρός 
+Cal > a ~ , 
+τί πως ἔχειν, κἀκεῖνο olde πρὸς ὃ τοῦτό πως ἔχει 
+> ‘) ΜᾺ “ \ “a om Ft “ »ΦῸ 
+εἰ yap οὐκ οἷδεν ὁλως πρὸς ὃ τοῦτό πως ἔχει, οὐδ 
+? 3. κΑ ~ 
+εἰ πρός τί πως ἔχει εἰσεται καὶ ἐπὶ τῶν Kal? 
+ἕκαστα δὲ δῆλον τὸ τοιοῦτον, οἷον τόδε τι εἰ οἶδε 
+5 / / 2} / 4 ,ὔ 
+5 ἀφωρισμένως ὅτι ἔστι διπλάσιον, καὶ ὅτου δι- 
+“4 ; 3 > ‘ > f o > ‘ 
+πλάσιόν ἐστιν εὐθὺς ἀφωρισμένως oldev εἰ yap 
+\ ~ 3 / LO ? i ὃ λ / 
+μηδενὸς τῶν ἀφωρισμένων οἵδεν αὐτὸ διπλάσιον, 
+
+903 29 ros > ἢ a ξ , \ 
+οὐδ᾽ εἰ διπλάσιόν ἐστιν ὅλως οἷδεν woatTws δὲ 
+
+\ LAN 3 ἊΝ f f f > ‘ f 
+καὶ τόδε TL EL οἵδεν OTL KGAALOY ἐστι, καὶ ὅτου 
+
+? ’ 2 52 3 [4 3 ~ 3 
+καἀλλιόν ἐστιν εὐθὺς ἀφωρισμένως ἀναγκαῖον εἰ- 
+
+10 δέναι διὰ ταῦτα οὐκ ἀορίστως δὲ εἰσεται ὅτι 
+
+“ΞΖ + 7 7 ¢ / ‘ δ 
+
+τοῦτό ἐστι χείροιος κάλλιον ὑπόληψις γὰρ τὸ 
+
+
+
+
+
+* There seems to be something wrong here with the test 
+
+
+60 
+
+
+CATEGORIES, τὴ 
+
+
+thus to show that zo substance is relative, if we 
+eoricctly defined what was meant by a relative term 
+On the othe: hand if we were wrong, 1f those things 
+are true relatives only, whose very existence con- 
+cists In their being in some way or other related to 
+some other object, then something, I think, might be 
+sud The former definition applies to al] relatives 
+beyond any doubt, but the fact that a thing 1s 
+explained by a reference to something outside it 1s 
+not the same thing as to say that 1t 1s of neccssity 
+relative @ 
+
+From what we have said thisis plam if a relative 
+is definitely Lnown, that to which it 1s relative also 
+will then be as definitely Lnown What is moire, we 
+mav call this self-evident Provided, that is, that 
+you know a particular thing to be relative, relatives 
+being those objects whose very existence consists in 
+then being in some way or other related to some other 
+thing, then you know what that other thing 1s to 
+which that thing itselfis related Fon 1f you did not 
+know at all that to which 1t 1s somehow ielated, you 
+could not so much as know whether it was οἱ it 
+δὰ ποῦ arelative Take some particula: instances , 
+then will the point be quite clear For suppose that 
+you definitely know a particular thing to be‘ double’, 
+then at once will you definitely know also that thing 
+of which 1t 1s double You cannot know that 1t 1s 
+double zzthout knowing that 1t 15 double of something 
+specific and definte Again, if you definitely hnow 
+a particular thing is more beautiful, at once must 
+you definitely know that than which it 1s reckoned 
+more beautiful Thus you will not vaguely know that 
+puticular thing has more beauty than something 
+possessing less beauty For that would be mere 
+
+
+61 
+
+
+ARISTOTLE 
+
+
+8b 
+~ f ~ 
+τοιοῦτο γίνεται, οὐκ ἐπιστήμη οὐ yap éTt ἀκριβῶς 
+
+
+if co La ΄, 7 2 \ Y 
+εἰσεται OTL ἐστὶ χείρονος κάλλιον εἰ γὰρ οὕτως 
+4 A ~ 7 A 
+ἐτυχεν, οὐδέν ἐστι χεῖρον αὐτοῦ ὥστε φανερὸν 
+-Ψ > ΨᾺ ~ ~ f 
+OTL ἀναγκαῖόν ἐστι, ὃ av εἰδῆ τις τῶν πρός τι 
+3 ᾽ “" 7 3 
+
+ιὸ ἀφωρισμένως, κἀκεῖνο πρὸς ὃ λέγεται ἀφωρι- 
+σμένως εἰδέναι 
+
+‘ / ‘ ‘ ‘ . toy 
+Τὴν δέ γε κεφαλὴν καὶ τὴν χεῖρα Kal ἕκαστον 
+~ \ t > ‘ 
+τῶν τοιούτων, ἅ εἶσιν οὐσίαι, αὐτὸ μὲν ὅπερ ἐστὶν 
+
+ς 7 3 3S 7 δ «“ A 4 ᾽ 
+ὡρισμένως ἔστιν εἰδέναι, πρὸς ὃ δὲ λέγεται, οὐκ 
+3 ~ , ¢ 
+ἀιαγκαῖον τίνος yap αὕτη ἡ κεφαλὴ ἡ Tivos 7 
+
+7 ‘4 \ 
+
+0 χείρ, οὐκ ἔστιν εἰδέναι ὡρισμένως ὥστε οὐκ ἂν 
+t ~ ~ ~ ~ 
+εἴη ταῦτα τῶν πρός TL εἰ δὲ μή ἐστι ταῦτα τῶν 
+
+“ 3 \ 4 ? 4 μά ? , , ΄ 
+πρὸς τι, ἀληθὲς av ein λέγειν ὅτι οὐδεμία οὐσία 
+
+~ id , A \ a 
+τῶν πρός τί ἐστιν ἴσως δὲ χαλεπὸν ὑπὲρ τῶν 
+
+/ ~ 3 id Ἀ / > 
+τοιούτων σφοδρῶς ἀποφαίνεσθαι μὴ πολλάκις ἐπ- 
+¢ / 
+ἐσκεμμένον TO μέντοι διηπορηκέναι ἐφ᾽ ἑκάστου 
+“ > 
+αὐτῶν οὐκ ἄχρηστόν ἐστιν 
+3 \ 
+
+2, ῪΠΙ Wowdrnra δὲ λέγω καθ᾽ ἣν ποιοί τινες 
+= ~ “- 
+εἶναι λέγονται ἔστι δὲ ἡ ποιότης τῶν πλεοναχῶς 
+
+, ~ \ 
+λεγομένων ἕν μὲν οὖν εἶδος ποιότητος ets Kal 
+διάθεσις λεγέσθωσαν διαφέρει δὲ ἕξις διαθέσεως 
+τῶ πολὺ γχρονιώτερον εἶναι καὶ μονιμώτερον 
+τοιαῦται δὲ αἵ τε ἐπιστῆμαι καὶ αἱ ἀρεταί ἡ τε 
+
+> ~ ~ 
+
+80 γὰρ ἐπιστήμη δοκεῖ τῶν παραμονίμων εἶναι Kal 
+
+/ 
+δυσκινήτων, ἐὰν καὶ μετρίως Tis ἐπιστήμην λάβη, 
+
+4 
+ἐάν περ μὴ μεγάλη μεταβολὴ γένηται ὑπὸ νόσου 
+ἢ αλλου τινὸς τοιούτου ὡσαύτως δὲ καὶ ἡ ἀρετή, 
+οἷον ἡ δικαιοσύνη καὶ ἡ σωφροσύνη καὶ ἕκαστον 
+~ , a 
+
+BiT@Y τοιούτων, οὐκ εὐκίνητον δοκεῖ εἶναι οὐδ᾽ 
+
+62 
+
+
+CATEGORIES, wu-vu1 
+
+
+supposition and not really knowledge at all, you 
+would no lenge: certainly know …"
+ https://archive.org/details/in.ernet.dli.2015.185285#:~:text=Skip%20to%20main,Cloth%2015s%20%0A%0A%0A10

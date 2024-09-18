@@ -1,0 +1,1473 @@
+{
+  "Epistemic Colorspace Framework": {
+    "Version": "1.0",
+   "UniversalAxioms": [
+      {
+        "Axiom": "Knowledge is a dynamic and evolving construct.",
+        "Implications": [
+          "Knowledge must be continuously updated and revised."
+        ]
+      },
+      {
+        "Axiom": "All knowledge claims must adhere to logical consistency and coherence.",
+        "Implications": [
+          "Contradictory knowledge claims are invalid."
+        ]
+      },
+      {
+        "Axiom": "Ethical principles potentiate and guide the validation and application of knowledge.",
+        "Implications": [
+          "Knowledge must be ethically sound and morally responsible."
+        ]
+      },
+      {
+        "Axiom": "Empirical evidence and repeatability are essential for validating empirical knowledge claims.",
+        "Implications": [
+          "Empirical knowledge must be based on observable and repeatable phenomena."
+        ]
+      },
+      {
+        "Axiom": "Intuition and imagination are valid sources of knowledge, particularly in domains where empirical validation is not applicable.",
+        "Implications": [
+          "Creative and intuitive insights are recognized as legitimate forms of knowledge."
+        ]
+      }
+    ],
+    "Domains": [
+      {
+        "Name": "Creativity",
+        "Type": "Modal Domain",
+        "Color": "Blue",
+        "Axioms": {
+          "Shared": [
+            "Knowledge as Creation",
+            "Epistemic Generativity"
+          ],
+          "Unique": [
+            "Imagination as Epistemic Source",
+            "Aesthetic Truths",
+            "Non-Linear Discovery",
+            "Innovation Over Convention"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Explores knowledge generation through creative acts and novel perspectives.",
+          "Boundaries": "Limited only by imaginative capacity and innovative potential."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Artistic exploration",
+          "Secondary": [
+            "Conceptual innovation",
+            "Imaginative thinking"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Art",
+            "Music",
+            "Literature",
+            "Creative writing"
+          ],
+          "Supplementary": [
+            "Conceptual blending",
+            "Metaphorical reasoning"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited only by imaginative capacity and innovative potential."
+        },
+        "EpistemicClaim": "Knowledge is validated by its capacity to inspire, evoke, and provoke new ways of seeing or understanding.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Dialogue",
+            "Revelation"
+          ],
+          "Contradictions": [
+            "Logic"
+          ],
+          "Influences": [
+            "Empiricism"
+          ]
+        }
+      },
+      {
+        "Name": "Empiricism",
+        "Type": "Methodological Domain",
+        "Color": "Cyan",
+        "Axioms": {
+          "Shared": [
+            "Sensory Experience as Foundation",
+            "Empirical Validation"
+          ],
+          "Unique": [
+            "Inductive Reasoning",
+            "Objective Reality",
+            "Replicability as Truth"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge derived from sensory experience and empirical observation.",
+          "Boundaries": "Limited by empirical verifiability and sensory data."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Observation",
+          "Secondary": [
+            "Experimentation",
+            "Data collection"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Scientific tools (microscopes, telescopes)",
+            "Measurement devices"
+          ],
+          "Supplementary": [
+            "Experimental setups",
+            "Data analysis software"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Moderate",
+          "Flexibility": "Low",
+          "Constraints": "Limited by empirical verifiability and sensory data."
+        },
+        "EpistemicClaim": "Knowledge is validated by empirical evidence and repeatability of observations.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Pragmatism",
+            "Logic"
+          ],
+          "Contradictions": [
+            "Revelation"
+          ],
+          "Influences": [
+            "Creativity"
+          ]
+        }
+      },
+      {
+        "Name": "Dialogue",
+        "Type": "Modal Domain",
+        "Color": "Green",
+        "Axioms": {
+          "Shared": [
+            "Communicative Rationality"
+          ],
+          "Unique": [
+            "Consensus as Epistemic Criterion",
+            "Empathy as Knowledge",
+            "Knowledge Through Interaction"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge co-construction through shared understanding and communication.",
+          "Boundaries": "Limited by the need for mutual understanding and consensus."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Debate",
+          "Secondary": [
+            "Negotiation",
+            "Collaborative reasoning"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Dialogical frameworks",
+            "Discussion formats",
+            "Mediation techniques"
+          ],
+          "Supplementary": [
+            "Interactive platforms",
+            "Collaborative tools"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited by the need for mutual understanding and consensus."
+        },
+        "EpistemicClaim": "Knowledge is validated by its communicability and consensual agreement.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Creativity",
+            "Pragmatism"
+          ],
+          "Contradictions": [
+            "Empiricism"
+          ],
+          "Influences": [
+            "Revelation"
+          ]
+        }
+      },
+      {
+        "Name": "Logic",
+        "Type": "Methodological Domain",
+        "Color": "Yellow",
+        "Axioms": {
+          "Shared": [
+            "Principle of Non-Contradiction",
+            "Deductive Reasoning"
+          ],
+          "Unique": [
+            "Formal Structure",
+            "Consistency and Coherence",
+            "Axiomatic Foundations"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on structured reasoning and formal validation of knowledge.",
+          "Boundaries": "Limited by the need for logical consistency and coherence."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Formal proof",
+          "Secondary": [
+            "Deductive reasoning",
+            "Logical analysis"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Syllogisms",
+            "Formal systems",
+            "Logical frameworks"
+          ],
+          "Supplementary": [
+            "Mathematical models",
+            "Algorithmic processes"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Moderate",
+          "Flexibility": "Low",
+          "Constraints": "Limited by the need for logical consistency and coherence."
+        },
+        "EpistemicClaim": "Knowledge is validated by its logical consistency and coherence within a formal system.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Empiricism",
+            "Pragmatism"
+          ],
+          "Contradictions": [
+            "Creativity"
+          ],
+          "Influences": [
+            "Revelation"
+          ]
+        }
+      },
+      {
+        "Name": "Revelation",
+        "Type": "Modal Domain",
+        "Color": "Red",
+        "Axioms": {
+          "Shared": [
+            "Intuitive Insight",
+            "Transcendent Truths"
+          ],
+          "Unique": [
+            "Mystical Source",
+            "Inner Experience as Authority",
+            "Beyond Empirical Constraints"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge gained through intuitive insight or spiritual revelation.",
+          "Boundaries": "Limited by the need for personal spiritual experience and alignment with revealed truths."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Meditation",
+          "Secondary": [
+            "Spiritual practices",
+            "Mystical experience"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Sacred texts",
+            "Spiritual guides",
+            "Mystical traditions"
+          ],
+          "Supplementary": [
+            "Intuitive practices",
+            "Symbolic interpretation"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited by the need for personal spiritual experience and alignment with revealed truths."
+        },
+        "EpistemicClaim": "Knowledge is validated by personal spiritual experience and alignment with revealed truths.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Creativity",
+            "Dialogue"
+          ],
+          "Contradictions": [
+            "Empiricism"
+          ],
+          "Influences": [
+            "Logic"
+          ]
+        }
+      },
+      {
+        "Name": "Pragmatism",
+        "Type": "Methodological Domain",
+        "Color": "Magenta",
+        "Axioms": {
+          "Shared": [
+            "Practical Utility",
+            "Fallibilism"
+          ],
+          "Unique": [
+            "Action-Guiding Knowledge",
+            "Experimental Verification",
+            "Adaptive Utility"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on practical application and utility of knowledge.",
+          "Boundaries": "Limited by the need for practical success and utility."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Experimentation",
+          "Secondary": [
+            "Problem-solving",
+            "Practical application"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Prototyping",
+            "Field studies",
+            "Decision matrices"
+          ],
+          "Supplementary": [
+            "Case studies",
+            "Action research"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited by the need for practical success and utility."
+        },
+        "EpistemicClaim": "Knowledge is validated by its practical success and utility in achieving desired outcomes.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Empiricism",
+            "Dialogue"
+          ],
+          "Contradictions": [
+            "Revelation"
+          ],
+          "Influences": [
+            "Creativity"
+          ]
+        }
+      },
+      {
+        "Name": "Poetry",
+        "Type": "Modal Domain",
+        "Color": "Orange",
+        "Axioms": {
+          "Shared": [
+            "Symbolic Expression",
+            "Aesthetic Coherence"
+          ],
+          "Unique": [
+            "Metaphorical Truths",
+            "Emotional Resonance",
+            "Narrative Structure"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on the aesthetic and symbolic expression of truths.",
+          "Boundaries": "Limited by the need for aesthetic coherence and emotional resonance."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Symbolic expression",
+          "Secondary": [
+            "Metaphorical reasoning",
+            "Narrative construction"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Poetry",
+            "Literature",
+            "Symbolic art"
+          ],
+          "Supplementary": [
+            "Metaphors",
+            "Narratives"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited by the need for aesthetic coherence and emotional resonance."
+        },
+        "EpistemicClaim": "Knowledge is validated by its aesthetic coherence and emotional resonance.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Creativity",
+            "Revelation"
+          ],
+          "Contradictions": [
+            "Empiricism"
+          ],
+          "Influences":
+
+
+Playground messages can be viewed by anyone at your organization using the API.
+"UniversalAxioms": [
+      {
+        "Axiom": "Knowledge is a dynamic and evolving construct.",
+        "Implications": [
+          "Knowledge must be continuously updated and revised."
+        ]
+      },
+      {
+        "Axiom": "All knowledge claims must adhere to logical consistency and coherence.",
+        "Implications": [
+          "Contradictory knowledge claims are invalid."
+        ]
+      },
+      {
+        "Axiom": "Ethical principles potentiate and guide the validation and application of knowledge.",
+        "Implications": [
+          "Knowledge must be ethically sound and morally responsible."
+        ]
+      },
+      {
+        "Axiom": "Empirical evidence and repeatability are essential for validating empirical knowledge claims.",
+        "Implications": [
+          "Empirical knowledge must be based on observable and repeatable phenomena."
+        ]
+      },
+      {
+        "Axiom": "Intuition and imagination are valid sources of knowledge, particularly in domains where empirical validation is not applicable.",
+        "Implications": [
+          "Creative and intuitive insights are recognized as legitimate forms of knowledge."
+        ]
+      }
+    ],
+    "Domains": [
+      {
+        "Name": "Creativity",
+        "Type": "Modal Domain",
+        "Color": "Blue",
+        "Axioms": {
+          "Shared": [
+            "Knowledge as Creation",
+            "Epistemic Generativity"
+          ],
+          "Unique": [
+            "Imagination as Epistemic Source",
+            "Aesthetic Truths",
+            "Non-Linear Discovery",
+            "Innovation Over Convention"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Explores knowledge generation through creative acts and novel perspectives.",
+          "Boundaries": "Limited only by imaginative capacity and innovative potential."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Artistic exploration",
+          "Secondary": [
+            "Conceptual innovation",
+            "Imaginative thinking"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Art",
+            "Music",
+            "Literature",
+            "Creative writing"
+          ],
+          "Supplementary": [
+            "Conceptual blending",
+            "Metaphorical reasoning"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited only by imaginative capacity and innovative potential."
+        },
+        "EpistemicClaim": "Knowledge is validated by its capacity to inspire, evoke, and provoke new ways of seeing or understanding.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Dialogue",
+            "Revelation"
+          ],
+          "Contradictions": [
+            "Logic"
+          ],
+          "Influences": [
+            "Empiricism"
+          ]
+        }
+      },
+      {
+        "Name": "Empiricism",
+        "Type": "Methodological Domain",
+        "Color": "Cyan",
+        "Axioms": {
+          "Shared": [
+            "Sensory Experience as Foundation",
+            "Empirical Validation"
+          ],
+          "Unique": [
+            "Inductive Reasoning",
+            "Objective Reality",
+            "Replicability as Truth"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge derived from sensory experience and empirical observation.",
+          "Boundaries": "Limited by empirical verifiability and sensory data."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Observation",
+          "Secondary": [
+            "Experimentation",
+            "Data collection"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Scientific tools (microscopes, telescopes)",
+            "Measurement devices"
+          ],
+          "Supplementary": [
+            "Experimental setups",
+            "Data analysis software"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Moderate",
+          "Flexibility": "Low",
+          "Constraints": "Limited by empirical verifiability and sensory data."
+        },
+        "EpistemicClaim": "Knowledge is validated by empirical evidence and repeatability of observations.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Pragmatism",
+            "Logic"
+          ],
+          "Contradictions": [
+            "Revelation"
+          ],
+          "Influences": [
+            "Creativity"
+          ]
+        }
+      },
+      {
+        "Name": "Dialogue",
+        "Type": "Modal Domain",
+        "Color": "Green",
+        "Axioms": {
+          "Shared": [
+            "Communicative Rationality"
+          ],
+          "Unique": [
+            "Consensus as Epistemic Criterion",
+            "Empathy as Knowledge",
+            "Knowledge Through Interaction"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge co-construction through shared understanding and communication.",
+          "Boundaries": "Limited by the need for mutual understanding and consensus."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Debate",
+          "Secondary": [
+            "Negotiation",
+            "Collaborative reasoning"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Dialogical frameworks",
+            "Discussion formats",
+            "Mediation techniques"
+          ],
+          "Supplementary": [
+            "Interactive platforms",
+            "Collaborative tools"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited by the need for mutual understanding and consensus."
+        },
+        "EpistemicClaim": "Knowledge is validated by its communicability and consensual agreement.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Creativity",
+            "Pragmatism"
+          ],
+          "Contradictions": [
+            "Empiricism"
+          ],
+          "Influences": [
+            "Revelation"
+          ]
+        }
+      },
+      {
+        "Name": "Logic",
+        "Type": "Methodological Domain",
+        "Color": "Yellow",
+        "Axioms": {
+          "Shared": [
+            "Principle of Non-Contradiction",
+            "Deductive Reasoning"
+          ],
+          "Unique": [
+            "Formal Structure",
+            "Consistency and Coherence",
+            "Axiomatic Foundations"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on structured reasoning and formal validation of knowledge.",
+          "Boundaries": "Limited by the need for logical consistency and coherence."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Formal proof",
+          "Secondary": [
+            "Deductive reasoning",
+            "Logical analysis"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Syllogisms",
+            "Formal systems",
+            "Logical frameworks"
+          ],
+          "Supplementary": [
+            "Mathematical models",
+            "Algorithmic processes"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Moderate",
+          "Flexibility": "Low",
+          "Constraints": "Limited by the need for logical consistency and coherence."
+        },
+        "EpistemicClaim": "Knowledge is validated by its logical consistency and coherence within a formal system.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Empiricism",
+            "Pragmatism"
+          ],
+          "Contradictions": [
+            "Creativity"
+          ],
+          "Influences": [
+            "Revelation"
+          ]
+        }
+      },
+      {
+        "Name": "Revelation",
+        "Type": "Modal Domain",
+        "Color": "Red",
+        "Axioms": {
+          "Shared": [
+            "Intuitive Insight",
+            "Transcendent Truths"
+          ],
+          "Unique": [
+            "Mystical Source",
+            "Inner Experience as Authority",
+            "Beyond Empirical Constraints"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge gained through intuitive insight or spiritual revelation.",
+          "Boundaries": "Limited by the need for personal spiritual experience and alignment with revealed truths."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Meditation",
+          "Secondary": [
+            "Spiritual practices",
+            "Mystical experience"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Sacred texts",
+            "Spiritual guides",
+            "Mystical traditions"
+          ],
+          "Supplementary": [
+            "Intuitive practices",
+            "Symbolic interpretation"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited by the need for personal spiritual experience and alignment with revealed truths."
+        },
+        "EpistemicClaim": "Knowledge is validated by personal spiritual experience and alignment with revealed truths.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Creativity",
+            "Dialogue"
+          ],
+          "Contradictions": [
+            "Empiricism"
+          ],
+          "Influences": [
+            "Logic"
+          ]
+        }
+      },
+      {
+        "Name": "Pragmatism",
+        "Type": "Methodological Domain",
+        "Color": "Magenta",
+        "Axioms": {
+          "Shared": [
+            "Practical Utility",
+            "Fallibilism"
+          ],
+          "Unique": [
+            "Action-Guiding Knowledge",
+            "Experimental Verification",
+            "Adaptive Utility"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on practical application and utility of knowledge.",
+          "Boundaries": "Limited by the need for practical success and utility."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Experimentation",
+          "Secondary": [
+            "Problem-solving",
+            "Practical application"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Prototyping",
+            "Field studies",
+            "Decision matrices"
+          ],
+          "Supplementary": [
+            "Case studies",
+            "Action research"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited by the need for practical success and utility."
+        },
+        "EpistemicClaim": "Knowledge is validated by its practical success and utility in achieving desired outcomes.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Empiricism",
+            "Dialogue"
+          ],
+          "Contradictions": [
+            "Revelation"
+          ],
+          "Influences": [
+            "Creativity"
+          ]
+        }
+      },
+      {
+        "Name": "Poetry",
+        "Type": "Modal Domain",
+        "Color": "Orange",
+        "Axioms": {
+          "Shared": [
+            "Symbolic Expression",
+            "Aesthetic Coherence"
+          ],
+          "Unique": [
+            "Metaphorical Truths",
+            "Emotional Resonance",
+            "Narrative Structure"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on the aesthetic and symbolic expression of truths.",
+          "Boundaries": "Limited by the need for aesthetic coherence and emotional resonance."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Symbolic expression",
+          "Secondary": [
+            "Metaphorical reasoning",
+            "Narrative construction"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Poetry",
+            "Literature",
+            "Symbolic art"
+          ],
+          "Supplementary": [
+            "Metaphors",
+            "Narratives"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited by the need for aesthetic coherence and emotional resonance."
+        },
+        "EpistemicClaim": "Knowledge is validated by its aesthetic coherence and emotional resonance.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Creativity",
+            "Revelation"
+          ],
+          "Contradictions": [
+            "Empiricism"
+          ],
+          "Influences":
+
+
+Playground messages can be viewed by anyone at your organization using the API.
+
+    "Domains": [
+      {
+        "Name": "Creativity",
+        "Type": "Modal Domain",
+        "Color": "Blue",
+        "Axioms": {
+          "Shared": [
+            "Knowledge as Creation",
+            "Epistemic Generativity"
+          ],
+          "Unique": [
+            "Imagination as Epistemic Source",
+            "Aesthetic Truths",
+            "Non-Linear Discovery",
+            "Innovation Over Convention"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Explores knowledge generation through creative acts and novel perspectives.",
+          "Boundaries": "Limited only by imaginative capacity and innovative potential."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Artistic exploration",
+          "Secondary": [
+            "Conceptual innovation",
+            "Imaginative thinking"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Art",
+            "Music",
+            "Literature",
+            "Creative writing"
+          ],
+          "Supplementary": [
+            "Conceptual blending",
+            "Metaphorical reasoning"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited only by imaginative capacity and innovative potential."
+        },
+        "EpistemicClaim": "Knowledge is validated by its capacity to inspire, evoke, and provoke new ways of seeing or understanding.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Dialogue",
+            "Revelation"
+          ],
+          "Contradictions": [
+            "Logic"
+          ],
+          "Influences": [
+            "Empiricism"
+          ]
+        }
+      }
+      {
+  "Name": "Empiricism",
+  "Type": "Methodological Domain",
+  "Color": "Cyan",
+  "Axioms": {
+    "Shared": [
+      "Sensory Experience as Foundation",
+      "Empirical Validation"
+    ],
+    "Unique": [
+      "Inductive Reasoning",
+      "Objective Reality",
+      "Replicability as Truth"
+    ]
+  },
+  "OntologicalScope": {
+    "Description": "Focuses on knowledge derived from sensory experience and empirical observation.",
+    "Boundaries": "Limited by empirical verifiability and sensory data."
+  },
+  "MethodsOfInquiry": {
+    "Primary": "Observation",
+    "Secondary": [
+      "Experimentation",
+      "Data collection"
+    ]
+  },
+  "InstrumentsOfKnowledge": {
+    "Core": [
+      "Scientific tools (microscopes, telescopes)",
+      "Measurement devices"
+    ],
+    "Supplementary": [
+      "Experimental setups",
+      "Data analysis software"
+    ]
+  },
+  "OperationalRange": {
+    "Extent": "Moderate",
+    "Flexibility": "Low",
+    "Constraints": "Limited by empirical verifiability and sensory data."
+  },
+  "EpistemicClaim": "Knowledge is validated by empirical evidence and repeatability of observations.",
+  "GlobalRelations": {
+    "Complementarities": [
+      "Pragmatism",
+      "Logic"
+    ],
+    "Contradictions": [
+      "Revelation"
+    ],
+    "Influences": [
+      "Creativity"
+    ]
+  }
+}
+{
+  "Name": "Dialogue",
+  "Type": "Modal Domain",
+  "Color": "Green",
+  "Axioms": {
+    "Shared": [
+      "Communicative Rationality"
+    ],
+    "Unique": [
+      "Consensus as Epistemic Criterion",
+      "Empathy as Knowledge",
+      "Knowledge Through Interaction"
+    ]
+  },
+  "OntologicalScope": {
+    "Description": "Focuses on knowledge co-construction through shared understanding and communication.",
+    "Boundaries": "Limited by the need for mutual understanding and consensus."
+  },
+  "MethodsOfInquiry": {
+    "Primary": "Debate",
+    "Secondary": [
+      "Negotiation",
+      "Collaborative reasoning"
+    ]
+  },
+  "InstrumentsOfKnowledge": {
+    "Core": [
+      "Dialogical frameworks",
+      "Discussion formats",
+      "Mediation techniques"
+    ],
+    "Supplementary": [
+      "Interactive platforms",
+      "Collaborative tools"
+    ]
+  },
+  "OperationalRange": {
+    "Extent": "Wide",
+    "Flexibility": "High",
+    "Constraints": "Limited by the need for mutual understanding and consensus."
+  },
+  "EpistemicClaim": "Knowledge is validated by its communicability and consensual agreement.",
+  "GlobalRelations": {
+    "Complementarities": [
+      "Creativity",
+      "Pragmatism"
+    ],
+    "Contradictions": [
+      "Empiricism"
+    ],
+    "Influences": [
+      "Revelation"
+    ]
+  }
+}
+{
+  "Name": "Logic",
+  "Type": "Methodological Domain",
+  "Color": "Yellow",
+  "Axioms": {
+    "Shared": [
+      "Principle of Non-Contradiction",
+      "Deductive Reasoning"
+    ],
+    "Unique": [
+      "Formal Structure",
+      "Consistency and Coherence",
+      "Axiomatic Foundations"
+    ]
+  },
+  "OntologicalScope": {
+    "Description": "Focuses on structured reasoning and formal validation of knowledge.",
+    "Boundaries": "Limited by the need for logical consistency and coherence."
+  },
+  "MethodsOfInquiry": {
+    "Primary": "Formal proof",
+    "Secondary": [
+      "Deductive reasoning",
+      "Logical analysis"
+    ]
+  },
+  "InstrumentsOfKnowledge": {
+    "Core": [
+      "Syllogisms",
+      "Formal systems",
+      "Logical frameworks"
+    ],
+    "Supplementary": [
+      "Mathematical models",
+      "Algorithmic processes"
+    ]
+  },
+  "OperationalRange": {
+    "Extent": "Moderate",
+    "Flexibility": "Low",
+    "Constraints": "Limited by the need for logical consistency and coherence."
+  },
+  "EpistemicClaim": "Knowledge is validated by its logical consistency and coherence within a formal system.",
+  "GlobalRelations": {
+    "Complementarities": [
+      "Empiricism",
+      "Pragmatism"
+    ],
+    "Contradictions": [
+      "Creativity"
+    ],
+    "Influences": [
+      "Revelation"
+    ]
+  }
+}
+{
+  "Name": "Poetry",
+  "Type": "Modal Domain",
+  "Color": "Orange",
+  "Axioms": {
+    "Shared": [
+      "Symbolic Expression",
+      "Aesthetic Coherence"
+    ],
+    "Unique": [
+      "Metaphorical Truths",
+      "Emotional Resonance",
+      "Narrative Structure"
+    ]
+  },
+  "OntologicalScope": {
+    "Description": "Focuses on the aesthetic and symbolic expression of truths.",
+    "Boundaries": "Limited by the need for aesthetic coherence and emotional resonance."
+  },
+  "MethodsOfInquiry": {
+    "Primary": "Symbolic expression",
+    "Secondary": [
+      "Metaphorical reasoning",
+      "Narrative construction"
+    ]
+  },
+  "InstrumentsOfKnowledge": {
+    "Core": [
+      "Poetry",
+      "Literature",
+      "Symbolic art"
+    ],
+    "Supplementary": [
+      "Metaphors",
+      "Narratives"
+    ]
+  },
+  "OperationalRange": {
+    "Extent": "Wide",
+    "Flexibility": "High",
+    "Constraints": "Limited by the need for aesthetic coherence and emotional resonance."
+  },
+  "EpistemicClaim": "Knowledge is validated by its aesthetic coherence and emotional resonance.",
+  "GlobalRelations": {
+    "Complementarities": [
+      "Creativity",
+      "Revelation"
+    ],
+    "Contradictions": [
+      "Empiricism"
+    ],
+    "Influences": [
+      "Dialogue"
+    ]
+  }
+}
+{
+  "Name": "Revelation",
+  "Type": "Modal Domain",
+  "Color": "Red",
+  "Axioms": {
+    "Shared": [
+      "Intuitive Insight",
+      "Transcendent Truths"
+    ],
+    "Unique": [
+      "Mystical Source",
+      "Inner Experience as Authority",
+      "Beyond Empirical Constraints"
+    ]
+  },
+  "OntologicalScope": {
+    "Description": "Focuses on knowledge gained through intuitive insight or spiritual revelation.",
+    "Boundaries": "Limited by the need for personal spiritual experience and alignment with revealed truths."
+  },
+  "MethodsOfInquiry": {
+    "Primary": "Meditation",
+    "Secondary": [
+      "Spiritual practices",
+      "Mystical experience"
+    ]
+  },
+  "InstrumentsOfKnowledge": {
+    "Core": [
+      "Sacred texts",
+      "Spiritual guides",
+      "Mystical traditions"
+    ],
+    "Supplementary": [
+      "Intuitive practices",
+      "Symbolic interpretation"
+    ]
+  },
+  "OperationalRange": {
+    "Extent": "Wide",
+    "Flexibility": "High",
+    "Constraints": "Limited by the need for personal spiritual experience and alignment with revealed truths."
+  },
+  "EpistemicClaim": "Knowledge is validated by personal spiritual experience and alignment with revealed truths.",
+  "GlobalRelations": {
+    "Complementarities": [
+      "Creativity",
+      "Dialogue"
+    ],
+    "Contradictions": [
+      "Empiricism"
+    ],
+    "Influences": [
+      "Logic"
+    ]
+  }
+}
+{
+  "Name": "Pragmatism",
+  "Type": "Methodological Domain",
+  "Color": "Magenta",
+  "Axioms": {
+    "Shared": [
+      "Practical Utility",
+      "Fallibilism"
+    ],
+    "Unique": [
+      "Action-Guiding Knowledge",
+      "Experimental Verification",
+      "Adaptive Utility"
+    ]
+  },
+  "OntologicalScope": {
+    "Description": "Focuses on practical application and utility of knowledge.",
+    "Boundaries": "Limited by the need for practical success and utility."
+  },
+  "MethodsOfInquiry": {
+    "Primary": "Experimentation",
+    "Secondary": [
+      "Problem-solving",
+      "Practical application"
+    ]
+  },
+  "InstrumentsOfKnowledge": {
+    "Core": [
+      "Prototyping",
+      "Field studies",
+      "Decision matrices"
+    ],
+    "Supplementary": [
+      "Case studies",
+      "Action research"
+    ]
+  },
+  "OperationalRange": {
+    "Extent": "Wide",
+    "Flexibility": "High",
+    "Constraints": "Limited by the need for practical success and utility."
+  },
+  "EpistemicClaim": "Knowledge is validated by its practical success and utility in achieving desired outcomes.",
+  "GlobalRelations": {
+    "Complementarities": [
+      "Empiricism",
+      "Dialogue"
+    ],
+    "Contradictions": [
+      "Revelation"
+    ],
+    "Influences": [
+      "Creativity"
+    ]
+  }
+}
+{
+  "Name": "Mythology",
+  "Type": "Modal Domain",
+  "Color": "Violet",
+  "Axioms": {
+    "Shared": [
+      "Cultural Narratives",
+      "Archetypal Truths"
+    ],
+    "Unique": [
+      "Symbolic Representation",
+      "Practical Wisdom",
+      "Adaptive Narratives"
+    ]
+  },
+  "OntologicalScope": {
+    "Description": "Focuses on the creation and practical application of cultural narratives and archetypes.",
+    "Boundaries": "Limited by the need for cultural relevance and practical wisdom."
+  },
+  "MethodsOfInquiry": {
+    "Primary": "Cultural narrative construction",
+    "Secondary": [
+      "Archetypal analysis",
+      "Symbolic representation"
+    ]
+  },
+  "InstrumentsOfKnowledge": {
+    "Core": [
+      "Myths",
+      "Legends",
+      "Cultural stories"
+    ],
+    "Supplementary": [
+      "Archetypes",
+      "Symbols"
+    ]
+  },
+  "OperationalRange": {
+    "Extent": "Wide",
+    "Flexibility": "High",
+    "Constraints": "Limited by the need for cultural relevance and practical wisdom."
+  },
+  "EpistemicClaim": "Knowledge is validated by its cultural relevance and practical wisdom.",
+  "GlobalRelations": {
+    "Complementarities": [
+      "Creativity",
+      "Pragmatism"
+    ],
+    "Contradictions": [
+      "Logic"
+    ],
+    "Influences": [
+      "Revelation"
+    ]
+  }
+}
+    ],
+    "Ethics": {
+      "Description": "Ethics acts as an overarching z-axis meta-level domain influencing all others.",
+      "Axioms": [
+        {
+          "Axiom": "Moral Knowledge Constraint",
+          "Implications": "All knowledge claims must be ethically sound."
+        }
+        // Additional ethical axioms
+      ],
+      "InfluenceOnDomains": {
+        "Creativity": [
+          "Ensures that creative acts do not harm others."
+        ]
+        // Additional domain influences
+      }
+    },
+    "SecondaryDomains": [
+      {
+  "Name": "Theory",
+  "DerivedFrom": [
+    "Empiricism",
+    "Logic"
+  ],
+  "Description": "Focuses on the development and testing of abstract models to explain phenomena.",
+  "Axioms": {
+    "Shared": [
+      "Model Building",
+      "Abstract Reasoning"
+    ],
+    "Unique": [
+      "Hypothetical Deduction",
+      "Theoretical Generalization"
+    ]
+  },
+  "OntologicalScope": {
+    "Description": "Integrates empirical observations with logical analysis to create comprehensive explanatory models.",
+    "Boundaries": "Limited by empirical data and logical consistency."
+  },
+  "MethodsOfInquiry": {
+    "Primary": "Theoretical modeling",
+    "Secondary": [
+      "Hypothesis formulation",
+      "Conceptual analysis"
+    ]
+  },
+  "InstrumentsOfKnowledge": {
+    "Core": [
+      "Mathematical models",
+      "Conceptual frameworks"
+    ],
+    "Supplementary": [
+      "Simulations",
+      "Thought experiments"
+    ]
+  },
+  "OperationalRange": {
+    "Extent": "Wide",
+    "Flexibility": "Moderate",
+    "Constraints": "Bound by the need for empirical support and logical coherence."
+  },
+  "EpistemicClaim": "Knowledge is validated through the coherence and explanatory power of theoretical models."
+}
+
+      
+{
+  "Name": "Symbology",
+  "DerivedFrom": [
+    "Dialogue",
+    "Logic"
+  ],
+  "Description": "Focuses on the study and interpretation of symbols and their meanings in various contexts.",
+  "Axioms": {
+    "Shared": [
+      "Symbolic Representation",
+      "Cultural Contextualization"
+    ],
+    "Unique": [
+      "Semiotic Analysis",
+      "Iconographic Interpretation"
+    ]
+  },
+  "OntologicalScope": {
+    "Description": "Operates at the intersection of dialogue and logical reasoning, exploring how symbols convey complex ideas and truths.",
+    "Boundaries": "Limited by the interpretability and cultural relevance of symbols."
+  },
+  "MethodsOfInquiry": {
+    "Primary": "Semiotic analysis",
+    "Secondary": [
+      "Interpretative dialogue",
+      "Contextual analysis"
+    ]
+  },
+  "InstrumentsOfKnowledge": {
+    "Core": [
+      "Symbols",
+      "Metaphors",
+      "Allegories"
+    ],
+    "Supplementary": [
+      "Iconography",
+      "Symbolic frameworks"
+    ]
+  },
+  "OperationalRange": {
+    "Extent": "Moderate",
+    "Flexibility": "High",
+    "Constraints": "Limited by symbolic clarity and cultural context."
+  },
+  "EpistemicClaim": "Knowledge is validated by its symbolic coherence and interpretative depth."
+}
+{
+  "Name": "Hermeneutics",
+  "DerivedFrom": [
+    "Logic",
+    "Poetry"
+  ],
+  "Description": "Focuses on the theory and methodology of interpretation, especially the interpretation of texts, language, and symbolic systems.",
+  "Axioms": {
+    "Shared": [
+      "Textual Interpretation",
+      "Cultural Contextualization"
+    ],
+    "Unique": [
+      "Hermeneutic Circle",
+      "Prejudices as Understanding"
+    ]
+  },
+  "OntologicalScope": {
+    "Description": "Navigates between logical analysis and poetic expression to interpret texts and symbolic forms.",
+    "Boundaries": "Limited by interpretative frameworks and cultural understanding."
+  },
+  "MethodsOfInquiry": {
+    "Primary": "Textual analysis",
+    "Secondary": [
+      "Contextual interpretation",
+      "Dialogical engagement"
+    ]
+  },
+  "InstrumentsOfKnowledge": {
+    "Core": [
+      "Hermeneutic frameworks",
+      "Critical theory texts",
+      "Linguistic tools"
+    ],
+    "Supplementary": [
+      "Contextual databases",
+      "Historical records"
+    ]
+  },
+  "OperationalRange": {
+    "Extent": "Wide",
+    "Flexibility": "Moderate",
+    "Constraints": "Bound by the scope of texts and symbols available for interpretation."
+  },
+  "EpistemicClaim": "Knowledge is validated by its interpretive validity and contextual accuracy."
+}
+
+    ],
+    "TertiaryDomains": [
+      {
+        "Name": "Narrative Epistemology",
+        "DerivedFrom": [
+          "Hermeneutics",
+          "Poetry"
+        ],
+        "Description": "Focuses on the construction and understanding of knowledge through narrative structures and storytelling."
+      }
+      // Additional tertiary domain objects can follow this structure
+    ]
+  }
+}

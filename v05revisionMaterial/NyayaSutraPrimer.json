@@ -1,0 +1,524 @@
+[
+  {
+  "Nyaya Sutras": {
+    "Inference (Anumāna)": {
+      "Definition": "Inference(x) ↔ ∃y,z (Premise(y) ∧ Conclusion(z) ∧ DerivedFrom(y, z))",
+      "Types of Inference": {
+        "Positive Inference (Pūrvavat)": {
+          "Definition": "PositiveInference(x) ↔ ∃y (Cause(y) ∧ EffectFollows(x, y))"
+        },
+        "Negative Inference (Śeṣavat)": {
+          "Definition": "NegativeInference(x) ↔ ∃y (AbsenceOfCause(y) ∧ AbsenceOfEffect(x, y))"
+        },
+        "Common Example Inference (Sāmānyato-dṛṣṭa)": {
+          "Definition": "CommonExampleInference(x) ↔ ∃y (InferenceBasedOnGeneralExperience(y) ∧ AppliesToNewInstance(x, y))"
+        }
+      },
+      "Components of Inference": {
+        "Hetu (Reason)": {
+          "Definition": "Reason(x) ↔ ∃y (GroundForInference(y) ∧ SupportsConclusion(x, y))"
+        },
+        "Vyāpti (Invariable Concomitance)": {
+          "Definition": "InvariableConcomitance(x) ↔ ∃y (Reason(y) ∧ InvariableRelationBetweenCauseAndEffect(x, y))"
+        },
+        "Pakṣa (Proposition)": {
+          "Definition": "Proposition(x) ↔ ∃y (StatementOfInference(y) ∧ SubjectOfInference(x, y))"
+        }
+      }
+    }
+  }
+  {
+  "Nyaya Sutras": {
+    "Verbal Testimony (Śabda)": {
+      "Definition": "Testimony(x) ↔ ReliableVerbalStatement(x, Source(y))",
+      "Requirements for Valid Testimony": {
+        "Definition": "ValidTestimony(x) ↔ ∃y (Statement(y) ∧ TruthfulSource(x, y) ∧ CompetenceOfSpeaker(x))"
+      },
+      "Types of Testimony": {
+        "Vedic Testimony": {
+          "Definition": "VedicTestimony(x) ↔ Testimony(x) ∧ RevealedThroughVedas(x)"
+        },
+        "Non-Vedic Testimony": {
+          "Definition": "NonVedicTestimony(x) ↔ Testimony(x) ∧ BasedOnHumanSource(x)"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Analogy (Upamāna)": {
+      "Definition": "Analogy(x) ↔ KnowledgeByComparison(x, ComparisonBase(y))",
+      "Requirements for Valid Analogy": {
+        "Definition": "ValidAnalogy(x) ↔ ∃y (KnownObject(y) ∧ SimilarityToUnknown(x, y) ∧ CorrectComparison(x))"
+      },
+      "Process of Analogy": {
+        "Definition": "ProcessOfAnalogy(x) ↔ ∃y (ObjectKnown(y) ∧ ObjectUnknown(z) ∧ Comparison(y, z))"
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Non-Existence (Abhāva)": {
+      "Definition": "NonExistence(x) ↔ NegationOfExistence(x)",
+      "Types of Non-Existence": {
+        "Prior Non-Existence (Prāgabhāva)": {
+          "Definition": "PriorNonExistence(x) ↔ NonExistenceBeforeCreation(x)"
+        },
+        "Destructional Non-Existence (Pradhvaṃsābhāva)": {
+          "Definition": "DestructionalNonExistence(x) ↔ NonExistenceAfterDestruction(x)"
+        },
+        "Mutual Non-Existence (Anyonyābhāva)": {
+          "Definition": "MutualNonExistence(x) ↔ NegationOfMutualRelationBetweenEntities(x)"
+        },
+        "Absolute Non-Existence (Atyantābhāva)": {
+          "Definition": "AbsoluteNonExistence(x) ↔ NonExistenceAtAllTimesAndPlaces(x)"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Doubt (Saṃśaya)": {
+      "Definition": "Doubt(x) ↔ ∃y,z (ConflictBetweenPerception(y) ∧ Inference(z) ∧ Indeterminacy(x))",
+      "Conditions for Doubt": {
+        "Contradictory Evidence": {
+          "Definition": "ContradictoryEvidence(x) ↔ ∃y,z (Evidence(y) ∧ Evidence(z) ∧ OppositeConclusions(y, z))"
+        },
+        "Similarity": {
+          "Definition": "Similarity(x) ↔ ∃y (ResemblanceToMultipleEntities(x, y))"
+        },
+        "Uncertainty of Perception": {
+          "Definition": "Uncertainty(x) ↔ ∃y (AmbiguousPerception(x, y))"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Purpose (Prayojana)": {
+      "Definition": "Purpose(x) ↔ ∃y (DesiredEnd(y) ∧ MotivationForAction(x, y))",
+      "Types of Purpose": {
+        "Immediate Purpose": {
+          "Definition": "ImmediatePurpose(x) ↔ Purpose(x) ∧ ∃y (ImmediateAction(y) ∧ LeadsToEnd(x, y))"
+        },
+        "Ultimate Purpose": {
+          "Definition": "UltimatePurpose(x) ↔ Purpose(x) ∧ ∃y (FinalGoal(y) ∧ LeadsToEnd(x, y))"
+        }
+      },
+      "Conditions for Action": {
+        "Motivation": {
+          "Definition": "Motivation(x) ↔ ∃y (Purpose(y) ∧ InspiresAction(x, y))"
+        },
+        "Effort": {
+          "Definition": "Effort(x) ↔ ∃y (Action(y) ∧ StrivingForEnd(x, y))"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Certainty (Nirṇaya)": {
+      "Definition": "Certainty(x) ↔ ∃y (Reasoning(y) ∧ EliminationOfDoubt(x, y))",
+      "Conditions for Certainty": {
+        "Absence of Doubt": {
+          "Definition": "AbsenceOfDoubt(x) ↔ ¬Doubt(x)"
+        },
+        "Correct Inference": {
+          "Definition": "CorrectInference(x) ↔ ∃y (Inference(y) ∧ LeadsToTruth(x, y))"
+        },
+        "Consistency": {
+          "Definition": "Consistency(x) ↔ ∃y (MultipleSources(y) ∧ NoContradiction(x, y))"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Debate (Vāda)": {
+      "Definition": "Debate(x) ↔ RationalDiscussionToDiscoverTruth(x)",
+      "Forms of Debate": {
+        "Productive Debate (Vāda)": {
+          "Definition": "ProductiveDebate(x) ↔ Debate(x) ∧ ∃y (ObjectiveOfTruth(y) ∧ AimedAtMutualUnderstanding(x, y))"
+        },
+        "Destructive Debate (Jalpa)": {
+          "Definition": "DestructiveDebate(x) ↔ Debate(x) ∧ ∃y (ObjectiveOfVictory(y) ∧ AimedAtOvercomingOpponent(x, y))"
+        },
+        "Sophistical Reasoning (Vitandā)": {
+          "Definition": "SophisticalReasoning(x) ↔ Debate(x) ∧ ∃y (ObjectiveOfDefeatingOpponentWithoutProvingOwnThesis(y) ∧ AimedAtDefeatingOpponent(x, y))"
+        }
+      },
+      "Components of Debate": {
+        "Thesis (Pratijñā)": {
+          "Definition": "Thesis(x) ↔ StatementOfPosition(x)"
+        },
+        "Reason (Hetu)": {
+          "Definition": "Reason(x) ↔ JustificationForThesis(x)"
+        },
+        "Example (Udāharaṇa)": {
+          "Definition": "Example(x) ↔ IllustrationOfReason(x)"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Fallacious Reasoning (Hetvābhāsa)": {
+      "Definition": "FallaciousReasoning(x) ↔ ArgumentAppearsValidButIsIncorrect(x)",
+      "Types of Fallacious Reasoning": {
+        "Unproven Reason (Asiddha)": {
+          "Definition": "UnprovenReason(x) ↔ Reason(x) ∧ NotEstablished(x)"
+        },
+        "Contradictory Reason (Viruddha)": {
+          "Definition": "ContradictoryReason(x) ↔ Reason(x) ∧ ContradictsConclusion(x)"
+        },
+        "Irrelevant Reason (Anaikāntika)": {
+          "Definition": "IrrelevantReason(x) ↔ Reason(x) ∧ DoesNotNecessarilyLeadToConclusion(x)"
+        },
+        "Circular Reasoning (Prakaraṇa-sama)": {
+          "Definition": "CircularReasoning(x) ↔ Reason(x) ∧ ConclusionDependsOnReason(x)"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Causality (Kārya-Kāraṇa Bhāva)": {
+      "Definition": "Causality(x) ↔ ∃y (Cause(y) ∧ Effect(x) ∧ RelationshipBetween(x, y))",
+      "Types of Causes": {
+        "Inherent Cause (Samavāyi)": {
+          "Definition": "InherentCause(x) ↔ ∃y (Cause(x) ∧ SubstanceInheresInEffect(y, x))"
+        },
+        "Non-Inherent Cause (Asamavāyi)": {
+          "Definition": "NonInherentCause(x) ↔ ∃y (Cause(x) ∧ QualityOrActionProducesEffect(y, x))"
+        },
+        "Efficient Cause (Nimitta)": {
+          "Definition": "EfficientCause(x) ↔ ∃y (Cause(x) ∧ ExternalAgentProducesEffect(y, x))"
+        }
+      },
+      "Conditions for Causality": {
+        "Necessary Cause": {
+          "Definition": "NecessaryCause(x) ↔ Cause(x) ∧ EffectCannotOccurWithout(x)"
+        },
+        "Sufficient Cause": {
+          "Definition": "SufficientCause(x) ↔ Cause(x) ∧ AloneCapableOfProducingEffect(x)"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Epistemic Validity (Prāmāṇya)": {
+      "Definition": "EpistemicValidity(x) ↔ Knowledge(x) ∧ ∃y (MeansOfKnowledgeValid(y) ∧ NoContradiction(x, y))",
+      "Types of Valid Knowledge": {
+        "Intrinsic Validity (Svataḥ Prāmāṇya)": {
+          "Definition": "IntrinsicValidity(x) ↔ Knowledge(x) ∧ ValidByItsOwnNature(x)"
+        },
+        "Extrinsic Validity (Parataḥ Prāmāṇya)": {
+          "Definition": "ExtrinsicValidity(x) ↔ Knowledge(x) ∧ ValidatedByExternalMeans(x)"
+        }
+      },
+      "Conditions for Valid Knowledge": {
+        "Non-Contradiction": {
+          "Definition": "NonContradiction(x) ↔ ∀y (Knowledge(x) ∧ Knowledge(y) → ¬Contradictory(x, y))"
+        },
+        "Competent Source": {
+          "Definition": "CompetentSource(x) ↔ ∃y (Knowledge(x) ∧ ReliableSource(y) ∧ KnowledgeFromSource(x, y))"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Doubt Removal (Saṃśaya Nivṛtti)": {
+      "Definition": "DoubtRemoval(x) ↔ ∃y (Doubt(y) ∧ Reasoning(x) ∧ ResolutionOfConflict(x, y))",
+      "Conditions for Doubt Removal": {
+        "Clear Evidence": {
+          "Definition": "ClearEvidence(x) ↔ ∃y (Perception(y) ∧ Inference(x) ∧ SupportsConclusion(x, y))"
+        },
+        "Consistency": {
+          "Definition": "Consistency(x) ↔ ∀y (Perception(y) ∧ Inference(x) → NoContradiction(x, y))"
+        },
+        "Reliable Testimony": {
+          "Definition": "ReliableTestimony(x) ↔ ∃y (Testimony(y) ∧ CompetentSource(x, y))"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Liberation (Mokṣa)": {
+      "Definition": "Liberation(x) ↔ ∃y (CessationOfSuffering(y) ∧ DetachmentFromWorldlyDesires(x, y))",
+      "Conditions for Liberation": {
+        "Right Knowledge": {
+          "Definition": "RightKnowledge(x) ↔ ∃y (TrueUnderstanding(y) ∧ LeadsToLiberation(x, y))"
+        },
+        "Detachment": {
+          "Definition": "Detachment(x) ↔ ∃y (Dispassion(y) ∧ RenunciationOfDesires(x, y))"
+        },
+        "Cessation of Suffering": {
+          "Definition": "CessationOfSuffering(x) ↔ ∃y (RemovalOfIgnorance(y) ∧ EndOfPain(x, y))"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Error (Bhrama)": {
+      "Definition": "Error(x) ↔ MistakenPerceptionOrInference(x)",
+      "Causes of Error": {
+        "Defective Senses": {
+          "Definition": "DefectiveSenses(x) ↔ ∃y (SenseOrgan(y) ∧ ImpairedFunction(x, y))"
+        },
+        "Incorrect Inference": {
+          "Definition": "IncorrectInference(x) ↔ ∃y (Inference(y) ∧ FalsePremise(x, y))"
+        },
+        "Misleading Testimony": {
+          "Definition": "MisleadingTestimony(x) ↔ ∃y (Testimony(y) ∧ UnreliableSource(x, y))"
+        }
+      },
+      "Conditions for Correcting Error": {
+        "Correct Perception": {
+          "Definition": "CorrectPerception(x) ↔ ∃y (Perception(y) ∧ ProperFunctionOfSenses(x, y))"
+        },
+        "Valid Inference": {
+          "Definition": "ValidInference(x) ↔ ∃y (Inference(y) ∧ TruePremise(x, y))"
+        },
+        "Reliable Testimony": {
+          "Definition": "ReliableTestimony(x) ↔ ∃y (Testimony(y) ∧ CompetentSource(x, y))"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Soul (Ātman)": {
+      "Definition": "Soul(x) ↔ EternalConsciousEntity(x)",
+      "Characteristics of the Soul": {
+        "Consciousness": {
+          "Definition": "Consciousness(x) ↔ ∃y (Awareness(y) ∧ PossessedBySoul(x, y))"
+        },
+        "Eternity": {
+          "Definition": "Eternity(x) ↔ Soul(x) ∧ ∃y (AlwaysExists(x, y))"
+        },
+        "Agency": {
+          "Definition": "Agency(x) ↔ ∃y (Action(y) ∧ CausedBySoul(x, y))"
+        }
+      },
+      "Relation to the Body": {
+        "Definition": "RelationToBody(x) ↔ ∃y (Body(y) ∧ Soul(x) ∧ DependentOnBodyForExperience(x, y))"
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Memory (Smṛti)": {
+      "Definition": "Memory(x) ↔ RetentionOfPastPerceptionOrExperience(x)",
+      "Causes of Memory": {
+        "Past Experience": {
+          "Definition": "PastExperience(x) ↔ ∃y (PerceptionOrInference(y) ∧ PreviouslyExperienced(x, y))"
+        },
+        "Impressions": {
+          "Definition": "Impressions(x) ↔ ∃y (MentalImpression(y) ∧ RetainedInMind(x, y))"
+        }
+      },
+      "Conditions for Accurate Memory": {
+        "Clear Impressions": {
+          "Definition": "ClearImpressions(x) ↔ ∃y (Impressions(y) ∧ NotDistorted(x, y))"
+        },
+        "No Forgetfulness": {
+          "Definition": "NoForgetfulness(x) ↔ ¬Forgetting(x)"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Time (Kāla)": {
+      "Definition": "Time(x) ↔ UniversalConditionForChangeAndDuration(x)",
+      "Characteristics of Time": {
+        "Eternity": {
+          "Definition": "Eternity(x) ↔ Time(x) ∧ AlwaysExists(x)"
+        },
+        "Continuity": {
+          "Definition": "Continuity(x) ↔ Time(x) ∧ UninterruptedFlow(x)"
+        }
+      },
+      "Relation to Change": {
+        "Definition": "RelationToChange(x) ↔ ∃y (Change(y) ∧ Time(x) ∧ MeasuredByTime(y, x))"
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Space (Ākāśa)": {
+      "Definition": "Space(x) ↔ InfiniteAndAll-PervadingEntity(x)",
+      "Properties of Space": {
+        "Eternal": {
+          "Definition": "Eternal(x) ↔ Space(x) ∧ ExistsAtAllTimes(x)"
+        },
+        "Non-Physical": {
+          "Definition": "NonPhysical(x) ↔ Space(x) ∧ NotPerceivableBySenses(x)"
+        }
+      },
+      "Relation to Objects": {
+        "Definition": "RelationToObjects(x) ↔ ∃y (Object(y) ∧ Space(x) ∧ ProvidesLocationForObjects(x, y))"
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Mind (Manas)": {
+      "Definition": "Mind(x) ↔ InternalOrganOfCognition(x)",
+      "Properties of Mind": {
+        "Atomic Nature": {
+          "Definition": "AtomicNature(x) ↔ Mind(x) ∧ IndivisibleAndSubtle(x)"
+        },
+        "Non-Simultaneity": {
+          "Definition": "NonSimultaneity(x) ↔ Mind(x) ∧ CanOnlyPerceiveOneObjectAtATime(x)"
+        }
+      },
+      "Relation to Cognition": {
+        "Definition": "RelationToCognition(x) ↔ ∃y (Cognition(y) ∧ Mind(x) ∧ CognitionIsFacilitatedByMind(x, y))"
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Qualities (Guṇa)": {
+      "Definition": "Quality(x) ↔ AttributeThatInheresInSubstance(x)",
+      "Types of Qualities": {
+        "Color": {
+          "Definition": "Color(x) ↔ Quality(x) ∧ ∃y (VisibleToSenses(y) ∧ PerceivedAsColor(x, y))"
+        },
+        "Taste": {
+          "Definition": "Taste(x) ↔ Quality(x) ∧ ∃y (PerceivedThroughTasteSensation(y) ∧ DetectedAsTaste(x, y))"
+        },
+        "Smell": {
+          "Definition": "Smell(x) ↔ Quality(x) ∧ ∃y (PerceivedThroughSmell(y) ∧ DetectedAsSmell(x, y))"
+        },
+        "Touch": {
+          "Definition": "Touch(x) ↔ Quality(x) ∧ ∃y (PerceivedThroughTouch(y) ∧ DetectedAsTexture(x, y))"
+        },
+        "Sound": {
+          "Definition": "Sound(x) ↔ Quality(x) ∧ ∃y (PerceivedThroughHearing(y) ∧ DetectedAsSound(x, y))"
+        }
+      },
+      "Relation to Substance": {
+        "Definition": "RelationToSubstance(x) ↔ ∃y (Substance(y) ∧ Quality(x) ∧ InheresInSubstance(x, y))"
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Universals (Sāmānya)": {
+      "Definition": "Universal(x) ↔ CommonAttributeThatAppliesToMultipleObjects(x)",
+      "Types of Universals": {
+        "Higher Universals": {
+          "Definition": "HigherUniversal(x) ↔ Universal(x) ∧ AppliesToBroaderCategory(x)"
+        },
+        "Lower Universals": {
+          "Definition": "LowerUniversal(x) ↔ Universal(x) ∧ AppliesToMoreSpecificCategory(x)"
+        }
+      },
+      "Relation to Particulars": {
+        "Definition": "RelationToParticulars(x) ↔ ∃y (Particular(y) ∧ Universal(x) ∧ CommonAttributePresentInParticular(x, y))"
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Particularity (Viśeṣa)": {
+      "Definition": "Particularity(x) ↔ UniqueCharacteristicThatDistinguishesAnEntity(x)",
+      "Types of Particulars": {
+        "Atoms": {
+          "Definition": "Atom(x) ↔ Particular(x) ∧ ∃y (IndivisibleSubstance(y) ∧ AtomIsTheSmallestUnit(x, y))"
+        },
+        "Individual Souls": {
+          "Definition": "IndividualSoul(x) ↔ Particular(x) ∧ ∃y (Soul(y) ∧ UniqueToEachBeing(x, y))"
+        }
+      },
+      "Relation to Universals": {
+        "Definition": "RelationToUniversals(x) ↔ ∃y (Universal(y) ∧ Particular(x) ∧ DistinguishedByParticularity(x, y))"
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Inherence (Samavāya)": {
+      "Definition": "Inherence(x) ↔ RelationThatPermanentlyBindsDifferentEntities(x)",
+      "Types of Inherence": {
+        "Quality in Substance": {
+          "Definition": "QualityInSubstance(x) ↔ ∃y (Quality(y) ∧ Substance(z) ∧ InheresIn(y, z))"
+        },
+        "Action in Substance": {
+          "Definition": "ActionInSubstance(x) ↔ ∃y (Action(y) ∧ Substance(z) ∧ InheresIn(y, z))"
+        },
+        "Part in Whole": {
+          "Definition": "PartInWhole(x) ↔ ∃y (Part(y) ∧ Whole(z) ∧ InheresIn(y, z))"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Pleasure and Pain (Sukha-Duḥkha)": {
+      "Definition": "PleasureAndPain(x) ↔ ∃y (ExperienceOfSoul(y) ∧ PerceivedAsPleasureOrPain(x, y))",
+      "Causes of Pleasure and Pain": {
+        "Attachment to Objects": {
+          "Definition": "AttachmentToObjects(x) ↔ ∃y (Object(y) ∧ DesireOrAversion(x, y))"
+        },
+        "External Conditions": {
+          "Definition": "ExternalConditions(x) ↔ ∃y (ExternalWorld(y) ∧ CausesPleasureOrPain(x, y))"
+        },
+        "Karma": {
+          "Definition": "Karma(x) ↔ ∃y (PastActions(y) ∧ DeterminesPleasureOrPain(x, y))"
+        }
+      }
+    }
+  }
+}
+{
+  "Nyaya Sutras": {
+    "Action (Karma)": {
+      "Definition": "Action(x) ↔ DeedOrActivityPerformedByAnEntity(x)",
+      "Types of Actions": {
+        "Physical Actions": {
+          "Definition": "PhysicalAction(x) ↔ Action(x) ∧ ∃y (Body(y) ∧ PerformedThroughPhysicalMovement(x, y))"
+        },
+        "Mental Actions": {
+          "Definition": "MentalAction(x) ↔ Action(x) ∧ ∃y (Mind(y) ∧ PerformedThroughMentalEffort(x, y))"
+        }
+      },
+      "Consequences of Actions": {
+        "Definition": "Consequences(x) ↔ ∃y (FutureState(y) ∧ DeterminedByAction(x, y))"
+      },
+      "Role in Rebirth": {
+        "Definition": "RoleInRebirth(x) ↔ ∃y (Karma(y) ∧ DeterminesNextLife(x, y))"
+      }
+    }
+  }
+}
+}
+  ]
