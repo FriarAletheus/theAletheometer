@@ -1,0 +1,58 @@
+[
+  {
+    "Operator": "Temporal Coherence (Ψ)",
+    "Symbol": "Ψ",
+    "Propositional_Logic_Formulation": "Ψ(E1, E2, ..., En, W) → ∃t1, t2, ..., tn ((E1(t1) ∧ E2(t2) ∧ ... ∧ En(tn)) ∧ Coherent(t1, t2, ..., tn, W))",
+    "Epistemological_Grounding": "Ensures events maintain a consistent narrative within a single timeline or world W.",
+    "Justification": "Coherence ensures the temporal sequence of events forms a consistent narrative, maintaining epistemic reliability within a given world W."
+  },
+  {
+    "Operator": "Causal Influence (Γ)",
+    "Symbol": "Γ",
+    "Propositional_Logic_Formulation": "Γ(E1(t1) → E2(t2), W) → ∃t1, t2 (t1 < t2 ∧ E1(t1) ∧ E2(t2) ∧ CausalLink(E1, E2, W))",
+    "Epistemological_Grounding": "Represents the causal influence of one event on another within the same world or timeline.",
+    "Justification": "Causal influence is necessary to establish the connection between cause and effect, ensuring events are epistemically valid within the logical structure of world W."
+  },
+  {
+    "Operator": "Presence (𝓟)",
+    "Symbol": "𝓟",
+    "Propositional_Logic_Formulation": "𝓟(E, W) → ∃t (E(t) ∧ ∀t' (|t - t'| < ε → Current(t', W)))",
+    "Epistemological_Grounding": "Represents the immediate or 'now' moment of an event E in world W.",
+    "Justification": "Presence captures the epistemic immediacy of an event, reflecting the concept of the 'now' moment as essential for temporally indexed propositions about reality."
+  },
+  {
+    "Operator": "Temporal Ordering (𝓕)",
+    "Symbol": "𝓕",
+    "Propositional_Logic_Formulation": "𝓕(E1, E2, W) → ∃t1, t2 (t1 < t2 ∧ E1(t1) ∧ E2(t2) ∧ W)",
+    "Epistemological_Grounding": "Represents the temporal order of events E1 and E2 in world W.",
+    "Justification": "Temporal ordering reflects the epistemic necessity of understanding the sequence of events, ensuring logical consistency in the framework."
+  },
+  {
+    "Operator": "Periodicity (𝓒)",
+    "Symbol": "𝓒",
+    "Propositional_Logic_Formulation": "𝓒(E, P, W) → ∀t ∃n∈ℤ (E(t) ↔ E(t + nP) ∧ W)",
+    "Epistemological_Grounding": "Represents a cyclical or recurring event E with period P in world W.",
+    "Justification": "Periodicity captures the epistemic concept of regularity and recurrence, essential for understanding cyclical patterns in reality."
+  },
+  {
+    "Operator": "Feedback Loop (τ)",
+    "Symbol": "τ",
+    "Propositional_Logic_Formulation": "τ(E1, E2, W) → ∃t1, t2, t3, t4 (t1 < t2 < t3 < t4 ∧ E1(t1) ∧ E2(t2) ∧ E1(t3) ∧ E2(t4) ∧ CausalLink(E1, E2, W) ∧ CausalLink(E2, E1, W))",
+    "Epistemological_Grounding": "Represents the cyclical influence between events E1 and E2 within a single world or timeline.",
+    "Justification": "Feedback loop formalizes the epistemic concept of cyclical causation, crucial for understanding systems with repeating interactions."
+  },
+  {
+    "Operator": "Quantum Superposition (Σ)",
+    "Symbol": "Σ",
+    "Propositional_Logic_Formulation": "Σ(E1, E2, ..., En, W) → ∃t ∀i (Probability(Ei(t), W) = pi ∧ ∑pi = 1)",
+    "Epistemological_Grounding": "Represents quantum superposition of mutually exclusive events at a given time t in world W.",
+    "Justification": "Quantum superposition captures the epistemic concept of potentiality and uncertainty, aligning with the principles of quantum mechanics."
+  },
+  {
+    "Operator": "Observer-Dependent Reality (Ω)",
+    "Symbol": "Ω",
+    "Propositional_Logic_Formulation": "Ω(E, O, W) → ∃t (E(t, W) ↔ Observe(O, E, t, W))",
+    "Epistemological_Grounding": "Represents the dependency of event E on observer O at time t in world W.",
+    "Justification": "Observer-dependent reality reflects the epistemic principle that reality is often contingent upon the observer's perspective, crucial in quantum mechanics and phenomenology."
+  }
+]

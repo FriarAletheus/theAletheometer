@@ -1,0 +1,84 @@
+{
+  "book": "Anatomy of the Spirit",
+  "author": "Caroline Myss",
+  "sections": [
+    {
+      "title": "Preface: Becoming Medically Intuitive",
+      "notation": "∀t ∈ T, ∃e ∈ E : I(t) ⊕ e → ∇P(t+1) \n∴ ◊(∫I dt) ≡ ∑(e1...en) ⇒ Ω \n⟨⟨past||present⟩⟩ ⊃ {∅ → ∞} \n□(∀x : ¬Φx → ◊Φx) ⇔ ΔS \n∴ (α ∧ ω) ≢ (α ∨ ω), but (α ⇔ ω)"
+    },
+    {
+      "title": "Introduction: A Brief Personal History",
+      "notation": "∀t ∈ T, ∃e ∈ E : I(t) ⊕ e → ∇P(t+1) \n∴ ◊(∫I dt) ≡ ∑(e1...en) ⇒ Ω \n⟨⟨past||present⟩⟩ ⊃ {∅ → ∞} \n□(∀x : ¬Φx → ◊Φx) ⇔ ΔS \n∴ (α ∧ ω) ≢ (α ∨ ω), but (α ⇔ ω)"
+    },
+    {
+      "title": "Part I: A New Language of the Spirit",
+      "subsections": [
+        {
+          "title": "Energy Medicine and Intuition",
+          "notation": "ℰ ≅ ℐ ⊢ Δℋ \n∀x ∈ 𝕏 : (𝔹(x) ⇒ ℰ(x)) ∧ (ℰ(x) ⇒ ℐ(x)) \nℰ(t) = ∫₀ᵗ 𝔻(τ) dτ \n∴ ◊(ℰ₁ ∩ ℰ₂ ∩ ... ∩ ℰₙ) ⇔ Ψ \n∀d ∈ 𝔻 : (d ⊕ φ) ∨ (d ⊕ ϕ) \n∴ lim(t→∞) ∑(d ⊕ ϕ) → ∞ \n   lim(t→∞) ∑(d ⊕ φ) → -∞"
+        },
+        {
+          "title": "Made in the Image of God",
+          "notation": "∃G : ∀h ∈ H, h ≅ G \n∴ ∀c ∈ C : c ⊂ G ∧ c ⊂ h \nΨ(h) = ∏ᵢ₌₁⁷ cᵢ \n∀r ∈ R : r ≡ ∃c ∈ C \n∴ (J ∩ C ∩ H) ≢ ∅ \n∀t ∈ T : t ↔ ∃s ∈ S \n∴ lim(t→∞) ∑(∫ᵗ s dt) → Ω"
+        }
+      ]
+    },
+    {
+      "title": "Part II: The Seven Sacred Truths",
+      "subsections": [
+        {
+          "title": "The First Chakra: Tribal Power",
+          "notation": "∀i ∈ I : i ⊂ T ∧ T ⊂ Φ \n∴ ∃f : I → T, ∀i,j ∈ I : f(i) = f(j) ⇒ i ≈ j \nλx.∃y(Bxy ∧ ∀z(Bxz → z = y)) \n∀a ∈ A : ◊(a ⊕ T) ⇒ ΔS"
+        },
+        {
+          "title": "The Second Chakra: The Power of Relationships",
+          "notation": "∀r ∈ R : r = (i₁, i₂) ∧ i₁ ≠ i₂ \n∃e : R → ℰ, ∀r ∈ R : e(r) > 0 ∨ e(r) < 0 \n∴ ∑ᵣ e(r) ⇒ ΔP \n∀c ∈ C : c = f(r₁, r₂, ..., rₙ)"
+        },
+        {
+          "title": "The Third Chakra: Personal Power",
+          "notation": "∃s : I → S, ∀i ∈ I : s(i) ∈ ℝ \n∴ ∀a ∈ A : ◊(a) = f(s(i)) \n∃w : I → W, ∀i ∈ I : w(i) = ∑ᵗ s(i,t) \nlim(s→∞) ∏(a₁, a₂, ..., aₙ) → Ω"
+        },
+        {
+          "title": "The Fourth Chakra: Emotional Power",
+          "notation": "∀e ∈ E : e ⇔ ∃ℓ ∈ L \n∴ ∫ℓ dt = ∑ₑ |e| \n∀f ∈ F : f → ∞ℓ \n∃h : E × L → H \nlim(ℓ→∞) ∏(h₁, h₂, ..., hₙ) → Ψ"
+        },
+        {
+          "title": "The Fifth Chakra: The Power of Will",
+          "notation": "∀w ∈ W : w = i ⊕ d \n∃g : W → G, ∀w ∈ W : g(w) ∈ {0, 1} \n∴ ∑ᵂ g(w) ⇒ ΔΦ \nlim(d→1) ∏(w₁, w₂, ..., wₙ) → Ω"
+        },
+        {
+          "title": "The Sixth Chakra: The Power of the Mind",
+          "notation": "∀t ∈ T : t = ρ ⊕ ι \n∃m : T → M, ∀t ∈ T : m(t) ∈ ℂ \n∴ ∫(ρ + ι) dt = Ψ \nlim(ι→∞) ∑(t₁, t₂, ..., tₙ) → Ω"
+        },
+        {
+          "title": "The Seventh Chakra: Our Spiritual Connector",
+          "notation": "∀s ∈ S : s ≅ ∃g ∈ G \n∃c : S × G → C, ∀s ∈ S, ∀g ∈ G : c(s,g) ∈ [0, 1] \n∴ lim(c→1) s → g \n∀m ∈ M : m = f(c) \nlim(t→∞) ∏(c₁, c₂, ..., cₙ) → Ω"
+        }
+      ]
+    },
+    {
+      "title": "Afterword: A Guide for the Contemporary Mystic",
+      "notation": "∀m ∈ M : m = ∫(ℰ ⊕ ℐ ⊕ Ψ) dt \n∴ ◊(m) ⇔ ∑⁷ᵢ₌₁ τᵢ \n∀x ∈ X : x ⊂ Φ ∧ Φ ⊂ x \n∴ ∀x,y ∈ X : x ∩ y ≢ ∅ \n∃s : R → S, ∀r ∈ R : s(r) ∈ Σ \n∴ lim(t→∞) ∏(s₁, s₂, ..., sₙ) → Ω \n∀c ∈ C : c = f(ℰ₁, ℰ₂, ..., ℰ₇) \n∃e : C → ℰ, ∀c ∈ C : e(c) ∈ ℝ \n∴ ∑ᶜ e(c) ⇒ ΔΨ \n∀d ∈ D : d = g(τ₁, τ₂, ..., τ₇) \n∃a : D → A, ∀d ∈ D : a(d) ∈ {-1, 0, 1} \n∴ lim(t→∞) ∑(a₁, a₂, ..., aₙ) → Φ \n∀m ∈ M : m = ∑⁷ᵢ₌₁ ∫ cᵢ dt \n∃h : M → H, ∀m ∈ M : h(m) > 0 \n∴ lim(t→∞) ∏(m₁, m₂, ..., mₙ) → Ω \n∀l ∈ L : l = f(ℰ, ℐ, Ψ, Φ) \n∃s : L → S, ∀l ∈ L : s(l) ∈ [0, 1] \n∴ lim(t→∞) ∫ s(l) dl → 1"
+    }
+  ],
+  "constellation": {
+  "works": [
+    {
+      "title": "Anatomy of the Spirit",
+      "author": "Caroline Myss",
+      "category": "Energy Medicine"
+    },
+    {
+      "title": "On the Spiritual in Art",
+      "author": "Wassily Kandinsky",
+      "category": "Art and Spirituality"
+    },
+    {
+      "title": "In Search of the Miraculous",
+      "author": "P.D. Ouspensky",
+      "category": "Esoteric Spirituality"
+    }
+  ],
+  "notation": "Let Ω = {A, S, O} \n∀ω ∈ Ω : ω = ∫(ι ⊕ ψ ⊕ φ) dt \n∃f : Ω → F, ∀ω ∈ Ω : f(ω) ∈ ℂ \n∴ A ∩ S ∩ O ≢ ∅ \nlim(t→∞) ∑(A, S, O) → Θ \n∀x ∈ X : ∃ω ∈ Ω, x ≈ ω"
+67  }
+}

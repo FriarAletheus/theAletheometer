@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://www.aletheometer.org/ontology#"
+     xml:base="http://www.aletheometer.org/ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <!-- Ontology Definition -->
+    <owl:Ontology rdf:about="http://www.aletheometer.org/ontology">
+        <rdfs:label>Unified Ontology for Philosophical Calculator and Aletheometer</rdfs:label>
+        <rdfs:comment>This ontology integrates both the Philosophical Calculator and the Aletheometer with a dynamic switch mechanism that references external files for operations.</rdfs:comment>
+    </owl:Ontology>
+
+    <!-- Core Classes from Philosophical Calculator -->
+    <root_classes>
+  <class name="Fundamentals">
+    <description>Core principles and concepts that form the basis of understanding across domains</description>
+  </class>
+  <class name="Universals">
+    <description>Concepts or properties that are applicable or present in all instances of a given category</description>
+  </class>
+  <class name="Essentials">
+    <description>Indispensable elements or qualities that define the nature of something</description>
+  </class>
+  <class name="Accidentals">
+    <description>Properties or attributes that are not essential to the nature of something, but may be present in particular instances</description>
+  </class>
+</root_classes>
+    <Declaration>
+        <Class rdf:about="#SymbolicEntity"/>
+        <rdfs:comment>Represents abstract symbols or concepts with multiple interpretations.</rdfs:comment>
+    </Declaration>
+    <Declaration>
+        <Class rdf:about="#EpistemicEntity"/>
+        <rdfs:comment>Refers to entities concerned with knowledge and its structures.</rdfs:comment>
+    </Declaration>
+    <Declaration>
+        <Class rdf:about="#CognitiveProcess"/>
+        <rdfs:comment>Processes involved in the acquisition and manipulation of knowledge.</rdfs:comment>
+    </Declaration>
+
+    <!-- Object Properties for Philosophical Calculator -->
+    <Declaration>
+        <ObjectProperty rdf:about="#hasRelation"/>
+        <rdfs:comment>Defines relations between symbolic entities.</rdfs:comment>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty rdf:about="#invokesSwitch"/>
+        <rdfs:comment>Triggers ontology switching based on contextual analysis.</rdfs:comment>
+    </Declaration>
+
+    <!-- Property Domains and Ranges for Philosophical Calculator -->
+    <ObjectPropertyDomain>
+        <ObjectProperty rdf:about="#hasRelation"/>
+        <Class rdf:resource="#SymbolicEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty rdf:about="#hasRelation"/>
+        <Class rdf:resource="#EpistemicEntity"/>
+    </ObjectPropertyRange>
+
+    <ObjectPropertyDomain>
+        <ObjectProperty rdf:about="#invokesSwitch"/>
+        <Class rdf:resource="#CognitiveProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty rdf:about="#invokesSwitch"/>
+        <Class rdf:resource="#Ontology"/>
+    </ObjectPropertyRange>
+
+    <!-- Aletheometer Core Classes -->
+
+
+    <!-- Core Classes from Philosophical Calculator -->
+    <owl:Class rdf:about="#SymbolicEntity">
+        <rdfs:comment>Represents abstract symbols or concepts with multiple interpretations.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="#EpistemicEntity">
+        <rdfs:comment>Refers to entities concerned with knowledge and its structures.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="#CognitiveProcess">
+        <rdfs:comment>Processes involved in the acquisition and manipulation of knowledge.</rdfs:comment>
+    </owl:Class>
+
+    <!-- Core Classes from Aletheometer -->
+    <owl:Class rdf:about="#OrderOfReality">
+        <rdfs:comment>A conceptual framework for understanding different planes of existence or dimensions of reality.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="#ShadowOrder">
+        <rdfs:subClassOf rdf:resource="#OrderOfReality"/>
+        <rdfs:comment>The realm of potential forms and unrealized possibilities.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="#QuantumOrder">
+        <rdfs:subClassOf rdf:resource="#OrderOfReality"/>
+        <rdfs:comment>The sub-material realm governed by quantum phenomena.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="#MaterialOrder">
+        <rdfs:subClassOf rdf:resource="#OrderOfReality"/>
+        <rdfs:comment>The physical, tangible realm where quantum potentials are realized.</rdfs:comment>
+    </owl:Class>
+     <owl:Class rdf:about="#EtherealOrder">
+        <rdfs:subClassOf rdf:resource="#OrderOfReality"/>
+        <rdfs:comment>The subtle realm beyond the physical, associated with energy and vitality.</rdfs:comment>
+    </owl:Class>
+    
+    <owl:Class rdf:about="#AstralOrder">
+        <rdfs:subClassOf rdf:resource="#OrderOfReality"/>
+        <rdfs:comment>The realm of consciousness, emotions, and mental projections.</rdfs:comment>
+    </owl:Class>
+    
+    <owl:Class rdf:about="#CelestialOrder">
+        <rdfs:subClassOf rdf:resource="#OrderOfReality"/>
+        <rdfs:comment>The highest spiritual realm, associated with divine or cosmic consciousness.</rdfs:comment>
+    </owl:Class>
+    <!-- Ontological Switch Mechanism -->
+    <owl:Class rdf:about="#OntologicalSwitch">
+        <rdfs:label>Ontological Switch</rdfs:label>
+        <rdfs:comment>A control mechanism to deploy or employ specific ontological modules based on context.</rdfs:comment>
+    </owl:Class>
+
+    <!-- Object Properties -->
+    <owl:ObjectProperty rdf:about="#hasRelation">
+        <rdfs:comment>Defines relations between symbolic entities.</rdfs:comment>
+        <rdfs:domain rdf:resource="#SymbolicEntity"/>
+        <rdfs:range rdf:resource="#EpistemicEntity"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="#invokesSwitch">
+        <rdfs:comment>Triggers ontology switching based on contextual analysis.</rdfs:comment>
+        <rdfs:domain rdf:resource="#CognitiveProcess"/>
+        <rdfs:range rdf:resource="#OntologicalSwitch"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="#engagesModule">
+        <rdfs:domain rdf:resource="#OntologicalSwitch"/>
+        <rdfs:range rdf:resource="#OntologicalModule"/>
+        <rdfs:label>engagesModule</rdfs:label>
+        <rdfs:comment>Relates the ontological switch to the modules it can engage.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <!-- Ontological Modules -->
+    <owl:NamedIndividual rdf:about="#GeneralOntologyModule">
+        <rdf:type rdf:resource="#OntologicalModule"/>
+        <rdfs:label>General Ontology Module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="general_ontology.json"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#SPEMOModule">
+        <rdf:type rdf:resource="#OntologicalModule"/>
+        <rdfs:label>SPEMO Ontology Module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="SPEMO_ontology.json"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#KnotsModule">
+        <rdf:type rdf:resource="#OntologicalModule"/>
+        <rdfs:label>Knots Module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="knots.json"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#OTSIA_Module">
+        <rdf:type rdf:resource="#OntologicalModule"/>
+        <rdfs:label>On the Spiritual in Art Module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="otsia.json"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#PoeticLogicModule">
+        <rdf:type rdf:resource="#OntologicalModule"/>
+        <rdfs:label>Poetic Logic Module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="poeticLogic.json"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#OrganonPrimerModule">
+        <rdf:type rdf:resource="#OntologicalModule"/>
+        <rdfs:label>Organon Primer Module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="OrganonPrimer.json"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#NyayaSutraModule">
+        <rdf:type rdf:resource="#OntologicalModule"/>
+        <rdfs:label>Nyaya Sutra Primer Module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="NyayaSutraPrimer.json"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#MoziPrimerModule">
+        <rdf:type rdf:resource="#OntologicalModule"/>
+        <rdfs:label>Mozi Primer Module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="MoziPrimer.json"/>
+    </owl:NamedIndividual>
+
+    <!-- Ontological Switch Instance -->
+    <owl:NamedIndividual rdf:about="#MainOntologicalSwitch">
+        <rdf:type rdf:resource="#OntologicalSwitch"/>
+        <rdfs:label>Main Ontological Switch</rdfs:label>
+        <engagesModule rdf:resource="#GeneralOntologyModule"/>
+        <engagesModule rdf:resource="#SPEMOModule"/>
+        <engagesModule rdf:resource="#KnotsModule"/>
+        <engagesModule rdf:resource="#OTSIA_Module"/>
+        <engagesModule rdf:resource="#PoeticLogicModule"/>
+        <engagesModule rdf:resource="#OrganonPrimerModule"/>
+        <engagesModule rdf:resource="#NyayaSutraModule"/>
+        <engagesModule rdf:resource="#MoziPrimerModule"/>
+    </owl:NamedIndividual>
+
+    <!-- File References Management -->
+    <owl:NamedIndividual rdf:about="#FileReferences">
+        <rdf:type rdf:resource="#OntologicalModule"/>
+        <rdfs:label>File Reference Management</rdfs:label>
+        <rdfs:comment>Manages the connection to external files that inform the Aletheometer and Philosophical Calculator ontology.</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="general_ontology.json"/>
+        <rdfs:seeAlso rdf:resource="SPEMO_ontology.json"/>
+        <rdfs:seeAlso rdf:resource="knots.json"/>
+        <rdfs:seeAlso rdf:resource="otsia.json"/>
+        <rdfs:seeAlso rdf:resource="poeticLogic.json"/>
+        <rdfs:seeAlso rdf:resource="OrganonPrimer.json"/>
+        <rdfs:seeAlso rdf:resource="NyayaSutraPrimer.json"/>
+        <rdfs:seeAlso rdf:resource="MoziPrimer.json"/>
+    </owl:NamedIndividual>
+
+</rdf:RDF>
+
+
+    <!-- Object Properties for Aletheometer -->
+    <Declaration>
+        <ObjectProperty rdf:about="#mapsToDimension"/>
+        <rdfs:comment>Relates each order of reality to its corresponding dimension in the colorwheel.json structure.</rdfs:comment>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty rdf:about="#hasBody"/>
+        <rdfs:comment>Associates each order of reality with its respective body.</rdfs:comment>
+    </Declaration>
+
+    <!-- Ontological Self-Understanding for Aletheometer -->
+    <Declaration>
+        <Class rdf:about="#AletheometerSelfUnderstanding"/>
+        <rdfs:comment>A meta-class that represents the Aletheometer's capability to self-interpret and understand its own ontology and processes of discovery.</rdfs:comment>
+        <ObjectProperty rdf:about="#understands" rdf:resource="#OrderOfReality"/>
+        <ObjectProperty rdf:about="#interactsWith" rdf:resource="colorwheel:ColorMapping"/>
+    </Declaration>
+
+    
+
+    <!-- Final Reference for Integration with Colorwheel Dimensions -->
+    <owl:ObjectProperty rdf:about="#integratesWithColorwheel">
+        <rdfs:domain rdf:resource="#OrderOfReality"/>
+        <rdfs:range rdf:resource="colorwheel:Dimension"/>
+        <rdfs:label>integratesWithColorwheel</rdfs:label>
+        <rdfs:comment>Maps the orders of reality to dimensions within the colorwheel.json structure.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <!-- Additional Class and Property Definitions -->
+    <owl:Class rdf:about="#DynamicReasoning">
+        <rdfs:label>Dynamic Reasoning</rdfs:label>
+        <rdfs:comment>Represents reasoning processes that engage multiple ontologies based on contextual triggers.</rdfs:comment>
+    </owl:Class>
+
+    <owl:ObjectProperty rdf:about="#engagesDynamicReasoning">
+        <rdfs:domain rdf:resource="#CognitiveProcess"/>
+        <rdfs:range rdf:resource="#DynamicReasoning"/>
+        <rdfs:label>engagesDynamicReasoning</rdfs:label>
+        <rdfs:comment>Engages a dynamic reasoning process when multiple ontologies need to be integrated.</rdfs:comment>
+    </owl:ObjectProperty>
+
+</rdf:RDF>

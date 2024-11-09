@@ -1,0 +1,233 @@
+{
+    "ontology": {
+      "@id": "http://www.aletheometer.org/ontology",
+      "label": "Unified Ontology for Philosophical Calculator and Aletheometer",
+      "comment": "This ontology integrates both the Philosophical Calculator and the Aletheometer with a dynamic switch mechanism that references external files for operations."
+    },
+    "root_classes": [
+      {
+        "name": "Fundamentals",
+        "description": "Core principles and concepts that form the basis of understanding across domains"
+      },
+      {
+        "name": "Universals",
+        "description": "Concepts or properties that are applicable or present in all instances of a given category"
+      },
+      {
+        "name": "Essentials",
+        "description": "Indispensable elements or qualities that define the nature of something"
+      },
+      {
+        "name": "Accidentals",
+        "description": "Properties or attributes that are not essential to the nature of something, but may be present in particular instances"
+      }
+    ],
+    "classes": [
+      {
+        "@id": "#SymbolicEntity",
+        "type": "Class",
+        "comment": "Represents abstract symbols or concepts with multiple interpretations."
+      },
+      {
+        "@id": "#EpistemicEntity",
+        "type": "Class",
+        "comment": "Refers to entities concerned with knowledge and its structures."
+      },
+      {
+        "@id": "#CognitiveProcess",
+        "type": "Class",
+        "comment": "Processes involved in the acquisition and manipulation of knowledge."
+      },
+      {
+        "@id": "#OrderOfReality",
+        "type": "Class",
+        "comment": "A conceptual framework for understanding different planes of existence or dimensions of reality."
+      },
+      {
+        "@id": "#ShadowOrder",
+        "type": "Class",
+        "subClassOf": "#OrderOfReality",
+        "comment": "The realm of potential forms and unrealized possibilities."
+      },
+      {
+        "@id": "#QuantumOrder",
+        "type": "Class",
+        "subClassOf": "#OrderOfReality",
+        "comment": "The sub-material realm governed by quantum phenomena."
+      },
+      {
+        "@id": "#MaterialOrder",
+        "type": "Class",
+        "subClassOf": "#OrderOfReality",
+        "comment": "The physical, tangible realm where quantum potentials are realized."
+      },
+      {
+        "@id": "#EtherealOrder",
+        "type": "Class",
+        "subClassOf": "#OrderOfReality",
+        "comment": "The subtle realm beyond the physical, associated with energy and vitality."
+      },
+      {
+        "@id": "#AstralOrder",
+        "type": "Class",
+        "subClassOf": "#OrderOfReality",
+        "comment": "The realm of consciousness, emotions, and mental projections."
+      },
+      {
+        "@id": "#CelestialOrder",
+        "type": "Class",
+        "subClassOf": "#OrderOfReality",
+        "comment": "The highest spiritual realm, associated with divine or cosmic consciousness."
+      },
+      {
+        "@id": "#OntologicalSwitch",
+        "type": "Class",
+        "label": "Ontological Switch",
+        "comment": "A control mechanism to deploy or employ specific ontological modules based on context."
+      },
+      {
+        "@id": "#AletheometerSelfUnderstanding",
+        "type": "Class",
+        "comment": "A meta-class that represents the Aletheometer's capability to self-interpret and understand its own ontology and processes of discovery.",
+        "objectProperties": {
+          "understands": {
+            "range": "#OrderOfReality"
+          },
+          "interactsWith": {
+            "range": "colorwheel:ColorMapping"
+          }
+        }
+      },
+      {
+        "@id": "#DynamicReasoning",
+        "type": "Class",
+        "label": "Dynamic Reasoning",
+        "comment": "Represents reasoning processes that engage multiple ontologies based on contextual triggers."
+      }
+    ],
+    "objectProperties": [
+      {
+        "@id": "#hasRelation",
+        "comment": "Defines relations between symbolic entities.",
+        "domain": "#SymbolicEntity",
+        "range": "#EpistemicEntity"
+      },
+      {
+        "@id": "#invokesSwitch",
+        "comment": "Triggers ontology switching based on contextual analysis.",
+        "domain": "#CognitiveProcess",
+        "range": "#OntologicalSwitch"
+      },
+      {
+        "@id": "#engagesModule",
+        "domain": "#OntologicalSwitch",
+        "range": "#OntologicalModule",
+        "label": "engagesModule",
+        "comment": "Relates the ontological switch to the modules it can engage."
+      },
+      {
+        "@id": "#mapsToDimension",
+        "comment": "Relates each order of reality to its corresponding dimension in the colorwheel.json structure."
+      },
+      {
+        "@id": "#hasBody",
+        "comment": "Associates each order of reality with its respective body."
+      },
+      {
+        "@id": "#integratesWithColorwheel",
+        "domain": "#OrderOfReality",
+        "range": "colorwheel:Dimension",
+        "label": "integratesWithColorwheel",
+        "comment": "Maps the orders of reality to dimensions within the colorwheel.json structure."
+      },
+      {
+        "@id": "#engagesDynamicReasoning",
+        "domain": "#CognitiveProcess",
+        "range": "#DynamicReasoning",
+        "label": "engagesDynamicReasoning",
+        "comment": "Engages a dynamic reasoning process when multiple ontologies need to be integrated."
+      }
+    ],
+    "individuals": [
+      {
+        "@id": "#GeneralOntologyModule",
+        "type": "#OntologicalModule",
+        "label": "General Ontology Module",
+        "seeAlso": "general_ontology.json"
+      },
+      {
+        "@id": "#SPEMOModule",
+        "type": "#OntologicalModule",
+        "label": "SPEMO Ontology Module",
+        "seeAlso": "SPEMO_ontology.json"
+      },
+      {
+        "@id": "#KnotsModule",
+        "type": "#OntologicalModule",
+        "label": "Knots Module",
+        "seeAlso": "knots.json"
+      },
+      {
+        "@id": "#OTSIA_Module",
+        "type": "#OntologicalModule",
+        "label": "On the Spiritual in Art Module",
+        "seeAlso": "otsia.json"
+      },
+      {
+        "@id": "#PoeticLogicModule",
+        "type": "#OntologicalModule",
+        "label": "Poetic Logic Module",
+        "seeAlso": "poeticLogic.json"
+      },
+      {
+        "@id": "#OrganonPrimerModule",
+        "type": "#OntologicalModule",
+        "label": "Organon Primer Module",
+        "seeAlso": "OrganonPrimer.json"
+      },
+      {
+        "@id": "#NyayaSutraModule",
+        "type": "#OntologicalModule",
+        "label": "Nyaya Sutra Primer Module",
+        "seeAlso": "NyayaSutraPrimer.json"
+      },
+      {
+        "@id": "#MoziPrimerModule",
+        "type": "#OntologicalModule",
+        "label": "Mozi Primer Module",
+        "seeAlso": "MoziPrimer.json"
+      },
+      {
+        "@id": "#MainOntologicalSwitch",
+        "type": "#OntologicalSwitch",
+        "label": "Main Ontological Switch",
+        "engagesModule": [
+          "#GeneralOntologyModule",
+          "#SPEMOModule",
+          "#KnotsModule",
+          "#OTSIA_Module",
+          "#PoeticLogicModule",
+          "#OrganonPrimerModule",
+          "#NyayaSutraModule",
+          "#MoziPrimerModule"
+        ]
+      },
+      {
+        "@id": "#FileReferences",
+        "type": "#OntologicalModule",
+        "label": "File Reference Management",
+        "comment": "Manages the connection to external files that inform the Aletheometer and Philosophical Calculator ontology.",
+        "seeAlso": [
+          "general_ontology.json",
+          "SPEMO_ontology.json",
+          "knots.json",
+          "otsia.json",
+          "poeticLogic.json",
+          "OrganonPrimer.json",
+          "NyayaSutraPrimer.json",
+          "MoziPrimer.json"
+        ]
+      }
+    ]
+  }
+  

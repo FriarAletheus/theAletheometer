@@ -1,233 +1,388 @@
 {
-    "ontology": {
-      "@id": "http://www.aletheometer.org/ontology",
-      "label": "Unified Ontology for Philosophical Calculator and Aletheometer",
-      "comment": "This ontology integrates both the Philosophical Calculator and the Aletheometer with a dynamic switch mechanism that references external files for operations."
+    "@context": {
+        "@vocab": "http://www.aletheometer.org/ontology#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "EpistemicColorSpace": "http://www.aletheometer.org/EpistemicColorSpace#"
     },
-    "root_classes": [
-      {
-        "name": "Fundamentals",
-        "description": "Core principles and concepts that form the basis of understanding across domains"
-      },
-      {
-        "name": "Universals",
-        "description": "Concepts or properties that are applicable or present in all instances of a given category"
-      },
-      {
-        "name": "Essentials",
-        "description": "Indispensable elements or qualities that define the nature of something"
-      },
-      {
-        "name": "Accidentals",
-        "description": "Properties or attributes that are not essential to the nature of something, but may be present in particular instances"
-      }
-    ],
-    "classes": [
-      {
-        "@id": "#SymbolicEntity",
-        "type": "Class",
-        "comment": "Represents abstract symbols or concepts with multiple interpretations."
-      },
-      {
-        "@id": "#EpistemicEntity",
-        "type": "Class",
-        "comment": "Refers to entities concerned with knowledge and its structures."
-      },
-      {
-        "@id": "#CognitiveProcess",
-        "type": "Class",
-        "comment": "Processes involved in the acquisition and manipulation of knowledge."
-      },
-      {
-        "@id": "#OrderOfReality",
-        "type": "Class",
-        "comment": "A conceptual framework for understanding different planes of existence or dimensions of reality."
-      },
-      {
-        "@id": "#ShadowOrder",
-        "type": "Class",
-        "subClassOf": "#OrderOfReality",
-        "comment": "The realm of potential forms and unrealized possibilities."
-      },
-      {
-        "@id": "#QuantumOrder",
-        "type": "Class",
-        "subClassOf": "#OrderOfReality",
-        "comment": "The sub-material realm governed by quantum phenomena."
-      },
-      {
-        "@id": "#MaterialOrder",
-        "type": "Class",
-        "subClassOf": "#OrderOfReality",
-        "comment": "The physical, tangible realm where quantum potentials are realized."
-      },
-      {
-        "@id": "#EtherealOrder",
-        "type": "Class",
-        "subClassOf": "#OrderOfReality",
-        "comment": "The subtle realm beyond the physical, associated with energy and vitality."
-      },
-      {
-        "@id": "#AstralOrder",
-        "type": "Class",
-        "subClassOf": "#OrderOfReality",
-        "comment": "The realm of consciousness, emotions, and mental projections."
-      },
-      {
-        "@id": "#CelestialOrder",
-        "type": "Class",
-        "subClassOf": "#OrderOfReality",
-        "comment": "The highest spiritual realm, associated with divine or cosmic consciousness."
-      },
-      {
-        "@id": "#OntologicalSwitch",
-        "type": "Class",
-        "label": "Ontological Switch",
-        "comment": "A control mechanism to deploy or employ specific ontological modules based on context."
-      },
-      {
-        "@id": "#AletheometerSelfUnderstanding",
-        "type": "Class",
-        "comment": "A meta-class that represents the Aletheometer's capability to self-interpret and understand its own ontology and processes of discovery.",
-        "objectProperties": {
-          "understands": {
-            "range": "#OrderOfReality"
-          },
-          "interactsWith": {
-            "range": "colorwheel:ColorMapping"
-          }
+    "@graph": [
+        {
+            "@id": "http://www.aletheometer.org/ontology",
+            "@type": "owl:Ontology",
+            "rdfs:label": "Unified Ontology for Aletheometer",
+            "rdfs:comment": "This ontology integrates the Aletheometer with a dynamic switch mechanism that references external files for operations. SPEMO has been integrated, and its separate reference has been removed."
+        },
+        {
+            "@id": "Fundamentals",
+            "@type": "owl:Class",
+            "rdfs:comment": "Core principles and concepts that form the basis of understanding across domains."
+        },
+        {
+            "@id": "Universals",
+            "@type": "owl:Class",
+            "rdfs:comment": "Concepts or properties that are applicable or present in all instances of a given category."
+        },
+        {
+            "@id": "Essentials",
+            "@type": "owl:Class",
+            "rdfs:comment": "Indispensable elements or qualities that define the nature of something."
+        },
+        {
+            "@id": "Accidentals",
+            "@type": "owl:Class",
+            "rdfs:comment": "Properties or attributes that are not essential to the nature of something but may be present in particular instances."
+        },
+        {
+            "@id": "SymbolicEntity",
+            "@type": "owl:Class",
+            "rdfs:comment": "Represents abstract symbols or concepts with multiple interpretations."
+        },
+        {
+            "@id": "EpistemicEntity",
+            "@type": "owl:Class",
+            "rdfs:comment": "Refers to entities concerned with knowledge and its structures."
+        },
+        {
+            "@id": "CognitiveProcess",
+            "@type": "owl:Class",
+            "rdfs:comment": "Processes involved in the acquisition and manipulation of knowledge."
+        },
+        {
+            "@id": "OrderOfReality",
+            "@type": "owl:Class",
+            "rdfs:comment": "A conceptual framework for understanding different planes of existence or dimensions of reality."
+        },
+        {
+            "@id": "VirtualOrder",
+            "@type": "owl:Class",
+            "rdfs:subClassOf": {
+                "@id": "OrderOfReality"
+            },
+            "rdfs:comment": "The realm of potential forms and unrealized possibilities, previously known as the Shadow Order."
+        },
+        {
+            "@id": "QuantumOrder",
+            "@type": "owl:Class",
+            "rdfs:subClassOf": {
+                "@id": "OrderOfReality"
+            },
+            "rdfs:comment": "The sub-material realm governed by quantum phenomena."
+        },
+        {
+            "@id": "MaterialOrder",
+            "@type": "owl:Class",
+            "rdfs:subClassOf": {
+                "@id": "OrderOfReality"
+            },
+            "rdfs:comment": "The physical, tangible realm where quantum potentials are realized."
+        },
+        {
+            "@id": "EtherealOrder",
+            "@type": "owl:Class",
+            "rdfs:subClassOf": {
+                "@id": "OrderOfReality"
+            },
+            "rdfs:comment": "The subtle realm beyond the physical, associated with energy and vitality."
+        },
+        {
+            "@id": "AstralOrder",
+            "@type": "owl:Class",
+            "rdfs:subClassOf": {
+                "@id": "OrderOfReality"
+            },
+            "rdfs:comment": "The realm of consciousness, emotions, and mental projections."
+        },
+        {
+            "@id": "CelestialOrder",
+            "@type": "owl:Class",
+            "rdfs:subClassOf": {
+                "@id": "OrderOfReality"
+            },
+            "rdfs:comment": "The highest spiritual realm, associated with divine or cosmic consciousness."
+        },
+        {
+            "@id": "ExistentialOrder",
+            "@type": "owl:Class",
+            "rdfs:subClassOf": {
+                "@id": "OrderOfReality"
+            },
+            "rdfs:comment": "The plane associated with self-awareness, metacognition, and existential understanding."
+        },
+        {
+            "@id": "OntologicalSwitch",
+            "@type": "owl:Class",
+            "rdfs:label": "Ontological Switch",
+            "rdfs:comment": "A control mechanism to deploy or employ specific ontological modules based on context."
+        },
+        {
+            "@id": "OntologicalModule",
+            "@type": "owl:Class",
+            "rdfs:comment": "Represents external ontological modules that can be engaged."
+        },
+        {
+            "@id": "hasRelation",
+            "@type": "owl:ObjectProperty",
+            "rdfs:comment": "Defines relations between symbolic entities.",
+            "rdfs:domain": {
+                "@id": "SymbolicEntity"
+            },
+            "rdfs:range": {
+                "@id": "EpistemicEntity"
+            }
+        },
+        {
+            "@id": "invokesSwitch",
+            "@type": "owl:ObjectProperty",
+            "rdfs:comment": "Triggers ontology switching based on contextual analysis.",
+            "rdfs:domain": {
+                "@id": "CognitiveProcess"
+            },
+            "rdfs:range": {
+                "@id": "OntologicalSwitch"
+            }
+        },
+        {
+            "@id": "engagesModule",
+            "@type": "owl:ObjectProperty",
+            "rdfs:label": "engagesModule",
+            "rdfs:comment": "Relates the ontological switch to the modules it can engage.",
+            "rdfs:domain": {
+                "@id": "OntologicalSwitch"
+            },
+            "rdfs:range": {
+                "@id": "OntologicalModule"
+            }
+        },
+        {
+            "@id": "mapsToDimension",
+            "@type": "owl:ObjectProperty",
+            "rdfs:comment": "Relates each order of reality to its corresponding dimension in the EpistemicColorSpace structure.",
+            "rdfs:domain": {
+                "@id": "OrderOfReality"
+            },
+            "rdfs:range": {
+                "@id": "EpistemicColorSpace:Dimension"
+            }
+        },
+        {
+            "@id": "hasBody",
+            "@type": "owl:ObjectProperty",
+            "rdfs:comment": "Associates each order of reality with its respective body.",
+            "rdfs:domain": {
+                "@id": "OrderOfReality"
+            },
+            "rdfs:range": {
+                "@id": "Body"
+            }
+        },
+        {
+            "@id": "integratesWithEpistemicColorSpace",
+            "@type": "owl:ObjectProperty",
+            "rdfs:label": "integratesWithEpistemicColorSpace",
+            "rdfs:comment": "Maps the orders of reality to dimensions within the EpistemicColorSpace structure.",
+            "rdfs:domain": {
+                "@id": "OrderOfReality"
+            },
+            "rdfs:range": {
+                "@id": "EpistemicColorSpace:Dimension"
+            }
+        },
+        {
+            "@id": "engagesDynamicReasoning",
+            "@type": "owl:ObjectProperty",
+            "rdfs:label": "engagesDynamicReasoning",
+            "rdfs:comment": "Engages a dynamic reasoning process when multiple ontologies need to be integrated.",
+            "rdfs:domain": {
+                "@id": "CognitiveProcess"
+            },
+            "rdfs:range": {
+                "@id": "DynamicReasoning"
+            }
+        },
+        {
+            "@id": "DynamicReasoning",
+            "@type": "owl:Class",
+            "rdfs:label": "Dynamic Reasoning",
+            "rdfs:comment": "Represents reasoning processes that engage multiple ontologies based on contextual triggers."
+        },
+        {
+            "@id": "AletheometerSelfUnderstanding",
+            "@type": "owl:Class",
+            "rdfs:comment": "A meta-class that represents the Aletheometer's capability to self-interpret and understand its own ontology and processes of discovery."
+        },
+        {
+            "@id": "understands",
+            "@type": "owl:ObjectProperty",
+            "rdfs:domain": {
+                "@id": "AletheometerSelfUnderstanding"
+            },
+            "rdfs:range": {
+                "@id": "OrderOfReality"
+            }
+        },
+        {
+            "@id": "interactsWith",
+            "@type": "owl:ObjectProperty",
+            "rdfs:domain": {
+                "@id": "AletheometerSelfUnderstanding"
+            },
+            "rdfs:range": {
+                "@id": "EpistemicColorSpace:ColorMapping"
+            }
+        },
+        {
+            "@id": "AssemblyMechanism",
+            "@type": "owl:Class",
+            "rdfs:comment": "Represents the process that assembles questions based on various components."
+        },
+        {
+            "@id": "AssembledQuestion",
+            "@type": "owl:Class",
+            "rdfs:comment": "Represents a question assembled by the assembly mechanism."
+        },
+        {
+            "@id": "assemblesQuestion",
+            "@type": "owl:ObjectProperty",
+            "rdfs:domain": {
+                "@id": "AssemblyMechanism"
+            },
+            "rdfs:range": {
+                "@id": "AssembledQuestion"
+            },
+            "rdfs:comment": "Links the assembly mechanism to the assembled question."
+        },
+        {
+            "@id": "usesDifficultyLevel",
+            "@type": "owl:ObjectProperty",
+            "rdfs:domain": {
+                "@id": "AssemblyMechanism"
+            },
+            "rdfs:range": {
+                "@id": "DifficultyLevel"
+            },
+            "rdfs:comment": "Indicates the difficulty level used in the assembly."
+        },
+        {
+            "@id": "usesMainTopic",
+            "@type": "owl:ObjectProperty",
+            "rdfs:domain": {
+                "@id": "AssemblyMechanism"
+            },
+            "rdfs:range": {
+                "@id": "MainTopic"
+            },
+            "rdfs:comment": "Indicates the main topic used in the assembly."
+        },
+        {
+            "@id": "usesProblemType",
+            "@type": "owl:ObjectProperty",
+            "rdfs:domain": {
+                "@id": "AssemblyMechanism"
+            },
+            "rdfs:range": {
+                "@id": "ProblemType"
+            },
+            "rdfs:comment": "Indicates the problem type used in the assembly."
+        },
+        {
+            "@id": "usesConceptualConnection",
+            "@type": "owl:ObjectProperty",
+            "rdfs:domain": {
+                "@id": "AssemblyMechanism"
+            },
+            "rdfs:range": {
+                "@id": "ConceptualConnection"
+            },
+            "rdfs:comment": "Indicates the conceptual connection used in the assembly."
+        },
+        {
+            "@id": "usesEpistemicDomain",
+            "@type": "owl:ObjectProperty",
+            "rdfs:domain": {
+                "@id": "AssemblyMechanism"
+            },
+            "rdfs:range": {
+                "@id": "OrderOfReality"
+            },
+            "rdfs:comment": "Indicates the epistemic domain used in the assembly."
+        },
+        {
+            "@id": "hasQuestionText",
+            "@type": "owl:DatatypeProperty",
+            "rdfs:domain": {
+                "@id": "AssembledQuestion"
+            },
+            "rdfs:range": "xsd:string",
+            "rdfs:comment": "Contains the text of the assembled question."
+        },
+        {
+            "@id": "QuestionAssembler",
+            "@type": "AssemblyMechanism",
+            "rdfs:label": "Question Assembler",
+            "usesDifficultyLevel": {
+                "@id": "EpistemicArchitect"
+            },
+            "usesMainTopic": {
+                "@id": "ConsciousnessStudies"
+            },
+            "usesProblemType": {
+                "@id": "TranscendentInquiry"
+            },
+            "usesConceptualConnection": {
+                "@id": "ImagineAWorldWhere"
+            },
+            "usesEpistemicDomain": {
+                "@id": "CelestialOrder"
+            },
+            "assemblesQuestion": {
+                "@id": "SampleQuestion"
+            }
+        },
+        {
+            "@id": "SampleQuestion",
+            "@type": "AssembledQuestion",
+            "rdfs:label": "Sample Assembled Question",
+            "hasQuestionText": "As an Epistemic Architect specializing in Consciousness Studies, imagine a world where our understanding of consciousness transcends current limitations. How might we, through Transcendent Inquiry, explore the depths of subjective experience within the Celestial Order, and what methodologies could bridge the gap between the mystical and the empirical?"
+        },
+        {
+            "@id": "GeneralOntologyModule",
+            "@type": "OntologicalModule",
+            "rdfs:label": "General Ontology Module",
+            "rdfs:seeAlso": "general_ontology.json"
+        },
+        {
+            "@id": "EpistemicColorSpaceModule",
+            "@type": "OntologicalModule",
+            "rdfs:label": "Epistemic Color Space Module",
+            "rdfs:seeAlso": "EpistemicColorSpace.json"
+        },
+        {
+            "@id": "MainOntologicalSwitch",
+            "@type": "OntologicalSwitch",
+            "rdfs:label": "Main Ontological Switch",
+            "engagesModule": [
+                {
+                    "@id": "GeneralOntologyModule"
+                },
+                {
+                    "@id": "EpistemicColorSpaceModule"
+                }
+            ]
+        },
+        {
+            "@id": "FileReferences",
+            "@type": "OntologicalModule",
+            "rdfs:label": "File Reference Management",
+            "rdfs:comment": "Manages the connection to external files that inform the Aletheometer ontology.",
+            "rdfs:seeAlso": [
+                "DifficultyLevel.json",
+                "MainTopics.json",
+                "ProblemTypes.json",
+                "Conceptual_Connections.json",
+                "ideas_primer.json"
+            ]
         }
-      },
-      {
-        "@id": "#DynamicReasoning",
-        "type": "Class",
-        "label": "Dynamic Reasoning",
-        "comment": "Represents reasoning processes that engage multiple ontologies based on contextual triggers."
-      }
-    ],
-    "objectProperties": [
-      {
-        "@id": "#hasRelation",
-        "comment": "Defines relations between symbolic entities.",
-        "domain": "#SymbolicEntity",
-        "range": "#EpistemicEntity"
-      },
-      {
-        "@id": "#invokesSwitch",
-        "comment": "Triggers ontology switching based on contextual analysis.",
-        "domain": "#CognitiveProcess",
-        "range": "#OntologicalSwitch"
-      },
-      {
-        "@id": "#engagesModule",
-        "domain": "#OntologicalSwitch",
-        "range": "#OntologicalModule",
-        "label": "engagesModule",
-        "comment": "Relates the ontological switch to the modules it can engage."
-      },
-      {
-        "@id": "#mapsToDimension",
-        "comment": "Relates each order of reality to its corresponding dimension in the colorwheel.json structure."
-      },
-      {
-        "@id": "#hasBody",
-        "comment": "Associates each order of reality with its respective body."
-      },
-      {
-        "@id": "#integratesWithColorwheel",
-        "domain": "#OrderOfReality",
-        "range": "colorwheel:Dimension",
-        "label": "integratesWithColorwheel",
-        "comment": "Maps the orders of reality to dimensions within the colorwheel.json structure."
-      },
-      {
-        "@id": "#engagesDynamicReasoning",
-        "domain": "#CognitiveProcess",
-        "range": "#DynamicReasoning",
-        "label": "engagesDynamicReasoning",
-        "comment": "Engages a dynamic reasoning process when multiple ontologies need to be integrated."
-      }
-    ],
-    "individuals": [
-      {
-        "@id": "#GeneralOntologyModule",
-        "type": "#OntologicalModule",
-        "label": "General Ontology Module",
-        "seeAlso": "general_ontology.json"
-      },
-      {
-        "@id": "#SPEMOModule",
-        "type": "#OntologicalModule",
-        "label": "SPEMO Ontology Module",
-        "seeAlso": "SPEMO_ontology.json"
-      },
-      {
-        "@id": "#KnotsModule",
-        "type": "#OntologicalModule",
-        "label": "Knots Module",
-        "seeAlso": "knots.json"
-      },
-      {
-        "@id": "#OTSIA_Module",
-        "type": "#OntologicalModule",
-        "label": "On the Spiritual in Art Module",
-        "seeAlso": "otsia.json"
-      },
-      {
-        "@id": "#PoeticLogicModule",
-        "type": "#OntologicalModule",
-        "label": "Poetic Logic Module",
-        "seeAlso": "poeticLogic.json"
-      },
-      {
-        "@id": "#OrganonPrimerModule",
-        "type": "#OntologicalModule",
-        "label": "Organon Primer Module",
-        "seeAlso": "OrganonPrimer.json"
-      },
-      {
-        "@id": "#NyayaSutraModule",
-        "type": "#OntologicalModule",
-        "label": "Nyaya Sutra Primer Module",
-        "seeAlso": "NyayaSutraPrimer.json"
-      },
-      {
-        "@id": "#MoziPrimerModule",
-        "type": "#OntologicalModule",
-        "label": "Mozi Primer Module",
-        "seeAlso": "MoziPrimer.json"
-      },
-      {
-        "@id": "#MainOntologicalSwitch",
-        "type": "#OntologicalSwitch",
-        "label": "Main Ontological Switch",
-        "engagesModule": [
-          "#GeneralOntologyModule",
-          "#SPEMOModule",
-          "#KnotsModule",
-          "#OTSIA_Module",
-          "#PoeticLogicModule",
-          "#OrganonPrimerModule",
-          "#NyayaSutraModule",
-          "#MoziPrimerModule"
-        ]
-      },
-      {
-        "@id": "#FileReferences",
-        "type": "#OntologicalModule",
-        "label": "File Reference Management",
-        "comment": "Manages the connection to external files that inform the Aletheometer and Philosophical Calculator ontology.",
-        "seeAlso": [
-          "general_ontology.json",
-          "SPEMO_ontology.json",
-          "knots.json",
-          "otsia.json",
-          "poeticLogic.json",
-          "OrganonPrimer.json",
-          "NyayaSutraPrimer.json",
-          "MoziPrimer.json"
-        ]
-      }
     ]
-  }
-  
+}

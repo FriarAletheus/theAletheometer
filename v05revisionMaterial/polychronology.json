@@ -1,58 +1,141 @@
-[
-  {
-    "Operator": "Temporal Coherence (Ψ)",
-    "Symbol": "Ψ",
-    "Propositional_Logic_Formulation": "Ψ(E1, E2, ..., En, W) → ∃t1, t2, ..., tn ((E1(t1) ∧ E2(t2) ∧ ... ∧ En(tn)) ∧ Coherent(t1, t2, ..., tn, W))",
-    "Epistemological_Grounding": "Ensures events maintain a consistent narrative within a single timeline or world W.",
-    "Justification": "Coherence ensures the temporal sequence of events forms a consistent narrative, maintaining epistemic reliability within a given world W."
-  },
-  {
-    "Operator": "Causal Influence (Γ)",
-    "Symbol": "Γ",
-    "Propositional_Logic_Formulation": "Γ(E1(t1) → E2(t2), W) → ∃t1, t2 (t1 < t2 ∧ E1(t1) ∧ E2(t2) ∧ CausalLink(E1, E2, W))",
-    "Epistemological_Grounding": "Represents the causal influence of one event on another within the same world or timeline.",
-    "Justification": "Causal influence is necessary to establish the connection between cause and effect, ensuring events are epistemically valid within the logical structure of world W."
-  },
-  {
-    "Operator": "Presence (𝓟)",
-    "Symbol": "𝓟",
-    "Propositional_Logic_Formulation": "𝓟(E, W) → ∃t (E(t) ∧ ∀t' (|t - t'| < ε → Current(t', W)))",
-    "Epistemological_Grounding": "Represents the immediate or 'now' moment of an event E in world W.",
-    "Justification": "Presence captures the epistemic immediacy of an event, reflecting the concept of the 'now' moment as essential for temporally indexed propositions about reality."
-  },
-  {
-    "Operator": "Temporal Ordering (𝓕)",
-    "Symbol": "𝓕",
-    "Propositional_Logic_Formulation": "𝓕(E1, E2, W) → ∃t1, t2 (t1 < t2 ∧ E1(t1) ∧ E2(t2) ∧ W)",
-    "Epistemological_Grounding": "Represents the temporal order of events E1 and E2 in world W.",
-    "Justification": "Temporal ordering reflects the epistemic necessity of understanding the sequence of events, ensuring logical consistency in the framework."
-  },
-  {
-    "Operator": "Periodicity (𝓒)",
-    "Symbol": "𝓒",
-    "Propositional_Logic_Formulation": "𝓒(E, P, W) → ∀t ∃n∈ℤ (E(t) ↔ E(t + nP) ∧ W)",
-    "Epistemological_Grounding": "Represents a cyclical or recurring event E with period P in world W.",
-    "Justification": "Periodicity captures the epistemic concept of regularity and recurrence, essential for understanding cyclical patterns in reality."
-  },
-  {
-    "Operator": "Feedback Loop (τ)",
-    "Symbol": "τ",
-    "Propositional_Logic_Formulation": "τ(E1, E2, W) → ∃t1, t2, t3, t4 (t1 < t2 < t3 < t4 ∧ E1(t1) ∧ E2(t2) ∧ E1(t3) ∧ E2(t4) ∧ CausalLink(E1, E2, W) ∧ CausalLink(E2, E1, W))",
-    "Epistemological_Grounding": "Represents the cyclical influence between events E1 and E2 within a single world or timeline.",
-    "Justification": "Feedback loop formalizes the epistemic concept of cyclical causation, crucial for understanding systems with repeating interactions."
-  },
-  {
-    "Operator": "Quantum Superposition (Σ)",
-    "Symbol": "Σ",
-    "Propositional_Logic_Formulation": "Σ(E1, E2, ..., En, W) → ∃t ∀i (Probability(Ei(t), W) = pi ∧ ∑pi = 1)",
-    "Epistemological_Grounding": "Represents quantum superposition of mutually exclusive events at a given time t in world W.",
-    "Justification": "Quantum superposition captures the epistemic concept of potentiality and uncertainty, aligning with the principles of quantum mechanics."
-  },
-  {
-    "Operator": "Observer-Dependent Reality (Ω)",
-    "Symbol": "Ω",
-    "Propositional_Logic_Formulation": "Ω(E, O, W) → ∃t (E(t, W) ↔ Observe(O, E, t, W))",
-    "Epistemological_Grounding": "Represents the dependency of event E on observer O at time t in world W.",
-    "Justification": "Observer-dependent reality reflects the epistemic principle that reality is often contingent upon the observer's perspective, crucial in quantum mechanics and phenomenology."
+{
+  "Metaphysics": {
+    "SpatialDimensions": {
+      "x": {
+        "Name": "Materiality",
+        "Description": "Tangible, measurable reality where physical actions occur.",
+        "LogicalNotation": "∀a ∈ Actions, ∃x ∈ ℝ³ : Manifests(a, x)"
+      },
+      "y": {
+        "Name": "Interconnectivity",
+        "Description": "The relationships and connections between entities and planes.",
+        "LogicalNotation": "∀e1, e2 ∈ Entities, ∃r ∈ Relations : Connects(r, e1, e2)"
+      },
+      "z": {
+        "Name": "Abstraction",
+        "Description": "Non-material, conceptual structures underlying physical reality.",
+        "LogicalNotation": "∀c ∈ Concepts, ∃z ∈ AbstractSpace : Underlies(c, z, PhysicalReality)"
+      }
+    },
+    "TemporalDimensions": {
+      "Passage": {
+        "Description": "Linear progression of time, where events unfold sequentially.",
+        "LogicalNotation": "∀e1, e2 ∈ Events, ∃t1, t2 ∈ Time : (t1 < t2) → Precedes(e1, e2)"
+      },
+      "Periodicity": {
+        "Description": "Cyclical recurrence of events and feedback loops across different realities.",
+        "LogicalNotation": "∀e ∈ Events, ∃P ∈ ℝ⁺ : ∀t ∈ Time, Occurs(e, t) ↔ Occurs(e, t + P)"
+      },
+      "Presence": {
+        "Description": "The immediate 'now', capturing current experience across all planes.",
+        "LogicalNotation": "∃n ∈ Time : ∀e ∈ Events, Occurs(e, n) → Present(e)"
+      }
+    }
   }
-]
+},
+{
+  "CorePrinciples": {
+    "ExistentialSuperposition": {
+      "Definition": "Multiple states and possibilities coexist across planes until acted upon by an observer or interaction.",
+      "Implications": "Reality is shaped by potential states, collapsing into determined paths based on action and observation.",
+      "LogicalNotation": "∀s ∈ States, ∃Ψ : (Ψ = ∑ αᵢ|sᵢ⟩) ∧ (∃o ∈ Observers : Observe(o, Ψ) → Collapse(Ψ, s))"
+    },
+    "CausalLoopDynamics": {
+      "Definition": "Time is both linear and cyclical, with events in higher dimensions influencing both past and future.",
+      "Implications": "Actions in the present can echo backward or forward, creating feedback loops across realities.",
+      "LogicalNotation": "∀e ∈ Events, ∃t1, t2 ∈ Time : (t1 < t2) ∧ Influences(e(t2), e(t1)) ∧ Influences(e(t1), e(t2))"
+    },
+    "Meta-OntologicalDuality": {
+      "Definition": "Each plane reflects both material and immaterial realities, constantly interacting to define truth and being.",
+      "Implications": "Existence is not confined to physical reality, but also shaped by abstract, intellectual, and spiritual dimensions.",
+      "LogicalNotation": "∀p ∈ Planes, ∃m ∈ Material, i ∈ Immaterial : Reflects(p, m) ∧ Reflects(p, i) ∧ Interacts(m, i)"
+    },
+    "InterdimensionalInfluence": {
+      "Definition": "Planes of reality are interconnected, and changes in one dimension influence others.",
+      "Implications": "The Body interacts with the Mind, the Spirit with the Heart, and these interactions shape overall existence.",
+      "LogicalNotation": "∀p1, p2 ∈ Planes, ∃i ∈ Influences : Connects(i, p1, p2) ∧ (Change(p1) → Change(p2))"
+    },
+    "SymphonicTemporalCoherence": {
+      "Definition": "All events must maintain consistency across space and time, respecting coherence and progression across dimensions.",
+      "Implications": "Each action, decision, and interaction fits into a larger temporal and spatial framework, ensuring narrative consistency.",
+      "LogicalNotation": "∀e1, e2 ∈ Events, ∀d ∈ Dimensions : Consistent(e1, e2, d) ∧ (Precedes(e1, e2) → ProgressivelyCoherent(e1, e2))"
+    }
+  }
+},
+{
+  "UniversalCharacteristics": {
+    "Operators": {
+      "TemporalCoherence (Ψ)": {
+        "Description": "Ensures narrative consistency across all planes.",
+        "LogicalNotation": "Ψ(E1, E2, ..., En, W) → ∃t1, t2, ..., tn ((E1(t1) ∧ E2(t2) ∧ ... ∧ En(tn)) ∧ Coherent(t1, t2, ..., tn, W))",
+        "TranscendentalForm": "∀W ∈ Worlds, ∀E ∈ Events(W) : Ψ(E) ↔ ∃ξ(CoherentNarrative(ξ, W) ∧ ∀e ∈ E : Participates(e, ξ))"
+      },
+      "CausalInfluence (Γ)": {
+        "Description": "Links causes and effects across dimensions.",
+        "LogicalNotation": "Γ(E1(t1) → E2(t2), W) → ∃t1, t2 (t1 < t2 ∧ E1(t1) ∧ E2(t2) ∧ CausalLink(E1, E2, W))",
+        "TranscendentalForm": "∀W ∈ Worlds, ∀E1, E2 ∈ Events(W) : Γ(E1, E2) ↔ ∃λ(CausalNexus(λ, W) ∧ Connects(λ, E1, E2))"
+      },
+      "Presence (𝓟)": {
+        "Description": "Captures the immediacy of events across planes.",
+        "LogicalNotation": "𝓟(E, W) → ∃t (E(t) ∧ ∀t' (|t - t'| < ε → Current(t', W)))",
+        "TranscendentalForm": "∀W ∈ Worlds, ∀E ∈ Events(W) : 𝓟(E) ↔ ∃ν(ImmediateNow(ν, W) ∧ Manifests(E, ν))"
+      },
+      "TemporalOrdering (𝓕)": {
+        "Description": "Establishes sequential order across events.",
+        "LogicalNotation": "𝓕(E1, E2, W) → ∃t1, t2 (t1 < t2 ∧ E1(t1) ∧ E2(t2) ∧ W)",
+        "TranscendentalForm": "∀W ∈ Worlds, ∀E1, E2 ∈ Events(W) : 𝓕(E1, E2) ↔ ∃τ(TemporalSequence(τ, W) ∧ Precedes(E1, E2, τ))"
+      },
+      "Periodicity (𝓒)": {
+        "Description": "Tracks recurring cycles and patterns.",
+        "LogicalNotation": "𝓒(E, P, W) → ∀t ∃n∈ℤ (E(t) ↔ E(t + nP) ∧ W)",
+        "TranscendentalForm": "∀W ∈ Worlds, ∀E ∈ Events(W), ∃P ∈ ℝ⁺ : 𝓒(E, P) ↔ ∃ρ(CyclicPattern(ρ, W) ∧ Repeats(E, ρ, P))"
+      },
+      "QuantumSuperposition (Σ)": {
+        "Description": "Allows multiple potential states to coexist until collapse.",
+        "LogicalNotation": "Σ(E1, E2, ..., En, W) → ∃t ∀i (Probability(Ei(t), W) = pi ∧ ∑pi = 1)",
+        "TranscendentalForm": "∀W ∈ Worlds, ∀S ⊆ States(W) : Σ(S) ↔ ∃φ(QuantumWavefunction(φ, W) ∧ ∀s ∈ S : Superposed(s, φ))"
+      },
+      "ObserverDependentReality (Ω)": {
+        "Description": "Collapses potential states based on observation.",
+        "LogicalNotation": "Ω(E, O, W) → ∃t (E(t, W) ↔ Observe(O, E, t, W))",
+        "TranscendentalForm": "∀W ∈ Worlds, ∀E ∈ Events(W), ∀O ∈ Observers : Ω(E, O) ↔ ∃µ(ConsciousPerception(µ, O) ∧ Actualizes(µ, E, W))"
+      }
+    }
+  }
+},
+{
+  "OrdersOfReality": {
+    "ShadowOrder": {
+      "Definition": "The realm of potential forms and unrealized possibilities.",
+      "Geometry": "A negative curvature reflecting unrealized paths and echoes of latent potential.",
+      "Core Mechanism": "Reaction to external stimuli without conscious control.",
+      "Temporal Placement": "N-1 plane, preceding conscious choice.",
+      "LogicalNotation": "∀e ∈ Events : ShadowOrder(e) ↔ (Potential(e) ∧ ¬Realized(e) ∧ ∃s(Stimulus(s) ∧ Reacts(e, s) ∧ ¬ConsciousControl(e)))",
+      "TranscendentalForm": "∃σ(ShadowRealm(σ) ∧ ∀p ∈ Potentialities : Harbors(σ, p) ∧ ¬∃a(Actualized(a, p)))"
+    },
+    "QuantumOrder": {
+      "Definition": "The probabilistic field where multiple potentialities coexist before collapsing into reality.",
+      "Geometry": "Branching hyperbolic curves representing superposition of multiple states.",
+      "Core Mechanism": "Collapse of potential into a single actualized state.",
+      "Temporal Placement": "Between Shadow and Body, N-0.5 plane, bridging unconscious reaction and conscious choice.",
+      "LogicalNotation": "∀s ∈ States : QuantumOrder(s) ↔ (∃ψ(Wavefunction(ψ) ∧ Superposed(s, ψ)) ∧ ∃o(Observer(o) ∧ (Observe(o, s) → Collapse(s))))",
+      "TranscendentalForm": "∃q(QuantumRealm(q) ∧ ∀p ∈ Probabilities : Sustains(q, p) ∧ ∃c(Collapse(c) ∧ Actualization(c, p)))"
+    },
+    "MaterialOrder (Body)": {
+      "Definition": "The physical, tangible realm where quantum potentials are realized.",
+      "Geometry": "Euclidean-like space embedded in hyperbolic structure, reflecting concrete reality.",
+      "Core Mechanism": "Physical expression and choice.",
+      "Temporal Placement": "N plane, the realm of direct interaction with the material world.",
+      "LogicalNotation": "∀o ∈ Objects : MaterialOrder(o) ↔ (Physical(o) ∧ Tangible(o) ∧ ∃q(QuantumState(q) ∧ Realizes(o, q)))",
+      "TranscendentalForm": "∃m(MaterialRealm(m) ∧ ∀e ∈ Entities : Embodies(m, e) ∧ ∃i(Interaction(i) ∧ Manifests(i, e)))"
+    },
+    "ExistentialOrder": {
+      "Definition": "The domain of the self, where the individual becomes aware of its existence and responsibility.",
+      "Geometry": "Curved spaces representing existential awareness and self-reflection.",
+      "Core Mechanism": "Self-determination and authentic existence.",
+      "Temporal Placement": "Between Body and Heart, N+0.5 plane.",
+      "LogicalNotation": "∀s ∈ Selves : ExistentialOrder(s) ↔ (SelfAware(s) ∧ ∃r(Responsibility(r) ∧ Acknowledges(s, r)) ∧ Authentic(s))",
+      "TranscendentalForm": "∃ε(ExistentialRealm(ε) ∧ ∀c ∈ Consciousness : Elevates(ε, c) ∧ ∃a(Authenticity(a) ∧ Realizes(a, c)))"
+    }
+  }
+},

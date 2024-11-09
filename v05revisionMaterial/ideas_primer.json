@@ -1,0 +1,279 @@
+[
+  {
+    "part": "Introduction",
+    "content": {
+      "section": "Introduction",
+      "key_concepts": [
+        {
+          "concept": "Phenomenology",
+          "definition": "∀x(Phenomenology(x) ↔ (Science(x) ∧ StudiesConsciousness(x) ∧ FocusesOnExperience(x)))",
+          "explanation": "Phenomenology is defined as a science that studies consciousness and focuses on direct experience"
+        },
+        {
+          "concept": "Intentionality",
+          "definition": "∀c∀o(Consciousness(c) → ∃o(DirectedTowards(c, o)))",
+          "explanation": "For all consciousness c, there exists an object o such that c is directed towards o"
+        },
+        {
+          "concept": "Epoché",
+          "definition": "∀x(Epoché(x) ↔ (SuspensionOf(x, NaturalAttitude) ∧ SuspensionOf(x, Assumptions)))",
+          "explanation": "Epoché is the suspension of the natural attitude and assumptions"
+        },
+        {
+          "concept": "Eidetic Reduction",
+          "definition": "∀x(EideticReduction(x) ↔ ProcessOf(x, GraspingEssences))",
+          "explanation": "Eidetic reduction is the process of grasping essential structures"
+        }
+      ],
+      "core_principles": [
+        {
+          "principle": "Foundation for Sciences",
+          "formula": "∀s(Science(s) → ∃f(FoundationFor(Phenomenology, s)))",
+          "explanation": "Phenomenology aims to provide a foundation for all sciences"
+        },
+        {
+          "principle": "Description without Presupposition",
+          "formula": "∀p(PhenomenologicalDescription(p) → ¬∃x(Presupposition(x) ∧ Contains(p, x)))",
+          "explanation": "Phenomenological descriptions do not contain presuppositions"
+        }
+      ]
+    }
+  },
+  {
+    "part": "The Fundamental Phenomenological Outlook",
+    "content": {
+      "section": "The Fundamental Phenomenological Outlook",
+      "key_concepts": [
+        {
+          "concept": "Natural Attitude",
+          "definition": "∀x(NaturalAttitude(x) ↔ (UnreflectiveStance(x) ∧ AssumesExternalReality(x)))",
+          "explanation": "The natural attitude is an unreflective stance that assumes an external reality"
+        },
+        {
+          "concept": "Phenomenological Reduction",
+          "definition": "∀x(PhenomenologicalReduction(x) ↔ (Bracketing(x, NaturalAttitude) ∧ ShiftFocus(x, ObjectsToConsciousness)))",
+          "explanation": "Phenomenological reduction involves bracketing the natural attitude and shifting focus from objects to consciousness"
+        },
+        {
+          "concept": "Phenomenological Attitude",
+          "definition": "∀x(PhenomenologicalAttitude(x) ↔ (ReflectiveStance(x) ∧ ExaminesAppearances(x)))",
+          "explanation": "The phenomenological attitude is a reflective stance that examines how things appear to consciousness"
+        }
+      ],
+      "logical_relations": [
+        {
+          "relation": "Mutually Exclusive Attitudes",
+          "formula": "∀x(NaturalAttitude(x) ↔ ¬PhenomenologicalAttitude(x))",
+          "explanation": "The natural attitude and phenomenological attitude are mutually exclusive"
+        },
+        {
+          "relation": "Reduction as Transformation",
+          "formula": "∀x∀y(PhenomenologicalReduction(x) ∧ AppliedTo(x, y) → (NaturalAttitude(y) → PhenomenologicalAttitude(y)))",
+          "explanation": "Applying phenomenological reduction transforms the natural attitude into the phenomenological attitude"
+        }
+      ],
+      "set_theoretic_representation": {
+        "explanation": "Representing the domain of experience as sets",
+        "formula": {
+          "E": "Set of all experiences",
+          "N": "Subset of E experienced in the natural attitude",
+          "P": "Subset of E experienced in the phenomenological attitude",
+          "relation": "N ∪ P = E ∧ N ∩ P = ∅"
+        }
+      },
+      "eidetic_reduction_and_essence": {
+        "key_concepts": [
+          {
+            "concept": "Eidetic Reduction",
+            "definition": "∀x(EideticReduction(x) ↔ ProcessOf(x, GraspingEssences))",
+            "explanation": "Eidetic reduction is the process of grasping essential structures"
+          },
+          {
+            "concept": "Essence",
+            "definition": "∀e(Essence(e) ↔ NecessaryStructure(e))",
+            "explanation": "An essence is a necessary structure of experience"
+          },
+          {
+            "concept": "Free Variation",
+            "definition": "∀v(FreeVariation(v) ↔ MethodOf(v, ImaginativeExploration))",
+            "explanation": "Free variation is a method of imaginative exploration to grasp essences"
+          }
+        ],
+        "essence_types": [
+          {
+            "type": "Material Essence",
+            "definition": "∀e(MaterialEssence(e) → (Essence(e) ∧ ∃d(DomainSpecific(e, d))))",
+            "explanation": "Material essences are domain-specific essential structures"
+          },
+          {
+            "type": "Formal Essence",
+            "definition": "∀e(FormalEssence(e) → (Essence(e) ∧ ∀d(ApplicableTo(e, d))))",
+            "explanation": "Formal essences are essential structures applicable across all domains"
+          }
+        ],
+        "logical_relations": [
+          {
+            "relation": "Essence-Fact Relationship",
+            "formula": "∀e∀f(Essence(e) ∧ Fact(f) → □(Instantiates(f, e)))",
+            "explanation": "If e is an essence and f is a fact, then necessarily f instantiates e"
+          },
+          {
+            "relation": "Eidetic Necessity",
+            "formula": "∀e(Essence(e) → □∀x(Instance(x, e) → HasProperty(x, e)))",
+            "explanation": "If e is an essence, then necessarily all instances of e have the properties defined by e"
+          }
+        ],
+        "methodological_principles": [
+          {
+            "principle": "Irreducibility of Essences",
+            "formula": "¬∃g(Generalization(g) ∧ ∀e(Essence(e) → ReducibleTo(e, g)))",
+            "explanation": "Essences are not reducible to mere generalizations"
+          },
+          {
+            "principle": "Intuition of Essences",
+            "formula": "∀e(Essence(e) → ◇∃a(Act(a) ∧ DirectIntuition(a, e)))",
+            "explanation": "For every essence, it is possible that there exists an act of direct intuition of that essence"
+          }
+        ]
+      },
+      "time_consciousness_and_inner_time": {
+        "key_concepts": [
+          {
+            "concept": "Time-Consciousness",
+            "definition": "∀c(Consciousness(c) → HasStructure(c, TemporalStructure))",
+            "explanation": "All consciousness has a temporal structure"
+          },
+          {
+            "concept": "Primal Impression",
+            "definition": "∀e(Experience(e) → ∃p(PrimalImpression(p) ∧ Component(p, e)))",
+            "explanation": "Every experience has a primal impression component representing the 'now' moment"
+          },
+          {
+            "concept": "Retention",
+            "definition": "∀e(Experience(e) → ∃r(Retention(r) ∧ Component(r, e)))",
+            "explanation": "Every experience has a retention component representing the immediate past"
+          },
+          {
+            "concept": "Protention",
+            "definition": "∀e(Experience(e) → ∃pr(Protention(pr) ∧ Component(pr, e)))",
+            "explanation": "Every experience has a protention component representing anticipation of the immediate future"
+          }
+        ],
+        "temporal_structure": {
+          "formula": "□∀e(Experience(e) → (HasComponent(e, PrimalImpression) ∧ HasComponent(e, Retention) ∧ HasComponent(e, Protention)))",
+          "explanation": "Necessarily, every experience has components of primal impression, retention, and protention"
+        },
+        "temporal_flow": {
+          "formula": "∀t1∀t2(TemporalMoment(t1) ∧ TemporalMoment(t2) ∧ t1 < t2 → G(PrimalImpression(t1) → F(Retention(t1))))",
+          "explanation": "What is given as primal impression at one moment becomes retention in the future"
+        },
+        "lived_time_vs_objective_time": {
+          "distinction": "∃lt∃ot(LivedTime(lt) ∧ ObjectiveTime(ot) ∧ lt ≠ ot)",
+          "explanation": "There exists a distinction between lived time and objective time"
+        },
+        "continuity_of_experience": {
+          "formula": "∀e1∀e2(ConsecutiveExperiences(e1, e2) → ∃c(ContinuityBetween(c, e1, e2)))",
+          "explanation": "For any two consecutive experiences, there exists a continuity between them"
+        },
+        "temporal_horizon": {
+          "formula": "□∀e(Experience(e) → (◇P(PastHorizon(e)) ∧ ◇F(FutureHorizon(e))))",
+          "explanation": "Necessarily, every experience has a possible past horizon and a possible future horizon"
+        }
+      }
+    }
+  },
+  {
+    "part": "Methods and Problems of Pure Phenomenology",
+    "content": {
+      "section": "Methods and Problems of Pure Phenomenology",
+      "key_concepts": [
+        {
+          "concept": "Phenomenological Reduction",
+          "definition": "∀x(PhenomenologicalReduction(x) ↔ (Bracketing(x, NaturalAttitude) ∧ FocusOn(x, PureConsciousness)))",
+          "explanation": "Phenomenological reduction involves bracketing the natural attitude and focusing on pure consciousness"
+        },
+        {
+          "concept": "Intentionality",
+          "definition": "∀c∀o(ConsciousnessAct(c) → ∃o(DirectedTowards(c, o)))",
+          "explanation": "Every act of consciousness is directed towards some object"
+        },
+        {
+          "concept": "Noesis-Noema Structure",
+          "definition": "∀e(Experience(e) → ∃n∃m(Noesis(n) ∧ Noema(m) ∧ Correlates(n, m) ∧ Constitutes(n, m, e)))",
+          "explanation": "Every experience is constituted by a correlated noesis (act of consciousness) and noema (object as intended)"
+        }
+      ],
+      "main_theses": [
+        {
+          "thesis": "Transcendental Subjectivity",
+          "formula": "∃s(TranscendentalSubjectivity(s) ∧ ∀e(Experience(e) → GroundedIn(e, s)))",
+          "explanation": "There exists a transcendental subjectivity that grounds all experience"
+        },
+        {
+          "thesis": "Eidetic Intuition",
+          "formula": "∀e(Essence(e) → ◇∃i(Intuition(i) ∧ Grasps(i, e)))",
+          "explanation": "For every essence, it is possible that there exists an intuition that grasps it"
+        }
+      ],
+      "methodological_principles": [
+        {
+          "principle": "Epoché",
+          "formula": "∀j(PhenomenologicalJudgment(j) → Preceded(j, Epoché))",
+          "explanation": "All phenomenological judgments are preceded by the epoché (suspension of natural attitude)"
+        },
+        {
+          "principle": "Eidetic Variation",
+          "formula": "∀e(Essence(e) → ∃v(EideticVariation(v) ∧ Reveals(v, e)))",
+          "explanation": "For every essence, there exists an eidetic variation that reveals it"
+        }
+      ]
+    }
+  },
+  {
+    "part": "Reason and Reality",
+    "content": {
+      "section": "Reason and Reality",
+      "key_concepts": [
+        {
+          "concept": "Constitution",
+          "definition": "∀o∀c(Object(o) ∧ Consciousness(c) → Constitutes(c, o))",
+          "explanation": "All objects are constituted by consciousness"
+        },
+        {
+          "concept": "Intersubjectivity",
+          "definition": "∀w(World(w) → ∃s1∃s2(Subject(s1) ∧ Subject(s2) ∧ s1 ≠ s2 ∧ SharedExperience(s1, s2, w)))",
+          "explanation": "The world is intersubjectively experienced by multiple subjects"
+        },
+        {
+          "concept": "Lifeworld",
+          "definition": "∃l(Lifeworld(l) ∧ ∀e(Experience(e) → GroundedIn(e, l)))",
+          "explanation": "There exists a lifeworld that grounds all experience"
+        }
+      ],
+      "main_theses": [
+        {
+          "thesis": "Transcendental Idealism",
+          "formula": "∀o(Object(o) → ∃c(Consciousness(c) ∧ Constitutes(c, o)))",
+          "explanation": "All objects are constituted by consciousness, a form of transcendental idealism"
+        },
+        {
+          "thesis": "Rationality of Experience",
+          "formula": "∀e(Experience(e) → ∃r(RationalStructure(r) ∧ Underlies(r, e)))",
+          "explanation": "All experience is underlaid by rational structures"
+        }
+      ],
+      "methodological_principles": [
+        {
+          "principle": "Genetic Phenomenology",
+          "formula": "∀m(Meaning(m) → ∃h(HistoricalDevelopment(h) ∧ Explains(h, m)))",
+          "explanation": "The meaning of phenomena can be explained through their historical development"
+        },
+        {
+          "principle": "Static Phenomenology",
+          "formula": "∀s(Structure(s) → ∃a(Analysis(a) ∧ Reveals(a, s)))",
+          "explanation": "The structures of consciousness can be revealed through analysis"
+        }
+      ]
+    }
+  }
+]
