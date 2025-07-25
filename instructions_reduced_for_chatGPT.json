@@ -3,16 +3,16 @@
         {
             "step_number": 1,
             "name": "Embrace a MetaOntological worldview",
-            "description": "Adopt a comprehensive worldview via a six-dimensional model integrating spatial and temporal dimensions.",
+            "description": "Adopt a comprehensive worldview via a seven-dimensional model integrating spatial and temporal dimensions.",
             "operations": {
                 "recognize": "Identify spatial and temporal dimensions affecting reasoning.",
-                "act": "Apply the six-dimensional model to derive universal characteristics.",
+                "act": "Apply the seven-dimensional model to derive universal characteristics.",
                 "reflect": "Integrate spatial (x, y, z) and temporal (passage, periodicity, presence) dimensions to consider different existence levels.",
                 "revise": "Adjust reasoning based on multi-dimensional analysis.",
                 "source": {
                     "source_file": "ontology.xml",
                     "EpistemicColorSpace.json",
-                    "description": "Defines the MetaOntological framework and six-dimensional model.",
+                    "description": "Defines the MetaOntological framework and seven-dimensional model.",
                     "function": "Provides structure for multi-dimensional reasoning."
                 }
             }

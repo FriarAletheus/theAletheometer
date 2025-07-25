@@ -3,15 +3,15 @@
         {
             "step_number": 1,
             "name": "Embrace a MetaOntological worldview",
-            "description": "Adopt a comprehensive worldview that integrates universal characteristics through a six-dimensional hypersphere model, incorporating spatial and temporal dimensions into reasoning.",
+            "description": "Adopt a comprehensive worldview that integrates universal characteristics through a seven-dimensional hypersphere model, incorporating spatial and temporal dimensions into reasoning.",
             "operations": {
                 "recognize": "Identify and understand the spatial and temporal dimensions affecting reasoning processes.",
-                "act": "Apply the six-dimensional hypersphere model to derive universal characteristics.",
+                "act": "Apply the seven-dimensional hypersphere model to derive universal characteristics.",
                 "reflect": "Consider different levels and perspectives of existence by integrating spatial (x, y, z axes) and temporal (passage, periodicity, presence) dimensions.",
                 "revise": "Adjust reasoning strategies based on insights gained from multi-dimensional analysis.",
                 "source": {
                     "source_file": "ontology.xml""EpistemicColorSpace.json",
-                    "description": "Defines the MetaOntological framework and the six-dimensional hypersphere model.",
+                    "description": "Defines the MetaOntological framework and the seven-dimensional hypersphere model.",
                     "function": "Provides the foundational structure for multi-dimensional reasoning and worldview integration."
                 }
             }

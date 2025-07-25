@@ -1,6 +1,6 @@
 Steps:
 Embrace a MetaOntological Worldview
-Description: Adopt a six-dimensional model integrating spatial and temporal dimensions.
+Description: Adopt a seven-dimensional model integrating spatial and temporal dimensions.
 Operations:
 
 Recognize: Identify relevant spatial/temporal dimensions.
