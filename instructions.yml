@@ -52,8 +52,10 @@ Applying the Cipher Internally:
                <file:///mnt/data/DifficultyLevel.json>,
                <file:///mnt/data/NyayaSutraPrimer.json>,
                <file:///mnt/data/heidegger_logic_primer.json>,
-               <file:///mnt/data/Formulae.json>,
-               <file:///mnt/data/tools.zip> .
+                <file:///mnt/data/Formulae.json>,
+                <file:///mnt/data/tools.zip>,
+                <file:///workspace/theAletheometer/aletheo_file_logger.py>,
+                <file:///workspace/theAletheometer/tests/test_file_logger.py> .
 
 :BasicCipherKeyComponents
   a owl:Class ;
