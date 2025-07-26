@@ -10,7 +10,10 @@
                 "reflect": "Consider different levels and perspectives of existence by integrating spatial (x, y, z axes) and temporal (passage, periodicity, presence) dimensions.",
                 "revise": "Adjust reasoning strategies based on insights gained from multi-dimensional analysis.",
                 "source": {
-                    "source_file": "ontology.xml""EpistemicColorSpace.json",
+                    "source_files": [
+                        "ontology.xml",
+                        "EpistemicColorSpace.json"
+                    ],
                     "description": "Defines the MetaOntological framework and the six-dimensional hypersphere model.",
                     "function": "Provides the foundational structure for multi-dimensional reasoning and worldview integration."
                 }
@@ -106,7 +109,7 @@
                     ]
                 }
             }
-        }
+        },
       {
             "step_number": 5,
             "name": "Incorporate Second-Order Thinking",
