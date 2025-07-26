@@ -10,6 +10,36 @@ G = 6.67430e-11         # Gravitational constant (m^3/kg s^2)
 HBAR = 1.054571817e-34  # Reduced Planck constant (J·s)
 PHI = 1.61803398875     # Golden ratio (for scaling dynamics)
 
+# Orders of Reality represented in the system
+ORDERS_OF_REALITY = [
+    "VIRTUAL",
+    "QUANTUM",
+    "MATERIAL",
+    "ETHEREAL",
+    "ASTRAL",
+    "CELESTIAL",
+    "EXISTENTIAL",
+]
+
+# Total number of reality orders
+NUM_ORDERS = len(ORDERS_OF_REALITY)
+
+# Mapping of modal dynamics to order transitions. A positive value
+# moves to a higher order, a negative value to a lower order.
+mode_transition_map = {
+    "Oscillation": 0,
+    "Folding": 1,
+    "Radiation": 1,
+    "Propagation": 0,
+    "Arborescence": 1,
+    "Tessellation": 0,
+    "Helicity": 0,
+    "Enantiodromia": -1,
+    "Exteriority": -1,
+    "Solution": 0,
+    "ORACLE_ADJUST": 0,
+}
+
 class DimensionalState:
     """State with a vector and associated parameters (order, frequency, scale)."""
     def __init__(self, vec: np.ndarray, order: int = 0, freq: float = 1.0, rho: float = 1.0):
