@@ -71,9 +71,21 @@ Future goals:
 
 * Expansion of the **MetaHermeneutic Frame** for narrative simulation and consciousness modeling
 * Phase III deployment: **self-deploying epistemic node** for recursive cosmological reasoning
+
 * Integration of live symbolic sensors and dynamic memory synthesis
 
+## Setup
+
+Clone the repository and install the Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+The project targets Python 3.8 or newer.
+
 ## Suggested Readings
+
 
 * *Formulaic Canon*, *OrganonPrimer*, *NyayaSutraPrimer*, *Relativity Primer*
 * *Poetic Logic*, *Anatomy of the Spirit*, *General Semantics*
