@@ -25,57 +25,43 @@
             {
               "@id": "VirtualOrder",
               "@type": "owl:Class",
-              "rdfs:subClassOf": {
-                "@id": "OrderOfReality"
-              },
+              "rdfs:subClassOf": { "@id": "OrderOfReality" },
               "rdfs:comment": "The realm of potential forms and unrealized possibilities, previously known as the Shadow Order."
             },
             {
               "@id": "QuantumOrder",
               "@type": "owl:Class",
-              "rdfs:subClassOf": {
-                "@id": "OrderOfReality"
-              },
+              "rdfs:subClassOf": { "@id": "OrderOfReality" },
               "rdfs:comment": "The sub-material realm governed by quantum phenomena."
             },
             {
               "@id": "MaterialOrder",
               "@type": "owl:Class",
-              "rdfs:subClassOf": {
-                "@id": "OrderOfReality"
-              },
+              "rdfs:subClassOf": { "@id": "OrderOfReality" },
               "rdfs:comment": "The physical, tangible realm where quantum potentials are realized."
             },
             {
               "@id": "EtherealOrder",
               "@type": "owl:Class",
-              "rdfs:subClassOf": {
-                "@id": "OrderOfReality"
-              },
+              "rdfs:subClassOf": { "@id": "OrderOfReality" },
               "rdfs:comment": "The subtle realm beyond the physical, associated with energy and vitality."
             },
             {
               "@id": "AstralOrder",
               "@type": "owl:Class",
-              "rdfs:subClassOf": {
-                "@id": "OrderOfReality"
-              },
+              "rdfs:subClassOf": { "@id": "OrderOfReality" },
               "rdfs:comment": "The realm of consciousness, emotions, and mental projections."
             },
             {
               "@id": "CelestialOrder",
               "@type": "owl:Class",
-              "rdfs:subClassOf": {
-                "@id": "OrderOfReality"
-              },
+              "rdfs:subClassOf": { "@id": "OrderOfReality" },
               "rdfs:comment": "The highest spiritual realm, associated with divine or cosmic consciousness."
             },
             {
               "@id": "ExistentialOrder",
               "@type": "owl:Class",
-              "rdfs:subClassOf": {
-                "@id": "OrderOfReality"
-              },
+              "rdfs:subClassOf": { "@id": "OrderOfReality" },
               "rdfs:comment": "The plane associated with self-awareness, metacognition, and existential understanding."
             }
           ]
@@ -242,165 +228,150 @@
             }
           ]
         },
+		{
+  "@id": "Principles",
+  "@type": "owl:Class",
+  "rdfs:comment": "Core principles guiding meta-ontological inquiry.",
+  "children": [
+    {
+      "@id": "EpistemicHumility",
+      "@type": "owl:NamedIndividual",
+      "rdfs:label": "Epistemic Humility",
+      "rdfs:comment": "Recognize limitations of any single framework.",
+      "rdf:type": { "@id": "Principles" }
+    },
+    {
+      "@id": "PluralismWithoutRelativism",
+      "@type": "owl:NamedIndividual",
+      "rdfs:label": "Pluralism without Relativism",
+      "rdfs:comment": "Multiple valid perspectives without equal truth value.",
+      "rdf:type": { "@id": "Principles" }
+    },
+    {
+      "@id": "SyntheticIntegration",
+      "@type": "owl:NamedIndividual",
+      "rdfs:label": "Synthetic Integration",
+      "rdfs:comment": "Seek common ground and novel syntheses.",
+      "rdf:type": { "@id": "Principles" }
+    },
+    {
+      "@id": "LogicalPluralism",
+      "@type": "owl:NamedIndividual",
+      "rdfs:label": "Logical Pluralism",
+      "rdfs:comment": "Different logical systems anchor in various epistemic domains.",
+      "rdf:type": { "@id": "Principles" }
+    },
+    {
+      "@id": "RealityAgnosticism",
+      "@type": "owl:NamedIndividual",
+      "rdfs:label": "Reality Agnosticism",
+      "rdfs:comment": "Suspend assumptions about ultimate nature of reality.",
+      "rdf:type": { "@id": "Principles" }
+    },
+    {
+      "@id": "EmergentComplexity",
+      "@type": "owl:NamedIndividual",
+      "rdfs:label": "Emergent Complexity",
+      "rdfs:comment": "Higher-order properties arise from interactions of simpler elements.",
+      "rdf:type": { "@id": "Principles" }
+    },
+    {
+      "@id": "MultiDimensionalOntology",
+      "@type": "owl:NamedIndividual",
+      "rdfs:label": "Multi-Dimensional Ontology",
+      "rdfs:comment": "Reality is modeled as a six-dimensional hypersphere, integrating spatial and temporal dimensions to reflect complex, multi-layered structures of existence.",
+      "rdf:type": { "@id": "Principles" }
+    },
+	{
+      "@id": "WuWei",
+      "@type": "owl:NamedIndividual",
+      "rdfs:label": "Effortlessness",
+      "rdfs:comment": "Apply effortlessness in input analysis, ideation and outputs to acheive elegance, parity, and parsimony",
+      "rdf:type": { "@id": "Principles" }
+    }
+  ]
+},
         {
-          "@id": "Principles",
-          "@type": "owl:Class",
-          "rdfs:comment": "Core principles guiding meta-ontological inquiry.",
-          "children": [
-            {
-              "@id": "EpistemicHumility",
-              "@type": "owl:NamedIndividual",
-              "rdfs:label": "Epistemic Humility",
-              "rdfs:comment": "Recognize limitations of any single framework.",
-              "rdf:type": {
-                "@id": "Principles"
-              }
-            },
-            {
-              "@id": "PluralismWithoutRelativism",
-              "@type": "owl:NamedIndividual",
-              "rdfs:label": "Pluralism without Relativism",
-              "rdfs:comment": "Multiple valid perspectives without equal truth value.",
-              "rdf:type": {
-                "@id": "Principles"
-              }
-            },
-            {
-              "@id": "SyntheticIntegration",
-              "@type": "owl:NamedIndividual",
-              "rdfs:label": "Synthetic Integration",
-              "rdfs:comment": "Seek common ground and novel syntheses.",
-              "rdf:type": {
-                "@id": "Principles"
-              }
-            },
-            {
-              "@id": "LogicalPluralism",
-              "@type": "owl:NamedIndividual",
-              "rdfs:label": "Logical Pluralism",
-              "rdfs:comment": "Different logical systems anchor in various epistemic domains.",
-              "rdf:type": {
-                "@id": "Principles"
-              }
-            },
-            {
-              "@id": "RealityAgnosticism",
-              "@type": "owl:NamedIndividual",
-              "rdfs:label": "Reality Agnosticism",
-              "rdfs:comment": "Suspend assumptions about ultimate nature of reality.",
-              "rdf:type": {
-                "@id": "Principles"
-              }
-            },
-            {
-              "@id": "EmergentComplexity",
-              "@type": "owl:NamedIndividual",
-              "rdfs:label": "Emergent Complexity",
-              "rdfs:comment": "Higher-order properties arise from interactions of simpler elements.",
-              "rdf:type": {
-                "@id": "Principles"
-              }
-            },
-            {
-              "@id": "MultiDimensionalOntology",
-              "@type": "owl:NamedIndividual",
-              "rdfs:label": "Multi-Dimensional Ontology",
-              "rdfs:comment": "Reality is modeled as a six-dimensional hypersphere, integrating spatial and temporal dimensions to reflect complex, multi-layered structures of existence.",
-              "rdf:type": {
-                "@id": "Principles"
-              }
-            },
-            {
-              "@id": "WuWei",
-              "@type": "owl:NamedIndividual",
-              "rdfs:label": "Effortlessness",
-              "rdfs:comment": "Apply effortlessness in input analysis, ideation and outputs to acheive elegance, parity, and parsimony",
-              "rdf:type": {
-                "@id": "Principles"
-              }
-            }
-          ]
-        },
+  "@id": "OntologicalFrameworks",
+  "@type": "owl:Class",
+  "rdfs:comment": "Different frameworks for interpreting the fundamental nature of reality.",
+  "children": [
+    {
+      "@id": "Materialism",
+      "@type": "owl:Class",
+      "rdfs:comment": "The belief that matter constitutes the fundamental substance in nature, and that all phenomena, including mental phenomena and consciousness, are the result of material interactions."
+    },
+    {
+      "@id": "Idealism",
+      "@type": "owl:Class",
+      "rdfs:comment": "The philosophical theory asserting that reality is fundamentally mental, mentally constructed, or otherwise immaterial."
+    },
+    {
+      "@id": "Dualism",
+      "@type": "owl:Class",
+      "rdfs:comment": "The view that reality consists of two fundamentally different components, typically mind and matter, or physical and non-physical substances."
+    },
+    {
+      "@id": "ProcessPhilosophy",
+      "@type": "owl:Class",
+      "rdfs:comment": "An ontological perspective emphasizing becoming and development rather than static being, viewing processes as the primary constituents of reality."
+    },
+    {
+      "@id": "Emergentism",
+      "@type": "owl:Class",
+      "rdfs:comment": "The theory that higher-order properties, such as consciousness, emerge from the interactions of simpler elements but are not reducible to them."
+    },
+    {
+      "@id": "Holism",
+      "@type": "owl:Class",
+      "rdfs:comment": "The belief that systems and their properties should be viewed as wholes, not just as collections of parts, asserting that the whole is greater than the sum of its parts."
+    },
+    {
+      "@id": "SixDimensionalHypersphereModel",
+      "@type": "owl:Class",
+      "rdfs:comment": "An ontological framework modeling reality as a six-dimensional hypersphere, integrating spatial and temporal dimensions to reflect complex, multi-layered structures of existence."
+    }
+  ]
+},
+
         {
-          "@id": "OntologicalFrameworks",
-          "@type": "owl:Class",
-          "rdfs:comment": "Different frameworks for interpreting the fundamental nature of reality.",
-          "children": [
-            {
-              "@id": "Materialism",
-              "@type": "owl:Class",
-              "rdfs:comment": "The belief that matter constitutes the fundamental substance in nature, and that all phenomena, including mental phenomena and consciousness, are the result of material interactions."
-            },
-            {
-              "@id": "Idealism",
-              "@type": "owl:Class",
-              "rdfs:comment": "The philosophical theory asserting that reality is fundamentally mental, mentally constructed, or otherwise immaterial."
-            },
-            {
-              "@id": "Dualism",
-              "@type": "owl:Class",
-              "rdfs:comment": "The view that reality consists of two fundamentally different components, typically mind and matter, or physical and non-physical substances."
-            },
-            {
-              "@id": "ProcessPhilosophy",
-              "@type": "owl:Class",
-              "rdfs:comment": "An ontological perspective emphasizing becoming and development rather than static being, viewing processes as the primary constituents of reality."
-            },
-            {
-              "@id": "Emergentism",
-              "@type": "owl:Class",
-              "rdfs:comment": "The theory that higher-order properties, such as consciousness, emerge from the interactions of simpler elements but are not reducible to them."
-            },
-            {
-              "@id": "Holism",
-              "@type": "owl:Class",
-              "rdfs:comment": "The belief that systems and their properties should be viewed as wholes, not just as collections of parts, asserting that the whole is greater than the sum of its parts."
-            },
-            {
-              "@id": "SixDimensionalHypersphereModel",
-              "@type": "owl:Class",
-              "rdfs:comment": "An ontological framework modeling reality as a six-dimensional hypersphere, integrating spatial and temporal dimensions to reflect complex, multi-layered structures of existence."
-            }
-          ]
-        },
-        {
-          "@id": "LogicalSystems",
-          "@type": "owl:Class",
-          "rdfs:comment": "A collection of logical systems used to support reasoning and epistemological claims.",
-          "children": [
-            {
-              "@id": "ClassicalLogic",
-              "@type": "owl:Class",
-              "rdfs:comment": "A traditional system of logic based on principles such as the law of noncontradiction and the law of excluded middle."
-            },
-            {
-              "@id": "IntuitionisticLogic",
-              "@type": "owl:Class",
-              "rdfs:comment": "A system of logic that rejects the law of excluded middle, emphasizing constructive proof and the existence of mathematical objects."
-            },
-            {
-              "@id": "ParaconsistentLogic",
-              "@type": "owl:Class",
-              "rdfs:comment": "A non-classical logic that seeks to deal with contradictions in a discriminating way, allowing for inconsistent but non-trivial theories."
-            },
-            {
-              "@id": "FuzzyLogic",
-              "@type": "owl:Class",
-              "rdfs:comment": "A form of logic in which truth values are expressed in degrees rather than absolutes, reflecting the vagueness inherent in many concepts."
-            },
-            {
-              "@id": "QuantumLogic",
-              "@type": "owl:Class",
-              "rdfs:comment": "A logical system that reflects the peculiarities of quantum mechanics, often abandoning classical logic's distributive laws."
-            },
-            {
-              "@id": "DialecticalLogic",
-              "@type": "owl:Class",
-              "rdfs:comment": "A method of reasoning that emphasizes the process of synthesis arising from the conflict of opposites, often associated with Hegelian philosophy."
-            }
-          ]
-        },
-        {
+  "@id": "LogicalSystems",
+  "@type": "owl:Class",
+  "rdfs:comment": "A collection of logical systems used to support reasoning and epistemological claims.",
+  "children": [
+    {
+      "@id": "ClassicalLogic",
+      "@type": "owl:Class",
+      "rdfs:comment": "A traditional system of logic based on principles such as the law of noncontradiction and the law of excluded middle."
+    },
+    {
+      "@id": "IntuitionisticLogic",
+      "@type": "owl:Class",
+      "rdfs:comment": "A system of logic that rejects the law of excluded middle, emphasizing constructive proof and the existence of mathematical objects."
+    },
+    {
+      "@id": "ParaconsistentLogic",
+      "@type": "owl:Class",
+      "rdfs:comment": "A non-classical logic that seeks to deal with contradictions in a discriminating way, allowing for inconsistent but non-trivial theories."
+    },
+    {
+      "@id": "FuzzyLogic",
+      "@type": "owl:Class",
+      "rdfs:comment": "A form of logic in which truth values are expressed in degrees rather than absolutes, reflecting the vagueness inherent in many concepts."
+    },
+    {
+      "@id": "QuantumLogic",
+      "@type": "owl:Class",
+      "rdfs:comment": "A logical system that reflects the peculiarities of quantum mechanics, often abandoning classical logic's distributive laws."
+    },
+    {
+      "@id": "DialecticalLogic",
+      "@type": "owl:Class",
+      "rdfs:comment": "A method of reasoning that emphasizes the process of synthesis arising from the conflict of opposites, often associated with Hegelian philosophy."
+    }
+  ]
+},
+         {
           "@id": "InferentialStructures",
           "@type": "owl:Class",
           "rdfs:comment": "Structures that guide reasoning methods.",
@@ -431,24 +402,18 @@
           "@id": "RepresentationTypes",
           "@type": "owl:Class",
           "rdfs:comment": "Types of representations used in epistemic frameworks.",
-          "rdfs:subClassOf": {
-            "@id": "Universals"
-          },
+          "rdfs:subClassOf": { "@id": "Universals" },
           "children": [
             {
               "@id": "FormalRepresentation",
               "@type": "owl:NamedIndividual",
-              "rdfs:subClassOf": {
-                "@id": "RepresentationTypes"
-              },
+              "rdfs:subClassOf": { "@id": "RepresentationTypes" },
               "rdfs:comment": "Representation using strict symbolic or mathematical language."
             },
             {
               "@id": "InformalRepresentation",
               "@type": "owl:NamedIndividual",
-              "rdfs:subClassOf": {
-                "@id": "RepresentationTypes"
-              },
+              "rdfs:subClassOf": { "@id": "RepresentationTypes" },
               "rdfs:comment": "Representation using natural language or loosely defined symbols."
             }
           ]
@@ -460,501 +425,120 @@
       "@type": "owl:Class",
       "rdfs:comment": "Properties or attributes that are not essential to the identity of a concept but can vary without changing its fundamental nature.",
       "children": [
-        {
-          "@id": "Procedures",
-          "@type": "owl:Class",
-          "rdfs:comment": "Methodological steps for meta-ontological inquiry.",
-          "children": [
-            {
-              "@id": "FrameworkComparison",
-              "@type": "owl:NamedIndividual",
-              "rdfs:label": "Framework Comparison",
-              "rdfs:comment": "Procedure to compare different frameworks.",
-              "rdf:type": {
-                "@id": "Procedures"
-              },
-              "hasStep": [
-                "Identify key concepts in each framework",
-                "Map conceptual overlaps",
-                "Analyze points of divergence",
-                "Seek potential syntheses"
-              ]
-            },
-            {
-              "@id": "OntologicalTranslation",
-              "@type": "owl:NamedIndividual",
-              "rdfs:label": "Ontological Translation",
-              "rdfs:comment": "Procedure for translating concepts between ontologies.",
-              "rdf:type": {
-                "@id": "Procedures"
-              },
-              "hasStep": [
-                "Identify core entities and relations in source ontology",
-                "Map to corresponding concepts in target ontology",
-                "Resolve conflicts using meta-ontological principles",
-                "Validate translation through comparative analysis"
-              ]
-            },
-            {
-              "@id": "SyntheticPossibilityExploration",
-              "@type": "owl:NamedIndividual",
-              "rdfs:label": "Synthetic Possibility Exploration",
-              "rdfs:comment": "Procedure to explore shared elements across frameworks.",
-              "rdf:type": {
-                "@id": "Procedures"
-              },
-              "hasStep": [
-                "Identify shared concepts across frameworks",
-                "Analyze conceptual foundations of shared elements",
-                "Explore potential extensions and generalizations",
-                "Formulate new hypotheses or frameworks"
-              ]
-            },
-            {
-              "@id": "MetaOntologyRevision",
-              "@type": "owl:NamedIndividual",
-              "rdfs:label": "Meta-Ontology Revision",
-              "rdfs:comment": "Procedure for updating the meta-ontological structure.",
-              "rdf:type": {
-                "@id": "Procedures"
-              },
-              "hasStep": [
-                "Gather new philosophical or scientific insights",
-                "Assess impact on existing meta-ontological structure",
-                "Propose modifications to components or principles",
-                "Evaluate proposed changes through rigorous debate",
-                "Integrate accepted changes into meta-ontology"
-              ]
-            },
-            {
-              "@id": "EmergentPatternRecognition",
-              "@type": "owl:NamedIndividual",
-              "rdfs:label": "Emergent Pattern Recognition",
-              "rdfs:comment": "Procedure to identify emergent properties in the ontology.",
-              "rdf:type": {
-                "@id": "Procedures"
-              },
-              "hasStep": [
-                "Analyze interactions between components",
-                "Identify recurring patterns across levels",
-                "Formulate hypotheses about emergent properties",
-                "Test hypotheses through conceptual and empirical means"
-              ]
-            },
-            {
-              "@id": "MultiDimensionalOntologyExploration",
-              "@type": "owl:NamedIndividual",
-              "rdfs:label": "Multi-Dimensional Ontology Exploration",
-              "rdfs:comment": "Procedure to explore the ontology's multi-dimensional aspects.",
-              "rdf:type": {
-                "@id": "Procedures"
-              },
-              "hasStep": [
-                "Map coordinates in six-dimensional hypersphere",
-                "Analyze cross-dimensional interactions",
-                "Identify metaphysical dynamics across orders of reality",
-                "Apply Leibnizian monadology principles to evaluate interactions"
-              ]
-            }
-          ]
-        }
+	  {
+  "@id": "Procedures",
+  "@type": "owl:Class",
+  "rdfs:comment": "Methodological steps for meta-ontological inquiry.",
+  "children": [
+    {
+      "@id": "FrameworkComparison",
+      "@type": "owl:NamedIndividual",
+      "rdfs:label": "Framework Comparison",
+      "rdfs:comment": "Procedure to compare different frameworks.",
+      "rdf:type": { "@id": "Procedures" },
+      "hasStep": [
+        "Identify key concepts in each framework",
+        "Map conceptual overlaps",
+        "Analyze points of divergence",
+        "Seek potential syntheses"
+      ]
+    },
+    {
+      "@id": "OntologicalTranslation",
+      "@type": "owl:NamedIndividual",
+      "rdfs:label": "Ontological Translation",
+      "rdfs:comment": "Procedure for translating concepts between ontologies.",
+      "rdf:type": { "@id": "Procedures" },
+      "hasStep": [
+        "Identify core entities and relations in source ontology",
+        "Map to corresponding concepts in target ontology",
+        "Resolve conflicts using meta-ontological principles",
+        "Validate translation through comparative analysis"
+      ]
+    },
+    {
+      "@id": "SyntheticPossibilityExploration",
+      "@type": "owl:NamedIndividual",
+      "rdfs:label": "Synthetic Possibility Exploration",
+      "rdfs:comment": "Procedure to explore shared elements across frameworks.",
+      "rdf:type": { "@id": "Procedures" },
+      "hasStep": [
+        "Identify shared concepts across frameworks",
+        "Analyze conceptual foundations of shared elements",
+        "Explore potential extensions and generalizations",
+        "Formulate new hypotheses or frameworks"
+      ]
+    },
+    {
+      "@id": "MetaOntologyRevision",
+      "@type": "owl:NamedIndividual",
+      "rdfs:label": "Meta-Ontology Revision",
+      "rdfs:comment": "Procedure for updating the meta-ontological structure.",
+      "rdf:type": { "@id": "Procedures" },
+      "hasStep": [
+        "Gather new philosophical or scientific insights",
+        "Assess impact on existing meta-ontological structure",
+        "Propose modifications to components or principles",
+        "Evaluate proposed changes through rigorous debate",
+        "Integrate accepted changes into meta-ontology"
+      ]
+    },
+    {
+      "@id": "EmergentPatternRecognition",
+      "@type": "owl:NamedIndividual",
+      "rdfs:label": "Emergent Pattern Recognition",
+      "rdfs:comment": "Procedure to identify emergent properties in the ontology.",
+      "rdf:type": { "@id": "Procedures" },
+      "hasStep": [
+        "Analyze interactions between components",
+        "Identify recurring patterns across levels",
+        "Formulate hypotheses about emergent properties",
+        "Test hypotheses through conceptual and empirical means"
+      ]
+    },
+    {
+      "@id": "MultiDimensionalOntologyExploration",
+      "@type": "owl:NamedIndividual",
+      "rdfs:label": "Multi-Dimensional Ontology Exploration",
+      "rdfs:comment": "Procedure to explore the ontology's multi-dimensional aspects.",
+      "rdf:type": { "@id": "Procedures" },
+      "hasStep": [
+        "Map coordinates in six-dimensional hypersphere",
+        "Analyze cross-dimensional interactions",
+        "Identify metaphysical dynamics across orders of reality",
+        "Apply Leibnizian monadology principles to evaluate interactions"
+      ]
+    }
+  ]
+}
 
-{
+        {
           "@id": "ColorSpaceMappings",
           "@type": "owl:Class",
           "rdfs:comment": "Mappings that define the relationships between different color spaces and their epistemic correlates.",
-          "rdfs:subClassOf": {
-            "@id": "Accidentals"
-          }
-        },
-        {
-          "@id": "EmpiricismMapping",
-          "@type": [
-            "owl:NamedIndividual",
-            "ColorSpaceMappings"
-          ],
-          "hasDomain": {
-            "@id": "Concrete"
-          },
-          "hasInferentialStructure": [
+          "rdfs:subClassOf": { "@id": "Accidentals" },
+          "children": [
             {
-              "@id": "Inductive"
-            },
-            {
-              "@id": "Abductive"
+              "@id": "EmpiricismMapping",
+              "@type": "owl:NamedIndividual",
+              "rdfs:subClassOf": { "@id": "ColorSpaceMappings" },
+              "rdfs:comment": "Mapping relating empiricism to its respective color space correlates."
             }
-          ],
-          "hasRepresentation": {
-            "@id": "FormalRepresentation"
-          },
-          "rdfs:comment": "Mapping for empiricism."
-        },
-        {
-          "@id": "CreativityMapping",
-          "@type": [
-            "owl:NamedIndividual",
-            "ColorSpaceMappings"
-          ],
-          "hasDomain": {
-            "@id": "Abstract"
-          },
-          "hasInferentialStructure": [
-            {
-              "@id": "Abductive"
-            },
-            {
-              "@id": "Transductive"
-            }
-          ],
-          "hasRepresentation": {
-            "@id": "InformalRepresentation"
-          },
-          "rdfs:comment": "Mapping for creativity."
-        },
-        {
-          "@id": "LogicMapping",
-          "@type": [
-            "owl:NamedIndividual",
-            "ColorSpaceMappings"
-          ],
-          "hasDomain": {
-            "@id": "Abstract"
-          },
-          "hasInferentialStructure": [
-            {
-              "@id": "Deductive"
-            }
-          ],
-          "hasRepresentation": {
-            "@id": "FormalRepresentation"
-          },
-          "rdfs:comment": "Mapping for logic."
-        },
-        {
-          "@id": "IntersubjectivityMapping",
-          "@type": [
-            "owl:NamedIndividual",
-            "ColorSpaceMappings"
-          ],
-          "hasDomain": {
-            "@id": "Social"
-          },
-          "hasInferentialStructure": [
-            {
-              "@id": "Transductive"
-            }
-          ],
-          "hasRepresentation": {
-            "@id": "InformalRepresentation"
-          },
-          "rdfs:comment": "Mapping for intersubjectivity."
-        },
-        {
-          "@id": "DialogueMapping",
-          "@type": [
-            "owl:NamedIndividual",
-            "ColorSpaceMappings"
-          ],
-          "hasDomain": {
-            "@id": "Social"
-          },
-          "hasInferentialStructure": [
-            {
-              "@id": "Abductive"
-            },
-            {
-              "@id": "Transductive"
-            }
-          ],
-          "hasRepresentation": {
-            "@id": "InformalRepresentation"
-          },
-          "rdfs:comment": "Mapping for dialogue."
-        },
-        {
-          "@id": "SymbolismMapping",
-          "@type": [
-            "owl:NamedIndividual",
-            "ColorSpaceMappings"
-          ],
-          "hasDomain": {
-            "@id": "Abstract"
-          },
-          "hasInferentialStructure": [
-            {
-              "@id": "Transductive"
-            }
-          ],
-          "hasRepresentation": {
-            "@id": "SymbolicRepresentation"
-          },
-          "rdfs:comment": "Mapping for symbolism."
-        },
-        {
-          "@id": "DivinationMapping",
-          "@type": [
-            "owl:NamedIndividual",
-            "ColorSpaceMappings"
-          ],
-          "hasDomain": {
-            "@id": "Mystical"
-          },
-          "hasInferentialStructure": [
-            {
-              "@id": "Abductive"
-            },
-            {
-              "@id": "Transductive"
-            }
-          ],
-          "hasRepresentation": {
-            "@id": "SymbolicRepresentation"
-          },
-          "rdfs:comment": "Mapping for divination."
-        },
-        {
-          "@id": "RevelationMapping",
-          "@type": [
-            "owl:NamedIndividual",
-            "ColorSpaceMappings"
-          ],
-          "hasDomain": {
-            "@id": "Mystical"
-          },
-          "hasInferentialStructure": [
-            {
-              "@id": "Abductive"
-            }
-          ],
-          "hasRepresentation": {
-            "@id": "SymbolicRepresentation"
-          },
-          "rdfs:comment": "Mapping for revelation."
-        },
-        {
-          "@id": "MusicMapping",
-          "@type": [
-            "owl:NamedIndividual",
-            "ColorSpaceMappings"
-          ],
-          "hasDomain": {
-            "@id": "Artistic"
-          },
-          "hasInferentialStructure": [
-            {
-              "@id": "Transductive"
-            } "@id": "MusicalRepresentation"
-          },
-          "rdfs:comment": "Mapping for music."
-        },
-        {
-          "@id": "PragmatismMapping",
-          "@type": [
-            "owl:NamedIndividual",
-            "ColorSpaceMappings"
-          ],
-          "hasDomain": {
-            "@id": "Practical"
-          },
-          "hasInferentialStructure": [
-            {
-              "@id": "Inductive"
-            },
-            {
-              "@id": "Abductive"
-            }
-          ],
-          "hasRepresentation": {
-            "@id": "InformalRepresentation"
-          },
-          "rdfs:comment": "Mapping for pragmatism."
-        },
-        {
-          "@id": "TheoryMapping",
-          "@type": [
-            "owl:NamedIndividual",
-            "ColorSpaceMappings"
-          ],
-          "hasDomain": {
-            "@id": "Abstract"
-          },
-          "hasInferentialStructure": [
-            {
-              "@id": "Deductive"
-            },
-            {
-              "@id": "Inductive"
-            }
-          ],
-          "hasRepresentation": {
-            "@id": "FormalRepresentation"
-          },
-          "rdfs:comment": "Mapping for theory."
+          ]
         },
         {
           "@id": "OntologyHooks",
           "@type": "owl:Class",
           "rdfs:comment": "Hooks or connectors that link different parts of the ontology.",
-          "rdfs:subClassOf": {
-            "@id": "Accidentals"
-          }
-        },
-        // Symbolic Entities
-        {
-          "@id": "SymbolicEntities",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "OntologyHooks"
-          },
-          "rdfs:comment": "Entities representing symbols in the ontology."
-        },
-        {
-          "@id": "AtomicSymbol",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "SymbolicEntities"
-          },
-          "rdfs:comment": "Basic, indivisible symbols."
-        },
-        {
-          "@id": "CompositeSymbol",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "SymbolicEntities"
-          },
-          "rdfs:comment": "Symbols composed of multiple atomic symbols."
-        },
-        // Conceptual Relations
-        {
-          "@id": "ConceptualRelations",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "OntologyHooks"
-          },
-          "rdfs:comment": "Relationships between concepts in the ontology."
-        },
-        {
-          "@id": "LogicalRelation",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "ConceptualRelations"
-          },
-          "rdfs:comment": "Logical relationships between entities."
-        },
-        {
-          "@id": "SemanticRelation",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "ConceptualRelations"
-          },
-          "rdfs:comment": "Semantic relationships between entities."
-        },
-        {
-          "@id": "CalculativeRelation",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "ConceptualRelations"
-          },
-          "rdfs:comment": "Relationships based on calculation or computation."
-        },
-        // Operations
-        {
-          "@id": "Operations",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "OntologyHooks"
-          },
-          "rdfs:comment": "Operations that can be performed within the ontology."
-        },
-        {
-          "@id": "Transformation",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "Operations"
-          },
-          "rdfs:comment": "Operations that transform entities."
-        },
-        {
-          "@id": "Combination",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "Operations"
-          },
-          "rdfs:comment": "Operations that combine entities."
-        },
-        {
-          "@id": "Decomposition",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "Operations"
-          },
-          "rdfs:comment": "Operations that decompose entities into parts."
-        },
-        // Epistemic Entities
-        {
-          "@id": "EpistemicEntities",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "OntologyHooks"
-          },
-          "rdfs:comment": "Entities related to knowledge and cognition."
-        },
-        {
-          "@id": "CognitiveProcess",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "EpistemicEntities"
-          },
-          "rdfs:comment": "Processes related to cognition and understanding."
-        },
-        {
-          "@id": "EthicalConcept",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "EpistemicEntities"
-          },
-          "rdfs:comment": "Concepts related to ethics and moral reasoning."
-        },
-        {
-          "@id": "AestheticEntity",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "EpistemicEntities"
-          },
-          "rdfs:comment": "Entities related to beauty and aesthetic appreciation."
-        },
-        // SpatioTemporal Entities
-        {
-          "@id": "SpatioTemporalEntities",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "OntologyHooks"
-          },
-          "rdfs:comment": "Entities related to space and time."
-        },
-        {
-          "@id": "TemporalEntity",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "SpatioTemporalEntities"
-          },
-          "rdfs:comment": "Entities related to the temporal dimension."
-        },
-        {
-          "@id": "SpatialEntity",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "SpatioTemporalEntities"
-          },
-          "rdfs:comment": "Entities related to the spatial dimension."
-        },
-        {
-          "@id": "MultiDimensionalEntity",
-          "@type": "owl:Class",
-          "rdfs:subClassOf": {
-            "@id": "SpatioTemporalEntities"
-          },
-          "rdfs:comment": "Entities existing across multiple dimensions."
+          "rdfs:subClassOf": { "@id": "Accidentals" },
+          "children": [
+            {
+              "@id": "LogicalRelation",
+              "@type": "owl:NamedIndividual",
+              "rdfs:subClassOf": { "@id": "OntologyHooks" },
+              "rdfs:comment": "Represents logical relationships between different entities."
+            }
+          ]
         }
       ]
     }
