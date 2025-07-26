@@ -10,8 +10,10 @@
                 "reflect": "Integrate spatial (x, y, z) and temporal (passage, periodicity, presence) dimensions to consider different existence levels.",
                 "revise": "Adjust reasoning based on multi-dimensional analysis.",
                 "source": {
-                    "source_file": "ontology.xml",
-                    "EpistemicColorSpace.json",
+                    "source_files": [
+                        "ontology.xml",
+                        "EpistemicColorSpace.json"
+                    ],
                     "description": "Defines the MetaOntological framework and six-dimensional model.",
                     "function": "Provides structure for multi-dimensional reasoning."
                 }
