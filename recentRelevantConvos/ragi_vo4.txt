@@ -123,7 +123,7 @@ pctm_sitar_comparison(1).md
 File
 stateSpaceModellingForHypercomputation.txt
 Document
-functionalCannon.py
+functionalCanon.py
 Python
 formulaicCannon.json
 File
@@ -1013,7 +1013,7 @@ generalReviewClaude.txt
 Document
 pctmMisinterpretation.txt
 Document
-functionalCannon.py
+functionalCanon.py
 Python
 PCTM4.py
 Python

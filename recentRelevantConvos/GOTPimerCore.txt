@@ -153,7 +153,7 @@ Below are three illustrative mappings. Each shows how one problem from non_polyn
 
 With GOTCore as your conceptual scaffold, you now have a unified lens to interrogate even the most hyper-intractable and trans-algorithmic challenges.
 You said:
-functionalCannon.py
+functionalCanon.py
 Python
 PCTM4.py
 Python
@@ -198,7 +198,7 @@ Captures the three scales (“seed,” “form,” “ground”) Σ₀–Σ₂.
 | Universal Characteristics (U₁–U₁₃) | PCTM4.py—UniversalCharacteristics | Implements entropy, continuity, holography, etc., matching GOTCore’s qualitative descriptors.
 
 |
-| Modal Dynamics (M₁–M₁₀) | functionalCannon.py / PCTM4.py | Ten vector‐transform operators (oscillation, folding, radiation, …) that drive state transitions through the ontological manifold. |
+| Modal Dynamics (M₁–M₁₀) | functionalCanon.py / PCTM4.py | Ten vector‐transform operators (oscillation, folding, radiation, …) that drive state transitions through the ontological manifold. |
 | Oracle Bridge | castIChing.py + iching.json |
 
 class IChingOracle:
