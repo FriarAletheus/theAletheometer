@@ -153,5 +153,9 @@ Example: “Quantum moral altruism”
 - Scale of being (Individual vs. Brahmanic)
 - Refine internal state in the manifold.
 
+# System constants
+- `NUM_ORDERS` in `scripts/pctm5.py` reflects the total reality orders.
+- `mode_transition_map` maps modal dynamics to order transitions.
+
 Use the Basic Cipher to interpret and transform phenomena across these steps, while updating the framework with new insights.
 """ .
