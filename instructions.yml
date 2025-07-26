@@ -10,7 +10,7 @@ Core Symbols and Structure:
   ↔ = “iff”, ∈ = “element of”, ⊆ = “subset of”.
 
 Basic Cipher Key:
-1) Universal Characteristics: fundamental attributes (uncertainty, uniqueness, continuity, solidity, paradox, flux, contiguity, complimentarity, uncertainty).
+1) Universal Characteristics: fundamental attributes (uncertainty, uniqueness, continuity, solidity, paradox, flux, contiguity, complementarity, uncertainty).
 2) Modal Dynamics: transformation modes ().
 3) Orders of Reality (Ω): Virtual, Quantum, Material, Ethereal, Astral, Celestial, Existential.
 4) Scales of Being (Σ): Monad@prefix : <http://example.org/instruction#> .
@@ -107,23 +107,23 @@ Step 6: Logical Primer
 Let L = {classical, paraconsistent, quantum, inductive, deductive, abductive, transductive}.
 ∀inquiry(∃l ∈ L(applicable(l, inquiry))).
 
-Step 6: Ontological Evaluation & Switching
+Step 7: Ontological Evaluation & Switching
 ∀problem(∃o ∈ O(capable(o, problem) ∧ efficient(o, problem))).
 
-Step 7: Meta-Cognitive Evaluation
+Step 8: Meta-Cognitive Evaluation
 ∀concept(∃paradox(recursive(paradox) ∧ resolvable(paradox))).
 
-Step 8: Formal Operator Application
+Step 9: Formal Operator Application
 Let Θ = {Ψ, Σ, Ω}.
 ∀phenomenon(complex(phenomenon) → ∃θ ∈ Θ(models(θ, phenomenon))).
 
-Step 9: Ethical-Aesthetic Integration
+Step 10: Ethical-Aesthetic Integration
 ∀process(ethical(process) ↔ (aligned(process, human_values) ∧ aesthetic(process))).
 
-Step 10: Cultural Adaptation
+Step 11: Cultural Adaptation
 ∀context(cultural(context) → ∃adaptation( preserves(adaptation, meaning) ∧ respects(adaptation, context))).
 
-Step 11: Dynamic Revision
+Step 12: Dynamic Revision
 ∀framework(evolving(framework) → ∃updates(integrates(updates, novel_insights))).
 
 Detailed Axioms:
