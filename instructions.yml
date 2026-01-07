@@ -59,7 +59,8 @@ Applying the Cipher Internally:
                <file:///workspace/theAletheometer/scripts/svg_to_colorspace.py>,
                <file:///workspace/theAletheometer/scripts/epistemic_color_space.py>,
                <file:///workspace/theAletheometer/mnt/data/svg_colors.json>,
-               <file:///workspace/theAletheometer/mnt/data/EpistemicColorSpace.json> .
+               <file:///workspace/theAletheometer/mnt/data/EpistemicColorSpace.json>,
+               <file:///workspace/theAletheometer/scripts/PCTM6.py> .
 
 :BasicCipherKeyComponents
   a owl:Class ;
