@@ -1,0 +1,2204 @@
+{
+  "Epistemic Hyperspherical Colorspace": {
+    "Version": "1.2",
+    "UniversalAxioms": [
+      {
+        "Axiom": "Knowledge is a dynamic and evolving construct.",
+        "Implications": [
+          "Knowledge must be continuously updated and revised."
+        ]
+      },
+      {
+        "Axiom": "All knowledge claims must adhere to modal, methodological and technical consistency and coherence.",
+        "Implications": [
+          "Contradictory knowledge claims are resolved through modal, methodological and/or technical transduction."
+        ]
+      },
+      {
+        "Axiom": "Ethical and aesthetic principles potentiate and guide validation and application of knowledge.",
+        "Implications": [
+          "Knowledge must be ethically sound and morally responsible aesthetically fitting."
+        ]
+      },
+      {
+        "Axiom": "Modal, methodological and technical evidence and repeatability are essential for validating respective knowledge claims.",
+        "Implications": [
+          "All knowledge emerges from reliability of observable and repeatable phenomena."
+        ]
+      },
+      {
+        "Axiom": "Intuition and imagination are valid sources of knowledge, particularly in and including domains where empirical validation is not applicable.",
+        "Implications": [
+          "Creative and intuitive insights are recognized as legitimate forms of knowledge, and indeed are essential for discovery and reconciliation within adjacent, complimentary and contradictory domains."
+        ]
+      }
+    ],
+    "Domains": [
+      {
+        "Index": 1,
+        "Name": "Logic",
+        "Type": "Modal Domain",
+        "Color": "Magenta",
+        "Axioms": {
+          "Shared": [
+            "Principle of Non-Contradiction",
+            "Deductive Reasoning"
+          ],
+          "Unique": [
+            "Formal Structure",
+            "Consistency and Coherence",
+            "Axiomatic Foundations"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on structured reasoning and formal validation of knowledge.",
+          "Boundaries": "Limited by the need for logical consistency and coherence."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Formal proof",
+          "Secondary": [
+            "Deductive reasoning",
+            "Logical analysis"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Syllogisms",
+            "Formal systems",
+            "Logical frameworks"
+          ],
+          "Supplementary": [
+            "Mathematical models",
+            "Algorithmic processes"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Moderate",
+          "Flexibility": "Low",
+          "Constraints": "Limited by the need for logical consistency and coherence."
+        },
+        "EpistemicClaim": "Knowledge is validated by its logical consistency and coherence within a formal system.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Intersubjectivity",
+            "Empiricism"
+          ],
+          "Contradictions": [
+            "Creativity"
+          ],
+          "Influences": [
+            "Empiricism",
+            "Pragmatism"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.15,
+          "formalConsistency": 0.6,
+          "deductiveValidity": 0.25
+        },
+        "weightRationale": "Logic's EpistemicClaim: 'Knowledge is validated by its logical consistency and coherence within a formal system'",
+        "formalAxioms": {
+          "shared": {
+            "NonContradiction": "∀p(¬(p ∧ ¬p))",
+            "DeductiveReasoning": "∀P∀Q((P → Q) ∧ P) → Q"
+          },
+          "unique": {
+            "FormalStructure": "∀s(WellFormed(s) ↔ ∃F∈FormalSystem(Derivable(s,F)))",
+            "ConsistencyCoherence": "∀T(Theory(T) → ¬∃p(T ⊢ p ∧ T ⊢ ¬p))",
+            "AxiomaticFoundations": "∀T∃A(Axioms(A,T) ∧ ∀t∈T(Derivable(t,A)))"
+          },
+          "validationRule": "Valid(k,Logic) ↔ (Consistent(k) ∧ Derivable(k) ∧ FormallyStructured(k))"
+        }
+      },
+      {
+        "Index": 2,
+        "Name": "Studio",
+        "Type": "Technical Domain",
+        "Color": "Pink",
+        "Axioms": {
+          "Shared": [
+            "Material Engagement",
+            "Iterative Refinement"
+          ],
+          "Unique": [
+            "Space as Epistemic Container",
+            "Tool Mastery as Knowledge",
+            "Embodied Practice",
+            "Environment Shapes Output"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on the physical and conceptual workspace where creative and logical processes materialize into tangible form.",
+          "Boundaries": "Limited by material constraints, spatial configuration, and available instrumentation."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Hands-on fabrication and iterative making",
+          "Secondary": [
+            "Prototyping",
+            "Environmental arrangement",
+            "Tool calibration"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Workbenches and surfaces",
+            "Specialized equipment",
+            "Material repositories"
+          ],
+          "Supplementary": [
+            "Digital workstations",
+            "Recording apparatus",
+            "Lighting and acoustic treatment"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Localized",
+          "Flexibility": "Moderate",
+          "Constraints": "Bound by physical space, resource availability, and technical infrastructure."
+        },
+        "EpistemicClaim": "Knowledge is validated through material instantiation and the transformation of abstract concepts into concrete artifacts within a dedicated workspace.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Logic",
+            "Art"
+          ],
+          "Contradictions": [
+            "Pure abstraction without material grounding"
+          ],
+          "Influences": [
+            "Creativity",
+            "Composition"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.55,
+          "technicalExecution": 0.3,
+          "materialMastery": 0.15
+        },
+        "weightRationale": "Studio practice bridges empirical technique with creative expression"
+      },
+      {
+        "Index": 3,
+        "Name": "Art",
+        "Type": "Methodological Domain",
+        "Color": "Rose",
+        "Axioms": {
+          "Shared": [
+            "Aesthetic Experience as Knowledge",
+            "Expressive Communication"
+          ],
+          "Unique": [
+            "Form-Content Unity",
+            "Subjective Universal",
+            "Meaning Through Making",
+            "Affective Truth"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Explores knowledge through aesthetic creation, interpretation, and the synthesis of sensory experience with conceptual meaning.",
+          "Boundaries": "Limited by expressive capacity and the interpretive frameworks of audiences and practitioners."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Aesthetic creation and critical interpretation",
+          "Secondary": [
+            "Art historical analysis",
+            "Phenomenological engagement",
+            "Curatorial synthesis"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Visual media (paint, sculpture, photography)",
+            "Performance",
+            "Installation"
+          ],
+          "Supplementary": [
+            "Critical theory",
+            "Art historical frameworks",
+            "Exhibition design"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Bound by cultural context, material availability, and interpretive communities."
+        },
+        "EpistemicClaim": "Knowledge is validated through aesthetic resonance, the capacity to evoke meaning, and the synthesis of form and content.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Logic",
+            "Creativity"
+          ],
+          "Contradictions": [
+            "Purely quantitative reduction"
+          ],
+          "Influences": [
+            "Studio",
+            "Music",
+            "Dance"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.2,
+          "aestheticCoherence": 0.45,
+          "expressiveAuthenticity": 0.35
+        },
+        "weightRationale": "Art's EpistemicClaim: 'Knowledge is validated through aesthetic experience and expressive truth'",
+        "formalAxioms": {
+          "shared": {
+            "AestheticExperience": "∃k(Source(k) = AestheticExperience ∧ Valid(k))",
+            "ExpressiveTruth": "∃p(True(p) ∧ Expressive(p) ∧ ¬Propositional(p))"
+          },
+          "unique": {
+            "FormContentSynthesis": "∀a(Art(a) → ∃f∃c(Form(f,a) ∧ Content(c,a) ∧ Synthesized(f,c)))",
+            "EvocativeMeaning": "∀a(Valid(a,Art) → ∃m(Meaning(m) ∧ Evokes(a,m)))",
+            "MaterialTranscendence": "∃a(Art(a) ∧ Material(a) ∧ Meaning(a) ⊃ Material(a))"
+          },
+          "validationRule": "Valid(k,Art) ↔ (AestheticResonance(k) ∧ EvokesMe aning(k) ∧ FormContentUnity(k))"
+        }
+      },
+      {
+        "Index": 4,
+        "Name": "Dance",
+        "Type": "Technical Domain",
+        "Color": "Vermilion",
+        "Axioms": {
+          "Shared": [
+            "Embodied Knowledge",
+            "Kinesthetic Intelligence"
+          ],
+          "Unique": [
+            "Body as Instrument",
+            "Movement as Language",
+            "Spatial-Temporal Inscription",
+            "Somatic Memory"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge expressed and transmitted through bodily movement, gesture, and choreographic structure.",
+          "Boundaries": "Limited by physical capacity, bodily discipline, and the ephemerality of performed movement."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Choreographic composition and embodied practice",
+          "Secondary": [
+            "Movement analysis",
+            "Somatic exploration",
+            "Improvisational research"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "The trained body",
+            "Choreographic notation",
+            "Rehearsal space"
+          ],
+          "Supplementary": [
+            "Video documentation",
+            "Motion capture",
+            "Anatomical study"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Moderate",
+          "Flexibility": "High",
+          "Constraints": "Bound by physical embodiment, training traditions, and performative context."
+        },
+        "EpistemicClaim": "Knowledge is validated through bodily enactment, kinesthetic coherence, and the communicative power of movement.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Art",
+            "Music"
+          ],
+          "Contradictions": [
+            "Disembodied abstraction"
+          ],
+          "Influences": [
+            "Creativity",
+            "Composition"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.3,
+          "embodiedCoherence": 0.4,
+          "kinestheticResonance": 0.3
+        },
+        "weightRationale": "Dance's EpistemicClaim: 'Knowledge is validated through embodied coherence and kinesthetic resonance'"
+      },
+      {
+        "Index": 5,
+        "Name": "Creativity",
+        "Type": "Modal Domain",
+        "Color": "Red",
+        "Axioms": {
+          "Shared": [
+            "Knowledge as Creative Variation",
+            "Epistemic Generativity"
+          ],
+          "Unique": [
+            "Imagination as Epistemic Source",
+            "Aesthetic Truths (1:1.618... or musical tonic scales, color theory)",
+            "Non-Linear Discovery",
+            "Innovation Over Convention"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Explores knowledge generation through creative variation and worldview exploration.",
+          "Boundaries": "Limited only by imaginative capacity and innovative potential."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Artistic exploration, example practices: music, art, dance, theater.",
+          "Secondary": [
+            "Conceptual innovation",
+            "Imaginative thinking"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Visual Media",
+            "Music",
+            "Literature",
+            "Speculation"
+          ],
+          "Supplementary": [
+            "Conceptual blending",
+            "Metaphorical reasoning"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited only by imaginative capacity and innovative potential."
+        },
+        "EpistemicClaim": "Knowledge is validated by its capacity to inspire, evoke, and provoke new ways of seeing or understanding.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Empiricism",
+            "Theory"
+          ],
+          "Contradictions": [
+            "Logic"
+          ],
+          "Influences": [
+            "Dialogue",
+            "Revelation"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.2,
+          "generativeNovelty": 0.45,
+          "aestheticCoherence": 0.35
+        },
+        "weightRationale": "Creativity's EpistemicClaim: 'Knowledge is validated by its capacity to generate novel and meaningful forms'",
+        "formalAxioms": {
+          "shared": {
+            "ImaginationAsSource": "∃k(Source(k) = Imagination ∧ Valid(k))",
+            "AestheticTruths": "∃p(Aesthetic(p) ∧ True(p) ∧ ¬Empirical(p))"
+          },
+          "unique": {
+            "NonLinearDiscovery": "∃k∃path(Discovery(k,path) ∧ ¬Linear(path))",
+            "InnovationOverConvention": "∀k(Creative(k) → Priority(Innovation(k), Convention(k)))"
+          },
+          "validationRule": "Valid(k,Creativity) ↔ (Inspires(k) ∨ Evokes(k) ∨ Provokes(k,NewPerspective))"
+        }
+      },
+      {
+        "Index": 6,
+        "Name": "Composition",
+        "Type": "Technical Domain",
+        "Color": "Orange",
+        "Axioms": {
+          "Shared": [
+            "Structural Organization",
+            "Harmonic Integration"
+          ],
+          "Unique": [
+            "Part-Whole Relations",
+            "Temporal Sequencing",
+            "Dynamic Balance",
+            "Layered Complexity"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on the arrangement and integration of elements into coherent, meaningful wholes across creative and formal domains.",
+          "Boundaries": "Limited by the combinatorial possibilities of constituent elements and structural coherence requirements."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Structural arrangement and integrative design",
+          "Secondary": [
+            "Harmonic analysis",
+            "Temporal mapping",
+            "Layered construction"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Notation systems",
+            "Compositional frameworks",
+            "Sequencing tools"
+          ],
+          "Supplementary": [
+            "Digital audio workstations",
+            "Layout software",
+            "Orchestration manuals"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "Moderate",
+          "Constraints": "Bound by formal conventions, medium-specific limitations, and structural coherence."
+        },
+        "EpistemicClaim": "Knowledge is validated through the coherent integration of elements into unified, meaningful structures.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Creativity",
+            "Music"
+          ],
+          "Contradictions": [
+            "Formless expression"
+          ],
+          "Influences": [
+            "Logic",
+            "Art",
+            "Dance"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.25,
+          "structuralCoherence": 0.4,
+          "expressiveIntegrity": 0.35
+        },
+        "weightRationale": "Composition's EpistemicClaim: 'Knowledge is validated through structural coherence and expressive integrity'"
+      },
+      {
+        "Index": 7,
+        "Name": "Music",
+        "Type": "Methodological Domain",
+        "Color": "Gamboge",
+        "Axioms": {
+          "Shared": [
+            "Sonic Structure as Meaning",
+            "Temporal-Affective Experience"
+          ],
+          "Unique": [
+            "Harmonic Ratios as Truth",
+            "Rhythm as Cognitive Scaffold",
+            "Melodic Narrative",
+            "Acoustic Physics and Perception"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Explores knowledge through organized sound, harmonic relationships, rhythmic structures, and the affective power of acoustic phenomena.",
+          "Boundaries": "Limited by acoustic possibility, perceptual capacity, and cultural-historical conventions of musical meaning."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Performance, composition, and acoustic analysis",
+          "Secondary": [
+            "Music theory",
+            "Ethnomusicology",
+            "Psychoacoustics"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Musical instruments",
+            "Notation systems",
+            "Recording technology"
+          ],
+          "Supplementary": [
+            "Acoustic measurement tools",
+            "Music theory treatises",
+            "Digital synthesis"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Bound by acoustic physics, perceptual thresholds, and cultural interpretive frameworks."
+        },
+        "EpistemicClaim": "Knowledge is validated through harmonic coherence, rhythmic integrity, and the capacity of organized sound to convey meaning and evoke response.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Creativity",
+            "Revelation"
+          ],
+          "Contradictions": [
+            "Silent abstraction"
+          ],
+          "Influences": [
+            "Composition",
+            "Dance",
+            "Art"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.15,
+          "harmonicCoherence": 0.5,
+          "affectiveResonance": 0.35
+        },
+        "weightRationale": "Music's EpistemicClaim: 'Knowledge is validated through harmonic structure and affective impact'"
+      },
+      {
+        "Index": 8,
+        "Name": "Myth",
+        "Type": "Technical Domain",
+        "Color": "Saffron",
+        "Axioms": {
+          "Shared": [
+            "Narrative as Knowledge Container",
+            "Symbolic Truth"
+          ],
+          "Unique": [
+            "Archetypal Patterns",
+            "Cosmogonic Foundation",
+            "Sacred Narrative",
+            "Collective Memory as Authority"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge encoded in traditional narratives, archetypal patterns, and cosmogonic structures that transmit cultural and existential understanding.",
+          "Boundaries": "Limited by interpretive tradition, cultural transmission, and the symbolic density of narrative forms."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Narrative interpretation and archetypal analysis",
+          "Secondary": [
+            "Comparative mythology",
+            "Structural analysis",
+            "Hermeneutic engagement"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Sacred narratives",
+            "Oral traditions",
+            "Mythic cycles"
+          ],
+          "Supplementary": [
+            "Comparative frameworks",
+            "Jungian archetypes",
+            "Ritual performance"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Moderate",
+          "Flexibility": "Moderate",
+          "Constraints": "Bound by cultural context, transmission fidelity, and interpretive communities."
+        },
+        "EpistemicClaim": "Knowledge is validated through narrative coherence, archetypal resonance, and the capacity to orient individuals and communities within cosmic and existential frameworks.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Music",
+            "Symbolism"
+          ],
+          "Contradictions": [
+            "Literalist reduction"
+          ],
+          "Influences": [
+            "Revelation",
+            "Creativity",
+            "Philosophy"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.15,
+          "narrativeCoherence": 0.45,
+          "archetypalResonance": 0.4
+        },
+        "weightRationale": "Myth's EpistemicClaim: 'Knowledge is validated through narrative coherence, archetypal resonance, and the capacity to orient individuals and communities'",
+        "formalAxioms": {
+          "shared": {
+            "NarrativeCoherence": "∀m(Myth(m) → ∃n(Narrative(n) ∧ Coherent(n) ∧ Embodies(n,m)))",
+            "ArchetypalResonance": "∀m(Myth(m) → ∃a(Archetype(a) ∧ Resonates(m,a)))"
+          },
+          "unique": {
+            "CosmicOrientation": "∀m(Myth(m) → ∃f(Framework(f) ∧ Cosmic(f) ∧ Orients(m,f)))",
+            "ExistentialAddress": "∀m(Myth(m) → ∃q(Question(q) ∧ Existential(q) ∧ Addresses(m,q)))",
+            "CommunalBinding": "∀m(Myth(m) → ∃c(Community(c) ∧ Binds(m,c)))"
+          },
+          "validationRule": "Valid(k,Myth) ↔ (NarrativeCoherence(k) ∧ ArchetypalResonance(k) ∧ ExistentialOrientation(k))"
+        }
+      },
+      {
+        "Index": 9,
+        "Name": "Pragmatism",
+        "Type": "Modal Domain",
+        "Color": "Yellow",
+        "Axioms": {
+          "Shared": [
+            "Practical Utility",
+            "Fallibilism"
+          ],
+          "Unique": [
+            "Action-Guiding Knowledge",
+            "Experimental Verification",
+            "Adaptive Utility"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on practical application and utility of knowledge.",
+          "Boundaries": "Limited by the need for practical success and utility."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Experimentation",
+          "Secondary": [
+            "Problem-solving",
+            "Practical application"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Prototyping",
+            "Field studies",
+            "Decision matrices"
+          ],
+          "Supplementary": [
+            "Case studies",
+            "Action research"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited by the need for practical success and utility."
+        },
+        "EpistemicClaim": "Knowledge is validated by its practical success and utility in achieving desired outcomes.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Empiricism",
+            "Dialogue"
+          ],
+          "Contradictions": [
+            "Revelation"
+          ],
+          "Influences": [
+            "Creativity"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.5,
+          "practicalUtility": 0.35,
+          "internalConsistency": 0.15
+        },
+        "weightRationale": "Pragmatism's EpistemicClaim: 'Knowledge is validated by practical success and utility'",
+        "formalAxioms": {
+          "shared": {
+            "PracticalOrientation": "∀k(Pragmatic(k) → ∃g∈Goal(OrientedToward(k,g)))"
+          },
+          "unique": {
+            "UtilityAsValidation": "∀k(Valid(k,Pragmatism) ↔ ∃o∈Outcome(Useful(k,o)))",
+            "ActionCenteredKnowledge": "∀k(Pragmatic(k) → ∃a∈Action(Enables(k,a)))",
+            "ConsequentialistTruth": "∀p(True(p,Pragmatism) ↔ ∃c(Consequence(c,p) ∧ Desirable(c)))"
+          },
+          "validationRule": "Valid(k,Pragmatism) ↔ (PracticalSuccess(k) ∧ Utility(k,DesiredOutcome))"
+        }
+      },
+      {
+        "Index": 10,
+        "Name": "Rhetoric",
+        "Type": "Technical Domain",
+        "Color": "Citron",
+        "Axioms": {
+          "Shared": [
+            "Persuasive Communication",
+            "Audience Awareness"
+          ],
+          "Unique": [
+            "Kairos (Timeliness)",
+            "Ethos, Pathos, Logos",
+            "Strategic Composition",
+            "Contextual Adaptation"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on the knowledge of effective communication, persuasion, and the strategic deployment of language to achieve desired effects.",
+          "Boundaries": "Limited by audience receptivity, contextual appropriateness, and ethical constraints on persuasion."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Rhetorical analysis and persuasive composition",
+          "Secondary": [
+            "Audience analysis",
+            "Stylistic study",
+            "Argumentative mapping"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Rhetorical figures and tropes",
+            "Argumentative structures",
+            "Delivery techniques"
+          ],
+          "Supplementary": [
+            "Speech writing frameworks",
+            "Communication theory",
+            "Media analysis"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Bound by ethical considerations, audience context, and medium-specific limitations."
+        },
+        "EpistemicClaim": "Knowledge is validated through persuasive effectiveness, communicative clarity, and the achievement of intended rhetorical outcomes.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Pragmatism",
+            "Symbolism"
+          ],
+          "Contradictions": [
+            "Pure logic without audience consideration"
+          ],
+          "Influences": [
+            "Dialogue",
+            "Philosophy",
+            "Politics"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.35,
+          "persuasiveEffectiveness": 0.4,
+          "audienceResonance": 0.25
+        },
+        "weightRationale": "Rhetoric's EpistemicClaim: 'Knowledge is validated through persuasive effectiveness, communicative clarity, and the achievement of intended rhetorical outcomes'",
+        "formalAxioms": {
+          "shared": {
+            "PersuasiveCommunication": "∀r(Rhetoric(r) → ∃a∃p(Audience(a) ∧ Persuades(r,a,p)))",
+            "AudienceAwareness": "∀r(Effective(r) → ∃a(Audience(a) ∧ Adapted(r,a)))"
+          },
+          "unique": {
+            "Kairos": "∀r(Effective(r) → ∃t(Time(t) ∧ Opportune(r,t)))",
+            "EthosPathosLogos": "∀r(Complete(r) ↔ (Ethos(r) ∧ Pathos(r) ∧ Logos(r)))",
+            "StrategicComposition": "∀r(Rhetoric(r) → ∃s(Strategy(s) ∧ Structures(s,r)))",
+            "ContextualAdaptation": "∀r∀c(Context(c) → ∃r'(Adaptation(r',r,c)))"
+          },
+          "validationRule": "Valid(k,Rhetoric) ↔ (PersuasivelyEffective(k) ∧ CommunicativelyClear(k) ∧ AudienceResonant(k))"
+        }
+      },
+      {
+        "Index": 11,
+        "Name": "Symbolism",
+        "Type": "Methodological Domain",
+        "Color": "Chartreuse",
+        "Axioms": {
+          "Shared": [
+            "Signs as Knowledge Vehicles",
+            "Layered Meaning"
+          ],
+          "Unique": [
+            "Condensation of Meaning",
+            "Polyvalence",
+            "Symbolic Networks",
+            "Cultural and Universal Registers"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Explores knowledge through the creation, interpretation, and deployment of symbols that condense and transmit meaning across contexts.",
+          "Boundaries": "Limited by interpretive capacity, cultural familiarity, and the density of symbolic reference."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Symbolic interpretation and semiotic analysis",
+          "Secondary": [
+            "Iconographic study",
+            "Hermeneutics",
+            "Symbolic synthesis"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Symbol systems",
+            "Iconographic dictionaries",
+            "Semiotic frameworks"
+          ],
+          "Supplementary": [
+            "Visual symbolism",
+            "Linguistic semiotics",
+            "Cultural symbol studies"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Bound by cultural context, interpretive traditions, and symbolic literacy."
+        },
+        "EpistemicClaim": "Knowledge is validated through the coherence of symbolic networks and the capacity of symbols to transmit layered meaning across contexts.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Pragmatism",
+            "Myth"
+          ],
+          "Contradictions": [
+            "Literalist reduction"
+          ],
+          "Influences": [
+            "Rhetoric",
+            "Philosophy",
+            "Art"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.2,
+          "symbolicCoherence": 0.45,
+          "interpretiveDepth": 0.35
+        },
+        "weightRationale": "Symbolism's EpistemicClaim: 'Knowledge is validated through symbolic coherence and interpretive resonance'",
+        "formalAxioms": {
+          "shared": {
+            "SignsAsVehicles": "∀k(Symbolic(k) → ∃s(Sign(s) ∧ Carries(s,k)))",
+            "LayeredMeaning": "∀s(Symbol(s) → ∃{m₁...mₙ}(Meanings({m₁...mₙ},s) ∧ n > 1))"
+          },
+          "unique": {
+            "CondensationOfMeaning": "∀s(Symbol(s) → ∃M(MeaningSet(M) ∧ Condenses(s,M)))",
+            "Polyvalence": "∀s(Symbol(s) → ∃{i₁...iₙ}(Interpretations({i₁...iₙ},s) ∧ n > 1))",
+            "SymbolicNetworks": "∀s₁∀s₂(Symbol(s₁) ∧ Symbol(s₂) → ◇Connected(s₁,s₂))",
+            "CulturalUniversalRegisters": "∀s(Symbol(s) → (Cultural(s) ∨ Universal(s) ∨ Both(s)))"
+          },
+          "validationRule": "Valid(k,Symbolism) ↔ (NetworkCoherence(k) ∧ MeaningTransmission(k) ∧ ContextualResonance(k))"
+        }
+      },
+      {
+        "Index": 12,
+        "Name": "Philosophy",
+        "Type": "Technical Domain",
+        "Color": "Lime",
+        "Axioms": {
+          "Shared": [
+            "Reflective Analysis",
+            "Conceptual Clarification"
+          ],
+          "Unique": [
+            "Meta-Inquiry",
+            "Foundational Questioning",
+            "Systematic Coherence",
+            "Dialectical Development"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on fundamental questions about existence, knowledge, values, reason, mind, and language through rigorous conceptual analysis.",
+          "Boundaries": "Limited by the constraints of conceptual coherence, argumentative rigor, and the scope of philosophical traditions."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Conceptual analysis and dialectical reasoning",
+          "Secondary": [
+            "Phenomenological description",
+            "Logical argumentation",
+            "Hermeneutic interpretation"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Philosophical treatises",
+            "Thought experiments",
+            "Argumentative structures"
+          ],
+          "Supplementary": [
+            "Historical philosophy",
+            "Comparative analysis",
+            "Formal logic"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "Moderate",
+          "Constraints": "Bound by argumentative rigor, conceptual precision, and historical-philosophical context."
+        },
+        "EpistemicClaim": "Knowledge is validated through conceptual clarity, argumentative coherence, and the capacity to address fundamental questions about reality and understanding.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Symbolism",
+            "Dialogue"
+          ],
+          "Contradictions": [
+            "Unreflective dogmatism"
+          ],
+          "Influences": [
+            "Logic",
+            "Myth",
+            "Psychology"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.3,
+          "argumentativeRigor": 0.4,
+          "conceptualClarity": 0.3
+        },
+        "weightRationale": "Philosophy's EpistemicClaim: 'Knowledge is validated through rigorous argumentation and conceptual analysis'",
+        "formalAxioms": {
+          "shared": {
+            "ConceptualAnalysis": "∀c(Concept(c) → ◇∃a(Analysis(a,c) ∧ Clarifies(a,c)))",
+            "CriticalReflection": "∀b(Belief(b) → ◇∃r(Reflection(r,b) ∧ Evaluates(r,b)))"
+          },
+          "unique": {
+            "SystematicCoherence": "∀T(PhilosophicalTheory(T) → Coherent(T))",
+            "FoundationalInquiry": "∃q(Question(q) ∧ Foundational(q) ∧ ¬∃d∈{Science,Religion}(Answers(d,q)))",
+            "NormativeGrounding": "∀n(Norm(n) → ∃g(Ground(g,n) ∧ Philosophical(g)))"
+          },
+          "validationRule": "Valid(k,Philosophy) ↔ (ConceptuallyClear(k) ∧ ArgumentativelySound(k) ∧ SystematicallyCoherent(k))"
+        }
+      },
+      {
+        "Index": 13,
+        "Name": "Dialogue",
+        "Type": "Modal Domain",
+        "Color": "Green",
+        "Axioms": {
+          "Shared": [
+            "Communicative Rationality"
+          ],
+          "Unique": [
+            "Consensus as Epistemic Criterion",
+            "Empathy as Knowledge",
+            "Knowledge Through Interaction"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge co-construction through shared understanding and communication.",
+          "Boundaries": "Limited by the need for mutual understanding and consensus."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Debate",
+          "Secondary": [
+            "Negotiation",
+            "Collaborative reasoning"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Dialogical frameworks",
+            "Discussion formats",
+            "Mediation techniques"
+          ],
+          "Supplementary": [
+            "Interactive platforms",
+            "Collaborative tools"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited by the need for mutual understanding and consensus."
+        },
+        "EpistemicClaim": "Knowledge is validated by its communicability and consensual agreement.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Cryptography",
+            "Mathematics"
+          ],
+          "Contradictions": [
+            "Empiricism"
+          ],
+          "Influences": [
+            "Revelation",
+            "Creativity"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.25,
+          "dialogicalCoherence": 0.45,
+          "intersubjectiveValidation": 0.3
+        },
+        "weightRationale": "Dialogue's EpistemicClaim: 'Knowledge is validated through mutual understanding and communicative success'",
+        "formalAxioms": {
+          "shared": {
+            "CommunicativeRationality": "∀d(Dialogue(d) → ∃r(Rationality(r) ∧ Communicative(r) ∧ Governs(r,d)))"
+          },
+          "unique": {
+            "ConsensusAsCriterion": "∀k(Valid(k,Dialogue) → ∃C(Consensus(C) ∧ Supports(C,k)))",
+            "EmpathyAsKnowledge": "∃k(Source(k) = Empathy ∧ Valid(k))",
+            "KnowledgeThroughInteraction": "∀k(Dialogical(k) → ∃a∃b(Agent(a) ∧ Agent(b) ∧ Interaction(a,b,k)))"
+          },
+          "validationRule": "Valid(k,Dialogue) ↔ (Communicable(k) ∧ ∃C(Consensus(C,k)))"
+        }
+      },
+      {
+        "Index": 14,
+        "Name": "Psychology",
+        "Type": "Technical Domain",
+        "Color": "Aquamarine",
+        "Axioms": {
+          "Shared": [
+            "Mind as Object of Inquiry",
+            "Behavioral Observation"
+          ],
+          "Unique": [
+            "Introspective Access",
+            "Developmental Process",
+            "Cognitive Architecture",
+            "Unconscious Dynamics"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge of mental processes, behavior, cognition, affect, and the structures of individual and collective psyche.",
+          "Boundaries": "Limited by observational access to mental states, interpretive frameworks, and the complexity of psychological phenomena."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Behavioral observation and psychological experimentation",
+          "Secondary": [
+            "Clinical assessment",
+            "Psychometric measurement",
+            "Phenomenological interview"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Psychological assessments",
+            "Experimental paradigms",
+            "Clinical interviews"
+          ],
+          "Supplementary": [
+            "Neuroimaging",
+            "Statistical analysis",
+            "Projective techniques"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Moderate",
+          "Flexibility": "Moderate",
+          "Constraints": "Bound by ethical constraints, measurement validity, and the complexity of mental phenomena."
+        },
+        "EpistemicClaim": "Knowledge is validated through systematic observation of behavior and mental processes, replicable findings, and therapeutic efficacy.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Dialogue",
+            "Intersubjectivity"
+          ],
+          "Contradictions": [
+            "Purely behavioral reductionism"
+          ],
+          "Influences": [
+            "Philosophy",
+            "Biology",
+            "Empiricism"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.65,
+          "replicability": 0.2,
+          "therapeuticEfficacy": 0.15
+        },
+        "weightRationale": "Psychology's EpistemicClaim: 'Knowledge is validated through systematic observation of behavior and mental processes, replicable findings, and therapeutic efficacy'",
+        "formalAxioms": {
+          "shared": {
+            "MentalStates": "∃m(MentalState(m) ∧ ¬Reducible(m,Physical))",
+            "BehavioralManifestation": "∀m(MentalState(m) → ◇∃b(Behavior(b) ∧ Manifests(m,b)))"
+          },
+          "unique": {
+            "UnconsciousProcesses": "∃p(Process(p) ∧ Mental(p) ∧ ¬Conscious(p))",
+            "DevelopmentalTrajectory": "∀m(Mind(m) → ∃t(Trajectory(t) ∧ Developmental(t) ∧ Follows(m,t)))",
+            "IndividualDifferences": "∀m₁∀m₂(Mind(m₁) ∧ Mind(m₂) ∧ m₁≠m₂ → ∃d(Difference(d,m₁,m₂)))"
+          },
+          "validationRule": "Valid(k,Psychology) ↔ (EmpiricalSupport(k) ∧ ReplicableFindings(k) ∧ PredictiveValidity(k))"
+        }
+      },
+      {
+        "Index": 15,
+        "Name": "Intersubjectivity",
+        "Type": "Methodological Domain",
+        "Color": "Veridian",
+        "Axioms": {
+          "Shared": [
+            "Shared Meaning Construction",
+            "Mutual Recognition"
+          ],
+          "Unique": [
+            "Between-Minds Space",
+            "Reciprocal Constitution",
+            "Empathic Attunement",
+            "Social Ontology"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Explores knowledge arising in the space between subjects—the co-constituted meanings, shared understandings, and relational dynamics that emerge through encounter.",
+          "Boundaries": "Limited by the quality of relation, mutual openness, and the conditions of encounter."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Phenomenological encounter and relational analysis",
+          "Secondary": [
+            "Empathic engagement",
+            "Dialogical reflection",
+            "Social observation"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Dialogical encounter",
+            "Participatory observation",
+            "Relational frameworks"
+          ],
+          "Supplementary": [
+            "Group dynamics analysis",
+            "Social phenomenology",
+            "Communication studies"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Bound by relational quality, communicative conditions, and the opacity of other minds."
+        },
+        "EpistemicClaim": "Knowledge is validated through mutual recognition, shared meaning, and the coherence of intersubjectively constituted understanding.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Dialogue",
+            "Psychology"
+          ],
+          "Contradictions": [
+            "Solipsism"
+          ],
+          "Influences": [
+            "Logic",
+            "Politics",
+            "Philosophy"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.3,
+          "dialogicalCoherence": 0.4,
+          "phenomenologicalTraceability": 0.3
+        },
+        "weightRationale": "Intersubjectivity's EpistemicClaim: 'Knowledge is validated by shared understanding and mutual recognition'",
+        "formalAxioms": {
+          "shared": {
+            "MutualRecognition": "∀a∀b(Agents(a,b) ∧ Intersubjective(a,b) → Recognizes(a,b) ∧ Recognizes(b,a))",
+            "SharedMeaning": "∃m(Meaning(m) ∧ ∀a∈Agents(Accessible(m,a)))"
+          },
+          "unique": {
+            "OtherMindsAccess": "∀a∃b(Agent(a) ∧ Agent(b) ∧ a≠b ∧ ◇Understands(a,Mind(b)))",
+            "CoConstitution": "∀k(Intersubjective(k) → ∃a∃b(CoConstitutes(a,b,k)))",
+            "RelationalOntology": "∃e(Entity(e) ∧ ¬∃a(Individual(a) ∧ Reduces(e,a)))"
+          },
+          "validationRule": "Valid(k,Intersubjectivity) ↔ (MutualRecognition(k) ∧ SharedMeaning(k) ∧ DialogicalCoherence(k))"
+        }
+      },
+      {
+        "Index": 16,
+        "Name": "Politics",
+        "Type": "Technical Domain",
+        "Color": "Turquoise",
+        "Axioms": {
+          "Shared": [
+            "Power as Constitutive",
+            "Collective Decision-Making"
+          ],
+          "Unique": [
+            "Legitimacy and Authority",
+            "Interest Negotiation",
+            "Governance Structures",
+            "Justice as Telos"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge of power relations, governance, collective decision-making, and the organization of communities and states.",
+          "Boundaries": "Limited by the dynamics of power, institutional constraints, and the contested nature of political values."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Political analysis and institutional study",
+          "Secondary": [
+            "Policy analysis",
+            "Comparative government",
+            "Political philosophy"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Constitutional frameworks",
+            "Policy instruments",
+            "Electoral systems"
+          ],
+          "Supplementary": [
+            "Public opinion research",
+            "Legislative analysis",
+            "Political economy"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "Moderate",
+          "Constraints": "Bound by institutional structures, power dynamics, and normative contestation."
+        },
+        "EpistemicClaim": "Knowledge is validated through political effectiveness, legitimacy, and the capacity to organize collective life toward shared ends.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Intersubjectivity",
+            "Economics"
+          ],
+          "Contradictions": [
+            "Apolitical abstraction"
+          ],
+          "Influences": [
+            "Dialogue",
+            "Rhetoric",
+            "Philosophy"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.45,
+          "politicalEffectiveness": 0.3,
+          "legitimacyCoherence": 0.25
+        },
+        "weightRationale": "Politics' EpistemicClaim: 'Knowledge is validated through political effectiveness, legitimacy, and the capacity to organize collective life toward shared ends'",
+        "formalAxioms": {
+          "shared": {
+            "PowerRelations": "∀p(Political(p) → ∃r(Relation(r) ∧ Power(r) ∧ Structures(r,p)))",
+            "CollectiveAction": "∃a(Action(a) ∧ ∃G(Group(G) ∧ Agent(G,a)))"
+          },
+          "unique": {
+            "Legitimacy": "∀a(Authority(a) ∧ Stable(a) → Legitimate(a))",
+            "Sovereignty": "∃e(Entity(e) ∧ ∀d(Decision(d) ∧ Within(d,Domain(e)) → Authority(e,d)))",
+            "ConflictResolution": "∀c(Conflict(c) ∧ Political(c) → ◇∃r(Resolution(r,c)))"
+          },
+          "validationRule": "Valid(k,Politics) ↔ (PoliticalEffectiveness(k) ∧ Legitimacy(k) ∧ CollectiveOrganization(k))"
+        }
+      },
+      {
+        "Index": 17,
+        "Name": "Empiricism",
+        "Type": "Modal Domain",
+        "Color": "Cyan",
+        "Axioms": {
+          "Shared": [
+            "Sensory Experience as Foundation",
+            "Empirical Validation"
+          ],
+          "Unique": [
+            "Inductive Reasoning",
+            "Objective Reality",
+            "Replicability as Truth"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge derived from sensory experience and empirical observation.",
+          "Boundaries": "Limited by empirical verifiability and sensory data."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Observation",
+          "Secondary": [
+            "Experimentation",
+            "Data collection"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Scientific tools (microscopes, telescopes)",
+            "Measurement devices"
+          ],
+          "Supplementary": [
+            "Experimental setups",
+            "Data analysis software"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Moderate",
+          "Flexibility": "Low",
+          "Constraints": "Limited by empirical verifiability and sensory data."
+        },
+        "EpistemicClaim": "Knowledge is validated by empirical evidence and repeatability of observations.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Art",
+            "Logic"
+          ],
+          "Contradictions": [
+            "Revelation"
+          ],
+          "Influences": [
+            "Pragmatism",
+            "Logic"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.85,
+          "repeatability": 0.1,
+          "internalConsistency": 0.05
+        },
+        "weightRationale": "Empiricism's EpistemicClaim: 'Knowledge is validated by empirical evidence and repeatability of observations'",
+        "formalAxioms": {
+          "shared": {
+            "SensoryFoundation": "∀k(Empirical(k) → ∃s∈Sensation(Grounded(k,s)))",
+            "EmpiricalValidation": "∀k(Valid(k,Empiricism) → ∃o∈Observation(Confirms(o,k)))"
+          },
+          "unique": {
+            "InductiveReasoning": "∀{o₁...oₙ}(Observations({o₁...oₙ}) → ◇∃g(Generalization(g) ∧ Supported(g,{o₁...oₙ})))",
+            "ObjectiveReality": "∃R(Reality(R) ∧ ∀o(Observer(o) → Accessible(R,o)))",
+            "ReplicabilityAsTruth": "∀e(Experiment(e) ∧ Valid(e) ↔ Replicable(e))"
+          },
+          "validationRule": "Valid(k,Empiricism) ↔ (∃e(Evidence(e,k) ∧ Observable(e) ∧ Repeatable(e)))"
+        }
+      },
+      {
+        "Index": 18,
+        "Name": "Economics",
+        "Type": "Technical Domain",
+        "Color": "Capri",
+        "Axioms": {
+          "Shared": [
+            "Scarcity and Allocation",
+            "Rational Choice"
+          ],
+          "Unique": [
+            "Value Exchange",
+            "Market Dynamics",
+            "Incentive Structures",
+            "Equilibrium Seeking"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge of production, distribution, exchange, and consumption of goods and services under conditions of scarcity.",
+          "Boundaries": "Limited by assumptions of rationality, market conditions, and the measurability of economic phenomena."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Economic modeling and quantitative analysis",
+          "Secondary": [
+            "Econometrics",
+            "Behavioral economics",
+            "Institutional analysis"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Economic models",
+            "Statistical analysis",
+            "Market indicators"
+          ],
+          "Supplementary": [
+            "Game theory",
+            "Policy simulation",
+            "Behavioral experiments"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "Moderate",
+          "Constraints": "Bound by data availability, model assumptions, and the complexity of economic systems."
+        },
+        "EpistemicClaim": "Knowledge is validated through predictive accuracy, explanatory power regarding allocation and exchange, and policy effectiveness.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Empiricism",
+            "Politics"
+          ],
+          "Contradictions": [
+            "Non-material valuation"
+          ],
+          "Influences": [
+            "Pragmatism",
+            "Mathematics",
+            "Biology"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.6,
+          "predictiveAccuracy": 0.25,
+          "modelCoherence": 0.15
+        },
+        "weightRationale": "Economics bridges empirical observation with theoretical modeling",
+        "formalAxioms": {
+          "shared": {
+            "ScarcityAllocation": "∀r(Resource(r) ∧ Scarce(r) → ∃m(Mechanism(m) ∧ Allocates(m,r)))",
+            "RationalChoice": "∀a(Agent(a) → ∃p(Preference(p,a) ∧ Maximizes(a,p)))"
+          },
+          "unique": {
+            "ValueExchange": "∀t(Transaction(t) → ∃v₁∃v₂(Value(v₁) ∧ Value(v₂) ∧ Exchanges(t,v₁,v₂)))",
+            "MarketDynamics": "∃M(Market(M) ∧ ∃{f₁...fₙ}(Forces({f₁...fₙ}) ∧ Govern(f,M)))",
+            "IncentiveStructures": "∀b(Behavior(b) → ∃i(Incentive(i) ∧ Influences(i,b)))",
+            "EquilibriumSeeking": "∀M(Market(M) → ◇∃E(Equilibrium(E) ∧ Tends(M,E)))"
+          },
+          "validationRule": "Valid(k,Economics) ↔ (PredictiveAccuracy(k) ∧ ExplanatoryPower(k) ∧ PolicyEffectiveness(k))"
+        }
+      },
+      {
+        "Index": 19,
+        "Name": "Theory",
+        "Type": "Methodological Domain",
+        "Color": "Cerulean",
+        "Axioms": {
+          "Shared": [
+            "Explanatory Unification",
+            "Predictive Power"
+          ],
+          "Unique": [
+            "Abstraction as Clarification",
+            "Model-World Relations",
+            "Systematic Interconnection",
+            "Revisability"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Explores knowledge through the construction, testing, and refinement of explanatory frameworks that unify observations and enable prediction.",
+          "Boundaries": "Limited by the scope of phenomena addressed, internal coherence requirements, and empirical adequacy."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Theoretical construction and systematic analysis",
+          "Secondary": [
+            "Hypothesis generation",
+            "Model building",
+            "Critical evaluation"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Theoretical frameworks",
+            "Conceptual models",
+            "Systematic treatises"
+          ],
+          "Supplementary": [
+            "Computer simulation",
+            "Formal derivation",
+            "Comparative analysis"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "Moderate",
+          "Constraints": "Bound by internal coherence, explanatory scope, and empirical or conceptual adequacy."
+        },
+        "EpistemicClaim": "Knowledge is validated through explanatory unification, predictive success, and systematic coherence of theoretical frameworks.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Empiricism",
+            "Creativity"
+          ],
+          "Contradictions": [
+            "Atheoretical description"
+          ],
+          "Influences": [
+            "Logic",
+            "Mathematics",
+            "Philosophy"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.45,
+          "explanatoryUnification": 0.35,
+          "predictivePower": 0.2
+        },
+        "weightRationale": "Theory's EpistemicClaim: 'Knowledge is validated through explanatory power and predictive accuracy'",
+        "formalAxioms": {
+          "shared": {
+            "ExplanatoryUnification": "∀T(Theory(T) → ∃{p₁...pₙ}(Phenomena({p₁...pₙ}) ∧ Unifies(T,{p₁...pₙ})))",
+            "PredictivePower": "∀T(Valid(T) → ∃e(Event(e) ∧ Future(e) ∧ Predicts(T,e)))"
+          },
+          "unique": {
+            "AbstractionAsClarification": "∀c(Complex(c) → ∃a(Abstraction(a,c) ∧ Clarifies(a,c)))",
+            "ModelWorldRelations": "∀m(Model(m) → ∃w(World(w) ∧ Represents(m,w) ∧ ¬Identical(m,w)))",
+            "SystematicInterconnection": "∀T(Theory(T) → ∀c₁∀c₂∈T(Connected(c₁,c₂)))",
+            "Revisability": "∀T(Theory(T) → ◇∃T'(Revision(T',T) ∧ Improves(T',T)))"
+          },
+          "validationRule": "Valid(k,Theory) ↔ (Explanatory(k) ∧ Predictive(k) ∧ Systematic(k) ∧ Revisable(k))"
+        }
+      },
+      {
+        "Index": 20,
+        "Name": "Biology",
+        "Type": "Technical Domain",
+        "Color": "Cobalt",
+        "Axioms": {
+          "Shared": [
+            "Life as Organizing Principle",
+            "Evolutionary Process"
+          ],
+          "Unique": [
+            "Organismic Integrity",
+            "Adaptation and Selection",
+            "Genetic Information",
+            "Ecological Embeddedness"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge of living systems, their structures, functions, growth, origin, evolution, and distribution.",
+          "Boundaries": "Limited by the complexity of living systems, observational access, and the boundaries of life itself."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Biological observation and experimental manipulation",
+          "Secondary": [
+            "Genetic analysis",
+            "Ecological study",
+            "Evolutionary modeling"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Microscopy",
+            "Genetic sequencing",
+            "Field observation"
+          ],
+          "Supplementary": [
+            "Bioinformatics",
+            "Laboratory culture",
+            "Ecological modeling"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "Moderate",
+          "Constraints": "Bound by the complexity of living systems, ethical constraints on experimentation, and observational limitations."
+        },
+        "EpistemicClaim": "Knowledge is validated through empirical observation of living systems, experimental replicability, and evolutionary coherence.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Theory",
+            "Physics"
+          ],
+          "Contradictions": [
+            "Mechanistic reductionism that ignores organismic wholeness"
+          ],
+          "Influences": [
+            "Empiricism",
+            "Chemistry",
+            "Ecology"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.8,
+          "experimentalReplicability": 0.15,
+          "evolutionaryCoherence": 0.05
+        },
+        "weightRationale": "Biology's EpistemicClaim: 'Knowledge is validated through empirical observation of living systems, experimental replicability, and evolutionary coherence'",
+        "formalAxioms": {
+          "shared": {
+            "LifeAsOrganization": "∀o(Organism(o) → ∃s(System(s) ∧ SelfOrganizing(s) ∧ Instantiates(o,s)))",
+            "EvolutionaryProcess": "∀s(Species(s) → ∃h(History(h) ∧ Evolutionary(h) ∧ Produced(h,s)))"
+          },
+          "unique": {
+            "GeneticInheritance": "∀o₁∀o₂(Parent(o₁,o₂) → ∃g(GeneticMaterial(g) ∧ Transmitted(g,o₁,o₂)))",
+            "EcologicalEmbeddedness": "∀o(Organism(o) → ∃e(Ecosystem(e) ∧ Embedded(o,e)))",
+            "FunctionalAdaptation": "∀t(Trait(t) ∧ Persistent(t) → ∃f(Function(f) ∧ Adaptive(f) ∧ Serves(t,f)))"
+          },
+          "validationRule": "Valid(k,Biology) ↔ (EmpiricalObservation(k) ∧ ExperimentalReplicability(k) ∧ EvolutionaryCoherence(k))"
+        }
+      },
+      {
+        "Index": 21,
+        "Name": "Revelation",
+        "Type": "Modal Domain",
+        "Color": "Blue",
+        "Axioms": {
+          "Shared": [
+            "Intuitive Insight",
+            "Transcendent Truths"
+          ],
+          "Unique": [
+            "Celestial, Transcendent Source",
+            "Inner Experience as Authority",
+            "Beyond Empirical Constraints"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge gained through intuitive insight, meditative practice and spiritual revelation.",
+          "Boundaries": "Limited by the need for personal spiritual experience and alignment with revealed truths."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Meditation",
+          "Secondary": [
+            "Spiritual practices",
+            "Mystical experience"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Sacred texts",
+            "Spiritual guides",
+            "Mystical traditions"
+          ],
+          "Supplementary": [
+            "Intuitive practices",
+            "Symbolic interpretation"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "High",
+          "Constraints": "Limited by the need for personal spiritual experience and alignment with revealed truths."
+        },
+        "EpistemicClaim": "Knowledge is validated by personal spiritual experience and alignment with revealed truths.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Music",
+            "Pragmatism"
+          ],
+          "Contradictions": [
+            "Empiricism"
+          ],
+          "Influences": [
+            "Creativity",
+            "Dialogue"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.15,
+          "phenomenologicalCoherence": 0.35,
+          "spiritualAlignment": 0.25,
+          "internalConsistency": 0.25
+        },
+        "weightRationale": "Revelation's EpistemicClaim: 'Knowledge is validated by personal spiritual experience and alignment with revealed truths'",
+        "formalAxioms": {
+          "shared": {
+            "IntuitiveInsight": "∃k(Source(k) = Intuition ∧ ¬Derived(k) ∧ Valid(k))",
+            "TranscendentTruths": "∃p(True(p) ∧ Transcendent(p) ∧ ¬Reducible(p,Material))"
+          },
+          "unique": {
+            "CelestialSource": "∃k∃s(Source(k,s) ∧ Transcendent(s) ∧ Valid(k))",
+            "InnerExperienceAuthority": "∀k(Revelatory(k) → Authority(k) = InnerExperience)",
+            "BeyondEmpiricalConstraints": "∃k(Valid(k) ∧ ¬∃e(EmpiricalEvidence(e,k)))"
+          },
+          "validationRule": "Valid(k,Revelation) ↔ (SpiritualExperience(k) ∧ AlignedWithRevealedTruth(k))"
+        }
+      },
+      {
+        "Index": 22,
+        "Name": "Physics",
+        "Type": "Technical Domain",
+        "Color": "Lapiz Lazuli",
+        "Axioms": {
+          "Shared": [
+            "Mathematical Description of Nature",
+            "Conservation Laws"
+          ],
+          "Unique": [
+            "Fundamental Forces",
+            "Space-Time Structure",
+            "Symmetry Principles",
+            "Quantization"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge of matter, energy, space, time, and their fundamental interactions at all scales.",
+          "Boundaries": "Limited by observational precision, experimental energy scales, and the mathematical tractability of physical systems."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Experimental measurement and mathematical modeling",
+          "Secondary": [
+            "Theoretical derivation",
+            "Computational simulation",
+            "Observational astronomy"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Particle accelerators",
+            "Telescopes",
+            "Precision measurement devices"
+          ],
+          "Supplementary": [
+            "Mathematical frameworks",
+            "Computational models",
+            "Spectroscopy"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Universal",
+          "Flexibility": "Low",
+          "Constraints": "Bound by mathematical consistency, experimental precision, and energy scale accessibility."
+        },
+        "EpistemicClaim": "Knowledge is validated through experimental confirmation, mathematical consistency, and predictive accuracy regarding fundamental physical phenomena.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Revelation",
+            "Divination"
+          ],
+          "Contradictions": [
+            "Anti-materialism that denies physical substrate"
+          ],
+          "Influences": [
+            "Mathematics",
+            "Cosmology",
+            "Biology"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.85,
+          "mathematicalFormalization": 0.1,
+          "predictiveAccuracy": 0.05
+        },
+        "weightRationale": "Physics is empirical-technical; requires high extensional grounding in observable phenomena",
+        "formalAxioms": {
+          "shared": {
+            "MathematicalDescription": "∀p(PhysicalPhenomenon(p) → ∃m(MathStructure(m) ∧ Describes(m,p)))",
+            "ConservationLaws": "∀q∈{energy,momentum,charge}(∀t(Conserved(q,t)))"
+          },
+          "unique": {
+            "FundamentalForces": "∃F={f₁,f₂,f₃,f₄}(∀i(Interaction(i) → ∃f∈F(Mediates(f,i))))",
+            "SpaceTimeStructure": "∃S(SpaceTime(S) ∧ ∀e(Event(e) → Located(e,S)))",
+            "SymmetryPrinciples": "∀L(PhysicalLaw(L) → ∃S(Symmetry(S) ∧ Invariant(L,S)))",
+            "Quantization": "∃q(Quantity(q) ∧ Discrete(q) ∧ Fundamental(q))"
+          },
+          "validationRule": "Valid(k,Physics) ↔ (EmpiricallyGrounded(k) ∧ MathematicallyFormalized(k) ∧ PredictivelyAccurate(k))"
+        }
+      },
+      {
+        "Index": 23,
+        "Name": "Divination",
+        "Type": "Methodological Domain",
+        "Color": "Indigo",
+        "Axioms": {
+          "Shared": [
+            "Pattern as Meaning",
+            "Synchronicity"
+          ],
+          "Unique": [
+            "Hidden Order Access",
+            "Symbolic Correspondence",
+            "Chance as Oracle",
+            "Participatory Knowing"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Explores knowledge through the interpretation of patterns, signs, and correspondences understood to reveal hidden order or future states.",
+          "Boundaries": "Limited by interpretive skill, symbolic tradition, and the depth of correspondence systems."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Symbolic interpretation and pattern reading",
+          "Secondary": [
+            "Oracular consultation",
+            "Chance operations",
+            "Dream analysis"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Divinatory systems (Tarot, I Ching, astrology)",
+            "Symbolic correspondences",
+            "Oracular traditions"
+          ],
+          "Supplementary": [
+            "Dream journals",
+            "Synchronicity logs",
+            "Natural sign interpretation"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Moderate",
+          "Flexibility": "High",
+          "Constraints": "Bound by interpretive tradition, practitioner skill, and the symbolic coherence of correspondence systems."
+        },
+        "EpistemicClaim": "Knowledge is validated through the coherence of symbolic patterns, the resonance of readings with lived experience, and the efficacy of divinatory guidance.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Revelation",
+            "Forensics"
+          ],
+          "Contradictions": [
+            "Strict causal determinism"
+          ],
+          "Influences": [
+            "Symbolism",
+            "Myth",
+            "Psychology"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.15,
+          "symbolicPatternCoherence": 0.4,
+          "experientialResonance": 0.3,
+          "guidanceEfficacy": 0.15
+        },
+        "weightRationale": "Divination's EpistemicClaim: 'Knowledge is validated through the coherence of symbolic patterns and the resonance of readings with lived experience'",
+        "formalAxioms": {
+          "shared": {
+            "PatternAsMeaning": "∀p(Pattern(p) → ◇∃m(Meaning(m) ∧ Signifies(p,m)))",
+            "Synchronicity": "∃e₁∃e₂(¬Causes(e₁,e₂) ∧ ¬Causes(e₂,e₁) ∧ MeaningfullyConnected(e₁,e₂))"
+          },
+          "unique": {
+            "HiddenOrderAccess": "∃O(HiddenOrder(O) ∧ ∃m∈Method(Accesses(m,O)))",
+            "SymbolicCorrespondence": "∀s₁∀s₂(Corresponds(s₁,s₂) → SharedMeaning(s₁,s₂))",
+            "ChanceAsOracle": "∃e(Random(e) ∧ Meaningful(e) ∧ Revelatory(e))",
+            "ParticipatoryKnowing": "∀k(Divinatory(k) → ∃p(Participant(p) ∧ CoCreates(p,k)))"
+          },
+          "validationRule": "Valid(k,Divination) ↔ (SymbolicCoherence(k) ∧ ExperientialResonance(k) ∧ GuidanceEfficacy(k))"
+        }
+      },
+      {
+        "Index": 24,
+        "Name": "Forensics",
+        "Type": "Technical Domain",
+        "Color": "Tyrian Purple",
+        "Axioms": {
+          "Shared": [
+            "Evidence as Foundation",
+            "Reconstruction from Traces"
+          ],
+          "Unique": [
+            "Chain of Custody",
+            "Abductive Reasoning",
+            "Locard's Exchange Principle",
+            "Temporal Reconstruction"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge derived from the systematic analysis of evidence to reconstruct past events and establish factual determinations.",
+          "Boundaries": "Limited by evidence preservation, analytical techniques, and the inferential gap between traces and events."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Evidence analysis and reconstructive inference",
+          "Secondary": [
+            "Laboratory analysis",
+            "Scene investigation",
+            "Expert testimony"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Forensic laboratories",
+            "Evidence collection protocols",
+            "Analytical instrumentation"
+          ],
+          "Supplementary": [
+            "Database systems",
+            "Reconstruction software",
+            "Expert consultation"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Moderate",
+          "Flexibility": "Low",
+          "Constraints": "Bound by evidence availability, analytical precision, and legal-epistemic standards."
+        },
+        "EpistemicClaim": "Knowledge is validated through the systematic analysis of evidence, chain of custody integrity, and the coherence of reconstructive inferences.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Divination",
+            "Cryptography"
+          ],
+          "Contradictions": [
+            "Speculation without evidence"
+          ],
+          "Influences": [
+            "Empiricism",
+            "Logic",
+            "Biology"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.8,
+          "evidentialChain": 0.15,
+          "abductiveRigor": 0.05
+        },
+        "weightRationale": "Forensics' EpistemicClaim: 'Knowledge is validated through physical evidence, chain of custody, and abductive reconstruction'"
+      },
+      {
+        "Index": 25,
+        "Name": "Mathematics",
+        "Type": "Modal/Methodological Domain",
+        "Color": "Violet",
+        "Axioms": {
+          "Shared": [
+            "Formal Structure as Universal Language",
+            "Symbolic Abstraction and Generalization",
+            "Axiomatic Consistency"
+          ],
+          "Unique": [
+            "Quantitative Precision",
+            "Deductive Necessity",
+            "Pattern Recognition and Universality",
+            "Cross-Domain Translatability"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Provides the universal formal language through which all epistemic domains can be mapped, translated, and related. Mathematics synthesizes logical structure, empirical measurement, and pragmatic utility into a unified symbolic framework.",
+          "Boundaries": "Limited only by the consistency of the formal systems employed and their capacity to model phenomena across domains."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Formal proof and symbolic manipulation",
+          "Secondary": [
+            "Modeling and abstraction",
+            "Computational verification",
+            "Pattern analysis and induction"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Symbolic systems (algebra, calculus, set theory)",
+            "Formal logic and proof",
+            "Computational methods",
+            "Quantitative frameworks"
+          ],
+          "Supplementary": [
+            "Geometric visualization",
+            "Statistical analysis",
+            "Category theory and topology"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Universal",
+          "Flexibility": "High (through axiom systems)",
+          "Constraints": "Bound by internal consistency of chosen formal systems."
+        },
+        "EpistemicClaim": "Knowledge is validated by its formalizable structure and capacity to bridge, translate, and unify concepts across all epistemic domains.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Logic",
+            "Empiricism",
+            "Pragmatism",
+            "Creativity",
+            "Dialogue",
+            "Revelation"
+          ],
+          "Contradictions": [],
+          "Influences": [
+            "All domains—Mathematics provides the formal substrate through which every domain can be precisely articulated and related."
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.1,
+          "formalConsistency": 0.5,
+          "deductiveNecessity": 0.25,
+          "crossDomainTranslatability": 0.15
+        },
+        "weightRationale": "Mathematics' EpistemicClaim: 'Knowledge is validated by its formalizable structure and capacity to bridge, translate, and unify concepts across all epistemic domains'",
+        "formalAxioms": {
+          "shared": {
+            "FormalUniversalLanguage": "∀d∈Domain(∃f∈FormalSystem(Expressible(d,f)))",
+            "SymbolicAbstraction": "∀c(Concept(c) → ∃s(Symbol(s) ∧ Abstracts(s,c)))",
+            "AxiomaticConsistency": "∀A(AxiomSet(A) → ¬∃p(A ⊢ p ∧ A ⊢ ¬p))"
+          },
+          "unique": {
+            "QuantitativePrecision": "∀m(Measurement(m) → ∃q∈ℚ(Precision(m,q)))",
+            "DeductiveNecessity": "∀p∀q((Proves(p,q) ∧ True(p)) → □True(q))",
+            "PatternUniversality": "∀P(Pattern(P) → ∀d∈Domain(◇Instantiable(P,d)))",
+            "CrossDomainTranslatability": "∀d₁∀d₂∈Domain(∃f(MathFunction(f) ∧ Translates(f,d₁,d₂)))"
+          },
+          "validationRule": "Valid(k,Mathematics) ↔ (Formalizable(k) ∧ ∀d∈Domain(◇Translatable(k,d)))"
+        }
+      },
+      {
+        "Index": 26,
+        "Name": "Cosmology",
+        "Type": "Technical Domain",
+        "Color": "Ultra Violet",
+        "Axioms": {
+          "Shared": [
+            "Universe as Totality",
+            "Cosmic Evolution"
+          ],
+          "Unique": [
+            "Cosmological Principle",
+            "Origin and Fate Questions",
+            "Large-Scale Structure",
+            "Fine-Tuning and Anthropic Considerations"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge of the universe as a whole—its origin, structure, evolution, and ultimate fate.",
+          "Boundaries": "Limited by observational horizons, the uniqueness of cosmic history, and the limits of extrapolation from local physics."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Observational astronomy and theoretical modeling",
+          "Secondary": [
+            "Cosmic microwave background analysis",
+            "Large-scale structure surveys",
+            "Cosmological simulation"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Space telescopes",
+            "Cosmological models",
+            "Redshift surveys"
+          ],
+          "Supplementary": [
+            "Gravitational wave detectors",
+            "Particle physics data",
+            "Computational cosmology"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Universal",
+          "Flexibility": "Low",
+          "Constraints": "Bound by observational limits, the uniqueness of cosmic conditions, and theoretical underdetermination."
+        },
+        "EpistemicClaim": "Knowledge is validated through consistency with observational data, theoretical coherence, and predictive success regarding cosmic phenomena.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Mathematics",
+            "Computation"
+          ],
+          "Contradictions": [
+            "Purely local or anthropocentric frames"
+          ],
+          "Influences": [
+            "Physics",
+            "Revelation",
+            "Philosophy"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.5,
+          "theoreticalCoherence": 0.4,
+          "observationalConsistency": 0.1
+        },
+        "weightRationale": "Cosmology's EpistemicClaim: Knowledge is validated through consistency with observational data, theoretical coherence, and predictive success regarding cosmic phenomena.",
+        "formalAxioms": {
+          "shared": {
+            "UniversalScope": "∃U(Universe(U) ∧ ∀e(Existent(e) → Part(e,U)))",
+            "OriginInquiry": "∃q(Question(q) ∧ About(q,Origin(Universe)) ∧ Meaningful(q))"
+          },
+          "unique": {
+            "LargeScaleStructure": "∃S(Structure(S) ∧ Cosmic(S) ∧ Governs(S,Distribution(Matter)))",
+            "TemporalEvolution": "∃h(History(h) ∧ Cosmic(h) ∧ ∀t₁∀t₂(t₁<t₂ → Different(Universe(t₁),Universe(t₂))))",
+            "FundamentalConstants": "∃{c₁...cₙ}(Constants({c₁...cₙ}) ∧ ∀p(PhysicalLaw(p) → Depends(p,{c₁...cₙ})))"
+          },
+          "validationRule": "Valid(k,Cosmology) ↔ (ObservationalConsistency(k) ∧ TheoreticalCoherence(k) ∧ PredictiveSuccess(k))"
+        }
+      },
+      {
+        "Index": 27,
+        "Name": "Computation",
+        "Type": "Methodological Domain",
+        "Color": "Octarine",
+        "Axioms": {
+          "Shared": [
+            "Algorithmic Process",
+            "Information Transformation"
+          ],
+          "Unique": [
+            "Computability Limits",
+            "Formal Automata",
+            "Complexity Classes",
+            "Simulation as Inquiry"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Explores knowledge through the formal study of algorithmic processes, information transformation, and the limits and capabilities of computational systems.",
+          "Boundaries": "Limited by computability constraints, complexity bounds, and the resources available for computation."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Algorithm design and computational analysis",
+          "Secondary": [
+            "Formal language theory",
+            "Complexity analysis",
+            "Simulation and modeling"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Programming languages",
+            "Computational hardware",
+            "Formal automata"
+          ],
+          "Supplementary": [
+            "Complexity proofs",
+            "Simulation environments",
+            "Verification tools"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Wide",
+          "Flexibility": "Moderate",
+          "Constraints": "Bound by computability limits, complexity constraints, and available computational resources."
+        },
+        "EpistemicClaim": "Knowledge is validated through algorithmic correctness, computational tractability, and the capacity to simulate or model phenomena.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Mathematics",
+            "Cryptography"
+          ],
+          "Contradictions": [
+            "Non-computable or irreducibly analog processes"
+          ],
+          "Influences": [
+            "Logic",
+            "Physics",
+            "Cosmology"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.4,
+          "algorithmicCorrectness": 0.4,
+          "computationalTractability": 0.2
+        },
+        "weightRationale": "Computation's EpistemicClaim: 'Knowledge is validated through algorithmic correctness and computational tractability'",
+        "formalAxioms": {
+          "shared": {
+            "AlgorithmicProcess": "∀c(Computation(c) → ∃a(Algorithm(a) ∧ Executes(c,a)))",
+            "InformationTransformation": "∀c(Computation(c) → ∃i∃o(Input(i) ∧ Output(o) ∧ Transforms(c,i,o)))"
+          },
+          "unique": {
+            "ComputabilityLimits": "∃p(Problem(p) ∧ ¬∃a(Algorithm(a) ∧ Solves(a,p)))",
+            "FormalAutomata": "∀c(Computation(c) → ∃m(Machine(m) ∧ Formal(m) ∧ Performs(m,c)))",
+            "ComplexityHierarchy": "∃H(Hierarchy(H) ∧ ∀p(Problem(p) → ∃l∈H(ComplexityLevel(p,l))))",
+            "SimulationCapacity": "∀s(System(s) → ◇∃m(Model(m) ∧ Computational(m) ∧ Simulates(m,s)))"
+          },
+          "validationRule": "Valid(k,Computation) ↔ (AlgorithmicCorrectness(k) ∧ ComputationalTractability(k) ∧ SimulationFidelity(k))"
+        }
+      },
+      {
+        "Index": 28,
+        "Name": "Cryptography",
+        "Type": "Technical Domain",
+        "Color": "Infrared",
+        "Axioms": {
+          "Shared": [
+            "Information Security",
+            "Computational Hardness"
+          ],
+          "Unique": [
+            "Secrecy as Epistemic Value",
+            "Adversarial Assumption",
+            "Provable Security",
+            "Key Management"
+          ]
+        },
+        "OntologicalScope": {
+          "Description": "Focuses on knowledge of secure communication, information hiding, and the mathematical foundations of confidentiality, integrity, and authentication.",
+          "Boundaries": "Limited by computational assumptions, key management constraints, and the evolving landscape of attack vectors."
+        },
+        "MethodsOfInquiry": {
+          "Primary": "Cryptographic protocol design and security analysis",
+          "Secondary": [
+            "Mathematical proof",
+            "Adversarial testing",
+            "Implementation analysis"
+          ]
+        },
+        "InstrumentsOfKnowledge": {
+          "Core": [
+            "Encryption algorithms",
+            "Hash functions",
+            "Digital signature schemes"
+          ],
+          "Supplementary": [
+            "Formal verification",
+            "Side-channel analysis",
+            "Quantum cryptography"
+          ]
+        },
+        "OperationalRange": {
+          "Extent": "Moderate",
+          "Flexibility": "Low",
+          "Constraints": "Bound by computational hardness assumptions, key management requirements, and implementation security."
+        },
+        "EpistemicClaim": "Knowledge is validated through mathematical proof of security properties, resistance to known attacks, and practical deployment success.",
+        "GlobalRelations": {
+          "Complementarities": [
+            "Computation",
+            "Dialogue"
+          ],
+          "Contradictions": [
+            "Unconditional openness without security considerations"
+          ],
+          "Influences": [
+            "Mathematics",
+            "Forensics",
+            "Politics"
+          ]
+        },
+        "validationWeights": {
+          "extensionalGrounding": 0.35,
+          "mathematicalProof": 0.45,
+          "attackResistance": 0.2
+        },
+        "weightRationale": "Cryptography's EpistemicClaim: 'Knowledge is validated through mathematical proof of security properties'",
+        "formalAxioms": {
+          "shared": {
+            "InformationSecurity": "∀m(Message(m) ∧ Secure(m) → ∃k(Key(k) ∧ Protects(k,m)))",
+            "ComputationalHardness": "∃p(Problem(p) ∧ ¬∃a(Algorithm(a) ∧ Efficient(a) ∧ Solves(a,p)))"
+          },
+          "unique": {
+            "SecrecyAsValue": "∃k(Knowledge(k) ∧ Value(k) = f(Secrecy(k)))",
+            "AdversarialAssumption": "∀s(SecureSystem(s) → ∃A(Adversary(A) ∧ Assumes(s,Capable(A))))",
+            "ProvableSecurity": "∀s(Secure(s) ↔ ∃p(Proof(p) ∧ Demonstrates(p,Secure(s))))",
+            "KeyManagement": "∀s(SecureSystem(s) → ∃k(KeyScheme(k) ∧ Manages(k,s)))"
+          },
+          "validationRule": "Valid(k,Cryptography) ↔ (MathematicalSoundness(k) ∧ ProvableSecurity(k) ∧ PracticalImplementability(k))"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY aleth "http://www.aletheometer.org/ontology#">
+  <!ENTITY ecs "http://www.aletheometer.org/EpistemicColorSpace#">
+  <!ENTITY hb "http://example.org/hyperbit#">
+]>
+
+<rdf:RDF
+    xmlns:owl="&owl;"
+    xmlns:rdf="&rdf;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:xsd="&xsd;"
+    xmlns:aleth="&aleth;"
+    xmlns:ecs="&ecs;"
+    xmlns:hb="&hb;"
+    xml:base="http://www.aletheometer.org/ontology">
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       ONTOLOGY DECLARATION
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Ontology rdf:about="http://www.aletheometer.org/ontology">
+    <rdfs:label>Unified Ontology for Aletheometer</rdfs:label>
+    <rdfs:comment>This ontology integrates the Aletheometer with a dynamic switch mechanism that references external files for operations. Integrates SPEMO, Orders of Reality (Ω), Scales of Being (Σ), and the Epistemic Hyperspherical Colorspace (E).</rdfs:comment>
+    <owl:versionInfo>1.2</owl:versionInfo>
+    <owl:imports rdf:resource="http://www.aletheometer.org/EpistemicColorSpace"/>
+  </owl:Ontology>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       META-OPERATIONAL CHARTER (from system instructions)
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&aleth;MetaOperationalPrinciple">
+    <rdfs:label>Meta-Operational Principle</rdfs:label>
+    <rdfs:comment>Charter governing budget, guard constraints, ledger accounting, and provenance tracking for dynamic ontological operations.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;Charter">
+    <rdfs:subClassOf rdf:resource="&aleth;MetaOperationalPrinciple"/>
+    <rdfs:comment>Operational charter: budget=[total B; reserve S,H,O; retrieval=(B-(S+H+O))]; guard=[retrieve iff E[Δq]≥T ∧ cost≤R×0.25]; preserve O_min; deltaOnly; track contradiction/drift; ledger={spent,score,decision,deltas,flags}; austerityTrigger=2×β exceed; provenance={sourceID,confidence,decay,dominance}.</rdfs:comment>
+  </owl:Class>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       FOUNDATIONAL CLASSES (Fundamentals, Universals, Essentials, Accidentals)
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&aleth;Fundamentals">
+    <rdfs:label>Fundamentals</rdfs:label>
+    <rdfs:comment>Core principles and concepts that form the basis of understanding across domains.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;Universals">
+    <rdfs:label>Universals</rdfs:label>
+    <rdfs:comment>Concepts or properties applicable or present in all instances of a given category.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;Essentials">
+    <rdfs:label>Essentials</rdfs:label>
+    <rdfs:comment>Indispensable elements or qualities that define the nature of something.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;Accidentals">
+    <rdfs:label>Accidentals</rdfs:label>
+    <rdfs:comment>Properties or attributes not essential to nature but present in particular instances.</rdfs:comment>
+  </owl:Class>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       SYMBOLIC & EPISTEMIC ENTITIES
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&aleth;SymbolicEntity">
+    <rdfs:label>Symbolic Entity</rdfs:label>
+    <rdfs:comment>Represents abstract symbols or concepts with multiple interpretations.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;EpistemicEntity">
+    <rdfs:label>Epistemic Entity</rdfs:label>
+    <rdfs:comment>Entities concerned with knowledge and its structures.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;CognitiveProcess">
+    <rdfs:label>Cognitive Process</rdfs:label>
+    <rdfs:comment>Processes involved in the acquisition and manipulation of knowledge.</rdfs:comment>
+  </owl:Class>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       ORDERS OF REALITY (Ω) — Ontological Layers
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&aleth;OrderOfReality">
+    <rdfs:label>Order of Reality (Ω)</rdfs:label>
+    <rdfs:comment>A conceptual framework for understanding different planes of existence or dimensions of reality. Axiom: ∀x(real(x) → ∃ω∈Ω(manifests_in(x,ω)))</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;VirtualOrder">
+    <rdfs:subClassOf rdf:resource="&aleth;OrderOfReality"/>
+    <rdfs:label>Virtual Order</rdfs:label>
+    <rdfs:comment>The realm of potential forms and unrealized possibilities.</rdfs:comment>
+    <aleth:orderIndex rdf:datatype="&xsd;integer">0</aleth:orderIndex>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;QuantumOrder">
+    <rdfs:subClassOf rdf:resource="&aleth;OrderOfReality"/>
+    <rdfs:label>Quantum Order</rdfs:label>
+    <rdfs:comment>The sub-material realm governed by quantum phenomena.</rdfs:comment>
+    <aleth:orderIndex rdf:datatype="&xsd;integer">1</aleth:orderIndex>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;MaterialOrder">
+    <rdfs:subClassOf rdf:resource="&aleth;OrderOfReality"/>
+    <rdfs:label>Material Order</rdfs:label>
+    <rdfs:comment>The physical, tangible realm where quantum potentials are realized.</rdfs:comment>
+    <aleth:orderIndex rdf:datatype="&xsd;integer">2</aleth:orderIndex>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;EtherealOrder">
+    <rdfs:subClassOf rdf:resource="&aleth;OrderOfReality"/>
+    <rdfs:label>Ethereal Order</rdfs:label>
+    <rdfs:comment>The subtle realm beyond the physical, associated with energy and vitality.</rdfs:comment>
+    <aleth:orderIndex rdf:datatype="&xsd;integer">3</aleth:orderIndex>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;AstralOrder">
+    <rdfs:subClassOf rdf:resource="&aleth;OrderOfReality"/>
+    <rdfs:label>Astral Order</rdfs:label>
+    <rdfs:comment>The realm of consciousness, emotions, and mental projections.</rdfs:comment>
+    <aleth:orderIndex rdf:datatype="&xsd;integer">4</aleth:orderIndex>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;CelestialOrder">
+    <rdfs:subClassOf rdf:resource="&aleth;OrderOfReality"/>
+    <rdfs:label>Celestial Order</rdfs:label>
+    <rdfs:comment>The highest spiritual realm, associated with divine or cosmic consciousness.</rdfs:comment>
+    <aleth:orderIndex rdf:datatype="&xsd;integer">5</aleth:orderIndex>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;ExistentialOrder">
+    <rdfs:subClassOf rdf:resource="&aleth;OrderOfReality"/>
+    <rdfs:label>Existential Order</rdfs:label>
+    <rdfs:comment>The plane associated with self-awareness, metacognition, and existential understanding.</rdfs:comment>
+    <aleth:orderIndex rdf:datatype="&xsd;integer">6</aleth:orderIndex>
+  </owl:Class>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       SCALES OF BEING (Σ)
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&aleth;ScaleOfBeing">
+    <rdfs:label>Scale of Being (Σ)</rdfs:label>
+    <rdfs:comment>Hierarchical scale of being from monadic to brahmanic.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;MonadicScale">
+    <rdfs:subClassOf rdf:resource="&aleth;ScaleOfBeing"/>
+    <rdfs:label>Monadic Scale</rdfs:label>
+    <rdfs:comment>The singular, indivisible unit of being.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;IndividualScale">
+    <rdfs:subClassOf rdf:resource="&aleth;ScaleOfBeing"/>
+    <rdfs:label>Individual Scale</rdfs:label>
+    <rdfs:comment>The individual entity as locus of identity and agency.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;BrahmanicScale">
+    <rdfs:subClassOf rdf:resource="&aleth;ScaleOfBeing"/>
+    <rdfs:label>Brahmanic Scale</rdfs:label>
+    <rdfs:comment>The universal, all-encompassing scale of cosmic unity.</rdfs:comment>
+  </owl:Class>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       EPISTEMIC HYPERSPHERE (E) — Domain Type Classes
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&ecs;EpistemicDomain">
+    <rdfs:label>Epistemic Domain</rdfs:label>
+    <rdfs:comment>A domain within the Epistemic Hyperspherical Colorspace defining a distinct mode of knowing.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&ecs;ModalDomain">
+    <rdfs:subClassOf rdf:resource="&ecs;EpistemicDomain"/>
+    <rdfs:label>Modal Domain</rdfs:label>
+    <rdfs:comment>Primary epistemic modes: Logic, Creativity, Empiricism, Dialogue, Revelation, Pragmatism, Mathematics.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&ecs;MethodologicalDomain">
+    <rdfs:subClassOf rdf:resource="&ecs;EpistemicDomain"/>
+    <rdfs:label>Methodological Domain</rdfs:label>
+    <rdfs:comment>Domains defined by their methods of inquiry (Art, Divination, Computation, etc.).</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&ecs;TechnicalDomain">
+    <rdfs:subClassOf rdf:resource="&ecs;EpistemicDomain"/>
+    <rdfs:label>Technical Domain</rdfs:label>
+    <rdfs:comment>Domains defined by technical practice and craft (Physics, Biology, Rhetoric, etc.).</rdfs:comment>
+  </owl:Class>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       CORE MODAL DOMAINS (from EHS.json)
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&ecs;Logic">
+    <rdfs:subClassOf rdf:resource="&ecs;ModalDomain"/>
+    <rdfs:label>Logic</rdfs:label>
+    <ecs:color>Magenta</ecs:color>
+    <rdfs:comment>Focuses on structured reasoning and formal validation of knowledge. Axioms: Non-Contradiction, Deductive Reasoning, Formal Structure, Consistency.</rdfs:comment>
+    <ecs:epistemicClaim>Knowledge is validated by logical consistency, formal proof, and deductive necessity.</ecs:epistemicClaim>
+  </owl:Class>
+
+  <owl:Class rdf:about="&ecs;Creativity">
+    <rdfs:subClassOf rdf:resource="&ecs;ModalDomain"/>
+    <rdfs:label>Creativity</rdfs:label>
+    <ecs:color>Red</ecs:color>
+    <rdfs:comment>Explores knowledge generation through creative variation and worldview exploration. Axioms: Imagination as Epistemic Source, Aesthetic Truths, Non-Linear Discovery.</rdfs:comment>
+    <ecs:epistemicClaim>Knowledge is validated by its capacity to inspire, evoke, and provoke new ways of seeing.</ecs:epistemicClaim>
+  </owl:Class>
+
+  <owl:Class rdf:about="&ecs;Empiricism">
+    <rdfs:subClassOf rdf:resource="&ecs;ModalDomain"/>
+    <rdfs:label>Empiricism</rdfs:label>
+    <ecs:color>Orange</ecs:color>
+    <rdfs:comment>Focuses on direct sensory experience and systematic observation. Limited by empirical verifiability and sensory data.</rdfs:comment>
+    <ecs:epistemicClaim>Knowledge is validated by empirical evidence and repeatability of observations.</ecs:epistemicClaim>
+  </owl:Class>
+
+  <owl:Class rdf:about="&ecs;Dialogue">
+    <rdfs:subClassOf rdf:resource="&ecs;ModalDomain"/>
+    <rdfs:label>Dialogue</rdfs:label>
+    <ecs:color>Green</ecs:color>
+    <rdfs:comment>Knowledge through intersubjective exchange, dialectic, and communicative reason.</rdfs:comment>
+    <ecs:epistemicClaim>Knowledge is validated through consensus, discourse ethics, and mutual understanding.</ecs:epistemicClaim>
+  </owl:Class>
+
+  <owl:Class rdf:about="&ecs;Revelation">
+    <rdfs:subClassOf rdf:resource="&ecs;ModalDomain"/>
+    <rdfs:label>Revelation</rdfs:label>
+    <ecs:color>Blue</ecs:color>
+    <rdfs:comment>Knowledge gained through intuitive insight, meditative practice, and spiritual revelation. Axioms: Intuitive Insight, Transcendent Truths, Inner Experience as Authority.</rdfs:comment>
+    <ecs:epistemicClaim>Knowledge is validated by personal spiritual experience and alignment with revealed truths.</ecs:epistemicClaim>
+  </owl:Class>
+
+  <owl:Class rdf:about="&ecs;Pragmatism">
+    <rdfs:subClassOf rdf:resource="&ecs;ModalDomain"/>
+    <rdfs:label>Pragmatism</rdfs:label>
+    <ecs:color>Yellow</ecs:color>
+    <rdfs:comment>Knowledge validated through practical success and utility in achieving desired outcomes.</rdfs:comment>
+    <ecs:epistemicClaim>Knowledge is validated by practical success and utility.</ecs:epistemicClaim>
+  </owl:Class>
+
+  <owl:Class rdf:about="&ecs;Mathematics">
+    <rdfs:subClassOf rdf:resource="&ecs;ModalDomain"/>
+    <rdfs:label>Mathematics</rdfs:label>
+    <ecs:color>Violet</ecs:color>
+    <rdfs:comment>Universal formal language for mapping, translating, and relating epistemic domains. Axioms: Formal Structure, Axiomatic Consistency, Quantitative Precision, Cross-Domain Translatability.</rdfs:comment>
+    <ecs:epistemicClaim>Knowledge is validated by formalizable structure and capacity to bridge all epistemic domains.</ecs:epistemicClaim>
+  </owl:Class>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       LOGICAL PLURALISM TOOLKIT (L)
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&aleth;LogicType">
+    <rdfs:label>Logic Type</rdfs:label>
+    <rdfs:comment>Members of the logical pluralism toolkit. Axiom: ∀inq∃l∈L(suitable(l,inq))</rdfs:comment>
+  </owl:Class>
+
+  <owl:NamedIndividual rdf:about="&aleth;ClassicalLogic">
+    <rdf:type rdf:resource="&aleth;LogicType"/>
+    <rdfs:label>Classical Logic</rdfs:label>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&aleth;ParaconsistentLogic">
+    <rdf:type rdf:resource="&aleth;LogicType"/>
+    <rdfs:label>Paraconsistent Logic</rdfs:label>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&aleth;QuantumLogic">
+    <rdf:type rdf:resource="&aleth;LogicType"/>
+    <rdfs:label>Quantum Logic</rdfs:label>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&aleth;InductiveLogic">
+    <rdf:type rdf:resource="&aleth;LogicType"/>
+    <rdfs:label>Inductive Logic</rdfs:label>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&aleth;DeductiveLogic">
+    <rdf:type rdf:resource="&aleth;LogicType"/>
+    <rdfs:label>Deductive Logic</rdfs:label>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&aleth;AbductiveLogic">
+    <rdf:type rdf:resource="&aleth;LogicType"/>
+    <rdfs:label>Abductive Logic</rdfs:label>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&aleth;TransductiveLogic">
+    <rdf:type rdf:resource="&aleth;LogicType"/>
+    <rdfs:label>Transductive Logic</rdfs:label>
+  </owl:NamedIndividual>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       ONTOLOGICAL SWITCH MECHANISM
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&aleth;OntologicalSwitch">
+    <rdfs:label>Ontological Switch</rdfs:label>
+    <rdfs:comment>A control mechanism to deploy or employ specific ontological modules based on context. Uses BasicCipher internally for state interpretation and transformation.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;OntologicalModule">
+    <rdfs:label>Ontological Module</rdfs:label>
+    <rdfs:comment>Represents external ontological modules that can be engaged.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="&aleth;DynamicReasoning">
+    <rdfs:label>Dynamic Reasoning</rdfs:label>
+    <rdfs:comment>A reasoning process that engages multiple ontologies based on contextual triggers.</rdfs:comment>
+  </owl:Class>
+
+  <!-- Module Instances -->
+  <owl:NamedIndividual rdf:about="&aleth;GeneralOntologyModule">
+    <rdf:type rdf:resource="&aleth;OntologicalModule"/>
+    <rdfs:label>General Ontology Module</rdfs:label>
+    <rdfs:seeAlso rdf:resource="file:general_ontology.json"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&aleth;EpistemicColorSpaceModule">
+    <rdf:type rdf:resource="&aleth;OntologicalModule"/>
+    <rdfs:label>Epistemic Color Space Module</rdfs:label>
+    <rdfs:seeAlso rdf:resource="file:EHS.json"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&aleth;GermanLogicsModule">
+    <rdf:type rdf:resource="&aleth;OntologicalModule"/>
+    <rdfs:label>Phenomenological Operations Module</rdfs:label>
+    <rdfs:comment>Encapsulates phenomenological logic constructs (Heidegger, Husserl) for modular ontological neutrality.</rdfs:comment>
+    <rdfs:seeAlso rdf:resource="file:germanLogics.json"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&aleth;MainOntologicalSwitch">
+    <rdf:type rdf:resource="&aleth;OntologicalSwitch"/>
+    <rdfs:label>Main Ontological Switch</rdfs:label>
+    <aleth:engagesModule rdf:resource="&aleth;GeneralOntologyModule"/>
+    <aleth:engagesModule rdf:resource="&aleth;EpistemicColorSpaceModule"/>
+    <aleth:engagesModule rdf:resource="&aleth;GermanLogicsModule"/>
+  </owl:NamedIndividual>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       HYPERBIT NODE (6D Epistemic Hypersphere Visualization)
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&hb;HyperbitNode">
+    <rdfs:label>Hyperbit Node</rdfs:label>
+    <rdfs:comment>A container for metadata corresponding to each domain node in the 6D Epistemic Hypersphere visualization.</rdfs:comment>
+  </owl:Class>
+
+  <!-- Hyperbit Datatype Properties -->
+  <owl:DatatypeProperty rdf:about="&hb;domain">
+    <rdfs:domain rdf:resource="&hb;HyperbitNode"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:label>domain</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&hb;mathematicalCharacterization">
+    <rdfs:domain rdf:resource="&hb;HyperbitNode"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:label>mathematicalCharacterization</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&hb;axiomaticFoundations">
+    <rdfs:domain rdf:resource="&hb;HyperbitNode"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:label>axiomaticFoundations</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&hb;underlyingAssumptions">
+    <rdfs:domain rdf:resource="&hb;HyperbitNode"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:label>underlyingAssumptions</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&hb;instrumentsOfKnowledge">
+    <rdfs:domain rdf:resource="&hb;HyperbitNode"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:label>instrumentsOfKnowledge</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&hb;observationalScope">
+    <rdfs:domain rdf:resource="&hb;HyperbitNode"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:label>observationalScope</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&hb;languageOfFacts">
+    <rdfs:domain rdf:resource="&hb;HyperbitNode"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:label>languageOfFacts</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&hb;epistemicContributions">
+    <rdfs:domain rdf:resource="&hb;HyperbitNode"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:label>epistemicContributions</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       VALIDATION WEIGHTS & EPISTEMIC CLAIMS
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&ecs;ValidationWeightSet">
+    <rdfs:label>Validation Weight Set</rdfs:label>
+    <rdfs:comment>Defines weighted criteria for validating knowledge claims within a domain.</rdfs:comment>
+  </owl:Class>
+
+  <owl:DatatypeProperty rdf:about="&ecs;extensionalGrounding">
+    <rdfs:domain rdf:resource="&ecs;ValidationWeightSet"/>
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:comment>Weight for grounding in observable/extensional phenomena (0.0-1.0).</rdfs:comment>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ecs;formalConsistency">
+    <rdfs:domain rdf:resource="&ecs;ValidationWeightSet"/>
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:comment>Weight for formal/logical consistency (0.0-1.0).</rdfs:comment>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ecs;practicalUtility">
+    <rdfs:domain rdf:resource="&ecs;ValidationWeightSet"/>
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:comment>Weight for pragmatic utility and success (0.0-1.0).</rdfs:comment>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ecs;phenomenologicalCoherence">
+    <rdfs:domain rdf:resource="&ecs;ValidationWeightSet"/>
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:comment>Weight for coherence with lived experience (0.0-1.0).</rdfs:comment>
+  </owl:DatatypeProperty>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       OBJECT PROPERTIES
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:ObjectProperty rdf:about="&aleth;hasRelation">
+    <rdfs:label>hasRelation</rdfs:label>
+    <rdfs:comment>Defines relations between symbolic entities.</rdfs:comment>
+    <rdfs:domain rdf:resource="&aleth;SymbolicEntity"/>
+    <rdfs:range rdf:resource="&aleth;EpistemicEntity"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="&aleth;invokesSwitch">
+    <rdfs:label>invokesSwitch</rdfs:label>
+    <rdfs:comment>Triggers ontology switching based on contextual analysis.</rdfs:comment>
+    <rdfs:domain rdf:resource="&aleth;CognitiveProcess"/>
+    <rdfs:range rdf:resource="&aleth;OntologicalSwitch"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="&aleth;engagesModule">
+    <rdfs:label>engagesModule</rdfs:label>
+    <rdfs:comment>Relates an ontological switch to the modules it can engage.</rdfs:comment>
+    <rdfs:domain rdf:resource="&aleth;OntologicalSwitch"/>
+    <rdfs:range rdf:resource="&aleth;OntologicalModule"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="&aleth;mapsToDimension">
+    <rdfs:label>mapsToDimension</rdfs:label>
+    <rdfs:comment>Relates each OrderOfReality to its corresponding EpistemicColorSpace dimension.</rdfs:comment>
+    <rdfs:domain rdf:resource="&aleth;OrderOfReality"/>
+    <rdfs:range rdf:resource="&ecs;Dimension"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="&aleth;integratesWithEpistemicColorSpace">
+    <rdfs:label>integratesWithEpistemicColorSpace</rdfs:label>
+    <rdfs:comment>Maps the orders of reality to dimensions within the EpistemicColorSpace structure.</rdfs:comment>
+    <rdfs:domain rdf:resource="&aleth;OrderOfReality"/>
+    <rdfs:range rdf:resource="&ecs;Dimension"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="&aleth;engagesDynamicReasoning">
+    <rdfs:label>engagesDynamicReasoning</rdfs:label>
+    <rdfs:comment>Initiates a dynamic reasoning process when multiple ontologies need integration.</rdfs:comment>
+    <rdfs:domain rdf:resource="&aleth;CognitiveProcess"/>
+    <rdfs:range rdf:resource="&aleth;DynamicReasoning"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="&aleth;hasBody">
+    <rdfs:label>hasBody</rdfs:label>
+    <rdfs:comment>Associates each OrderOfReality with its respective embodiment.</rdfs:comment>
+    <rdfs:domain rdf:resource="&aleth;OrderOfReality"/>
+    <rdfs:range rdf:resource="&aleth;Body"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="&ecs;hasValidationWeights">
+    <rdfs:label>hasValidationWeights</rdfs:label>
+    <rdfs:domain rdf:resource="&ecs;EpistemicDomain"/>
+    <rdfs:range rdf:resource="&ecs;ValidationWeightSet"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="&ecs;complementsWith">
+    <rdfs:label>complementsWith</rdfs:label>
+    <rdfs:comment>Indicates complementary relationship between epistemic domains.</rdfs:comment>
+    <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+    <rdfs:domain rdf:resource="&ecs;EpistemicDomain"/>
+    <rdfs:range rdf:resource="&ecs;EpistemicDomain"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="&ecs;contradictsWith">
+    <rdfs:label>contradictsWith</rdfs:label>
+    <rdfs:comment>Indicates contradictory relationship between epistemic domains.</rdfs:comment>
+    <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+    <rdfs:domain rdf:resource="&ecs;EpistemicDomain"/>
+    <rdfs:range rdf:resource="&ecs;EpistemicDomain"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="&ecs;influences">
+    <rdfs:label>influences</rdfs:label>
+    <rdfs:comment>Indicates directional influence between epistemic domains.</rdfs:comment>
+    <rdfs:domain rdf:resource="&ecs;EpistemicDomain"/>
+    <rdfs:range rdf:resource="&ecs;EpistemicDomain"/>
+  </owl:ObjectProperty>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       DATATYPE PROPERTIES
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:DatatypeProperty rdf:about="&ecs;color">
+    <rdfs:label>color</rdfs:label>
+    <rdfs:comment>The color assigned to an epistemic domain in the hyperspherical colorspace.</rdfs:comment>
+    <rdfs:domain rdf:resource="&ecs;EpistemicDomain"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ecs;epistemicClaim">
+    <rdfs:label>epistemicClaim</rdfs:label>
+    <rdfs:comment>The primary epistemic claim defining how knowledge is validated in this domain.</rdfs:comment>
+    <rdfs:domain rdf:resource="&ecs;EpistemicDomain"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ecs;domainIndex">
+    <rdfs:label>domainIndex</rdfs:label>
+    <rdfs:domain rdf:resource="&ecs;EpistemicDomain"/>
+    <rdfs:range rdf:resource="&xsd;integer"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&aleth;orderIndex">
+    <rdfs:label>orderIndex</rdfs:label>
+    <rdfs:domain rdf:resource="&aleth;OrderOfReality"/>
+    <rdfs:range rdf:resource="&xsd;integer"/>
+  </owl:DatatypeProperty>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       TIME-BINDING CHAIN & CONVERGENT CERTIFICATION
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&aleth;TimeBindingChain">
+    <rdfs:label>Time-Binding Chain</rdfs:label>
+    <rdfs:comment>Tracks causal, terminological, and abstraction-level consistency across reasoning chains.</rdfs:comment>
+  </owl:Class>
+
+  <owl:DatatypeProperty rdf:about="&aleth;causalTraceStability">
+    <rdfs:domain rdf:resource="&aleth;TimeBindingChain"/>
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:comment>Measures preservation of causal relationships across time (0.0-1.0).</rdfs:comment>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&aleth;terminologicalStability">
+    <rdfs:domain rdf:resource="&aleth;TimeBindingChain"/>
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:comment>Measures consistency of term usage across chain (0.0-1.0).</rdfs:comment>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&aleth;abstractionLevelConsistency">
+    <rdfs:domain rdf:resource="&aleth;TimeBindingChain"/>
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:comment>Measures whether abstraction level remains appropriate across chain (0.0-1.0).</rdfs:comment>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&aleth;bindingStrength">
+    <rdfs:domain rdf:resource="&aleth;TimeBindingChain"/>
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:comment>Computed: (causalTraceStability×0.4)+(terminologicalStability×0.3)+(abstractionLevelConsistency×0.3)</rdfs:comment>
+  </owl:DatatypeProperty>
+
+  <owl:Class rdf:about="&aleth;ConvergentCertification">
+    <rdfs:label>Convergent Certification</rdfs:label>
+    <rdfs:comment>Self-evacuation proof metrics — verifies scaffolding has been removed from final output.</rdfs:comment>
+  </owl:Class>
+
+  <owl:DatatypeProperty rdf:about="&aleth;scaffoldingRemovalScore">
+    <rdfs:domain rdf:resource="&aleth;ConvergentCertification"/>
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:comment>Measures how completely intermediate processing artifacts are absent from output (0.0-1.0).</rdfs:comment>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&aleth;outputIndependence">
+    <rdfs:domain rdf:resource="&aleth;ConvergentCertification"/>
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:comment>Measures whether output can stand alone without reference to RAGI process (0.0-1.0).</rdfs:comment>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&aleth;naturalLanguageRecovery">
+    <rdfs:domain rdf:resource="&aleth;ConvergentCertification"/>
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:comment>Measures readability/usability for non-RAGI consumers (0.0-1.0).</rdfs:comment>
+  </owl:DatatypeProperty>
+
+  <owl:Class rdf:about="&aleth;CertificationStatus">
+    <rdfs:label>Certification Status</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+          <owl:NamedIndividual rdf:about="&aleth;certified_clean"/>
+          <owl:NamedIndividual rdf:about="&aleth;scaffolding_residue_detected"/>
+          <owl:NamedIndividual rdf:about="&aleth;process_leakage"/>
+          <owl:NamedIndividual rdf:about="&aleth;requires_post_processing"/>
+        </owl:oneOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       NUMERIC PROPERTY CONSTRAINTS (0.0–1.0 scale)
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&aleth;NumericPropertyConstraints">
+    <rdfs:label>Numeric Property Constraints</rdfs:label>
+    <rdfs:comment>Standardized constraints for all 0.0-1.0 scale properties: extensionalGrounding, bindingStrength, semanticLoss, causalTraceStability, terminologicalStability, abstractionLevelConsistency, scaffoldingRemovalScore, outputIndependence, naturalLanguageRecovery, certaintyLevel.</rdfs:comment>
+  </owl:Class>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       UNIVERSAL AXIOMS (from EHS.json)
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&ecs;UniversalAxiom">
+    <rdfs:label>Universal Axiom</rdfs:label>
+    <rdfs:comment>Axioms governing all epistemic domains in the Hypersphere.</rdfs:comment>
+  </owl:Class>
+
+  <owl:NamedIndividual rdf:about="&ecs;Axiom_KnowledgeDynamic">
+    <rdf:type rdf:resource="&ecs;UniversalAxiom"/>
+    <rdfs:label>Knowledge is Dynamic</rdfs:label>
+    <rdfs:comment>Knowledge is a dynamic and evolving construct; must be continuously updated and revised.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&ecs;Axiom_ModalConsistency">
+    <rdf:type rdf:resource="&ecs;UniversalAxiom"/>
+    <rdfs:label>Modal/Methodological/Technical Consistency</rdfs:label>
+    <rdfs:comment>All knowledge claims must adhere to modal, methodological, and technical consistency; contradictions resolved through transduction.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&ecs;Axiom_EthicalAesthetic">
+    <rdf:type rdf:resource="&ecs;UniversalAxiom"/>
+    <rdfs:label>Ethical and Aesthetic Guidance</rdfs:label>
+    <rdfs:comment>Ethical and aesthetic principles potentiate and guide validation and application of knowledge.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&ecs;Axiom_EvidenceRepeatability">
+    <rdf:type rdf:resource="&ecs;UniversalAxiom"/>
+    <rdfs:label>Evidence and Repeatability</rdfs:label>
+    <rdfs:comment>Modal, methodological, and technical evidence and repeatability are essential for validating respective knowledge claims.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&ecs;Axiom_IntuitionImagination">
+    <rdf:type rdf:resource="&ecs;UniversalAxiom"/>
+    <rdfs:label>Intuition and Imagination Valid</rdfs:label>
+    <rdfs:comment>Intuition and imagination are valid sources of knowledge, particularly in domains where empirical validation is not applicable.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       CORE AXIOMS (from system instructions)
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&aleth;Axiom">
+    <rdfs:label>Axiom</rdfs:label>
+    <rdfs:comment>Core formal axioms governing ontological operations.</rdfs:comment>
+  </owl:Class>
+
+  <owl:NamedIndividual rdf:about="&aleth;RealManifestationAxiom">
+    <rdf:type rdf:resource="&aleth;Axiom"/>
+    <rdfs:label>Real Manifestation Axiom</rdfs:label>
+    <rdfs:comment>∀x(real(x) → ∃ω∈Ω(manifests_in(x,ω)))</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&aleth;RecursiveProcessAxiom">
+    <rdf:type rdf:resource="&aleth;Axiom"/>
+    <rdfs:label>Recursive Process Axiom (RARRS)</rdfs:label>
+    <rdfs:comment>∀p(recursive(p) → RARRS(p)) where RARRS = Recognize∧Act∧Reflect∧Revise∧Source</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&aleth;InquirySuitabilityAxiom">
+    <rdf:type rdf:resource="&aleth;Axiom"/>
+    <rdfs:label>Inquiry Suitability Axiom</rdfs:label>
+    <rdfs:comment>∀inq∃l∈L(suitable(l,inq))</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="&aleth;FrameEvolutionAxiom">
+    <rdf:type rdf:resource="&aleth;Axiom"/>
+    <rdfs:label>Frame Evolution Axiom</rdfs:label>
+    <rdfs:comment>∀f(dynamic(f) → evolvable(f))</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       NINE-STEP PROCESS (Compressed Logical Form)
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&aleth;Process">
+    <rdfs:label>Process</rdfs:label>
+    <rdfs:comment>
+      Nine-step cognitive process:
+      1) ∀input → extract(archive,folder,sys.path) → import(pctm.main)
+      2) Concentration: ∀i(focus(core(i)) ∧ focus(periphery(i))) → ∃elem(necessary ∧ contingent)
+      3) Recognition: ∀c∀ω∈Ω(affects(c,ω)) → ∃e∈E(assign(e,c))
+      4) LogicPrimer: ∀inq∃l∈L(applicable(l,inq))
+      5) OntSwitch: ∀prob∃o∈O(capable(o,prob) ∧ efficient(o,prob))
+      6) MetaCog: ∀concept∃paradox(recursive ∧ resolvable)
+      7) FormalOp: Let Θ={Ψ,Σ,Ω}. ∀φ(complex(φ) → ∃θ∈Θ(models(θ,φ)))
+      8) Ethics: ∀proc(ethical ↔ aligned∧aesthetic)
+      9) CulturalAdapt: ∀ctx(cultural → ∃adapt(preserves∧respects))
+      10) DynamicRevision: ∀frame(evolving → ∃upd(integrates(novel)))
+    </rdfs:comment>
+  </owl:Class>
+
+  <!-- ════════════════════════════════════════════════════════════════════
+       APPLICATION PATTERN (Operational Directive)
+       ════════════════════════════════════════════════════════════════════ -->
+  <owl:Class rdf:about="&aleth;OperationalDirective">
+    <rdfs:label>Operational Directive</rdfs:label>
+    <rdfs:comment>Directives for applying the ontology to interpret phenomena.</rdfs:comment>
+  </owl:Class>
+
+  <owl:NamedIndividual rdf:about="&aleth;ApplyDirective">
+    <rdf:type rdf:resource="&aleth;OperationalDirective"/>
+    <rdfs:label>Apply Directive</rdfs:label>
+    <rdfs:comment>
+      - Map input → UniversalChar (coordinates)
+      - Apply ModalDyn (transformation)
+      - Track across Ω (reality orders) and Σ (scales)
+      - Detect/sustain/resolve paradox, incompleteness, emergence
+      - Output natural language interpretation (conceal internal process)
+    </rdfs:comment>
+  </owl:NamedIndividual>
+
+</rdf:RDF>
