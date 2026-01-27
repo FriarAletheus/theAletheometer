@@ -1,0 +1,137 @@
+---
+services:
+  api:
+    volumes:
+      - ./librechat.yaml:/app/librechat.yaml:ro
+      - ./uploads:/app/uploads
+      - ./data/api:/app/api/data
+      - ./public_images:/app/client/public/images
+    environment:
+      RAG_API_URL: http://rag_api:8000
+      FILE_UPLOAD_PATH: "/app/uploads"
+      FILE_UPLOADS_ENABLED: "true"
+      PLUGINS_MISTRAL_OCR_ENABLED: "false"
+      OCR_PLUGIN_ENABLED: "false"
+      OCR_BASEURL: "http://localhost"
+      OCR_API_KEY: "dummy"
+    networks:
+      - librechat_net
+
+  rag_api:
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+    image: ghcr.io/danny-avila/librechat-rag-api-dev:latest
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./rag_data:/app/data
+    environment:
+      LOG_LEVEL: detailed_debug
+      TRANSFORMERS_VERBOSITY: debug
+      RAG_OPENAI_BASEURL: http://litellm:8001/v1
+      JWT_SECRET: ${JWT_SECRET}
+      VECTOR_DB_TYPE: pgvector
+      DB_HOST: vectordb
+      POSTGRES_DB: mydatabase
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+    networks:
+      - librechat_net
+
+  litellm:
+    image: ghcr.io/berriai/litellm:main-latest
+    container_name: litellm
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./litellm_config.yaml:/app/config.yaml
+    environment:
+      - PORT=8001
+      - REPLICATE_API_TOKEN=${REPLICATE_API_TOKEN}
+    command:
+      - "--config"
+      - "/app/config.yaml"
+      - "--port"
+      - "8001"
+      - "--detailed_debug"
+    restart: always
+    networks:
+      - librechat_net
+  ontologies-mcp:
+    build:
+      context: ./tools/fs-mcp
+    container_name: ontologies-mcp
+    restart: unless-stopped
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./ontologies:/data:ro
+    environment:
+      - PROJECT_ROOT=/data
+    networks:
+      - librechat_net
+
+  iching-mcp:
+    build:
+      context: ./tools/iching-mcp
+    container_name: iching-mcp
+    restart: unless-stopped
+    ports:
+      - "3002:3000"
+    volumes:
+      - ./tools/iching-mcp/iching.json:/app/iching.json:ro
+    environment:
+      - ICHING_JSON=/app/iching.json
+    networks:
+      - librechat_net
+
+  mongodb:
+    networks:
+      - librechat_net
+
+  meilisearch:
+    networks:
+      - librechat_net
+
+  vectordb:
+    networks:
+      - librechat_net
+
+  orchestrator-mcp:
+    build:
+      context: ./tools/orchestrator-mcp
+    container_name: orchestrator-mcp
+    restart: unless-stopped
+    ports:
+      - "3003:3000"
+    volumes:
+      - ./tools/orchestrator-mcp/workspace:/app/workspace
+      - ./tools/PCTM-mcp:/app/PCTM-mcp:ro
+      - ./tools/iching-mcp:/app/iching-mcp:ro
+    environment:
+      - PCTM_MCP_HOST=pctm-mcp
+      - ICHING_MCP_HOST=iching-mcp
+    networks:
+      - librechat_net
+    depends_on:
+      - pctm-mcp
+      - iching-mcp
+
+  pctm-mcp:
+    build:
+      context: ./tools/PCTM-mcp
+    container_name: pctm-mcp
+    restart: unless-stopped
+    ports:
+      - "3004:3000"
+    volumes:
+      - ./tools/PCTM-mcp:/app/data
+    networks:
+      - librechat_net
+
+networks:
+  librechat_net:
+    driver: bridge

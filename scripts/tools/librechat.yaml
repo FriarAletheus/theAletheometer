@@ -1,0 +1,104 @@
+---
+version: 1.3.1
+cache: true
+
+fileConfig:
+  endpoints:
+    assistants:
+      fileConfig:
+        enabled: true
+      retrievalModels:
+        - text-embedding-3-small
+      supportedIds:
+        - asst_
+    openAI:
+      disabled: false
+    azureOpenAI:
+      disabled: true
+    google:
+      disabled: true
+  serverFileSizeLimit: 100
+  avatarSizeLimit: 2
+
+endpoints:
+  assistants:
+    disableBuilder: false
+    pollIntervalMs: 3000
+    timeoutMs: 180000
+    capabilities:
+      - actions
+      - tools
+      - code_interpreter
+      - retrieval
+
+  agents:
+    disableBuilder: false
+    capabilities:
+      - tools
+      - execute_code
+      - file_search
+      - actions
+    supportedIds:
+      - agent_
+
+  custom:
+    - name: "LiteLLM"
+      apiKey: "${REPLICATE_API_TOKEN}"
+      baseURL: "http://litellm:8001/v1"
+      models:
+        default:
+          - "llama-3-8b"
+          - "mixtral-8x7b"
+          - "gpt-oss-120b"
+          - "flux-schnell"
+          - "stable-diffusion-3.5"
+          - "flux-pro"
+        fetch: false
+      titleConvo: true
+      titleModel: "llama-3-8b"
+      summarize: false
+      summaryModel: "llama-3-8b"
+      forcePrompt: false
+      modelDisplayLabel: "LiteLLM"
+
+  anthropic:
+    apiKey: "${ANTHROPIC_API_KEY}"
+    models:
+      default:
+        - "claude-3-5-haiku-20241022"
+        - "claude-4-opus-20250214"
+        - "claude-4-sonnet-20250214"
+        - "claude-4-1-opus-20250301"
+        - "claude-4-5-opus-20250410"
+    fetch: false
+    titleConvo: true
+    titleModel: "claude-3-5-haiku-20241022"
+
+mcpServers:
+  iching:
+    type: streamable-http
+    url: "http://iching-mcp:3000/mcp"
+    timeout: 30000
+    serverInstructions: true
+    chatMenu: true
+
+  ontologies:
+    type: streamable-http
+    url: "http://ontologies-mcp:3000/mcp"
+    timeout: 30000
+    serverInstructions: true
+    chatMenu: true
+
+  orchestrator:
+    type: streamable-http
+    url: "http://orchestrator-mcp:3000/mcp"
+    timeout: 30000
+    serverInstructions: true
+    chatMenu: true
+
+  pctm:
+    type: streamable-http
+    url: "http://pctm-mcp:3000/mcp"
+    timeout: 30000
+    serverInstructions: true
+    chatMenu: true
