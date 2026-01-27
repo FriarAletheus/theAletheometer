@@ -1,0 +1,95 @@
+{
+    "ModalDynamics": [
+        {
+            "name": "Oscillation",
+            "symbol": "M₁",
+            "operation": "x' = (x + roll(x, +1)) / ‖x + roll(x, +1)‖",
+            "description": "Cyclic blending with lagged self (feedback resonance)",
+            "type": "Harmonic Recursion"
+        },
+        {
+            "name": "Folding",
+            "symbol": "M₂",
+            "operation": "x' = -|x| ; ρ' = ρ · φ",
+            "description": "Inverts and densifies magnitude via self-negation",
+            "type": "Involutive Reversal"
+        },
+        {
+            "name": "Radiation",
+            "symbol": "M₃",
+            "operation": "x' = (x + 𝒩(0, σ²)) / ‖x + 𝒩(0, σ²)‖",
+            "description": "Diffusive outward perturbation (thermal expansion)",
+            "type": "Stochastic Divergence"
+        },
+        {
+            "name": "Propagation",
+            "symbol": "M₄",
+            "operation": "x' = roll(x, +1) ; ρ' = ρ / φ",
+            "description": "Translational motion through vector rotation",
+            "type": "Temporal Drift"
+        },
+        {
+            "name": "Arborescence",
+            "symbol": "M₅",
+            "operation": "x' = (x²) / ‖x²‖",
+            "description": "Self-expansion by squaring and renormalization",
+            "type": "Exponential Branching"
+        },
+        {
+            "name": "Tessellation",
+            "symbol": "M₆",
+            "operation": "x' = sort(x)",
+            "description": "Regularizes and discretizes vector ordering",
+            "type": "Structural Reordering"
+        },
+        {
+            "name": "Helicity",
+            "symbol": "M₇",
+            "operation": "x' = reverse(x)",
+            "description": "Mirrors the structure: left becomes right",
+            "type": "Inversion Symmetry"
+        },
+        {
+            "name": "Enantiodromia",
+            "symbol": "M₈",
+            "operation": "x' = -x",
+            "description": "Total inversion: polarity reversal of the state",
+            "type": "Dialectical Opposition"
+        },
+        {
+            "name": "Exteriority",
+            "symbol": "M₉",
+            "operation": "x' = (x + ε) / ‖x + ε‖",
+            "description": "Pushes state outward through uniform expansion",
+            "type": "Emanation"
+        },
+        {
+            "name": "Solution",
+            "symbol": "M₁₀",
+            "operation": "x' = avg(roll(x, +1), roll(x, -1)) / ‖·‖",
+            "description": "Averaging across neighborhood—smoothing",
+            "type": "Continuity Enforcement"
+        },
+        {
+            "name": "Synchronicity",
+            "symbol": "M₁₁",
+            "operation": "x' = (x · mean(x)) / ‖x · mean(x)‖",
+            "description": "Acausal alignment toward collective attractor--meaningful coincidence",
+            "type": "Non-Local Correlation"
+        },
+        {
+            "name": "Entropy",
+            "symbol": "M₁₂",
+            "operation": "x' = (x + 𝒰(-ε, +ε)ⁿ) / ‖x + 𝒰(-ε, +ε)ⁿ‖",
+            "description": "Maximal disorder injection via uniform randomization",
+            "type": "Thermodynamic Dispersal"
+        },
+        {
+            "name": "Metabolisis",
+            "symbol": "M₁₃",
+            "operation": "x' = φ·normalize(x ⊙ [1, φ, φ², ..., φⁿ⁻¹])",
+            "description": "Self-sustaining transformation through golden-ratio scaling cascade",
+            "type": "Auto-poetic Recursion"
+        }
+    ]
+}

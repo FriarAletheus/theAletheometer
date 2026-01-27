@@ -1,0 +1,3012 @@
+{
+    "hexagrams": [
+        {
+            "id": 1,
+            "name": "Ch'ien (The Creative)",
+            "binary": "111111",
+            "trigrams": {
+                "upper": "Heaven (Ch'ien)",
+                "lower": "Heaven (Ch'ien)"
+            },
+            "structural_differential": {
+                "event_level": "\u03a3(Yang\u2086) \u2192 Pure creative force in continuous motion",
+                "object_level": "The Image: Heaven's movement is strong. Thus the superior man makes himself strong and untiring.",
+                "label_level": "The Judgment: THE CREATIVE works sublime success, furthering through perseverance."
+            },
+            "ontological_signature": "E(1) = \u03a3(Ch'ien_U + Ch'ien_L) \u2192 [Creative_Initiation]",
+            "lines": {
+                "1": {
+                    "text_nine": "Hidden dragon. Do not act.",
+                    "text_six": null,
+                    "semantic": "[Latent_Potential \u2227 \u00acAction]"
+                },
+                "2": {
+                    "text_nine": "Dragon appearing in the field. It furthers one to see the great man.",
+                    "text_six": null,
+                    "semantic": "[Emergence \u2192 Alignment_Seeking]"
+                },
+                "3": {
+                    "text_nine": "All day long the superior man is creatively active. At nightfall his mind is still beset with cares. Danger. No blame.",
+                    "text_six": null,
+                    "semantic": "[Persistence \u2227 Vigilance \u2192 \u00acBlame]"
+                },
+                "4": {
+                    "text_nine": "Wavering flight over the depths. No blame.",
+                    "text_six": null,
+                    "semantic": "[Transition \u2227 Uncertainty \u2192 \u00acBlame]"
+                },
+                "5": {
+                    "text_nine": "Flying dragon in the heavens. It furthers one to see the great man.",
+                    "text_six": null,
+                    "semantic": "[Culmination \u2192 Influence_Manifest]"
+                },
+                "6": {
+                    "text_nine": "Arrogant dragon will have cause to repent.",
+                    "text_six": null,
+                    "semantic": "[Hubris \u2192 Reversal]"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "name": "K'un (The Receptive)",
+            "binary": "000000",
+            "trigrams": {
+                "upper": "Earth (K'un)",
+                "lower": "Earth (K'un)"
+            },
+            "structural_differential": {
+                "event_level": "\u03a3(Yin\u2086) \u2192 Pure receptive yielding in spatial extension",
+                "object_level": "The Image: The earth's condition is receptive devotion. Thus the superior man who has breadth of character carries the outer world.",
+                "label_level": "The Judgment: THE RECEPTIVE brings about sublime success, furthering through the perseverance of a mare."
+            },
+            "ontological_signature": "E(2) = \u03a3(K'un_U + K'un_L) \u2192 [Receptive_Devotion]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "When there is hoarfrost underfoot, solid ice is not far off.",
+                    "semantic": "[Incipient_Sign \u2192 Future_Condition]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Straight, square, great. Without purpose, yet nothing remains unfurthered.",
+                    "semantic": "[Naturalness \u2227 Effortlessness \u2192 Success]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Hidden lines. One is able to remain persevering. If by chance you are in the service of a king, seek not works, but bring to completion.",
+                    "semantic": "[Concealment \u2227 Completion \u2192 \u00acSelf_Assertion]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "A tied-up sack. No blame, no praise.",
+                    "semantic": "[Restraint \u2192 Neutrality]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "A yellow lower garment brings supreme good fortune.",
+                    "semantic": "[Modesty \u2227 Central_Position \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Dragons fight in the meadow. Their blood is black and yellow.",
+                    "semantic": "[Yin_Excess \u2192 Conflict \u2227 Mutual_Injury]"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "name": "Chun (Difficulty at the Beginning)",
+            "binary": "100010",
+            "trigrams": {
+                "upper": "Water (K'an)",
+                "lower": "Thunder (Ch\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "[Thunder_Below \u2227 Water_Above] \u2192 Chaotic profusion at genesis",
+                "object_level": "The Image: Clouds and thunder: The image of DIFFICULTY AT THE BEGINNING. Thus the superior man brings order out of confusion.",
+                "label_level": "The Judgment: DIFFICULTY AT THE BEGINNING works supreme success, furthering through perseverance. Nothing should be undertaken. It furthers one to appoint helpers."
+            },
+            "ontological_signature": "E(3) = \u03a3(K'an_U + Ch\u00ean_L) \u2192 [Genesis_Struggle]",
+            "lines": {
+                "1": {
+                    "text_nine": "Hesitation and hindrance. It furthers one to remain persevering. It furthers one to appoint helpers.",
+                    "text_six": null,
+                    "semantic": "[Obstacle \u2192 Perseverance \u2227 Delegation]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Difficulties pile up. Horse and wagon part. He is not a robber; he will woo at the right time. The maiden is chaste, she does not pledge herself. Ten years\u2014then she pledges herself.",
+                    "semantic": "[Apparent_Threat \u2192 Patience \u2227 Eventual_Union]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Whoever hunts deer without the forester only loses his way in the forest. The superior man understands the signs of the time and prefers to desist. To go on brings humiliation.",
+                    "semantic": "[\u00acGuidance \u2192 Loss; Desist \u2192 \u00acHumiliation]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Horse and wagon part. Strive for union. To go brings good fortune. Everything acts to further.",
+                    "semantic": "[Separation \u2192 Seek_Union \u2192 Fortune]"
+                },
+                "5": {
+                    "text_nine": "Difficulties in blessing. A little perseverance brings good fortune. Great perseverance brings misfortune.",
+                    "text_six": null,
+                    "semantic": "[Moderate_Effort \u2192 Fortune; Excess \u2192 Misfortune]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Horse and wagon part. Bloody tears flow.",
+                    "semantic": "[Failure \u2227 Grief]"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "name": "M\u00eang (Youthful Folly)",
+            "binary": "010001",
+            "trigrams": {
+                "upper": "Mountain (K\u00ean)",
+                "lower": "Water (K'an)"
+            },
+            "structural_differential": {
+                "event_level": "[Water_Below \u2227 Mountain_Above] \u2192 Spring at mountain's foot, inexperience",
+                "object_level": "The Image: A spring wells up at the foot of the mountain. Thus the superior man fosters his character by thoroughness in all that he does.",
+                "label_level": "The Judgment: YOUTHFUL FOLLY has success. It is not I who seek the young fool; the young fool seeks me. At the first oracle I inform him. If he asks two or three times, it is importunity. If he importunes, I give him no information. Perseverance furthers."
+            },
+            "ontological_signature": "E(4) = \u03a3(K\u00ean_U + K'an_L) \u2192 [Inexperience_Seeking_Guidance]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "To make a fool develop it furthers one to apply discipline. The fetters should be removed. To go on in this way brings humiliation.",
+                    "semantic": "[Discipline \u2192 Development; Excess \u2192 Humiliation]"
+                },
+                "2": {
+                    "text_nine": "To bear with fools in kindliness brings good fortune. To know how to take women brings good fortune. The son is capable of taking charge of the household.",
+                    "text_six": null,
+                    "semantic": "[Tolerance \u2227 Capability \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Take not a maiden who, when she sees a man of bronze, loses possession of herself. Nothing furthers.",
+                    "semantic": "[Loss_of_Self \u2192 \u00acFurthering]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Entangled folly brings humiliation.",
+                    "semantic": "[Isolation_in_Folly \u2192 Humiliation]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Childlike folly brings good fortune.",
+                    "semantic": "[Innocence \u2227 Openness \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": "In punishing folly it does not further one to commit transgressions. The only thing that furthers is to prevent transgressions.",
+                    "text_six": null,
+                    "semantic": "[Punishment \u2192 Prevention; \u00acExcess]"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "name": "Hs\u00fc (Waiting/Nourishment)",
+            "binary": "111010",
+            "trigrams": {
+                "upper": "Water (K'an)",
+                "lower": "Heaven (Ch'ien)"
+            },
+            "structural_differential": {
+                "event_level": "[Heaven_Below \u2227 Water_Above] \u2192 Clouds gathering, rain pending",
+                "object_level": "The Image: Clouds rise up to heaven. Thus the superior man eats and drinks, is joyous and of good cheer.",
+                "label_level": "The Judgment: WAITING. If you are sincere, you have light and success. Perseverance brings good fortune. It furthers one to cross the great water."
+            },
+            "ontological_signature": "E(5) = \u03a3(K'an_U + Ch'ien_L) \u2192 [Patient_Anticipation]",
+            "lines": {
+                "1": {
+                    "text_nine": "Waiting in the meadow. It furthers one to abide in what endures. No blame.",
+                    "text_six": null,
+                    "semantic": "[Distance_from_Danger \u2192 Endurance \u2192 \u00acBlame]"
+                },
+                "2": {
+                    "text_nine": "Waiting on the sand. There is some gossip. The end brings good fortune.",
+                    "text_six": null,
+                    "semantic": "[Proximity_to_Danger \u2227 Patience \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": "Waiting in the mud brings about the arrival of the enemy.",
+                    "text_six": null,
+                    "semantic": "[Premature_Action \u2192 Invites_Danger]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Waiting in blood. Get out of the pit.",
+                    "semantic": "[Extreme_Danger \u2192 Escape]"
+                },
+                "5": {
+                    "text_nine": "Waiting at meat and drink. Perseverance brings good fortune.",
+                    "text_six": null,
+                    "semantic": "[Composure_in_Danger \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "One falls into the pit. Three uninvited guests arrive. Honor them, and in the end there will be good fortune.",
+                    "semantic": "[Crisis \u2192 Unexpected_Aid \u2192 Fortune]"
+                }
+            }
+        },
+        {
+            "id": 6,
+            "name": "Sung (Conflict)",
+            "binary": "010111",
+            "trigrams": {
+                "upper": "Heaven (Ch'ien)",
+                "lower": "Water (K'an)"
+            },
+            "structural_differential": {
+                "event_level": "[Water_Below \u2227 Heaven_Above] \u2192 Opposing movements, tension",
+                "object_level": "The Image: Heaven and water go their opposite ways. Thus in all his transactions the superior man carefully considers the beginning.",
+                "label_level": "The Judgment: CONFLICT. You are sincere and are being obstructed. A cautious halt halfway brings good fortune. Going through to the end brings misfortune. It furthers one to see the great man. It does not further one to cross the great water."
+            },
+            "ontological_signature": "E(6) = \u03a3(Ch'ien_U + K'an_L) \u2192 [Opposition_Tension]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "If one does not perpetuate the affair, there is a little gossip. In the end, good fortune comes.",
+                    "semantic": "[\u00acPerpetuation \u2192 Minor_Criticism \u2192 Fortune]"
+                },
+                "2": {
+                    "text_nine": "One cannot engage in conflict; one returns home, gives way. The people of his town, three hundred households, remain free of guilt.",
+                    "text_six": null,
+                    "semantic": "[Retreat \u2192 Community_Preserved]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "To nourish oneself on ancient virtue induces perseverance. Danger. In the end, good fortune comes. If by chance you are in the service of a king, seek not works.",
+                    "semantic": "[Tradition \u2227 Humility \u2192 Fortune]"
+                },
+                "4": {
+                    "text_nine": "One cannot engage in conflict. One turns back and submits to fate, changes one's attitude, and finds peace in perseverance. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Submission \u2192 Peace \u2192 Fortune]"
+                },
+                "5": {
+                    "text_nine": "To contend before him brings supreme good fortune.",
+                    "text_six": null,
+                    "semantic": "[Just_Arbitration \u2192 Supreme_Fortune]"
+                },
+                "6": {
+                    "text_nine": "Even if by chance a leather belt is bestowed on one, by the end of a morning it will have been snatched away three times.",
+                    "text_six": null,
+                    "semantic": "[Victory_Through_Conflict \u2192 Unstable_Gain]"
+                }
+            }
+        },
+        {
+            "id": 7,
+            "name": "Shih (The Army)",
+            "binary": "010000",
+            "trigrams": {
+                "upper": "Earth (K'un)",
+                "lower": "Water (K'an)"
+            },
+            "structural_differential": {
+                "event_level": "[Water_Below \u2227 Earth_Above] \u2192 Ground water stored, latent force",
+                "object_level": "The Image: In the middle of the earth is water. Thus the superior man increases his masses by generosity toward the people.",
+                "label_level": "The Judgment: THE ARMY. The army needs perseverance and a strong man. Good fortune without blame."
+            },
+            "ontological_signature": "E(7) = \u03a3(K'un_U + K'an_L) \u2192 [Disciplined_Force]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "An army must set forth in proper order. If the order is not good, misfortune threatens.",
+                    "semantic": "[Order \u2192 Success; Disorder \u2192 Misfortune]"
+                },
+                "2": {
+                    "text_nine": "In the midst of the army. Good fortune. No blame. The king bestows a triple decoration.",
+                    "text_six": null,
+                    "semantic": "[Central_Command \u2192 Fortune \u2227 Honor]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Perchance the army carries corpses in the wagon. Misfortune.",
+                    "semantic": "[Divided_Command \u2192 Defeat]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "The army retreats. No blame.",
+                    "semantic": "[Strategic_Retreat \u2192 \u00acBlame]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "There is game in the field. It furthers one to catch it. Without blame. Let the eldest lead the army. The younger transports corpses; then perseverance brings misfortune.",
+                    "semantic": "[Proper_Leadership \u2192 Success; Improper \u2192 Misfortune]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "The great prince issues commands, founds states, vests families with fiefs. Inferior people should not be employed.",
+                    "semantic": "[Victory \u2192 Reward_Merit; \u00acEmploy_Inferior]"
+                }
+            }
+        },
+        {
+            "id": 8,
+            "name": "Pi (Holding Together/Union)",
+            "binary": "000010",
+            "trigrams": {
+                "upper": "Water (K'an)",
+                "lower": "Earth (K'un)"
+            },
+            "structural_differential": {
+                "event_level": "[Earth_Below \u2227 Water_Above] \u2192 Waters gathering on earth",
+                "object_level": "The Image: On the earth is water. Thus the kings of antiquity bestowed the different states as fiefs and cultivated friendly relations with the feudal lords.",
+                "label_level": "The Judgment: HOLDING TOGETHER brings good fortune. Inquire of the oracle once again whether you possess sublimity, constancy, and perseverance; then there is no blame. Those who are uncertain gradually join. Whoever comes too late meets with misfortune."
+            },
+            "ontological_signature": "E(8) = \u03a3(K'an_U + K'un_L) \u2192 [Cohesive_Union]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "Hold to him in truth and loyalty; this is without blame. Truth, like a full earthen bowl: thus in the end good fortune comes from without.",
+                    "semantic": "[Sincerity \u2192 Fortune_External]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Hold to him inwardly. Perseverance brings good fortune.",
+                    "semantic": "[Inner_Loyalty \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "You hold together with the wrong people.",
+                    "semantic": "[Wrong_Association \u2192 Warning]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Hold to him outwardly also. Perseverance brings good fortune.",
+                    "semantic": "[Manifest_Loyalty \u2192 Fortune]"
+                },
+                "5": {
+                    "text_nine": "Manifestation of holding together. In the hunt the king uses beaters on three sides only and forgoes game that runs off in front. The citizens need no warning. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Open_Union \u2227 \u00acCoercion \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "He finds no head for holding together. Misfortune.",
+                    "semantic": "[\u00acLeadership \u2192 Misfortune]"
+                }
+            }
+        },
+        {
+            "id": 9,
+            "name": "Hsiao Ch'u (Taming Power of the Small)",
+            "binary": "111011",
+            "trigrams": {
+                "upper": "Wind (Sun)",
+                "lower": "Heaven (Ch'ien)"
+            },
+            "structural_differential": {
+                "event_level": "[Heaven_Below \u2227 Wind_Above] \u2192 Wind restraining clouds",
+                "object_level": "The Image: The wind drives across heaven. Thus the superior man refines the outward aspect of his nature.",
+                "label_level": "The Judgment: THE TAMING POWER OF THE SMALL has success. Dense clouds, no rain from our western region."
+            },
+            "ontological_signature": "E(9) = \u03a3(Sun_U + Ch'ien_L) \u2192 [Gentle_Restraint]",
+            "lines": {
+                "1": {
+                    "text_nine": "Return to the way. How could there be blame in this? Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Return_to_Path \u2192 Fortune]"
+                },
+                "2": {
+                    "text_nine": "He allows himself to be drawn into returning. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Yielding_Return \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": "The spokes burst out of the wagon wheels. Man and wife roll their eyes.",
+                    "text_six": null,
+                    "semantic": "[Forced_Progress \u2192 Conflict]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "If you are sincere, blood vanishes and fear gives way. No blame.",
+                    "semantic": "[Sincerity \u2192 \u00acDanger \u2227 \u00acFear]"
+                },
+                "5": {
+                    "text_nine": "If you are sincere and loyally attached, you are rich in your neighbor.",
+                    "text_six": null,
+                    "semantic": "[Loyalty \u2192 Mutual_Enrichment]"
+                },
+                "6": {
+                    "text_nine": "The rain comes, there is rest. This is due to the lasting effect of character. Perseverance brings the woman into danger. The moon is nearly full. If the superior man persists, misfortune comes.",
+                    "text_six": null,
+                    "semantic": "[Success_Achieved \u2192 \u00acPersist_Further]"
+                }
+            }
+        },
+        {
+            "id": 10,
+            "name": "L\u00fc (Treading/Conduct)",
+            "binary": "110111",
+            "trigrams": {
+                "upper": "Heaven (Ch'ien)",
+                "lower": "Lake (Tui)"
+            },
+            "structural_differential": {
+                "event_level": "[Lake_Below \u2227 Heaven_Above] \u2192 Weak treading on strong",
+                "object_level": "The Image: Heaven above, the lake below. Thus the superior man discriminates between high and low, and thereby fortifies the thinking of the people.",
+                "label_level": "The Judgment: TREADING. Treading upon the tail of the tiger. It does not bite the man. Success."
+            },
+            "ontological_signature": "E(10) = \u03a3(Ch'ien_U + Tui_L) \u2192 [Careful_Conduct]",
+            "lines": {
+                "1": {
+                    "text_nine": "Simple conduct. Progress without blame.",
+                    "text_six": null,
+                    "semantic": "[Simplicity \u2192 Progress]"
+                },
+                "2": {
+                    "text_nine": "Treading a smooth, level course. The perseverance of a dark man brings good fortune.",
+                    "text_six": null,
+                    "semantic": "[Steady_Path \u2227 Humility \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "A one-eyed man is able to see, a lame man is able to tread. He treads on the tail of the tiger. The tiger bites the man. Misfortune. Thus does a warrior act on behalf of his great prince.",
+                    "semantic": "[Overestimation \u2192 Danger]"
+                },
+                "4": {
+                    "text_nine": "He treads on the tail of the tiger. Caution and circumspection lead ultimately to good fortune.",
+                    "text_six": null,
+                    "semantic": "[Danger \u2227 Caution \u2192 Fortune]"
+                },
+                "5": {
+                    "text_nine": "Resolute conduct. Perseverance with awareness of danger.",
+                    "text_six": null,
+                    "semantic": "[Resolution \u2227 Awareness \u2192 Perseverance]"
+                },
+                "6": {
+                    "text_nine": "Look to your conduct and weigh the favorable signs. When everything is fulfilled, supreme good fortune comes.",
+                    "text_six": null,
+                    "semantic": "[Review_Conduct \u2192 Supreme_Fortune]"
+                }
+            }
+        },
+        {
+            "id": 11,
+            "name": "T'ai (Peace)",
+            "binary": "111000",
+            "trigrams": {
+                "upper": "Earth (K'un)",
+                "lower": "Heaven (Ch'ien)"
+            },
+            "structural_differential": {
+                "event_level": "[Heaven_Below \u2227 Earth_Above] \u2192 Creative rises, receptive descends, meeting",
+                "object_level": "The Image: Heaven and earth unite. Thus the ruler divides and completes the course of heaven and earth; he furthers and regulates the gifts of heaven and earth, and so aids the people.",
+                "label_level": "The Judgment: PEACE. The small departs, the great approaches. Good fortune. Success."
+            },
+            "ontological_signature": "E(11) = \u03a3(K'un_U + Ch'ien_L) \u2192 [Harmonious_Union]",
+            "lines": {
+                "1": {
+                    "text_nine": "When ribbon grass is pulled up, the sod comes with it. Each according to his kind. Undertakings bring good fortune.",
+                    "text_six": null,
+                    "semantic": "[Collective_Action \u2192 Fortune]"
+                },
+                "2": {
+                    "text_nine": "Bearing with the uncultured in gentleness, fording the river with resolution, not neglecting what is distant, not regarding one's companions: thus one may manage to walk in the middle.",
+                    "text_six": null,
+                    "semantic": "[Balance \u2227 Inclusivity \u2192 Middle_Way]"
+                },
+                "3": {
+                    "text_nine": "No plain not followed by a slope. No going not followed by a return. He who remains persevering in danger is without blame. Do not complain about this truth; enjoy the good fortune you still possess.",
+                    "text_six": null,
+                    "semantic": "[Cycle_Awareness \u2192 \u00acBlame]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "He flutters down, not boasting of his wealth, together with his neighbor, guileless and sincere.",
+                    "semantic": "[Humility \u2227 Sincerity \u2192 Union]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "The sovereign I gives his daughter in marriage. This brings blessing and supreme good fortune.",
+                    "semantic": "[Proper_Alliance \u2192 Supreme_Fortune]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "The wall falls back into the moat. Use no army now. Make your commands known within your own town. Perseverance brings humiliation.",
+                    "semantic": "[Decline \u2192 \u00acForce; Accept_Change]"
+                }
+            }
+        },
+        {
+            "id": 12,
+            "name": "P'i (Standstill/Stagnation)",
+            "binary": "000111",
+            "trigrams": {
+                "upper": "Heaven (Ch'ien)",
+                "lower": "Earth (K'un)"
+            },
+            "structural_differential": {
+                "event_level": "[Earth_Below \u2227 Heaven_Above] \u2192 Heaven withdraws upward, earth sinks",
+                "object_level": "The Image: Heaven and earth do not unite. Thus the superior man falls back upon his inner worth in order to escape the difficulties. He does not permit himself to be honored with revenue.",
+                "label_level": "The Judgment: STANDSTILL. Evil people do not further the perseverance of the superior man. The great departs; the small approaches."
+            },
+            "ontological_signature": "E(12) = \u03a3(Ch'ien_U + K'un_L) \u2192 [Non_Communication]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "When ribbon grass is pulled up, the sod comes with it. Each according to his kind. Perseverance brings good fortune and success.",
+                    "semantic": "[Withdrawal_Together \u2192 Fortune]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "They bear and endure; this means good fortune for inferior people. The standstill serves to help the great man to attain success.",
+                    "semantic": "[Endurance \u2192 Differentiated_Outcomes]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "They bear shame.",
+                    "semantic": "[Shame_Borne]"
+                },
+                "4": {
+                    "text_nine": "He who acts at the command of the highest remains without blame. Those of like mind partake of the blessing.",
+                    "text_six": null,
+                    "semantic": "[Divine_Mandate \u2192 \u00acBlame \u2227 Shared_Blessing]"
+                },
+                "5": {
+                    "text_nine": "Standstill is giving way. Good fortune for the great man. 'What if it should fail, what if it should fail?' In this way he ties it to a cluster of mulberry shoots.",
+                    "semantic": "[Transition \u2192 Fortune \u2227 Vigilance]",
+                    "text_six": null
+                },
+                "6": {
+                    "text_nine": "The standstill comes to an end. First standstill, then good fortune.",
+                    "text_six": null,
+                    "semantic": "[End_of_Stagnation \u2192 Fortune]"
+                }
+            }
+        },
+        {
+            "id": 13,
+            "name": "T'ung J\u00ean (Fellowship with Men)",
+            "binary": "101111",
+            "trigrams": {
+                "upper": "Heaven (Ch'ien)",
+                "lower": "Fire (Li)"
+            },
+            "structural_differential": {
+                "event_level": "[Fire_Below \u2227 Heaven_Above] \u2192 Flame rising to heaven",
+                "object_level": "The Image: Heaven together with fire. Thus the superior man organizes the clans and makes distinctions between things.",
+                "label_level": "The Judgment: FELLOWSHIP WITH MEN in the open. Success. It furthers one to cross the great water. The perseverance of the superior man furthers."
+            },
+            "ontological_signature": "E(13) = \u03a3(Ch'ien_U + Li_L) \u2192 [Universal_Fellowship]",
+            "lines": {
+                "1": {
+                    "text_nine": "Fellowship with men at the gate. No blame.",
+                    "text_six": null,
+                    "semantic": "[Open_Beginning \u2192 \u00acBlame]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Fellowship with men in the clan. Humiliation.",
+                    "semantic": "[Narrow_Fellowship \u2192 Humiliation]"
+                },
+                "3": {
+                    "text_nine": "He hides weapons in the thicket; he climbs the high hill in front of it. For three years he does not rise.",
+                    "text_six": null,
+                    "semantic": "[Suspicion \u2192 Prolonged_Inaction]"
+                },
+                "4": {
+                    "text_nine": "He climbs up on his wall; he cannot attack. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Restraint_from_Attack \u2192 Fortune]"
+                },
+                "5": {
+                    "text_nine": "Men bound in fellowship first weep and lament, but afterward they laugh. After great struggles they succeed in meeting.",
+                    "text_six": null,
+                    "semantic": "[Struggle \u2192 Union \u2192 Joy]"
+                },
+                "6": {
+                    "text_nine": "Fellowship with men in the meadow. No remorse.",
+                    "text_six": null,
+                    "semantic": "[Peripheral_Fellowship \u2192 \u00acRemorse]"
+                }
+            }
+        },
+        {
+            "id": 14,
+            "name": "Ta Yu (Possession in Great Measure)",
+            "binary": "111101",
+            "trigrams": {
+                "upper": "Fire (Li)",
+                "lower": "Heaven (Ch'ien)"
+            },
+            "structural_differential": {
+                "event_level": "[Heaven_Below \u2227 Fire_Above] \u2192 Sun in heaven, illuminating all",
+                "object_level": "The Image: Fire in heaven above. Thus the superior man curbs evil and furthers good, and thereby obeys the benevolent will of heaven.",
+                "label_level": "The Judgment: POSSESSION IN GREAT MEASURE. Supreme success."
+            },
+            "ontological_signature": "E(14) = \u03a3(Li_U + Ch'ien_L) \u2192 [Great_Possession]",
+            "lines": {
+                "1": {
+                    "text_nine": "No relationship with what is harmful; there is no blame in this. If one remains conscious of difficulty, one remains without blame.",
+                    "text_six": null,
+                    "semantic": "[\u00acHarmful_Relations \u2227 Awareness \u2192 \u00acBlame]"
+                },
+                "2": {
+                    "text_nine": "A big wagon for loading. One may undertake something. No blame.",
+                    "text_six": null,
+                    "semantic": "[Capacity \u2192 Undertaking \u2192 \u00acBlame]"
+                },
+                "3": {
+                    "text_nine": "A prince offers it to the Son of Heaven. A petty man cannot do this.",
+                    "text_six": null,
+                    "semantic": "[Generosity_of_Great \u2192 \u00acPetty]"
+                },
+                "4": {
+                    "text_nine": "He makes a difference between himself and his neighbor. No blame.",
+                    "text_six": null,
+                    "semantic": "[Discrimination \u2192 \u00acBlame]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "He whose truth is accessible, yet dignified, has good fortune.",
+                    "semantic": "[Accessible_Truth \u2227 Dignity \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": "He is blessed by heaven. Good fortune. Nothing that does not further.",
+                    "text_six": null,
+                    "semantic": "[Heaven's_Blessing \u2192 Complete_Fortune]"
+                }
+            }
+        },
+        {
+            "id": 15,
+            "name": "Ch'ien (Modesty)",
+            "binary": "001000",
+            "trigrams": {
+                "upper": "Earth (K'un)",
+                "lower": "Mountain (K\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "[Mountain_Below \u2227 Earth_Above] \u2192 Mountain hidden beneath earth",
+                "object_level": "The Image: Within the earth, a mountain. Thus the superior man reduces that which is too much, and augments that which is too little. He weighs things and makes them equal.",
+                "label_level": "The Judgment: MODESTY creates success. The superior man carries things through."
+            },
+            "ontological_signature": "E(15) = \u03a3(K'un_U + K\u00ean_L) \u2192 [Hidden_Greatness]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "A superior man modest about his modesty may cross the great water. Good fortune.",
+                    "semantic": "[Double_Modesty \u2192 Fortune]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Modesty that comes to expression. Perseverance brings good fortune.",
+                    "semantic": "[Manifest_Modesty \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": "A superior man of modesty and merit carries things to conclusion. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Modesty \u2227 Merit \u2192 Completion]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Nothing that would not further modesty in movement.",
+                    "semantic": "[Modesty_in_Action \u2192 Universal_Benefit]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "No boasting of wealth before one's neighbor. It is favorable to attack with force. Nothing that would not further.",
+                    "semantic": "[\u00acBoasting \u2227 Decisive_Action \u2192 Benefit]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Modesty that comes to expression. It is favorable to set armies marching to chastise one's own city and one's country.",
+                    "semantic": "[Expressed_Modesty \u2192 Self_Discipline]"
+                }
+            }
+        },
+        {
+            "id": 16,
+            "name": "Y\u00fc (Enthusiasm)",
+            "binary": "000100",
+            "trigrams": {
+                "upper": "Thunder (Ch\u00ean)",
+                "lower": "Earth (K'un)"
+            },
+            "structural_differential": {
+                "event_level": "[Earth_Below \u2227 Thunder_Above] \u2192 Thunder rising from earth",
+                "object_level": "The Image: Thunder comes resounding out of the earth. Thus the ancient kings made music in order to honor merit, and offered it with splendor to the Supreme Deity, inviting their ancestors to be present.",
+                "label_level": "The Judgment: ENTHUSIASM. It furthers one to install helpers and to set armies marching."
+            },
+            "ontological_signature": "E(16) = \u03a3(Ch\u00ean_U + K'un_L) \u2192 [Inspiring_Movement]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "Enthusiasm that expresses itself brings misfortune.",
+                    "semantic": "[Boastful_Enthusiasm \u2192 Misfortune]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Firm as a rock. Not a whole day. Perseverance brings good fortune.",
+                    "semantic": "[Steadfast \u2227 Timely \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Enthusiasm that looks upward creates remorse. Hesitation brings remorse.",
+                    "semantic": "[Dependent_Enthusiasm \u2228 Hesitation \u2192 Remorse]"
+                },
+                "4": {
+                    "text_nine": "The source of enthusiasm. He achieves great things. Doubt not. You gather friends around you as a hair clasp gathers the hair.",
+                    "text_six": null,
+                    "semantic": "[Source_of_Enthusiasm \u2192 Achievement \u2227 Gathering]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Persistently ill, and still does not die.",
+                    "semantic": "[Chronic_Obstruction \u2192 Survival]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Deluded enthusiasm. But if after completion one changes, there is no blame.",
+                    "semantic": "[Delusion \u2192 Change \u2192 \u00acBlame]"
+                }
+            }
+        },
+        {
+            "id": 17,
+            "name": "Sui (Following)",
+            "binary": "100110",
+            "trigrams": {
+                "upper": "Lake (Tui)",
+                "lower": "Thunder (Ch\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "[Thunder_Below \u2227 Lake_Above] \u2192 Thunder resting beneath lake",
+                "object_level": "The Image: Thunder in the middle of the lake. Thus the superior man at nightfall goes indoors for rest and recuperation.",
+                "label_level": "The Judgment: FOLLOWING has supreme success. Perseverance furthers. No blame."
+            },
+            "ontological_signature": "E(17) = \u03a3(Tui_U + Ch\u00ean_L) \u2192 [Adaptive_Following]",
+            "lines": {
+                "1": {
+                    "text_nine": "The standard is changing. Perseverance brings good fortune. To go out of the door in company produces deeds.",
+                    "text_six": null,
+                    "semantic": "[Change \u2227 Association \u2192 Deeds]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "If one clings to the little boy, one loses the strong man.",
+                    "semantic": "[Wrong_Attachment \u2192 Loss]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "If one clings to the strong man, one loses the little boy. Through following one finds what one seeks. It furthers one to remain persevering.",
+                    "semantic": "[Right_Attachment \u2192 Finding]"
+                },
+                "4": {
+                    "text_nine": "Following creates success. Perseverance brings misfortune. To go one's way with sincerity brings clarity. How could there be blame in this?",
+                    "text_six": null,
+                    "semantic": "[Success \u2227 Sincerity \u2192 Clarity; Blind_Persistence \u2192 Misfortune]"
+                },
+                "5": {
+                    "text_nine": "Sincere in the good. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Sincerity_in_Good \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "He meets with firm allegiance and is still further bound. The king introduces him to the Western Mountain.",
+                    "semantic": "[Deep_Allegiance \u2192 Honor]"
+                }
+            }
+        },
+        {
+            "id": 18,
+            "name": "Ku (Work on What Has Been Spoiled)",
+            "binary": "011001",
+            "trigrams": {
+                "upper": "Mountain (K\u00ean)",
+                "lower": "Wind (Sun)"
+            },
+            "structural_differential": {
+                "event_level": "[Wind_Below \u2227 Mountain_Above] \u2192 Wind at mountain's base, stagnation",
+                "object_level": "The Image: The wind blows low on the mountain. Thus the superior man stirs up the people and strengthens their spirit.",
+                "label_level": "The Judgment: WORK ON WHAT HAS BEEN SPOILED has supreme success. It furthers one to cross the great water. Before the starting point, three days. After the starting point, three days."
+            },
+            "ontological_signature": "E(18) = \u03a3(K\u00ean_U + Sun_L) \u2192 [Decay_Remediation]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "Setting right what has been spoiled by the father. If there is a son, no blame rests upon the departed father. Danger. In the end good fortune.",
+                    "semantic": "[Correcting_Paternal_Error \u2192 \u00acBlame \u2227 Fortune]"
+                },
+                "2": {
+                    "text_nine": "Setting right what has been spoiled by the mother. One must not be too persevering.",
+                    "text_six": null,
+                    "semantic": "[Correcting_Maternal_Error \u2192 Gentleness]"
+                },
+                "3": {
+                    "text_nine": "Setting right what has been spoiled by the father. There will be a little remorse. No great blame.",
+                    "text_six": null,
+                    "semantic": "[Vigorous_Correction \u2192 Minor_Remorse]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Tolerating what has been spoiled by the father. In continuing one sees humiliation.",
+                    "semantic": "[Tolerance_of_Decay \u2192 Humiliation]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Setting right what has been spoiled by the father. One meets with praise.",
+                    "semantic": "[Successful_Correction \u2192 Praise]"
+                },
+                "6": {
+                    "text_nine": "He does not serve kings and princes, sets himself higher goals.",
+                    "text_six": null,
+                    "semantic": "[Transcendence \u2192 Higher_Purpose]"
+                }
+            }
+        },
+        {
+            "id": 19,
+            "name": "Lin (Approach)",
+            "binary": "110000",
+            "trigrams": {
+                "upper": "Earth (K'un)",
+                "lower": "Lake (Tui)"
+            },
+            "structural_differential": {
+                "event_level": "[Lake_Below \u2227 Earth_Above] \u2192 Lake approaching earth's surface",
+                "object_level": "The Image: The earth above the lake. Thus the superior man is inexhaustible in his will to teach, and without limits in his tolerance and protection of the people.",
+                "label_level": "The Judgment: APPROACH has supreme success. Perseverance furthers. When the eighth month comes, there will be misfortune."
+            },
+            "ontological_signature": "E(19) = \u03a3(K'un_U + Tui_L) \u2192 [Advancing_Influence]",
+            "lines": {
+                "1": {
+                    "text_nine": "Joint approach. Perseverance brings good fortune.",
+                    "text_six": null,
+                    "semantic": "[Collective_Approach \u2192 Fortune]"
+                },
+                "2": {
+                    "text_nine": "Joint approach. Good fortune. Everything furthers.",
+                    "text_six": null,
+                    "semantic": "[United_Approach \u2192 Complete_Fortune]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Comfortable approach. Nothing that would further. If one is induced to grieve over it, one becomes free of blame.",
+                    "semantic": "[Complacent_Approach \u2192 \u00acBenefit; Grief \u2192 \u00acBlame]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Complete approach. No blame.",
+                    "semantic": "[Full_Approach \u2192 \u00acBlame]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Wise approach. This is right for a great prince. Good fortune.",
+                    "semantic": "[Wisdom_in_Approach \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Great-hearted approach. Good fortune. No blame.",
+                    "semantic": "[Magnanimous_Approach \u2192 Fortune]"
+                }
+            }
+        },
+        {
+            "id": 20,
+            "name": "Kuan (Contemplation/View)",
+            "binary": "000011",
+            "trigrams": {
+                "upper": "Wind (Sun)",
+                "lower": "Earth (K'un)"
+            },
+            "structural_differential": {
+                "event_level": "[Earth_Below \u2227 Wind_Above] \u2192 Wind over earth, far-reaching view",
+                "object_level": "The Image: The wind blows over the earth. Thus the kings of old visited the regions of the world, contemplated the people, and gave them instruction.",
+                "label_level": "The Judgment: CONTEMPLATION. The ablution has been made, but not yet the offering. Full of trust they look up to him."
+            },
+            "ontological_signature": "E(20) = \u03a3(Sun_U + K'un_L) \u2192 [Observing_Example]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "Boy-like contemplation. For an inferior man, no blame. For a superior man, humiliation.",
+                    "semantic": "[Childish_View \u2192 Differentiated_Judgment]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Contemplation through the crack of the door. Furthering for the perseverance of a woman.",
+                    "semantic": "[Limited_View \u2192 Appropriate_for_Some]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Contemplation of my life decides the choice between advance and retreat.",
+                    "semantic": "[Self_Examination \u2192 Decision]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Contemplation of the light of the kingdom. It furthers one to exert influence as the guest of a king.",
+                    "semantic": "[Observing_Governance \u2192 Influence]"
+                },
+                "5": {
+                    "text_nine": "Contemplation of my life. The superior man is without blame.",
+                    "text_six": null,
+                    "semantic": "[Self_Contemplation \u2192 \u00acBlame]"
+                },
+                "6": {
+                    "text_nine": "Contemplation of his life. The superior man is without blame.",
+                    "text_six": null,
+                    "semantic": "[Contemplation_of_Effects \u2192 \u00acBlame]"
+                }
+            }
+        },
+        {
+            "id": 21,
+            "name": "Shih Ho (Biting Through)",
+            "binary": "100101",
+            "trigrams": {
+                "upper": "Fire (Li)",
+                "lower": "Thunder (Ch\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "[Thunder_Below \u2227 Fire_Above] \u2192 Lightning and thunder, forceful clearing",
+                "object_level": "The Image: Thunder and lightning. Thus the kings of former times made firm the laws through clearly defined penalties.",
+                "label_level": "The Judgment: BITING THROUGH has success. It is favorable to let justice be administered."
+            },
+            "ontological_signature": "E(21) = \u03a3(Li_U + Ch\u00ean_L) \u2192 [Decisive_Justice]",
+            "lines": {
+                "1": {
+                    "text_nine": "His feet are fastened in the stocks, so that his toes disappear. No blame.",
+                    "text_six": null,
+                    "semantic": "[Minor_Punishment \u2192 \u00acBlame]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Bites through tender meat, so that his nose disappears. No blame.",
+                    "semantic": "[Easy_Case \u2192 \u00acBlame]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Bites on old dried meat and strikes on something poisonous. Slight humiliation. No blame.",
+                    "semantic": "[Difficult_Case \u2192 Minor_Humiliation]"
+                },
+                "4": {
+                    "text_nine": "Bites on dried gristly meat. Receives metal arrows. It furthers one to be mindful of difficulties and to be persevering. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Hard_Case \u2227 Perseverance \u2192 Fortune]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Bites on dried lean meat. Receives yellow gold. Perseveringly aware of danger. No blame.",
+                    "semantic": "[Moderate_Case \u2227 Awareness \u2192 \u00acBlame]"
+                },
+                "6": {
+                    "text_nine": "His neck is fastened in the wooden cangue, so that his ears disappear. Misfortune.",
+                    "text_six": null,
+                    "semantic": "[Incorrigible \u2192 Misfortune]"
+                }
+            }
+        },
+        {
+            "id": 22,
+            "name": "Pi (Grace)",
+            "binary": "101001",
+            "trigrams": {
+                "upper": "Mountain (K\u00ean)",
+                "lower": "Fire (Li)"
+            },
+            "structural_differential": {
+                "event_level": "[Fire_Below \u2227 Mountain_Above] \u2192 Fire illuminating mountain",
+                "object_level": "The Image: Fire at the foot of the mountain. Thus does the superior man proceed when clearing up current affairs. But he dare not decide controversial issues in this way.",
+                "label_level": "The Judgment: GRACE has success. In small matters it is favorable to undertake something."
+            },
+            "ontological_signature": "E(22) = \u03a3(K\u00ean_U + Li_L) \u2192 [Aesthetic_Form]",
+            "lines": {
+                "1": {
+                    "text_nine": "He lends grace to his toes, leaves the carriage, and walks.",
+                    "text_six": null,
+                    "semantic": "[Humble_Adornment \u2192 Integrity]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Lends grace to the beard on his chin.",
+                    "semantic": "[Dependent_Grace]"
+                },
+                "3": {
+                    "text_nine": "Graceful and moist. Constant perseverance brings good fortune.",
+                    "text_six": null,
+                    "semantic": "[Sustained_Grace \u2192 Fortune]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Grace or simplicity? A white horse comes as if on wings. He is not a robber; he will woo at the right time.",
+                    "semantic": "[Simplicity_vs_Grace \u2192 Right_Timing]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Grace in hills and gardens. The roll of silk is meager and small. Humiliation, but in the end good fortune.",
+                    "semantic": "[Modest_Offering \u2192 Eventual_Fortune]"
+                },
+                "6": {
+                    "text_nine": "Simple grace. No blame.",
+                    "text_six": null,
+                    "semantic": "[Pure_Simplicity \u2192 \u00acBlame]"
+                }
+            }
+        },
+        {
+            "id": 23,
+            "name": "Po (Splitting Apart)",
+            "binary": "000001",
+            "trigrams": {
+                "upper": "Mountain (K\u00ean)",
+                "lower": "Earth (K'un)"
+            },
+            "structural_differential": {
+                "event_level": "[Earth_Below \u2227 Mountain_Above] \u2192 Mountain eroding into earth",
+                "object_level": "The Image: The mountain rests on the earth. Thus those above can ensure their position only by giving generously to those below.",
+                "label_level": "The Judgment: SPLITTING APART. It does not further one to go anywhere."
+            },
+            "ontological_signature": "E(23) = \u03a3(K\u00ean_U + K'un_L) \u2192 [Disintegration]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "The leg of the bed is split. Those who persevere are destroyed. Misfortune.",
+                    "semantic": "[Foundation_Attacked \u2192 Misfortune]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "The bed is split at the edge. Those who persevere are destroyed. Misfortune.",
+                    "semantic": "[Spreading_Decay \u2192 Misfortune]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "He splits with them. No blame.",
+                    "semantic": "[Breaking_with_Decay \u2192 \u00acBlame]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "The bed is split up to the skin. Misfortune.",
+                    "semantic": "[Personal_Danger \u2192 Misfortune]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "A shoal of fishes. Favor comes through the court ladies. Everything acts to further.",
+                    "semantic": "[Transformation \u2192 Favor]"
+                },
+                "6": {
+                    "text_nine": "There is a large fruit still uneaten. The superior man receives a carriage. The house of the inferior man is split apart.",
+                    "text_six": null,
+                    "semantic": "[Seed_Preserved \u2192 Differentiated_Fate]"
+                }
+            }
+        },
+        {
+            "id": 24,
+            "name": "Fu (Return/Turning Point)",
+            "binary": "100000",
+            "trigrams": {
+                "upper": "Earth (K'un)",
+                "lower": "Thunder (Ch\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "[Thunder_Below \u2227 Earth_Above] \u2192 Light returning from below",
+                "object_level": "The Image: Thunder within the earth. Thus the kings of antiquity closed the passes at the time of solstice. Merchants and strangers did not go about, and the ruler did not travel through the provinces.",
+                "label_level": "The Judgment: RETURN. Success. Going out and coming in without error. Friends come without blame. To and fro goes the way. On the seventh day comes return. It furthers one to have somewhere to go."
+            },
+            "ontological_signature": "E(24) = \u03a3(K'un_U + Ch\u00ean_L) \u2192 [Cyclic_Renewal]",
+            "lines": {
+                "1": {
+                    "text_nine": "Return from a short distance. No need for remorse. Great good fortune.",
+                    "text_six": null,
+                    "semantic": "[Quick_Return \u2192 Great_Fortune]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Quiet return. Good fortune.",
+                    "semantic": "[Peaceful_Return \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Repeated return. Danger. No blame.",
+                    "semantic": "[Unstable_Return \u2192 Danger \u2227 \u00acBlame]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Walking in the midst of others, one returns alone.",
+                    "semantic": "[Individual_Return]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Noble-hearted return. No remorse.",
+                    "semantic": "[Magnanimous_Return \u2192 \u00acRemorse]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Missing the return. Misfortune. Misfortune from within and without. If armies are set marching in this way, one will in the end suffer a great defeat, disastrous for the ruler of the country. For ten years it will not be possible to attack again.",
+                    "semantic": "[Failed_Return \u2192 Catastrophe]"
+                }
+            }
+        },
+        {
+            "id": 25,
+            "name": "Wu Wang (Innocence/The Unexpected)",
+            "binary": "100111",
+            "trigrams": {
+                "upper": "Heaven (Ch'ien)",
+                "lower": "Thunder (Ch\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "[Thunder_Below \u2227 Heaven_Above] \u2192 Movement under heaven, natural",
+                "object_level": "The Image: Under heaven thunder rolls. Thus the kings of old, rich in virtue and in harmony with the time, fostered and nourished all beings.",
+                "label_level": "The Judgment: INNOCENCE. Supreme success. Perseverance furthers. If someone is not as he should be, he has misfortune, and it does not further him to undertake anything."
+            },
+            "ontological_signature": "E(25) = \u03a3(Ch'ien_U + Ch\u00ean_L) \u2192 [Natural_Spontaneity]",
+            "lines": {
+                "1": {
+                    "text_nine": "Innocent behavior brings good fortune.",
+                    "text_six": null,
+                    "semantic": "[Natural_Action \u2192 Fortune]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "If one does not count on the harvest while plowing, nor on the use of the ground while clearing it, it furthers one to undertake something.",
+                    "semantic": "[\u00acCalculation \u2192 Furthering]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Undeserved misfortune. The cow that was tethered by someone is the wanderer's gain, the citizen's loss.",
+                    "semantic": "[Innocent_Loss]"
+                },
+                "4": {
+                    "text_nine": "He who can be persevering remains without blame.",
+                    "text_six": null,
+                    "semantic": "[Perseverance \u2192 \u00acBlame]"
+                },
+                "5": {
+                    "text_nine": "Use no medicine in an illness incurred through no fault of your own. It will pass of itself.",
+                    "text_six": null,
+                    "semantic": "[Natural_Healing]"
+                },
+                "6": {
+                    "text_nine": "Innocent action brings misfortune. Nothing furthers.",
+                    "text_six": null,
+                    "semantic": "[Wrong_Timing \u2192 Misfortune]"
+                }
+            }
+        },
+        {
+            "id": 26,
+            "name": "Ta Ch'u (Taming Power of the Great)",
+            "binary": "111001",
+            "trigrams": {
+                "upper": "Mountain (K\u00ean)",
+                "lower": "Heaven (Ch'ien)"
+            },
+            "structural_differential": {
+                "event_level": "[Heaven_Below \u2227 Mountain_Above] \u2192 Creative held within stillness",
+                "object_level": "The Image: Heaven within the mountain. Thus the superior man acquaints himself with many sayings of antiquity and many deeds of the past, in order to strengthen his character thereby.",
+                "label_level": "The Judgment: THE TAMING POWER OF THE GREAT. Perseverance furthers. Not eating at home brings good fortune. It furthers one to cross the great water."
+            },
+            "ontological_signature": "E(26) = \u03a3(K\u00ean_U + Ch'ien_L) \u2192 [Accumulated_Power]",
+            "lines": {
+                "1": {
+                    "text_nine": "Danger is at hand. It furthers one to desist.",
+                    "text_six": null,
+                    "semantic": "[Danger \u2192 Desist]"
+                },
+                "2": {
+                    "text_nine": "The axletrees are taken from the wagon.",
+                    "text_six": null,
+                    "semantic": "[Restraint_Applied]"
+                },
+                "3": {
+                    "text_nine": "A good horse that follows others. Awareness of danger, with perseverance, furthers. Practice chariot driving and armed defense daily. It furthers one to have somewhere to go.",
+                    "text_six": null,
+                    "semantic": "[Training \u2227 Vigilance \u2192 Progress]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "The headboard of a young bull. Great good fortune.",
+                    "semantic": "[Early_Restraint \u2192 Great_Fortune]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "The tusk of a gelded boar. Good fortune.",
+                    "semantic": "[Indirect_Restraint \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": "One attains the way of heaven. Success.",
+                    "text_six": null,
+                    "semantic": "[Mastery \u2192 Success]"
+                }
+            }
+        },
+        {
+            "id": 27,
+            "name": "I (Corners of the Mouth/Nourishment)",
+            "binary": "100001",
+            "trigrams": {
+                "upper": "Mountain (K\u00ean)",
+                "lower": "Thunder (Ch\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "[Thunder_Below \u2227 Mountain_Above] \u2192 Open mouth, nourishment",
+                "object_level": "The Image: At the foot of the mountain, thunder. Thus the superior man is careful of his words and temperate in eating and drinking.",
+                "label_level": "The Judgment: THE CORNERS OF THE MOUTH. Perseverance brings good fortune. Pay heed to the providing of nourishment and to what a man seeks to fill his own mouth with."
+            },
+            "ontological_signature": "E(27) = \u03a3(K\u00ean_U + Ch\u00ean_L) \u2192 [Nourishment_Provision]",
+            "lines": {
+                "1": {
+                    "text_nine": "You let your magic tortoise go, and look at me with the corners of your mouth drooping. Misfortune.",
+                    "text_six": null,
+                    "semantic": "[Abandoning_Self_Sufficiency \u2192 Misfortune]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Turning to the summit for nourishment, deviating from the path to seek nourishment from the hill. Continuing to do this brings misfortune.",
+                    "semantic": "[Wrong_Source \u2192 Misfortune]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Turning away from nourishment. Perseverance brings misfortune. Do not act thus for ten years. Nothing serves to further.",
+                    "semantic": "[Rejecting_Nourishment \u2192 Misfortune]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Turning to the summit for provision of nourishment brings good fortune. Spying about with sharp eyes like a tiger with insatiable craving. No blame.",
+                    "semantic": "[Seeking_Above \u2227 Vigilance \u2192 Fortune]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Turning away from the path. To remain persevering brings good fortune. One should not cross the great water.",
+                    "semantic": "[Unconventional_Path \u2192 Fortune; \u00acGreat_Undertaking]"
+                },
+                "6": {
+                    "text_nine": "The source of nourishment. Awareness of danger brings good fortune. It furthers one to cross the great water.",
+                    "text_six": null,
+                    "semantic": "[Source_Position \u2227 Awareness \u2192 Fortune]"
+                }
+            }
+        },
+        {
+            "id": 28,
+            "name": "Ta Kuo (Preponderance of the Great)",
+            "binary": "011110",
+            "trigrams": {
+                "upper": "Lake (Tui)",
+                "lower": "Wind (Sun)"
+            },
+            "structural_differential": {
+                "event_level": "[Wind_Below \u2227 Lake_Above] \u2192 Sagging ridgepole, excess weight",
+                "object_level": "The Image: The lake rises above the trees. Thus the superior man, when he stands alone, is unconcerned, and if he has to renounce the world, he is undaunted.",
+                "label_level": "The Judgment: PREPONDERANCE OF THE GREAT. The ridgepole sags to the breaking point. It furthers one to have somewhere to go. Success."
+            },
+            "ontological_signature": "E(28) = \u03a3(Tui_U + Sun_L) \u2192 [Critical_Excess]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "To spread white rushes underneath. No blame.",
+                    "semantic": "[Careful_Foundation \u2192 \u00acBlame]"
+                },
+                "2": {
+                    "text_nine": "A dry poplar sprouts at the root. An older man takes a young wife. Everything furthers.",
+                    "text_six": null,
+                    "semantic": "[Renewal_from_Below \u2192 Furthering]"
+                },
+                "3": {
+                    "text_nine": "The ridgepole sags to the breaking point. Misfortune.",
+                    "text_six": null,
+                    "semantic": "[Critical_Point \u2192 Misfortune]"
+                },
+                "4": {
+                    "text_nine": "The ridgepole is braced. Good fortune. If there are ulterior motives, it is humiliating.",
+                    "text_six": null,
+                    "semantic": "[Support \u2192 Fortune; Ulterior_Motive \u2192 Humiliation]"
+                },
+                "5": {
+                    "text_nine": "A withered poplar puts forth flowers. An older woman takes a husband. No blame. No praise.",
+                    "text_six": null,
+                    "semantic": "[Late_Flowering \u2192 Neutral]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "One must go through the water. It goes over one's head. Misfortune. No blame.",
+                    "semantic": "[Overwhelming_Danger \u2192 Misfortune \u2227 \u00acBlame]"
+                }
+            }
+        },
+        {
+            "id": 29,
+            "name": "K'an (The Abysmal/Water)",
+            "binary": "010010",
+            "trigrams": {
+                "upper": "Water (K'an)",
+                "lower": "Water (K'an)"
+            },
+            "structural_differential": {
+                "event_level": "\u03a3(K'an\u2082) \u2192 Danger doubled, water in ravine",
+                "object_level": "The Image: Water flows on and reaches the goal. Thus the superior man walks in lasting virtue and carries on the business of teaching.",
+                "label_level": "The Judgment: The Abysmal repeated. If you are sincere, you have success in your heart, and whatever you do succeeds."
+            },
+            "ontological_signature": "E(29) = \u03a3(K'an_U + K'an_L) \u2192 [Repeated_Danger]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "Repetition of the Abysmal. In the abyss one falls into a pit. Misfortune.",
+                    "semantic": "[Danger_Compounded \u2192 Misfortune]"
+                },
+                "2": {
+                    "text_nine": "The abyss is dangerous. One should strive to attain small things only.",
+                    "text_six": null,
+                    "semantic": "[Danger \u2192 Small_Goals]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Forward and backward, abyss on abyss. In danger like this, pause at first and wait, otherwise you will fall into a pit in the abyss. Do not act in this way.",
+                    "semantic": "[Surrounded_by_Danger \u2192 Wait]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "A jug of wine, a bowl of rice with it; earthen vessels simply handed in through the window. There is certainly no blame in this.",
+                    "semantic": "[Simple_Sincerity \u2192 \u00acBlame]"
+                },
+                "5": {
+                    "text_nine": "The abyss is not filled to overflowing, it is filled only to the rim. No blame.",
+                    "text_six": null,
+                    "semantic": "[Measured_Response \u2192 \u00acBlame]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Bound with cords and ropes, shut in between thorn-hedged prison walls: for three years one does not find the way. Misfortune.",
+                    "semantic": "[Imprisonment \u2192 Misfortune]"
+                }
+            }
+        },
+        {
+            "id": 30,
+            "name": "Li (The Clinging/Fire)",
+            "binary": "101101",
+            "trigrams": {
+                "upper": "Fire (Li)",
+                "lower": "Fire (Li)"
+            },
+            "structural_differential": {
+                "event_level": "\u03a3(Li\u2082) \u2192 Fire doubled, clinging to fuel",
+                "object_level": "The Image: That which is bright rises twice. Thus the great man, by perpetuating this brightness, illumines the four quarters of the world.",
+                "label_level": "The Judgment: THE CLINGING. Perseverance furthers. It brings success. Care of the cow brings good fortune."
+            },
+            "ontological_signature": "E(30) = \u03a3(Li_U + Li_L) \u2192 [Radiant_Dependence]",
+            "lines": {
+                "1": {
+                    "text_nine": "The footprints run crisscross. If one is seriously intent, no blame.",
+                    "text_six": null,
+                    "semantic": "[Confusion \u2227 Seriousness \u2192 \u00acBlame]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Yellow light. Supreme good fortune.",
+                    "semantic": "[Central_Radiance \u2192 Supreme_Fortune]"
+                },
+                "3": {
+                    "text_nine": "In the light of the setting sun, men either beat the pot and sing or loudly bewail the approach of old age. Misfortune.",
+                    "text_six": null,
+                    "semantic": "[\u00acAcceptance_of_Transience \u2192 Misfortune]"
+                },
+                "4": {
+                    "text_nine": "Its coming is sudden; it flames up, dies down, is thrown away.",
+                    "text_six": null,
+                    "semantic": "[Sudden_Flare \u2192 Exhaustion]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Tears in floods, sighing and lamenting. Good fortune.",
+                    "semantic": "[Genuine_Grief \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": "The king uses him to march forth and chastise. Then it is best to kill the leaders and take captive the followers. No blame.",
+                    "text_six": null,
+                    "semantic": "[Decisive_Action \u2192 \u00acBlame]"
+                }
+            }
+        },
+        {
+            "id": 31,
+            "name": "Hsien (Influence/Wooing)",
+            "binary": "001110",
+            "trigrams": {
+                "upper": "Lake (Tui)",
+                "lower": "Mountain (K\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "[Mountain_Below \u2227 Lake_Above] \u2192 Mutual attraction, stimulation",
+                "object_level": "The Image: A lake on the mountain. Thus the superior man encourages people to approach him by his readiness to receive them.",
+                "label_level": "The Judgment: Influence. Success. Perseverance furthers. To take a maiden to wife brings good fortune."
+            },
+            "ontological_signature": "E(31) = \u03a3(Tui_U + K\u00ean_L) \u2192 [Mutual_Attraction]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "The influence shows itself in the big toe.",
+                    "semantic": "[Initial_Stirring]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "The influence shows itself in the calves of the legs. Misfortune. Tarrying brings good fortune.",
+                    "semantic": "[Premature_Movement \u2192 Misfortune; Waiting \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": "The influence shows itself in the thighs. Holds to that which follows it. To continue is humiliating.",
+                    "text_six": null,
+                    "semantic": "[Following_Impulse \u2192 Humiliation]"
+                },
+                "4": {
+                    "text_nine": "Perseverance brings good fortune. Remorse disappears. If a man is agitated in mind, and his thoughts go hither and thither, only those friends on whom he fixes his conscious thoughts will follow.",
+                    "text_six": null,
+                    "semantic": "[Focused_Influence \u2192 Fortune]"
+                },
+                "5": {
+                    "text_nine": "The influence shows itself in the back of the neck. No remorse.",
+                    "text_six": null,
+                    "semantic": "[Firm_Resolve \u2192 \u00acRemorse]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "The influence shows itself in the jaws, cheeks, and tongue.",
+                    "semantic": "[Mere_Words]"
+                }
+            }
+        },
+        {
+            "id": 32,
+            "name": "H\u00eang (Duration)",
+            "binary": "011100",
+            "trigrams": {
+                "upper": "Thunder (Ch\u00ean)",
+                "lower": "Wind (Sun)"
+            },
+            "structural_differential": {
+                "event_level": "[Wind_Below \u2227 Thunder_Above] \u2192 Thunder and wind, enduring movement",
+                "object_level": "The Image: Thunder and wind: the image of DURATION. Thus the superior man stands firm and does not change his direction.",
+                "label_level": "The Judgment: DURATION. Success. No blame. Perseverance furthers. It furthers one to have somewhere to go."
+            },
+            "ontological_signature": "E(32) = \u03a3(Ch\u00ean_U + Sun_L) \u2192 [Enduring_Movement]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "Seeking duration too hastily brings misfortune persistently. Nothing that would further.",
+                    "semantic": "[Hasty_Duration \u2192 Misfortune]"
+                },
+                "2": {
+                    "text_nine": "Remorse disappears.",
+                    "text_six": null,
+                    "semantic": "[Steadiness \u2192 \u00acRemorse]"
+                },
+                "3": {
+                    "text_nine": "He who does not give duration to his character meets with disgrace. Persistent humiliation.",
+                    "text_six": null,
+                    "semantic": "[Inconstancy \u2192 Disgrace]"
+                },
+                "4": {
+                    "text_nine": "No game in the field.",
+                    "text_six": null,
+                    "semantic": "[Wrong_Place \u2192 \u00acResult]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Giving duration to one's character through perseverance. This is good fortune for a woman, misfortune for a man.",
+                    "semantic": "[Passive_Duration \u2192 Differentiated_Fortune]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Restlessness as an enduring condition brings misfortune.",
+                    "semantic": "[Chronic_Restlessness \u2192 Misfortune]"
+                }
+            }
+        },
+        {
+            "id": 33,
+            "name": "Tun (Retreat)",
+            "binary": "001111",
+            "trigrams": {
+                "upper": "Heaven (Ch'ien)",
+                "lower": "Mountain (K\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "[Mountain_Below \u2227 Heaven_Above] \u2192 Mountain under heaven, withdrawal",
+                "object_level": "The Image: Mountain under heaven. Thus the superior man keeps the inferior man at a distance, not angrily but with reserve.",
+                "label_level": "The Judgment: RETREAT. Success. In what is small, perseverance furthers."
+            },
+            "ontological_signature": "E(33) = \u03a3(Ch'ien_U + K\u00ean_L) \u2192 [Strategic_Withdrawal]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "At the tail in retreat. This is dangerous. One must not wish to undertake anything.",
+                    "semantic": "[Rear_Position \u2192 Danger; \u00acAction]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "He holds him fast with yellow oxhide. No one can tear him loose.",
+                    "semantic": "[Firm_Attachment \u2192 Unbreakable]"
+                },
+                "3": {
+                    "text_nine": "A halted retreat is nerve-wracking and dangerous. To retain people as men- and maidservants brings good fortune.",
+                    "text_six": null,
+                    "semantic": "[Halted_Retreat \u2192 Danger; Retain_Helpers \u2192 Fortune]"
+                },
+                "4": {
+                    "text_nine": "Voluntary retreat brings good fortune to the superior man and downfall to the inferior man.",
+                    "text_six": null,
+                    "semantic": "[Voluntary_Retreat \u2192 Differentiated_Outcome]"
+                },
+                "5": {
+                    "text_nine": "Friendly retreat. Perseverance brings good fortune.",
+                    "text_six": null,
+                    "semantic": "[Gracious_Retreat \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": "Cheerful retreat. Everything serves to further.",
+                    "text_six": null,
+                    "semantic": "[Joyful_Retreat \u2192 Complete_Benefit]"
+                }
+            }
+        },
+        {
+            "id": 34,
+            "name": "Ta Chuang (Power of the Great)",
+            "binary": "111100",
+            "trigrams": {
+                "upper": "Thunder (Ch\u00ean)",
+                "lower": "Heaven (Ch'ien)"
+            },
+            "structural_differential": {
+                "event_level": "[Heaven_Below \u2227 Thunder_Above] \u2192 Thunder in heaven, great power",
+                "object_level": "The Image: Thunder in heaven above. Thus the superior man does not tread upon paths that do not accord with established order.",
+                "label_level": "The Judgment: THE POWER OF THE GREAT. Perseverance furthers."
+            },
+            "ontological_signature": "E(34) = \u03a3(Ch\u00ean_U + Ch'ien_L) \u2192 [Great_Strength]",
+            "lines": {
+                "1": {
+                    "text_nine": "Power in the toes. Continuing brings misfortune. This is certainly true.",
+                    "text_six": null,
+                    "semantic": "[Premature_Force \u2192 Misfortune]"
+                },
+                "2": {
+                    "text_nine": "Perseverance brings good fortune.",
+                    "text_six": null,
+                    "semantic": "[Perseverance \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": "The inferior man works through power. The superior man does not act thus. To continue is dangerous. A goat butts against a hedge and gets its horns entangled.",
+                    "text_six": null,
+                    "semantic": "[Force_Without_Wisdom \u2192 Entanglement]"
+                },
+                "4": {
+                    "text_nine": "Perseverance brings good fortune. Remorse disappears. The hedge opens; there is no entanglement. Power depends upon the axle of a big cart.",
+                    "text_six": null,
+                    "semantic": "[Steady_Power \u2192 Fortune]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Loses the goat with ease. No remorse.",
+                    "semantic": "[Releasing_Stubbornness \u2192 \u00acRemorse]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "A goat butts against a hedge. It cannot go backward, it cannot go forward. Nothing serves to further. If one notes the difficulty, this brings good fortune.",
+                    "semantic": "[Stuck \u2192 Awareness \u2192 Fortune]"
+                }
+            }
+        },
+        {
+            "id": 35,
+            "name": "Chin (Progress)",
+            "binary": "000101",
+            "trigrams": {
+                "upper": "Fire (Li)",
+                "lower": "Earth (K'un)"
+            },
+            "structural_differential": {
+                "event_level": "[Earth_Below \u2227 Fire_Above] \u2192 Sun rising over earth",
+                "object_level": "The Image: The sun rises over the earth. Thus the superior man himself brightens his bright virtue.",
+                "label_level": "The Judgment: PROGRESS. The powerful prince is honored with horses in large numbers. In a single day he is granted audience three times."
+            },
+            "ontological_signature": "E(35) = \u03a3(Li_U + K'un_L) \u2192 [Ascending_Brightness]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "Progressing, but turned back. Perseverance brings good fortune. If one meets with no confidence, one should remain calm. No mistake.",
+                    "semantic": "[Setback \u2227 Calm \u2192 Fortune]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Progressing, but in sorrow. Perseverance brings good fortune. Then one obtains great happiness from one's ancestress.",
+                    "semantic": "[Sorrow \u2227 Perseverance \u2192 Blessing]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "All are in accord. Remorse disappears.",
+                    "semantic": "[Consensus \u2192 \u00acRemorse]"
+                },
+                "4": {
+                    "text_nine": "Progress like a hamster. Perseverance brings danger.",
+                    "text_six": null,
+                    "semantic": "[Hoarding_Progress \u2192 Danger]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Remorse disappears. Take not gain and loss to heart. Undertakings bring good fortune. Everything serves to further.",
+                    "semantic": "[Detachment \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": "Making progress with the horns is permissible only for the purpose of punishing one's own city. To be conscious of danger brings good fortune. No blame. Perseverance brings humiliation.",
+                    "text_six": null,
+                    "semantic": "[Force_for_Self_Correction \u2192 Fortune; Excess \u2192 Humiliation]"
+                }
+            }
+        },
+        {
+            "id": 36,
+            "name": "Ming I (Darkening of the Light)",
+            "binary": "101000",
+            "trigrams": {
+                "upper": "Earth (K'un)",
+                "lower": "Fire (Li)"
+            },
+            "structural_differential": {
+                "event_level": "[Fire_Below \u2227 Earth_Above] \u2192 Sun sinking into earth",
+                "object_level": "The Image: The light has sunk into the earth. Thus does the superior man live with the great mass: he veils his light, yet still shines.",
+                "label_level": "The Judgment: DARKENING OF THE LIGHT. In adversity it furthers one to be persevering."
+            },
+            "ontological_signature": "E(36) = \u03a3(K'un_U + Li_L) \u2192 [Concealed_Light]",
+            "lines": {
+                "1": {
+                    "text_nine": "Darkening of the light during flight. He lowers his wings. The superior man does not eat for three days on his wanderings. But he has somewhere to go. The host has occasion to gossip about him.",
+                    "text_six": null,
+                    "semantic": "[Flight \u2227 Deprivation \u2192 Purpose]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Darkening of the light injures him in the left thigh. He gives aid with the strength of a horse. Good fortune.",
+                    "semantic": "[Injury \u2227 Aid \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": "Darkening of the light during the hunt in the south. Their great leader is captured. One must not expect perseverance too soon.",
+                    "text_six": null,
+                    "semantic": "[Capturing_Evil \u2192 Patience]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "He penetrates the left side of the belly. One gets at the very heart of the darkening of the light, and leaves gate and courtyard.",
+                    "semantic": "[Penetrating_Darkness \u2192 Escape]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Darkening of the light as with Prince Chi. Perseverance furthers.",
+                    "semantic": "[Concealment_for_Survival \u2192 Perseverance]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Not light but darkness. First he climbed up to heaven, then he plunged into the depths of the earth.",
+                    "semantic": "[Rise_and_Fall]"
+                }
+            }
+        },
+        {
+            "id": 37,
+            "name": "Chia J\u00ean (The Family)",
+            "binary": "101011",
+            "trigrams": {
+                "upper": "Wind (Sun)",
+                "lower": "Fire (Li)"
+            },
+            "structural_differential": {
+                "event_level": "[Fire_Below \u2227 Wind_Above] \u2192 Fire kindling wind, domestic warmth",
+                "object_level": "The Image: Wind comes forth from fire. Thus the superior man has substance in his words and duration in his way of life.",
+                "label_level": "The Judgment: THE FAMILY. The perseverance of the woman furthers."
+            },
+            "ontological_signature": "E(37) = \u03a3(Sun_U + Li_L) \u2192 [Domestic_Order]",
+            "lines": {
+                "1": {
+                    "text_nine": "Firm seclusion within the family. Remorse disappears.",
+                    "text_six": null,
+                    "semantic": "[Clear_Boundaries \u2192 \u00acRemorse]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "She should not follow her whims. She must attend within to the food. Perseverance brings good fortune.",
+                    "semantic": "[Duty_Within \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": "When tempers flare up in the family, too great severity brings remorse. Good fortune nonetheless. When woman and child dally and laugh, it leads in the end to humiliation.",
+                    "text_six": null,
+                    "semantic": "[Balance_of_Discipline]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "She is the treasure of the house. Great good fortune.",
+                    "semantic": "[Valued_Member \u2192 Great_Fortune]"
+                },
+                "5": {
+                    "text_nine": "As a king he approaches his family. Fear not. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Benevolent_Authority \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": "His work commands respect. In the end good fortune comes.",
+                    "text_six": null,
+                    "semantic": "[Earned_Respect \u2192 Fortune]"
+                }
+            }
+        },
+        {
+            "id": 38,
+            "name": "K'uei (Opposition)",
+            "binary": "110101",
+            "trigrams": {
+                "upper": "Fire (Li)",
+                "lower": "Lake (Tui)"
+            },
+            "structural_differential": {
+                "event_level": "[Lake_Below \u2227 Fire_Above] \u2192 Fire rises, water sinks, divergence",
+                "object_level": "The Image: Above, fire; below, the lake. Thus amid all fellowship the superior man retains his individuality.",
+                "label_level": "The Judgment: OPPOSITION. In small matters, good fortune."
+            },
+            "ontological_signature": "E(38) = \u03a3(Li_U + Tui_L) \u2192 [Divergent_Natures]",
+            "lines": {
+                "1": {
+                    "text_nine": "Remorse disappears. If you lose your horse, do not run after it; it will come back of its own accord. When you see evil people, guard yourself against mistakes.",
+                    "text_six": null,
+                    "semantic": "[\u00acPursuit \u2227 Vigilance \u2192 \u00acRemorse]"
+                },
+                "2": {
+                    "text_nine": "One meets his lord in a narrow street. No blame.",
+                    "text_six": null,
+                    "semantic": "[Informal_Meeting \u2192 \u00acBlame]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "One sees the wagon dragged back, the oxen halted, a man's hair and nose cut off. Not a good beginning, but a good end.",
+                    "semantic": "[Initial_Obstruction \u2192 Good_End]"
+                },
+                "4": {
+                    "text_nine": "Isolated through opposition, one meets a like-minded man with whom one can associate in good faith. Despite the danger, no blame.",
+                    "text_six": null,
+                    "semantic": "[Finding_Ally \u2192 \u00acBlame]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Remorse disappears. The companion bites his way through the wrappings. If one goes to him, how could it be a mistake?",
+                    "semantic": "[Penetrating_Barriers \u2192 \u00acMistake]"
+                },
+                "6": {
+                    "text_nine": "Isolated through opposition, one sees one's companion as a pig covered with dirt, as a wagon full of devils. First one draws a bow against him, then one lays the bow aside. He is not a robber; he will woo at the right time. As one goes, rain falls; then good fortune comes.",
+                    "text_six": null,
+                    "semantic": "[Misperception \u2192 Clarification \u2192 Fortune]"
+                }
+            }
+        },
+        {
+            "id": 39,
+            "name": "Chien (Obstruction)",
+            "binary": "001010",
+            "trigrams": {
+                "upper": "Water (K'an)",
+                "lower": "Mountain (K\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "[Mountain_Below \u2227 Water_Above] \u2192 Water on mountain, impassable",
+                "object_level": "The Image: Water on the mountain. Thus the superior man turns his attention to himself and molds his character.",
+                "label_level": "The Judgment: OBSTRUCTION. The southwest furthers. The northeast does not further. It furthers one to see the great man. Perseverance brings good fortune."
+            },
+            "ontological_signature": "E(39) = \u03a3(K'an_U + K\u00ean_L) \u2192 [Blocked_Path]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "Going leads to obstructions, coming meets with praise.",
+                    "semantic": "[Advance \u2192 Obstruction; Return \u2192 Praise]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "The king's servant is beset by obstruction upon obstruction, but it is not his own fault.",
+                    "semantic": "[Duty_Despite_Obstruction]"
+                },
+                "3": {
+                    "text_nine": "Going leads to obstructions; hence he comes back.",
+                    "text_six": null,
+                    "semantic": "[Return_from_Obstruction]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Going leads to obstructions, coming leads to union.",
+                    "semantic": "[Advance \u2192 Block; Return \u2192 Union]"
+                },
+                "5": {
+                    "text_nine": "In the midst of the greatest obstructions, friends come.",
+                    "text_six": null,
+                    "semantic": "[Crisis \u2192 Aid]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Going leads to obstructions, coming leads to great good fortune. It furthers one to see the great man.",
+                    "semantic": "[Return \u2192 Great_Fortune]"
+                }
+            }
+        },
+        {
+            "id": 40,
+            "name": "Hsieh (Deliverance)",
+            "binary": "010100",
+            "trigrams": {
+                "upper": "Thunder (Ch\u00ean)",
+                "lower": "Water (K'an)"
+            },
+            "structural_differential": {
+                "event_level": "[Water_Below \u2227 Thunder_Above] \u2192 Thunder and rain, release of tension",
+                "object_level": "The Image: Thunder and rain set in. Thus the superior man forgives mistakes and pardons misdeeds.",
+                "label_level": "The Judgment: DELIVERANCE. The southwest furthers. If there is no longer anything where one has to go, return brings good fortune. If there is still something where one has to go, hastening brings good fortune."
+            },
+            "ontological_signature": "E(40) = \u03a3(Ch\u00ean_U + K'an_L) \u2192 [Liberation]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "Without blame.",
+                    "semantic": "[\u00acBlame]"
+                },
+                "2": {
+                    "text_nine": "One kills three foxes in the field and receives a yellow arrow. Perseverance brings good fortune.",
+                    "text_six": null,
+                    "semantic": "[Eliminating_Deceit \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "If a man carries a burden on his back and nonetheless rides in a carriage, he thereby encourages robbers to draw near. Perseverance leads to humiliation.",
+                    "semantic": "[Inappropriate_Display \u2192 Invites_Trouble]"
+                },
+                "4": {
+                    "text_nine": "Deliver yourself from your great toe. Then the companion comes, and him you can trust.",
+                    "text_six": null,
+                    "semantic": "[Release_Attachment \u2192 Trust]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "If only the superior man can deliver himself, it brings good fortune. Thus he proves to inferior men that he is in earnest.",
+                    "semantic": "[Self_Liberation \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "The prince shoots at a hawk on a high wall. He kills it. Everything serves to further.",
+                    "semantic": "[Decisive_Action \u2192 Complete_Benefit]"
+                }
+            }
+        },
+        {
+            "id": 41,
+            "name": "Sun (Decrease)",
+            "binary": "110001",
+            "trigrams": {
+                "upper": "Mountain (K\u00ean)",
+                "lower": "Lake (Tui)"
+            },
+            "structural_differential": {
+                "event_level": "[Lake_Below \u2227 Mountain_Above] \u2192 Lake diminished, mountain increased",
+                "object_level": "The Image: At the foot of the mountain, the lake. Thus the superior man controls his anger and restrains his instincts.",
+                "label_level": "The Judgment: DECREASE combined with sincerity brings about supreme good fortune without blame. One may be persevering in this. It furthers one to undertake something. How is this to be carried out? One may use two small bowls for the sacrifice."
+            },
+            "ontological_signature": "E(41) = \u03a3(K\u00ean_U + Tui_L) \u2192 [Beneficial_Reduction]",
+            "lines": {
+                "1": {
+                    "text_nine": "Going quickly when one's tasks are finished is without blame. But one must reflect on how much one may decrease others.",
+                    "text_six": null,
+                    "semantic": "[Quick_Aid \u2227 Consideration \u2192 \u00acBlame]"
+                },
+                "2": {
+                    "text_nine": "Perseverance furthers. To undertake something brings misfortune. Without decreasing oneself, one is able to bring increase to others.",
+                    "text_six": null,
+                    "semantic": "[Indirect_Benefit \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "When three people journey together, their number decreases by one. When one man journeys alone, he finds a companion.",
+                    "semantic": "[Reduction \u2192 Finding]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "If a man decreases his faults, it makes the other hasten to come and rejoice. No blame.",
+                    "semantic": "[Self_Improvement \u2192 Joy]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Someone does indeed increase him. Ten pairs of tortoises cannot oppose it. Supreme good fortune.",
+                    "semantic": "[Destined_Increase \u2192 Supreme_Fortune]"
+                },
+                "6": {
+                    "text_nine": "If one is increased without depriving others, there is no blame. Perseverance brings good fortune. It furthers one to undertake something. One obtains servants but no longer has a separate home.",
+                    "text_six": null,
+                    "semantic": "[Increase_Without_Taking \u2192 Fortune]"
+                }
+            }
+        },
+        {
+            "id": 42,
+            "name": "I (Increase)",
+            "binary": "100011",
+            "trigrams": {
+                "upper": "Wind (Sun)",
+                "lower": "Thunder (Ch\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "[Thunder_Below \u2227 Wind_Above] \u2192 Wind and thunder, mutual strengthening",
+                "object_level": "The Image: Wind and thunder: the image of INCREASE. Thus the superior man: if he sees good, he imitates it; if he has faults, he rids himself of them.",
+                "label_level": "The Judgment: INCREASE. It furthers one to undertake something. It furthers one to cross the great water."
+            },
+            "ontological_signature": "E(42) = \u03a3(Sun_U + Ch\u00ean_L) \u2192 [Beneficial_Increase]",
+            "lines": {
+                "1": {
+                    "text_nine": "It furthers one to accomplish great deeds. Supreme good fortune. No blame.",
+                    "text_six": null,
+                    "semantic": "[Great_Deeds \u2192 Supreme_Fortune]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Someone does indeed increase him; ten pairs of tortoises cannot oppose it. Constant perseverance brings good fortune. The king presents him before God. Good fortune.",
+                    "semantic": "[Destined_Increase \u2192 Divine_Favor]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "One is enriched through unfortunate events. No blame, if you are sincere and walk in the middle, and report with a seal to the prince.",
+                    "semantic": "[Gain_from_Misfortune \u2227 Sincerity \u2192 \u00acBlame]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "If you walk in the middle and report to the prince, he will follow. It furthers one to be used in the removal of the capital.",
+                    "semantic": "[Central_Position \u2192 Influence]"
+                },
+                "5": {
+                    "text_nine": "If in truth you have a kind heart, ask not. Supreme good fortune. Truly, kindness will be recognized as your virtue.",
+                    "text_six": null,
+                    "semantic": "[Genuine_Kindness \u2192 Supreme_Fortune]"
+                },
+                "6": {
+                    "text_nine": "He brings increase to no one. Indeed, someone even strikes him. He does not keep his heart constantly steady. Misfortune.",
+                    "text_six": null,
+                    "semantic": "[Selfish_Increase \u2192 Misfortune]"
+                }
+            }
+        },
+        {
+            "id": 43,
+            "name": "Kuai (Breakthrough/Resoluteness)",
+            "binary": "111110",
+            "trigrams": {
+                "upper": "Lake (Tui)",
+                "lower": "Heaven (Ch'ien)"
+            },
+            "structural_differential": {
+                "event_level": "[Heaven_Below \u2227 Lake_Above] \u2192 Lake risen to heaven, breakthrough",
+                "object_level": "The Image: The lake has risen up to heaven. Thus the superior man dispenses riches downward and refrains from resting on his virtue.",
+                "label_level": "The Judgment: BREAKTHROUGH. One must resolutely make the matter known at the court of the king. It must be announced truthfully. Danger. It is necessary to notify one's own city. It does not further to resort to arms. It furthers one to undertake something."
+            },
+            "ontological_signature": "E(43) = \u03a3(Tui_U + Ch'ien_L) \u2192 [Decisive_Resolution]",
+            "lines": {
+                "1": {
+                    "text_nine": "Mighty in the forward-striding toes. When one goes and is not equal to the task, one makes a mistake.",
+                    "text_six": null,
+                    "semantic": "[Premature_Advance \u2192 Mistake]"
+                },
+                "2": {
+                    "text_nine": "A cry of alarm. Arms at evening and at night. Fear nothing.",
+                    "text_six": null,
+                    "semantic": "[Vigilance \u2192 \u00acFear]"
+                },
+                "3": {
+                    "text_nine": "To be powerful in the cheekbones brings misfortune. The superior man is firmly resolved. He walks alone and is caught in the rain. He is bespattered, and people murmur against him. No blame.",
+                    "text_six": null,
+                    "semantic": "[Firm_Resolution \u2227 Isolation \u2192 \u00acBlame]"
+                },
+                "4": {
+                    "text_nine": "There is no skin on his thighs, and walking comes hard. If a man were to let himself be led like a sheep, remorse would disappear. But if these words are heard, they will not be believed.",
+                    "text_six": null,
+                    "semantic": "[Difficulty \u2227 Humility \u2192 \u00acRemorse]"
+                },
+                "5": {
+                    "text_nine": "In dealing with weeds, firm resolution is necessary. Walking in the middle remains free of blame.",
+                    "text_six": null,
+                    "semantic": "[Firm_Resolution \u2227 Middle_Way \u2192 \u00acBlame]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "No cry. In the end misfortune comes.",
+                    "semantic": "[\u00acWarning \u2192 Misfortune]"
+                }
+            }
+        },
+        {
+            "id": 44,
+            "name": "Kou (Coming to Meet)",
+            "binary": "011111",
+            "trigrams": {
+                "upper": "Heaven (Ch'ien)",
+                "lower": "Wind (Sun)"
+            },
+            "structural_differential": {
+                "event_level": "[Wind_Below \u2227 Heaven_Above] \u2192 Wind under heaven, pervasive meeting",
+                "object_level": "The Image: Under heaven, wind. Thus does the prince act when disseminating his commands and proclaiming them to the four quarters of heaven.",
+                "label_level": "The Judgment: COMING TO MEET. The maiden is powerful. One should not marry such a maiden."
+            },
+            "ontological_signature": "E(44) = \u03a3(Ch'ien_U + Sun_L) \u2192 [Unexpected_Encounter]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "It must be checked with a brake of bronze. Perseverance brings good fortune. If one lets it take its course, one experiences misfortune. Even a lean pig has it in him to rage around.",
+                    "semantic": "[Early_Restraint \u2192 Fortune]"
+                },
+                "2": {
+                    "text_nine": "There is a fish in the tank. No blame. Does not further guests.",
+                    "text_six": null,
+                    "semantic": "[Contained_Influence \u2192 \u00acBlame]"
+                },
+                "3": {
+                    "text_nine": "There is no skin on his thighs, and walking comes hard. If one is mindful of the danger, no great mistake is made.",
+                    "text_six": null,
+                    "semantic": "[Difficulty \u2227 Awareness \u2192 \u00acGreat_Mistake]"
+                },
+                "4": {
+                    "text_nine": "No fish in the tank. This leads to misfortune.",
+                    "text_six": null,
+                    "semantic": "[Lost_Connection \u2192 Misfortune]"
+                },
+                "5": {
+                    "text_nine": "A melon covered with willow leaves. Hidden lines. Then it drops down to one from heaven.",
+                    "text_six": null,
+                    "semantic": "[Concealed_Virtue \u2192 Heaven's_Gift]"
+                },
+                "6": {
+                    "text_nine": "He comes to meet with his horns. Humiliation. No blame.",
+                    "text_six": null,
+                    "semantic": "[Aggressive_Meeting \u2192 Humiliation \u2227 \u00acBlame]"
+                }
+            }
+        },
+        {
+            "id": 45,
+            "name": "Ts'ui (Gathering Together)",
+            "binary": "000110",
+            "trigrams": {
+                "upper": "Lake (Tui)",
+                "lower": "Earth (K'un)"
+            },
+            "structural_differential": {
+                "event_level": "[Earth_Below \u2227 Lake_Above] \u2192 Lake over earth, gathering",
+                "object_level": "The Image: Over the earth, the lake. Thus the superior man renews his weapons in order to meet the unforeseen.",
+                "label_level": "The Judgment: GATHERING TOGETHER. Success. The king approaches his temple. It furthers one to see the great man. This brings success. Perseverance furthers. To bring great offerings creates good fortune. It furthers one to undertake something."
+            },
+            "ontological_signature": "E(45) = \u03a3(Tui_U + K'un_L) \u2192 [Assembly]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "If you are sincere, but not to the end, there will sometimes be confusion, sometimes gathering together. If you call out, then after one grasp of the hand you can laugh again. Regret not. Going is without blame.",
+                    "semantic": "[Incomplete_Sincerity \u2192 Fluctuation]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Letting oneself be drawn brings good fortune and remains blameless. If one is sincere, it furthers one to bring even a small offering.",
+                    "semantic": "[Yielding \u2227 Sincerity \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Gathering together amid sighs. Nothing that would further. Going is without blame. Slight humiliation.",
+                    "semantic": "[Reluctant_Gathering \u2192 Minor_Humiliation]"
+                },
+                "4": {
+                    "text_nine": "Great good fortune. No blame.",
+                    "text_six": null,
+                    "semantic": "[Great_Fortune \u2227 \u00acBlame]"
+                },
+                "5": {
+                    "text_nine": "If in gathering together one has position, this brings no blame. If there are some who are not yet sincerely in the work, sublime and enduring perseverance is needed. Then remorse disappears.",
+                    "text_six": null,
+                    "semantic": "[Position \u2227 Perseverance \u2192 \u00acRemorse]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Lamenting and sighing, floods of tears. No blame.",
+                    "semantic": "[Grief \u2192 \u00acBlame]"
+                }
+            }
+        },
+        {
+            "id": 46,
+            "name": "Sh\u00eang (Pushing Upward)",
+            "binary": "011000",
+            "trigrams": {
+                "upper": "Earth (K'un)",
+                "lower": "Wind (Sun)"
+            },
+            "structural_differential": {
+                "event_level": "[Wind_Below \u2227 Earth_Above] \u2192 Wood growing within earth",
+                "object_level": "The Image: Within the earth, wood grows. Thus the superior man of devoted character heaps up small things in order to achieve something high and great.",
+                "label_level": "The Judgment: PUSHING UPWARD has supreme success. One must see the great man. Fear not. Departure toward the south brings good fortune."
+            },
+            "ontological_signature": "E(46) = \u03a3(K'un_U + Sun_L) \u2192 [Gradual_Ascent]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "Pushing upward that meets with confidence brings great good fortune.",
+                    "semantic": "[Trusted_Ascent \u2192 Great_Fortune]"
+                },
+                "2": {
+                    "text_nine": "If one is sincere, it furthers one to bring even a small offering. No blame.",
+                    "text_six": null,
+                    "semantic": "[Sincerity \u2227 Small_Offering \u2192 \u00acBlame]"
+                },
+                "3": {
+                    "text_nine": "One pushes upward into an empty city.",
+                    "text_six": null,
+                    "semantic": "[Unobstructed_Ascent]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "The king offers him Mount Ch'i. Good fortune. No blame.",
+                    "semantic": "[Royal_Favor \u2192 Fortune]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Perseverance brings good fortune. One pushes upward by steps.",
+                    "semantic": "[Gradual_Progress \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Pushing upward in darkness. It furthers one to be unremittingly persevering.",
+                    "semantic": "[Blind_Ascent \u2192 Unremitting_Perseverance]"
+                }
+            }
+        },
+        {
+            "id": 47,
+            "name": "K'un (Oppression/Exhaustion)",
+            "binary": "010110",
+            "trigrams": {
+                "upper": "Lake (Tui)",
+                "lower": "Water (K'an)"
+            },
+            "structural_differential": {
+                "event_level": "[Water_Below \u2227 Lake_Above] \u2192 Lake drained, water below",
+                "object_level": "The Image: There is no water in the lake. Thus the superior man stakes his life on following his will.",
+                "label_level": "The Judgment: OPPRESSION. Success. Perseverance. The great man brings about good fortune. No blame. When one has something to say, it is not believed."
+            },
+            "ontological_signature": "E(47) = \u03a3(Tui_U + K'an_L) \u2192 [Exhaustion]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "One sits oppressed under a bare tree and strays into a gloomy valley. For three years one sees nothing.",
+                    "semantic": "[Deep_Oppression \u2192 Blindness]"
+                },
+                "2": {
+                    "text_nine": "One is oppressed while at meat and drink. The man with the scarlet knee bands is just coming. It furthers one to offer sacrifice. To set forth brings misfortune. No blame.",
+                    "text_six": null,
+                    "semantic": "[Oppression \u2227 Aid_Coming \u2192 Sacrifice]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "A man permits himself to be oppressed by stone, and leans on thorns and thistles. He enters his house and does not see his wife. Misfortune.",
+                    "semantic": "[Self_Imposed_Oppression \u2192 Misfortune]"
+                },
+                "4": {
+                    "text_nine": "He comes very quietly, oppressed in a golden carriage. Humiliation, but the end is reached.",
+                    "text_six": null,
+                    "semantic": "[Slow_Progress \u2192 Humiliation \u2227 Completion]"
+                },
+                "5": {
+                    "text_nine": "His nose and feet are cut off. Oppression at the hands of the man with the purple knee bands. Joy comes softly. It furthers one to make offerings and libations.",
+                    "text_six": null,
+                    "semantic": "[Severe_Oppression \u2192 Gradual_Joy]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "He is oppressed by creeping vines. He moves uncertainly and says, 'Movement brings remorse.' If one feels remorse over this and makes a start, good fortune comes.",
+                    "semantic": "[Entanglement \u2192 Remorse \u2192 Action \u2192 Fortune]"
+                }
+            }
+        },
+        {
+            "id": 48,
+            "name": "Ching (The Well)",
+            "binary": "011010",
+            "trigrams": {
+                "upper": "Water (K'an)",
+                "lower": "Wind (Sun)"
+            },
+            "structural_differential": {
+                "event_level": "[Wind_Below \u2227 Water_Above] \u2192 Wood drawing water upward",
+                "object_level": "The Image: Water over wood: the image of THE WELL. Thus the superior man encourages the people at their work, and exhorts them to help one another.",
+                "label_level": "The Judgment: THE WELL. The town may be changed, but the well cannot be changed. It neither decreases nor increases. They come and go and draw from the well. If one gets down almost to the water and the rope does not go all the way, or the jug breaks, it brings misfortune."
+            },
+            "ontological_signature": "E(48) = \u03a3(K'an_U + Sun_L) \u2192 [Inexhaustible_Source]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "One does not drink the mud of the well. No animals come to an old well.",
+                    "semantic": "[Neglected_Source \u2192 \u00acUse]"
+                },
+                "2": {
+                    "text_nine": "At the well hole one shoots fishes. The jug is broken and leaks.",
+                    "text_six": null,
+                    "semantic": "[Misuse \u2192 Loss]"
+                },
+                "3": {
+                    "text_nine": "The well is cleaned, but no one drinks from it. This is my heart's sorrow, for one might draw from it. If the king were clear-minded, good fortune might be enjoyed in common.",
+                    "text_six": null,
+                    "semantic": "[Unused_Potential \u2192 Sorrow]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "The well is being lined. No blame.",
+                    "semantic": "[Repair \u2192 \u00acBlame]"
+                },
+                "5": {
+                    "text_nine": "In the well there is a clear, cold spring from which one can drink.",
+                    "text_six": null,
+                    "semantic": "[Pure_Source \u2192 Nourishment]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "One draws from the well without hindrance. It is dependable. Supreme good fortune.",
+                    "semantic": "[Unobstructed_Access \u2192 Supreme_Fortune]"
+                }
+            }
+        },
+        {
+            "id": 49,
+            "name": "Ko (Revolution/Molting)",
+            "binary": "101110",
+            "trigrams": {
+                "upper": "Lake (Tui)",
+                "lower": "Fire (Li)"
+            },
+            "structural_differential": {
+                "event_level": "[Fire_Below \u2227 Lake_Above] \u2192 Fire and water in conflict, transformation",
+                "object_level": "The Image: Fire in the lake: the image of REVOLUTION. Thus the superior man sets the calendar in order and makes the seasons clear.",
+                "label_level": "The Judgment: REVOLUTION. On your own day you are believed. Supreme success, furthering through perseverance. Remorse disappears."
+            },
+            "ontological_signature": "E(49) = \u03a3(Tui_U + Li_L) \u2192 [Fundamental_Change]",
+            "lines": {
+                "1": {
+                    "text_nine": "Wrapped in the hide of a yellow cow.",
+                    "text_six": null,
+                    "semantic": "[Restraint \u2192 Waiting]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "When one's own day comes, one may create revolution. Starting brings good fortune. No blame.",
+                    "semantic": "[Right_Timing \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": "Starting brings misfortune. Perseverance brings danger. When talk of revolution has gone the rounds three times, one may commit himself, and men will believe him.",
+                    "text_six": null,
+                    "semantic": "[Premature_Action \u2192 Danger; Deliberation \u2192 Trust]"
+                },
+                "4": {
+                    "text_nine": "Remorse disappears. Men believe him. Changing the form of government brings good fortune.",
+                    "text_six": null,
+                    "semantic": "[Trusted_Change \u2192 Fortune]"
+                },
+                "5": {
+                    "text_nine": "The great man changes like a tiger. Even before he questions the oracle he is believed.",
+                    "text_six": null,
+                    "semantic": "[Manifest_Transformation \u2192 Inherent_Trust]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "The superior man changes like a panther. The inferior man molts in the face. Starting brings misfortune. To remain persevering brings good fortune.",
+                    "semantic": "[Refined_Change \u2192 Fortune; Superficial_Change \u2192 Misfortune]"
+                }
+            }
+        },
+        {
+            "id": 50,
+            "name": "Ting (The Caldron)",
+            "binary": "011101",
+            "trigrams": {
+                "upper": "Fire (Li)",
+                "lower": "Wind (Sun)"
+            },
+            "structural_differential": {
+                "event_level": "[Wind_Below \u2227 Fire_Above] \u2192 Wood feeding fire, sacrificial vessel",
+                "object_level": "The Image: Fire over wood. Thus the superior man consolidates his fate by making his position correct.",
+                "label_level": "The Judgment: THE CALDRON. Supreme good fortune. Success."
+            },
+            "ontological_signature": "E(50) = \u03a3(Li_U + Sun_L) \u2192 [Sacred_Nourishment]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "A ting with legs upturned. Furthers removal of stagnating stuff. One takes a concubine for the sake of her son. No blame.",
+                    "semantic": "[Overturning \u2192 Clearing \u2227 \u00acBlame]"
+                },
+                "2": {
+                    "text_nine": "There is food in the ting. My comrades are envious, but they cannot harm me. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Substance \u2227 Envy \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": "The handle of the ting is altered. One is impeded in his way of life. The fat of the pheasant is not eaten. Once rain falls, remorse is spent. Good fortune comes in the end.",
+                    "text_six": null,
+                    "semantic": "[Obstruction \u2192 Rain \u2192 Fortune]"
+                },
+                "4": {
+                    "text_nine": "The legs of the ting are broken. The prince's meal is spilled and his person is soiled. Misfortune.",
+                    "text_six": null,
+                    "semantic": "[Failure_of_Support \u2192 Misfortune]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "The ting has yellow handles, golden carrying rings. Perseverance furthers.",
+                    "semantic": "[Proper_Equipment \u2192 Perseverance]"
+                },
+                "6": {
+                    "text_nine": "The ting has rings of jade. Great good fortune. Nothing that would not act to further.",
+                    "text_six": null,
+                    "semantic": "[Perfect_Vessel \u2192 Great_Fortune]"
+                }
+            }
+        },
+        {
+            "id": 51,
+            "name": "Ch\u00ean (The Arousing/Shock)",
+            "binary": "100100",
+            "trigrams": {
+                "upper": "Thunder (Ch\u00ean)",
+                "lower": "Thunder (Ch\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "\u03a3(Ch\u00ean\u2082) \u2192 Thunder doubled, shock upon shock",
+                "object_level": "The Image: Thunder repeated: the image of SHOCK. Thus in fear and trembling the superior man sets his life in order and examines himself.",
+                "label_level": "The Judgment: SHOCK brings success. Shock comes\u2014oh, oh! Laughing words\u2014ha, ha! The shock terrifies for a hundred miles, and he does not let fall the sacrificial spoon and chalice."
+            },
+            "ontological_signature": "E(51) = \u03a3(Ch\u00ean_U + Ch\u00ean_L) \u2192 [Awakening_Shock]",
+            "lines": {
+                "1": {
+                    "text_nine": "Shock comes\u2014oh, oh! Then follow laughing words\u2014ha, ha! Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Shock \u2192 Recovery \u2192 Fortune]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Shock comes bringing danger. A hundred thousand times you lose your treasures and must climb the nine hills. Do not go in pursuit of them. After seven days you will get them back again.",
+                    "semantic": "[Loss \u2192 Patience \u2192 Recovery]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Shock comes and makes one distraught. If shock spurs to action, one remains free of misfortune.",
+                    "semantic": "[Shock \u2192 Action \u2192 \u00acMisfortune]"
+                },
+                "4": {
+                    "text_nine": "Shock is mired.",
+                    "text_six": null,
+                    "semantic": "[Shock_Dissipated]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Shock goes hither and thither. Danger. However, nothing at all is lost. Yet there are things to be done.",
+                    "semantic": "[Repeated_Shock \u2192 Danger \u2227 \u00acLoss]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Shock brings ruin and terrified gazing around. Going ahead brings misfortune. If it has not yet touched one's own body but has reached one's neighbor first, there is no blame. One's comrades have something to talk about.",
+                    "semantic": "[Extreme_Shock \u2192 Caution]"
+                }
+            }
+        },
+        {
+            "id": 52,
+            "name": "K\u00ean (Keeping Still/Mountain)",
+            "binary": "001001",
+            "trigrams": {
+                "upper": "Mountain (K\u00ean)",
+                "lower": "Mountain (K\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "\u03a3(K\u00ean\u2082) \u2192 Mountain doubled, complete stillness",
+                "object_level": "The Image: Mountains standing close together. Thus the superior man does not permit his thoughts to go beyond his situation.",
+                "label_level": "The Judgment: KEEPING STILL. Keeping his back still so that he no longer feels his body. He goes into his courtyard and does not see his people. No blame."
+            },
+            "ontological_signature": "E(52) = \u03a3(K\u00ean_U + K\u00ean_L) \u2192 [Meditative_Stillness]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "Keeping his toes still. No blame. Continued perseverance furthers.",
+                    "semantic": "[Initial_Stillness \u2192 \u00acBlame]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "Keeping his calves still. He cannot rescue him whom he follows. His heart is not glad.",
+                    "semantic": "[Partial_Stillness \u2192 Limitation]"
+                },
+                "3": {
+                    "text_nine": "Keeping his hips still. Making his sacrum stiff. Dangerous. The heart suffocates.",
+                    "text_six": null,
+                    "semantic": "[Forced_Stillness \u2192 Danger]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Keeping his trunk still. No blame.",
+                    "semantic": "[Core_Stillness \u2192 \u00acBlame]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Keeping his jaws still. The words have order. Remorse disappears.",
+                    "semantic": "[Speech_Stillness \u2192 \u00acRemorse]"
+                },
+                "6": {
+                    "text_nine": "Noble-hearted keeping still. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Complete_Stillness \u2192 Fortune]"
+                }
+            }
+        },
+        {
+            "id": 53,
+            "name": "Chien (Development/Gradual Progress)",
+            "binary": "001011",
+            "trigrams": {
+                "upper": "Wind (Sun)",
+                "lower": "Mountain (K\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "[Mountain_Below \u2227 Wind_Above] \u2192 Tree on mountain, gradual growth",
+                "object_level": "The Image: On the mountain, a tree. Thus the superior man abides in dignity and virtue, in order to improve the mores.",
+                "label_level": "The Judgment: DEVELOPMENT. The maiden is given in marriage. Good fortune. Perseverance furthers."
+            },
+            "ontological_signature": "E(53) = \u03a3(Sun_U + K\u00ean_L) \u2192 [Gradual_Development]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "The wild goose gradually draws near the shore. The young son is in danger. There is talk. No blame.",
+                    "semantic": "[Initial_Approach \u2192 Danger \u2227 \u00acBlame]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "The wild goose gradually draws near the cliff. Eating and drinking in peace and concord. Good fortune.",
+                    "semantic": "[Secure_Position \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": "The wild goose gradually draws near the plateau. The man goes forth and does not return. The woman carries a child but does not bring it forth. Misfortune. It furthers one to fight off robbers.",
+                    "text_six": null,
+                    "semantic": "[Premature_Advance \u2192 Misfortune]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "The wild goose gradually draws near the tree. Perhaps it will find a flat branch. No blame.",
+                    "semantic": "[Adaptation \u2192 \u00acBlame]"
+                },
+                "5": {
+                    "text_nine": "The wild goose gradually draws near the summit. For three years the woman has no child. In the end nothing can hinder her. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Delayed_Fulfillment \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": "The wild goose gradually draws near the cloud heights. Its feathers can be used for the sacred dance. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Transcendence \u2192 Fortune]"
+                }
+            }
+        },
+        {
+            "id": 54,
+            "name": "Kuei Mei (The Marrying Maiden)",
+            "binary": "110100",
+            "trigrams": {
+                "upper": "Thunder (Ch\u00ean)",
+                "lower": "Lake (Tui)"
+            },
+            "structural_differential": {
+                "event_level": "[Lake_Below \u2227 Thunder_Above] \u2192 Thunder over lake, improper union",
+                "object_level": "The Image: Thunder over the lake. Thus the superior man understands the transitory in the light of the eternity of the end.",
+                "label_level": "The Judgment: THE MARRYING MAIDEN. Undertakings bring misfortune. Nothing that would further."
+            },
+            "ontological_signature": "E(54) = \u03a3(Ch\u00ean_U + Tui_L) \u2192 [Subordinate_Union]",
+            "lines": {
+                "1": {
+                    "text_nine": "The marrying maiden as a concubine. A lame man who is able to tread. Undertakings bring good fortune.",
+                    "text_six": null,
+                    "semantic": "[Humble_Position \u2192 Fortune]"
+                },
+                "2": {
+                    "text_nine": "A one-eyed man who is able to see. The perseverance of a solitary man furthers.",
+                    "text_six": null,
+                    "semantic": "[Limited_Vision \u2227 Solitude \u2192 Furthering]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "The marrying maiden as a slave. She marries as a concubine.",
+                    "semantic": "[Lowered_Status]"
+                },
+                "4": {
+                    "text_nine": "The marrying maiden draws out the allotted time. A late marriage comes in due course.",
+                    "text_six": null,
+                    "semantic": "[Delayed_Union \u2192 Right_Timing]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "The sovereign I gave his daughter in marriage. The embroidered garments of the princess were not as gorgeous as those of the serving maid. The moon that is nearly full brings good fortune.",
+                    "semantic": "[Inner_Worth > Outer_Display \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "The woman holds the basket, but there are no fruits in it. The man stabs the sheep, but no blood flows. Nothing that acts to further.",
+                    "semantic": "[Empty_Ritual \u2192 \u00acFurthering]"
+                }
+            }
+        },
+        {
+            "id": 55,
+            "name": "F\u00eang (Abundance)",
+            "binary": "101100",
+            "trigrams": {
+                "upper": "Thunder (Ch\u00ean)",
+                "lower": "Fire (Li)"
+            },
+            "structural_differential": {
+                "event_level": "[Fire_Below \u2227 Thunder_Above] \u2192 Lightning and thunder, peak brilliance",
+                "object_level": "The Image: Both thunder and lightning come. Thus the superior man decides lawsuits and carries out punishments.",
+                "label_level": "The Judgment: ABUNDANCE has success. The king attains abundance. Be not sad. Be like the sun at midday."
+            },
+            "ontological_signature": "E(55) = \u03a3(Ch\u00ean_U + Li_L) \u2192 [Peak_Fullness]",
+            "lines": {
+                "1": {
+                    "text_nine": "When a man meets his destined ruler, they can be together ten days, and it is not a mistake. Going meets with recognition.",
+                    "text_six": null,
+                    "semantic": "[Destined_Meeting \u2192 Recognition]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "The curtain is of such fullness that the polestars can be seen at noon. Through going one meets with mistrust and hate. If one rouses him through truth, good fortune comes.",
+                    "semantic": "[Obstruction \u2192 Truth \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": "The underbrush is of such abundance that the small stars can be seen at noon. He breaks his right arm. No blame.",
+                    "text_six": null,
+                    "semantic": "[Extreme_Obstruction \u2192 Incapacity \u2227 \u00acBlame]"
+                },
+                "4": {
+                    "text_nine": "The curtain is of such fullness that the polestars can be seen at noon. He meets his ruler, who is of like kind. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Finding_Like_Mind \u2192 Fortune]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Lines are coming. Blessing and fame draw near. Good fortune.",
+                    "semantic": "[Brilliance_Arriving \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "His house is in a state of abundance. He screens off his family. He peers through the gate and no longer perceives anyone. For three years he sees nothing. Misfortune.",
+                    "semantic": "[Isolation_in_Abundance \u2192 Misfortune]"
+                }
+            }
+        },
+        {
+            "id": 56,
+            "name": "L\u00fc (The Wanderer)",
+            "binary": "001101",
+            "trigrams": {
+                "upper": "Fire (Li)",
+                "lower": "Mountain (K\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "[Mountain_Below \u2227 Fire_Above] \u2192 Fire on mountain, transient",
+                "object_level": "The Image: Fire on the mountain. Thus the superior man is clear-minded and cautious in imposing penalties, and protracts no lawsuits.",
+                "label_level": "The Judgment: THE WANDERER. Success through smallness. Perseverance brings good fortune to the wanderer."
+            },
+            "ontological_signature": "E(56) = \u03a3(Li_U + K\u00ean_L) \u2192 [Transient_Journey]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "If the wanderer busies himself with trivial things, he draws down misfortune upon himself.",
+                    "semantic": "[Triviality \u2192 Misfortune]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "The wanderer comes to an inn. He has his property with him. He wins the steadfastness of a young servant.",
+                    "semantic": "[Security \u2227 Loyalty]"
+                },
+                "3": {
+                    "text_nine": "The wanderer's inn burns down. He loses the steadfastness of his young servant. Danger.",
+                    "text_six": null,
+                    "semantic": "[Loss_of_Security \u2192 Danger]"
+                },
+                "4": {
+                    "text_nine": "The wanderer rests in a shelter. He obtains his property and an ax. My heart is not glad.",
+                    "text_six": null,
+                    "semantic": "[Partial_Security \u2192 Unease]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "He shoots a pheasant. It drops with the first arrow. In the end this brings both praise and office.",
+                    "semantic": "[Skill \u2192 Recognition]"
+                },
+                "6": {
+                    "text_nine": "The bird's nest burns up. The wanderer laughs at first, then must needs lament and weep. Through carelessness he loses his cow. Misfortune.",
+                    "text_six": null,
+                    "semantic": "[Carelessness \u2192 Loss \u2192 Misfortune]"
+                }
+            }
+        },
+        {
+            "id": 57,
+            "name": "Sun (The Gentle/Wind)",
+            "binary": "011011",
+            "trigrams": {
+                "upper": "Wind (Sun)",
+                "lower": "Wind (Sun)"
+            },
+            "structural_differential": {
+                "event_level": "\u03a3(Sun\u2082) \u2192 Wind doubled, penetrating influence",
+                "object_level": "The Image: Winds following one upon the other. Thus the superior man spreads his commands abroad and carries out his undertakings.",
+                "label_level": "The Judgment: THE GENTLE. Success through what is small. It furthers one to have somewhere to go. It furthers one to see the great man."
+            },
+            "ontological_signature": "E(57) = \u03a3(Sun_U + Sun_L) \u2192 [Penetrating_Influence]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "In advancing and in retreating, the perseverance of a warrior furthers.",
+                    "semantic": "[Disciplined_Flexibility \u2192 Furthering]"
+                },
+                "2": {
+                    "text_nine": "Penetration under the bed. Priests and magicians are used in great number. Good fortune. No blame.",
+                    "text_six": null,
+                    "semantic": "[Deep_Penetration \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": "Repeated penetration. Humiliation.",
+                    "text_six": null,
+                    "semantic": "[Excessive_Penetration \u2192 Humiliation]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Remorse vanishes. During the hunt three kinds of game are caught.",
+                    "semantic": "[Success \u2192 \u00acRemorse]"
+                },
+                "5": {
+                    "text_nine": "Perseverance brings good fortune. Remorse vanishes. Nothing that does not further. No beginning, but an end. Before the change, three days. After the change, three days. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Transformation \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": "Penetration under the bed. He loses his property and his ax. Perseverance brings misfortune.",
+                    "text_six": null,
+                    "semantic": "[Excessive_Submission \u2192 Misfortune]"
+                }
+            }
+        },
+        {
+            "id": 58,
+            "name": "Tui (The Joyous/Lake)",
+            "binary": "110110",
+            "trigrams": {
+                "upper": "Lake (Tui)",
+                "lower": "Lake (Tui)"
+            },
+            "structural_differential": {
+                "event_level": "\u03a3(Tui\u2082) \u2192 Lake doubled, shared joy",
+                "object_level": "The Image: Lakes resting one on the other. Thus the superior man joins with his friends for discussion and practice.",
+                "label_level": "The Judgment: THE JOYOUS. Success. Perseverance is favorable."
+            },
+            "ontological_signature": "E(58) = \u03a3(Tui_U + Tui_L) \u2192 [Shared_Joy]",
+            "lines": {
+                "1": {
+                    "text_nine": "Contented joyousness. Good fortune.",
+                    "text_six": null,
+                    "semantic": "[Inner_Joy \u2192 Fortune]"
+                },
+                "2": {
+                    "text_nine": "Sincere joyousness. Good fortune. Remorse disappears.",
+                    "text_six": null,
+                    "semantic": "[Sincere_Joy \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Coming joyousness. Misfortune.",
+                    "semantic": "[External_Joy \u2192 Misfortune]"
+                },
+                "4": {
+                    "text_nine": "Joyousness that is weighed is not at peace. After ridding himself of mistakes a man has joy.",
+                    "text_six": null,
+                    "semantic": "[Deliberated_Joy \u2192 Peace]"
+                },
+                "5": {
+                    "text_nine": "Sincerity toward disintegrating influences is dangerous.",
+                    "text_six": null,
+                    "semantic": "[Trust_in_Decay \u2192 Danger]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Seductive joyousness.",
+                    "semantic": "[Seduction]"
+                }
+            }
+        },
+        {
+            "id": 59,
+            "name": "Huan (Dispersion/Dissolution)",
+            "binary": "010011",
+            "trigrams": {
+                "upper": "Wind (Sun)",
+                "lower": "Water (K'an)"
+            },
+            "structural_differential": {
+                "event_level": "[Water_Below \u2227 Wind_Above] \u2192 Wind over water, dispersing",
+                "object_level": "The Image: The wind drives over the water. Thus the kings of old sacrificed to the Lord and built temples.",
+                "label_level": "The Judgment: DISPERSION. Success. The king approaches his temple. It furthers one to cross the great water. Perseverance furthers."
+            },
+            "ontological_signature": "E(59) = \u03a3(Sun_U + K'an_L) \u2192 [Dissolving_Barriers]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "He brings help with the strength of a horse. Good fortune.",
+                    "semantic": "[Swift_Aid \u2192 Fortune]"
+                },
+                "2": {
+                    "text_nine": "At the dissolution he hurries to that which supports him. Remorse disappears.",
+                    "text_six": null,
+                    "semantic": "[Seeking_Support \u2192 \u00acRemorse]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "He dissolves his self. No remorse.",
+                    "semantic": "[Self_Dissolution \u2192 \u00acRemorse]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "He dissolves his bond with his group. Supreme good fortune. Dispersion leads in turn to accumulation. This is something that ordinary men do not think of.",
+                    "semantic": "[Dissolving_Faction \u2192 Supreme_Fortune]"
+                },
+                "5": {
+                    "text_nine": "His loud cries are as dissolving as sweat. Dissolution! A king abides without blame.",
+                    "text_six": null,
+                    "semantic": "[Proclamation \u2192 \u00acBlame]"
+                },
+                "6": {
+                    "text_nine": "He dissolves his blood. Departing, keeping at a distance, going out, is without blame.",
+                    "text_six": null,
+                    "semantic": "[Dissolving_Danger \u2192 \u00acBlame]"
+                }
+            }
+        },
+        {
+            "id": 60,
+            "name": "Chieh (Limitation)",
+            "binary": "110010",
+            "trigrams": {
+                "upper": "Water (K'an)",
+                "lower": "Lake (Tui)"
+            },
+            "structural_differential": {
+                "event_level": "[Lake_Below \u2227 Water_Above] \u2192 Water over lake, measured containment",
+                "object_level": "The Image: Water over lake. Thus the superior man creates number and measure, and examines the nature of virtue and correct conduct.",
+                "label_level": "The Judgment: LIMITATION. Success. Galling limitation must not be persevered in."
+            },
+            "ontological_signature": "E(60) = \u03a3(K'an_U + Tui_L) \u2192 [Measured_Restraint]",
+            "lines": {
+                "1": {
+                    "text_nine": "Not going out of the door and the courtyard is without blame.",
+                    "text_six": null,
+                    "semantic": "[Self_Limitation \u2192 \u00acBlame]"
+                },
+                "2": {
+                    "text_nine": "Not going out of the gate and the courtyard brings misfortune.",
+                    "text_six": null,
+                    "semantic": "[Excessive_Limitation \u2192 Misfortune]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "He who knows no limitation will have cause to lament. No blame.",
+                    "semantic": "[\u00acLimitation \u2192 Lament \u2227 \u00acBlame]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "Contented limitation. Success.",
+                    "semantic": "[Accepted_Limitation \u2192 Success]"
+                },
+                "5": {
+                    "text_nine": "Sweet limitation brings good fortune. Going brings esteem.",
+                    "text_six": null,
+                    "semantic": "[Willing_Limitation \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "Galling limitation. Perseverance brings misfortune. Remorse disappears.",
+                    "semantic": "[Harsh_Limitation \u2192 Misfortune; Acceptance \u2192 \u00acRemorse]"
+                }
+            }
+        },
+        {
+            "id": 61,
+            "name": "Chung Fu (Inner Truth)",
+            "binary": "110011",
+            "trigrams": {
+                "upper": "Wind (Sun)",
+                "lower": "Lake (Tui)"
+            },
+            "structural_differential": {
+                "event_level": "[Lake_Below \u2227 Wind_Above] \u2192 Wind over lake, inner emptiness",
+                "object_level": "The Image: Wind over lake. Thus the superior man discusses criminal cases in order to delay executions.",
+                "label_level": "The Judgment: INNER TRUTH. Pigs and fishes. Good fortune. It furthers one to cross the great water. Perseverance furthers."
+            },
+            "ontological_signature": "E(61) = \u03a3(Sun_U + Tui_L) \u2192 [Sincere_Influence]",
+            "lines": {
+                "1": {
+                    "text_nine": "Being prepared brings good fortune. If there are secret designs, it is disquieting.",
+                    "text_six": null,
+                    "semantic": "[Preparation \u2192 Fortune; Secrets \u2192 Unease]"
+                },
+                "2": {
+                    "text_nine": "A crane calling in the shade. Its young answers it. I have a good goblet. I will share it with you.",
+                    "text_six": null,
+                    "semantic": "[Resonance \u2192 Sharing]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "He finds a comrade. Now he beats the drum, now he stops. Now he sobs, now he sings.",
+                    "semantic": "[Dependent_on_Other \u2192 Instability]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "The moon nearly at the full. The team horse goes astray. No blame.",
+                    "semantic": "[Near_Completion \u2227 Loss \u2192 \u00acBlame]"
+                },
+                "5": {
+                    "text_nine": "He possesses truth, which links together. No blame.",
+                    "text_six": null,
+                    "semantic": "[Binding_Truth \u2192 \u00acBlame]"
+                },
+                "6": {
+                    "text_nine": "Cockcrow penetrating to heaven. Perseverance brings misfortune.",
+                    "text_six": null,
+                    "semantic": "[Empty_Display \u2192 Misfortune]"
+                }
+            }
+        },
+        {
+            "id": 62,
+            "name": "Hsiao Kuo (Preponderance of the Small)",
+            "binary": "001100",
+            "trigrams": {
+                "upper": "Thunder (Ch\u00ean)",
+                "lower": "Mountain (K\u00ean)"
+            },
+            "structural_differential": {
+                "event_level": "[Mountain_Below \u2227 Thunder_Above] \u2192 Thunder on mountain, small exceeds",
+                "object_level": "The Image: Thunder on the mountain. Thus in his conduct the superior man gives preponderance to reverence. In bereavement he gives preponderance to grief. In his expenditures he gives preponderance to thrift.",
+                "label_level": "The Judgment: PREPONDERANCE OF THE SMALL. Success. Perseverance furthers. Small things may be done; great things should not be done. The flying bird brings the message: It is not well to strive upward, it is well to remain below. Great good fortune."
+            },
+            "ontological_signature": "E(62) = \u03a3(Ch\u00ean_U + K\u00ean_L) \u2192 [Small_Exceeding]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "The bird meets with misfortune through flying.",
+                    "semantic": "[Overreaching \u2192 Misfortune]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "She passes by her ancestor and meets her ancestress. He does not reach his prince and meets the official. No blame.",
+                    "semantic": "[Indirect_Approach \u2192 \u00acBlame]"
+                },
+                "3": {
+                    "text_nine": "If one is not extremely careful, somebody may come up from behind and strike him. Misfortune.",
+                    "text_six": null,
+                    "semantic": "[\u00acCaution \u2192 Attack]"
+                },
+                "4": {
+                    "text_nine": "No blame. He meets him without passing by. Going brings danger. One must be on guard. Do not act. Be constantly persevering.",
+                    "text_six": null,
+                    "semantic": "[Meeting \u2227 Caution \u2192 \u00acBlame]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Dense clouds, no rain from our western territory. The prince shoots and hits him who is in the cave.",
+                    "semantic": "[Potential_Unrealized \u2192 Targeted_Action]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "He passes him by, not meeting him. The flying bird leaves him. Misfortune. This means bad luck and injury.",
+                    "semantic": "[Missing_Connection \u2192 Misfortune]"
+                }
+            }
+        },
+        {
+            "id": 63,
+            "name": "Chi Chi (After Completion)",
+            "binary": "101010",
+            "trigrams": {
+                "upper": "Water (K'an)",
+                "lower": "Fire (Li)"
+            },
+            "structural_differential": {
+                "event_level": "[Fire_Below \u2227 Water_Above] \u2192 Perfect balance, completion achieved",
+                "object_level": "The Image: Water over fire. Thus the superior man takes thought of misfortune and arms himself against it in advance.",
+                "label_level": "The Judgment: AFTER COMPLETION. Success in small matters. Perseverance furthers. At the beginning good fortune, at the end disorder."
+            },
+            "ontological_signature": "E(63) = \u03a3(K'an_U + Li_L) \u2192 [Achieved_Order]",
+            "lines": {
+                "1": {
+                    "text_nine": "He brakes his wheels. He gets his tail in the water. No blame.",
+                    "text_six": null,
+                    "semantic": "[Restraint \u2192 \u00acBlame]"
+                },
+                "2": {
+                    "text_nine": null,
+                    "text_six": "The woman loses the curtain of her carriage. Do not run after it; on the seventh day you will get it.",
+                    "semantic": "[Loss \u2192 Patience \u2192 Recovery]"
+                },
+                "3": {
+                    "text_nine": "The Illustrious Ancestor disciplines the Devil's Country. After three years he conquers it. Inferior people must not be employed.",
+                    "text_six": null,
+                    "semantic": "[Long_Campaign \u2192 \u00acEmploy_Inferior]"
+                },
+                "4": {
+                    "text_nine": null,
+                    "text_six": "The finest clothes turn to rags. Be careful all day long.",
+                    "semantic": "[Decay_Warning \u2192 Vigilance]"
+                },
+                "5": {
+                    "text_nine": "The neighbor in the east who slaughters an ox does not attain as much real happiness as the neighbor in the west with his small offering.",
+                    "text_six": null,
+                    "semantic": "[Sincerity > Display]"
+                },
+                "6": {
+                    "text_nine": null,
+                    "text_six": "He gets his head in the water. Danger.",
+                    "semantic": "[Overextension \u2192 Danger]"
+                }
+            }
+        },
+        {
+            "id": 64,
+            "name": "Wei Chi (Before Completion)",
+            "binary": "010101",
+            "trigrams": {
+                "upper": "Fire (Li)",
+                "lower": "Water (K'an)"
+            },
+            "structural_differential": {
+                "event_level": "[Water_Below \u2227 Fire_Above] \u2192 Elements not yet in place, transition",
+                "object_level": "The Image: Fire over water. Thus the superior man is careful in the differentiation of things, so that each finds its place.",
+                "label_level": "The Judgment: BEFORE COMPLETION. Success. But if the little fox, after nearly completing the crossing, gets his tail in the water, there is nothing that would further."
+            },
+            "ontological_signature": "E(64) = \u03a3(Li_U + K'an_L) \u2192 [Transition_Pending]",
+            "lines": {
+                "1": {
+                    "text_nine": null,
+                    "text_six": "He gets his tail in the water. Humiliating.",
+                    "semantic": "[Premature_Action \u2192 Humiliation]"
+                },
+                "2": {
+                    "text_nine": "He brakes his wheels. Perseverance brings good fortune.",
+                    "text_six": null,
+                    "semantic": "[Restraint \u2192 Fortune]"
+                },
+                "3": {
+                    "text_nine": null,
+                    "text_six": "Before completion, attack brings misfortune. It furthers one to cross the great water.",
+                    "semantic": "[\u00acAttack; Cross_Water \u2192 Furthering]"
+                },
+                "4": {
+                    "text_nine": "Perseverance brings good fortune. Remorse disappears. Shock, thus to discipline the Devil's Country. For three years, great realms are awarded.",
+                    "text_six": null,
+                    "semantic": "[Perseverance \u2192 Fortune \u2227 Reward]"
+                },
+                "5": {
+                    "text_nine": null,
+                    "text_six": "Perseverance brings good fortune. No remorse. The light of the superior man is true. Good fortune.",
+                    "semantic": "[True_Light \u2192 Fortune]"
+                },
+                "6": {
+                    "text_nine": "There is drinking of wine in genuine confidence. No blame. But if one wets his head, he loses it, in truth.",
+                    "text_six": null,
+                    "semantic": "[Celebration \u2227 Moderation \u2192 \u00acBlame; Excess \u2192 Loss]"
+                }
+            }
+        }
+    ]
+}

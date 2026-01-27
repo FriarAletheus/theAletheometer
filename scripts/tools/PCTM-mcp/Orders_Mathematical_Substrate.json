@@ -1,0 +1,111 @@
+{
+  "Orders": {
+    "Virtual": {
+      "symbol": "\u03a9\u2080",
+      "alias": "Shadow",
+      "dimensional_state": "0D Point",
+      "concept": "pure presence or undifferentiated potential",
+      "manifold": "2-D complex plane",
+      "manifold_type": "topological possibility surface",
+      "order_factor": "\u03b8/2\u03c0",
+      "order_factor_desc": "normalized phase angle - fraction of full rotation",
+      "wave_particle": "discrete",
+      "monadic_representation": "Silhouette",
+      "nature": "point-like logical possibility"
+    },
+    "Quantum": {
+      "symbol": "\u03a9\u2081",
+      "alias": "Echo",
+      "dimensional_state": "1D Line",
+      "concept": "phase evolution, probability flows, coherence threads",
+      "manifold": "7-sphere",
+      "manifold_type": "hyperspherical configuration space",
+      "order_factor": "r/\u221a7",
+      "order_factor_desc": "local hyperspherical radius",
+      "wave_particle": "continuous",
+      "monadic_representation": "Resonance",
+      "nature": "probabilistic wave amplitude"
+    },
+    "Material": {
+      "symbol": "\u03a9\u2082",
+      "alias": "Body",
+      "dimensional_state": "3D Volume",
+      "concept": "spatial embodiment, form, measurable extension",
+      "manifold": "4-D Minkowski spacetime",
+      "manifold_type": "relativistic spacetime",
+      "order_factor": "|\u03c4|/(1+|\u03c4|)",
+      "order_factor_desc": "normalized proper time from spacetime interval",
+      "wave_particle": "discrete",
+      "monadic_representation": "Atom",
+      "nature": "classical particle objecthood"
+    },
+    "Ethereal": {
+      "symbol": "\u03a9\u2083",
+      "alias": "Heart",
+      "dimensional_state": "4D Spacetime",
+      "concept": "temporal flow, morphogenic causation",
+      "manifold": "3-torus (T\u00b3)",
+      "manifold_type": "periodic topology",
+      "order_factor": "(\u03b8\u2081+\u03b8\u2082+\u03b8\u2083 mod 2\u03c0)/6\u03c0",
+      "order_factor_desc": "sum of three angular coordinates",
+      "wave_particle": "continuous",
+      "monadic_representation": "Vitality",
+      "nature": "continuous energetic field"
+    },
+    "Astral": {
+      "symbol": "\u03a9\u2084",
+      "alias": "Mind",
+      "dimensional_state": "5D Projection",
+      "concept": "symbolic-intentional fields, imaginal dynamics",
+      "manifold": "infinite-dimensional Hilbert space",
+      "manifold_type": "functional analysis space",
+      "order_factor": "max(|x\u1d62|)",
+      "order_factor_desc": "principal amplitude - dominant basis in semantic space",
+      "wave_particle": "discrete",
+      "monadic_representation": "Bit",
+      "nature": "discrete informational unit"
+    },
+    "Celestial": {
+      "symbol": "\u03a9\u2085",
+      "alias": "Spirit",
+      "dimensional_state": "6D Harmony",
+      "concept": "relational symmetries, cosmic harmonic web",
+      "manifold": "Poincar\u00e9 hyperbolic disk",
+      "manifold_type": "non-Euclidean geometry",
+      "order_factor": "r/(1-r)",
+      "order_factor_desc": "curvature weight in hyperbolic disk",
+      "wave_particle": "continuous",
+      "monadic_representation": "Radiance",
+      "nature": "formal wave intelligibility"
+    },
+    "Existential": {
+      "symbol": "\u03a9\u2086",
+      "alias": "Unity",
+      "dimensional_state": "7D+ Recursive",
+      "concept": "holographic totality, self-referencing being-as-a-whole",
+      "manifold": "G\u00f6del-type fractal or holographic loop",
+      "manifold_type": "recursive topology",
+      "order_factor": "log(\u03c3\u00b2/\u03bc)",
+      "order_factor_desc": "logged variance-to-mean ratio",
+      "wave_particle": "unified",
+      "monadic_representation": "Essence",
+      "nature": "simultaneous particle AND field synthesis"
+    }
+  },
+  "Modal_Dynamics_Transitions": {
+    "Folding": "Collapses wave \u2192 particle (localization)",
+    "Propagation": "Spreads particle \u2192 field (extension)",
+    "Oscillation": "Maintains wave-like behavior within order"
+  },
+  "General_Ontological_Tensor": {
+    "definition": "T_onto: \u03a9 \u00d7 \u03a3 \u00d7 UC \u00d7 MD \u00d7 AE \u2192 \u2102",
+    "base_manifold_dimensions": 7,
+    "fiber_bundle_components": [
+      "Scale(\u03a3)",
+      "UniversalCharacteristics(UC)",
+      "ModalDynamics(MD)",
+      "AestheticIndicators(AE)"
+    ],
+    "holographic_principle": "Higher-dimensional continuous bulk projects onto discrete material boundary"
+  }
+}

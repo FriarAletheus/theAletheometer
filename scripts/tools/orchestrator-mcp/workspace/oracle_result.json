@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "result": {
+    "cast_raw": [
+      8,
+      8,
+      8,
+      6,
+      8,
+      8
+    ],
+    "primary": {
+      "id": 2,
+      "name": "K'un (The Receptive)",
+      "lookup_required": true
+    },
+    "relating": {
+      "id": 15,
+      "name": "Ch'ien (Modesty)",
+      "lookup_required": true
+    },
+    "changing_lines": [
+      {
+        "position": 4,
+        "value": 6,
+        "label": "six"
+      }
+    ],
+    "signatures": {
+      "primary": "000000",
+      "relating": "001000"
+    },
+    "method": "50 Stalk Yarrow (Classical)"
+  }
+}
