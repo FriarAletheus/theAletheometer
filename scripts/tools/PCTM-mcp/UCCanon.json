@@ -1,0 +1,95 @@
+{
+    "UniversalCharacteristics": [
+        {
+            "name": "Uncertainty",
+            "symbol": "U₁",
+            "equation": "H(p) = -∑ pᵢ log(pᵢ)",
+            "domain": "pᵢ = xᵢ², ∑ pᵢ = 1",
+            "type": "Entropy"
+        },
+        {
+            "name": "Simplicity",
+            "symbol": "U₂",
+            "equation": "S = log(ρ / ρ₀)",
+            "domain": "ρ ∈ ℝ⁺",
+            "type": "Logarithmic Coherence"
+        },
+        {
+            "name": "Uniqueness",
+            "symbol": "U₃",
+            "equation": "1 - max(pᵢ)",
+            "domain": "pᵢ = xᵢ²",
+            "type": "Anti-Dominance"
+        },
+        {
+            "name": "Continuity",
+            "symbol": "U₄",
+            "equation": "μ = mean(xᵢ)",
+            "domain": "x ∈ ℝⁿ",
+            "type": "Averaged Value"
+        },
+        {
+            "name": "Self-Similarity",
+            "symbol": "U₅",
+            "equation": "σ = std(xᵢ)",
+            "domain": "x ∈ ℝⁿ",
+            "type": "Standard Deviation"
+        },
+        {
+            "name": "Interconnectivity",
+            "symbol": "U₆",
+            "equation": "I = mean(xᵢ · xₙ₋ᵢ)",
+            "domain": "x reversed dot product",
+            "type": "Mirror Coupling"
+        },
+        {
+            "name": "Holography",
+            "symbol": "U₇",
+            "equation": "H = (k·c³·A) / (4·G·ħ)",
+            "domain": "A = surface area, constants fixed",
+            "type": "Entropic Bound"
+        },
+        {
+            "name": "Solidity",
+            "symbol": "U₈",
+            "equation": "‖x‖ = sqrt(∑ xᵢ²)",
+            "domain": "x ∈ ℝⁿ",
+            "type": "Vector Magnitude"
+        },
+        {
+            "name": "Paradox",
+            "symbol": "U₉",
+            "equation": "P(x) = |1 - ‖x‖²|",
+            "domain": "x ∈ ℝⁿ",
+            "type": "Deviation from Unity"
+        },
+        {
+            "name": "Flux",
+            "symbol": "U₁₀",
+            "equation": "Φ = ‖Δx‖ = ‖xᵢ - xᵢ₋₁‖",
+            "domain": "Δx ∈ ℝⁿ⁻¹",
+            "type": "Finite Variation"
+        },
+        {
+            "name": "Contiguity",
+            "symbol": "U₁₁",
+            "equation": "C = ∑[|Δxᵢ| < ε]",
+            "domain": "ε = threshold (e.g., 0.1)",
+            "type": "Local Proximity Count"
+        },
+        {
+            "name": "Complementarity",
+            "symbol": "U₁₂",
+            "equation": "∑ xᵢ · (1 - xᵢ)",
+            "domain": "x ∈ [0,1]ⁿ",
+            "type": "Inner Dualism"
+        },
+        {
+            "name": "Incompleteness",
+            "symbol": "U₁₃",
+            "equation": "1 - 1 / ‖x‖",
+            "domain": "‖x‖ > 0",
+            "type": "Asymptotic Openness"
+        }
+    ]
+}

@@ -1,0 +1,968 @@
+{
+  "sessions": [
+    {
+      "event": "session_init",
+      "session_id": "session_1768992973.793996",
+      "initial_state": {
+        "dimensionalstate": {
+          "vector": [
+            1,
+            0,
+            0
+          ],
+          "magnitude": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-21T03:56:13.794740"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1768993771.041393",
+      "initial_state": {
+        "initial_state": {
+          "vector": [
+            1,
+            0,
+            0
+          ],
+          "magnitude": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-21T04:09:31.042236"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1768994512.054735",
+      "initial_state": {
+        "dimensionalstate": {
+          "vector": [
+            1,
+            0,
+            0
+          ],
+          "magnitude": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-21T04:21:52.055430"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1768994965.961319",
+      "initial_state": {
+        "dimensionalstate": {
+          "vector": [
+            1,
+            0,
+            0
+          ],
+          "magnitude": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-21T04:29:25.962332"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769169590.720846",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T04:59:50.721743"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769170151.798838",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T05:09:11.799788"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769170417.421007",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T05:13:37.421819"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769170771.530591",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T05:19:31.531509"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769171963.612784",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T05:39:23.613787"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769173796.210177",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T06:09:56.211246"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769204101.85942",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T14:35:01.860513"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769205511.997939",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T14:58:31.998855"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769206493.490007",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T15:14:53.491030"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769206493.490007",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T15:22:37.388915"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769207970.763275",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T15:39:30.763573"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769208456.242307",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T15:47:36.242601"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769208685.412167",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T15:51:25.412560"
+    },
+    {
+      "event": "pctm_step_executed",
+      "session_id": "session_1769208685.412167",
+      "applied_modes": [
+        "Oscillation",
+        "Folding",
+        "Radiation",
+        "Propagation",
+        "Arborescence",
+        "Tessellation",
+        "Helicity",
+        "Enantiodromia",
+        "Interference",
+        "Solution",
+        "Synchronicity",
+        "Entropy",
+        "Metabolisis"
+      ],
+      "mv_success_rate": 0.14285714285714285,
+      "threshold_breach": true,
+      "timestamp": "2026-01-23T15:51:39.921358"
+    },
+    {
+      "event": "oracle_triggered",
+      "session_id": "session_1769208685.412167",
+      "reason": "mv_threshold_breach",
+      "oracle_result": {
+        "success": false,
+        "error": "[Errno 2] No such file or directory: '/app/iching.json'"
+      },
+      "timestamp": "2026-01-23T15:51:39.922011"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769209459.266334",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T16:04:19.267353"
+    },
+    {
+      "event": "pctm_step_executed",
+      "session_id": "session_1769209459.266334",
+      "applied_modes": [
+        "Oscillation",
+        "Folding",
+        "Radiation",
+        "Propagation",
+        "Arborescence",
+        "Tessellation",
+        "Helicity",
+        "Enantiodromia",
+        "Interference",
+        "Solution",
+        "Synchronicity",
+        "Entropy",
+        "Metabolisis"
+      ],
+      "mv_success_rate": 0.0,
+      "threshold_breach": true,
+      "timestamp": "2026-01-23T16:04:32.376697"
+    },
+    {
+      "event": "oracle_triggered",
+      "session_id": "session_1769209459.266334",
+      "reason": "mv_threshold_breach",
+      "oracle_result": {
+        "success": false,
+        "error": "[Errno 2] No such file or directory: '/app/iching.json'"
+      },
+      "timestamp": "2026-01-23T16:04:32.378892"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769211625.863425",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T16:40:25.864395"
+    },
+    {
+      "event": "pctm_step_executed",
+      "session_id": "session_1769211625.863425",
+      "applied_modes": [
+        "Oscillation",
+        "Folding",
+        "Radiation",
+        "Propagation",
+        "Arborescence",
+        "Tessellation",
+        "Helicity",
+        "Enantiodromia",
+        "Interference",
+        "Solution",
+        "Synchronicity",
+        "Entropy",
+        "Metabolisis"
+      ],
+      "mv_success_rate": 0.42857142857142855,
+      "threshold_breach": false,
+      "timestamp": "2026-01-23T16:40:40.076239"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769211949.204043",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T16:45:49.205160"
+    },
+    {
+      "event": "pctm_step_executed",
+      "session_id": "session_1769211949.204043",
+      "applied_modes": [
+        "Oscillation",
+        "Folding",
+        "Radiation",
+        "Propagation",
+        "Arborescence",
+        "Tessellation",
+        "Helicity",
+        "Enantiodromia",
+        "Interference",
+        "Solution",
+        "Synchronicity",
+        "Entropy",
+        "Metabolisis"
+      ],
+      "mv_success_rate": 0.0,
+      "threshold_breach": true,
+      "timestamp": "2026-01-23T16:45:59.918237"
+    },
+    {
+      "event": "oracle_triggered",
+      "session_id": "session_1769211949.204043",
+      "reason": "mv_threshold_breach",
+      "oracle_result": {
+        "success": false,
+        "error": "[Errno 2] No such file or directory: '/app/iching.json'"
+      },
+      "timestamp": "2026-01-23T16:45:59.920708"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769213353.238073",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-23T17:09:13.239023"
+    },
+    {
+      "event": "pctm_step_executed",
+      "session_id": "session_1769213353.238073",
+      "applied_modes": [
+        "Oscillation",
+        "Folding",
+        "Radiation",
+        "Propagation",
+        "Arborescence",
+        "Tessellation",
+        "Helicity",
+        "Enantiodromia",
+        "Interference",
+        "Solution",
+        "Synchronicity",
+        "Entropy",
+        "Metabolisis"
+      ],
+      "mv_success_rate": 0.14285714285714285,
+      "threshold_breach": true,
+      "timestamp": "2026-01-23T17:09:25.815296"
+    },
+    {
+      "event": "oracle_triggered",
+      "session_id": "session_1769213353.238073",
+      "reason": "mv_threshold_breach",
+      "oracle_result": {
+        "success": false,
+        "error": "[Errno 2] No such file or directory: '/app/iching.json'"
+      },
+      "timestamp": "2026-01-23T17:09:25.817831"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769243532.079307",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-24T01:32:12.080287"
+    },
+    {
+      "event": "pctm_step_executed",
+      "session_id": "session_1769243532.079307",
+      "applied_modes": [
+        "Oscillation",
+        "Folding",
+        "Radiation",
+        "Propagation",
+        "Arborescence",
+        "Tessellation",
+        "Helicity",
+        "Enantiodromia",
+        "Interference",
+        "Solution",
+        "Synchronicity",
+        "Entropy",
+        "Metabolisis"
+      ],
+      "mv_success_rate": 0.2857142857142857,
+      "threshold_breach": true,
+      "timestamp": "2026-01-24T01:32:29.159834"
+    },
+    {
+      "event": "oracle_triggered",
+      "session_id": "session_1769243532.079307",
+      "reason": "mv_threshold_breach",
+      "oracle_result": {
+        "success": false,
+        "error": "name 'ICHING_JSON' is not defined"
+      },
+      "timestamp": "2026-01-24T01:32:29.162657"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769294173.727883",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-24T15:36:13.739337"
+    },
+    {
+      "event": "pctm_step_executed",
+      "session_id": "session_1769294173.727883",
+      "applied_modes": [
+        "Oscillation",
+        "Folding",
+        "Radiation",
+        "Propagation",
+        "Arborescence",
+        "Tessellation",
+        "Helicity",
+        "Enantiodromia",
+        "Interference",
+        "Solution",
+        "Synchronicity",
+        "Entropy",
+        "Metabolisis"
+      ],
+      "mv_success_rate": 0.14285714285714285,
+      "threshold_breach": true,
+      "timestamp": "2026-01-24T15:36:25.298387"
+    },
+    {
+      "event": "oracle_triggered",
+      "session_id": "session_1769294173.727883",
+      "reason": "mv_threshold_breach",
+      "oracle_result": {
+        "success": true,
+        "result": {
+          "cast_raw": [
+            6,
+            7,
+            7,
+            6,
+            7,
+            6
+          ],
+          "primary": {
+            "id": 48,
+            "name": "Ching (The Well)",
+            "lookup_required": true
+          },
+          "relating": {
+            "id": 1,
+            "name": "Ch'ien (The Creative)",
+            "lookup_required": true
+          },
+          "changing_lines": [
+            {
+              "position": 1,
+              "value": 6,
+              "label": "six"
+            },
+            {
+              "position": 4,
+              "value": 6,
+              "label": "six"
+            },
+            {
+              "position": 6,
+              "value": 6,
+              "label": "six"
+            }
+          ],
+          "signatures": {
+            "primary": "011010",
+            "relating": "111111"
+          },
+          "method": "50 Stalk Yarrow (Classical)"
+        }
+      },
+      "timestamp": "2026-01-24T15:36:25.313800"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769294884.702583",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-24T15:48:04.703873"
+    },
+    {
+      "event": "pctm_step_executed",
+      "session_id": "session_1769294884.702583",
+      "applied_modes": [
+        "Oscillation",
+        "Folding",
+        "Radiation",
+        "Propagation",
+        "Arborescence",
+        "Tessellation",
+        "Helicity",
+        "Enantiodromia",
+        "Interference",
+        "Solution",
+        "Synchronicity",
+        "Entropy",
+        "Metabolisis"
+      ],
+      "mv_success_rate": 0.2857142857142857,
+      "threshold_breach": true,
+      "timestamp": "2026-01-24T15:48:22.051084"
+    },
+    {
+      "event": "oracle_triggered",
+      "session_id": "session_1769294884.702583",
+      "reason": "mv_threshold_breach",
+      "oracle_result": {
+        "success": true,
+        "result": {
+          "error": "Invalid line signature (signature map mismatch or bit-order mismatch)",
+          "debug": {
+            "cast_raw": [
+              7,
+              7,
+              8,
+              7,
+              6,
+              8
+            ],
+            "primary_signature": "110100",
+            "relating_signature": "110110"
+          }
+        }
+      },
+      "timestamp": "2026-01-24T15:48:22.054375"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769295575.489485",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-24T15:59:35.490453"
+    },
+    {
+      "event": "pctm_step_executed",
+      "session_id": "session_1769295575.489485",
+      "applied_modes": [
+        "Oscillation",
+        "Folding",
+        "Radiation",
+        "Propagation",
+        "Arborescence",
+        "Tessellation",
+        "Helicity",
+        "Enantiodromia",
+        "Interference",
+        "Solution",
+        "Synchronicity",
+        "Entropy",
+        "Metabolisis"
+      ],
+      "mv_success_rate": 0.14285714285714285,
+      "threshold_breach": true,
+      "timestamp": "2026-01-24T15:59:53.422487"
+    },
+    {
+      "event": "oracle_triggered",
+      "session_id": "session_1769295575.489485",
+      "reason": "mv_threshold_breach",
+      "oracle_result": {
+        "success": true,
+        "result": {
+          "cast_raw": [
+            6,
+            8,
+            6,
+            7,
+            8,
+            8
+          ],
+          "primary": {
+            "id": 15,
+            "name": "Ch'ien (Modesty)",
+            "lookup_required": true
+          },
+          "relating": {
+            "id": 52,
+            "name": "K\u00ean (Keeping Still/Mountain)",
+            "lookup_required": true
+          },
+          "changing_lines": [
+            {
+              "position": 1,
+              "value": 6,
+              "label": "six"
+            },
+            {
+              "position": 3,
+              "value": 6,
+              "label": "six"
+            }
+          ],
+          "signatures": {
+            "primary": "001000",
+            "relating": "001101"
+          },
+          "method": "50 Stalk Yarrow (Classical)"
+        }
+      },
+      "timestamp": "2026-01-24T15:59:53.428377"
+    },
+    {
+      "event": "revision_tested",
+      "session_id": "session_1769295575.489485",
+      "revision": {
+        "revision": {
+          "uc_changes": {
+            "Persistence": {
+              "dimensional_signature": [
+                0.15,
+                0.25,
+                0.35,
+                0.45,
+                0.55,
+                0.65,
+                0.75,
+                0.85,
+                0.9,
+                0.95
+              ]
+            }
+          }
+        },
+        "apply_permanent": false
+      },
+      "permanent": false,
+      "timestamp": "2026-01-24T16:01:40.280425"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769305119.09747",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-24T18:38:39.098792"
+    },
+    {
+      "event": "session_init",
+      "session_id": "session_1769306126.310404",
+      "initial_state": {
+        "initialState": {
+          "vector": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+          ],
+          "rho": 1,
+          "tapeid": 0,
+          "order": "Material"
+        }
+      },
+      "timestamp": "2026-01-24T18:55:26.311666"
+    },
+    {
+      "event": "pctm_step_executed",
+      "session_id": "session_1769306126.310404",
+      "applied_modes": [
+        "Oscillation",
+        "Folding",
+        "Radiation",
+        "Propagation",
+        "Arborescence",
+        "Tessellation",
+        "Helicity",
+        "Enantiodromia",
+        "Interference",
+        "Solution",
+        "Synchronicity",
+        "Entropy",
+        "Metabolisis"
+      ],
+      "mv_success_rate": 0.14285714285714285,
+      "threshold_breach": true,
+      "timestamp": "2026-01-24T18:55:36.977405"
+    },
+    {
+      "event": "oracle_triggered",
+      "session_id": "session_1769306126.310404",
+      "reason": "mv_threshold_breach",
+      "oracle_result": {
+        "success": true,
+        "result": {
+          "cast_raw": [
+            8,
+            8,
+            8,
+            6,
+            8,
+            8
+          ],
+          "primary": {
+            "id": 2,
+            "name": "K'un (The Receptive)",
+            "lookup_required": true
+          },
+          "relating": {
+            "id": 15,
+            "name": "Ch'ien (Modesty)",
+            "lookup_required": true
+          },
+          "changing_lines": [
+            {
+              "position": 4,
+              "value": 6,
+              "label": "six"
+            }
+          ],
+          "signatures": {
+            "primary": "000000",
+            "relating": "001000"
+          },
+          "method": "50 Stalk Yarrow (Classical)"
+        }
+      },
+      "timestamp": "2026-01-24T18:55:36.983494"
+    }
+  ]
+}
