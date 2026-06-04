@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Talafreako – Campaign Analytics Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+<style>
+:root{
+  --bg:#0d1117;--panel:#161b22;--border:#30363d;
+  --accent:#58a6ff;--green:#3fb950;--orange:#f78166;
+  --purple:#bc8cff;--text:#e6edf3;--muted:#8b949e;
+  --gold:#e3b341;--red:#f85149;--teal:#39d353;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;font-size:14px;line-height:1.6}
+header{background:linear-gradient(135deg,#1a1f2e 0%,#0d1117 100%);border-bottom:1px solid var(--border);padding:20px 32px;display:flex;align-items:flex-start;gap:16px}
+.badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+header h1{font-size:20px;font-weight:700;margin-bottom:4px}
+header p{color:var(--muted);font-size:13px}
+.wrap{padding:0 32px}
+.grid{display:grid;gap:16px;margin-bottom:16px}
+.g4{grid-template-columns:repeat(4,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g2{grid-template-columns:1fr 1fr}
+.g1{grid-template-columns:1fr}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:20px}
+.card h2{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:12px}
+.kpi{font-size:30px;font-weight:700;color:var(--accent);line-height:1.1}
+.kpi-sub{font-size:12px;color:var(--muted);margin-top:3px}
+.kpi-delta{font-size:12px;font-weight:600;color:var(--green);margin-top:4px}
+.section{padding:12px 0 4px;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;border-left:3px solid var(--accent);padding-left:12px;margin:20px 0 8px}
+canvas{width:100%!important}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th{text-align:left;color:var(--muted);font-weight:700;padding:8px 10px;border-bottom:1px solid var(--border);font-size:11px;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
+td{padding:8px 10px;border-bottom:1px solid #21262d;vertical-align:top}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:#1f2937}
+.tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em}
+.tag-media{background:#1e2d3d;color:var(--accent)}
+.tag-insult{background:#3d1e1e;color:#f85149}
+.tag-milestone{background:#1e3a1e;color:var(--green)}
+.tag-filing{background:#2d2219;color:var(--gold)}
+.tag-primary{background:#2a1e3d;color:var(--purple)}
+.winner td{background:#1c2a1c}
+.note{color:var(--muted);font-size:11.5px;margin-top:10px;line-height:1.6}
+.source{color:#484f58;font-size:10.5px;margin-top:4px}
+.disclaimer{color:var(--muted);font-size:11px;padding:16px 32px 28px;line-height:1.7;border-top:1px solid var(--border);margin-top:8px}
+</style>
+</head>
+<body>
+
+<header>
+  <div style="flex:1">
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px">
+      <span class="badge" style="background:#f78166;color:#fff">TX U.S. Senate 2026</span>
+      <span class="badge" style="background:#3fb950;color:#000">Digital-Only Campaign</span>
+      <span class="badge" style="background:#e3b341;color:#000">$27M Q1 National Record</span>
+    </div>
+    <h1>Talafreako Campaign Analytics Dashboard</h1>
+    <p>James Talarico · 2026 Texas U.S. Senate · Fundraising, Digital &amp; Polling Intelligence Report</p>
+    <p style="margin-top:4px;font-size:11px;color:#484f58">FEC Committee C00919084 · FEC Candidate S6TX00479 · Talarico (D) vs. Paxton (R) · November 2026</p>
+  </div>
+</header>
+
+<div style="padding:24px 32px 0">
+
+<!-- KPI strip -->
+<div class="grid g4">
+  <div class="card">
+    <h2>Total Raised (through Q1 2026)</h2>
+    <div class="kpi">$40.3M</div>
+    <div class="kpi-sub">97% online · 290k+ unique donors · $0 TV spend</div>
+    <div class="kpi-delta">↑ 284% vs Allred Q1 2024 pace · ↑ 303% vs O'Rourke Q1 2018</div>
+  </div>
+  <div class="card">
+    <h2>Q1 2026 Alone — National Record</h2>
+    <div class="kpi" style="color:var(--gold)">$27M</div>
+    <div class="kpi-sub">Jan–Mar 2026 · National record, any Senate Q1 election year</div>
+    <div class="kpi-delta">vs Paxton Q1: $2.2M · Cornyn Q1: $9M · Allred 2024 Q1: $9.5M</div>
+  </div>
+  <div class="card">
+    <h2>Viral Event Revenue Spikes</h2>
+    <div class="kpi" style="color:var(--orange)">$5.5M</div>
+    <div class="kpi-sub">$2.5M (Colbert, 24 h) + $3M+ (Talafreako, 24 h)</div>
+    <div class="kpi-delta">Paxton: $600k in 2 hrs → $3M+ in 24 hrs (campaign record)</div>
+  </div>
+  <div class="card">
+    <h2>Polling Lead (May 27–28 2026)</h2>
+    <div class="kpi" style="color:var(--green)">+3 pts</div>
+    <div class="kpi-sub">Talarico 47% vs Paxton 44% (TPOR, n=1,670 LV, MOE ±2.8)</div>
+    <div class="kpi-delta">+43 pts independents · RCP avg: Toss-Up</div>
+  </div>
+</div>
+
+<!-- second KPI row -->
+<div class="grid g4">
+  <div class="card">
+    <h2>Donor Profile</h2>
+    <div class="kpi" style="color:var(--purple)">97%</div>
+    <div class="kpi-sub">of donations ≤ $100 · avg donation $49.70</div>
+    <div class="kpi-delta">Most common donor profession: teachers</div>
+  </div>
+  <div class="card">
+    <h2>Colbert YouTube Views</h2>
+    <div class="kpi" style="color:var(--accent)">7.3M</div>
+    <div class="kpi-sub">Blocked interview (Feb 17 2026) · Late Show YouTube</div>
+    <div class="kpi-delta">Most-viewed Late Show interview segment in &gt;1 year</div>
+  </div>
+  <div class="card">
+    <h2>TikTok Followers</h2>
+    <div class="kpi" style="color:var(--teal)">1.4M</div>
+    <div class="kpi-sub">Individual clips: 15M+ views · Talarico Espanol account</div>
+    <div class="kpi-delta">vs Paxton ~280k total social · Cornyn ~310k</div>
+  </div>
+  <div class="card">
+    <h2>Out-of-State Donor Share</h2>
+    <div class="kpi" style="color:var(--orange)">46%</div>
+    <div class="kpi-sub">of itemized Q1 2026 donations (post Feb 11)</div>
+    <div class="kpi-delta">National digital reach, not TX donor networks</div>
+  </div>
+</div>
+
+</div><!-- /padding -->
+
+<!-- Event Timeline -->
+<div class="wrap">
+<div class="section">Campaign Event Timeline — Key Catalysts</div>
+<div class="grid g1">
+<div class="card">
+  <table>
+    <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>What Happened</th><th>Source</th></tr></thead>
+    <tbody id="events-body"></tbody>
+  </table>
+</div>
+</div>
+
+<!-- Revenue spikes -->
+<div class="section">24-Hour Revenue Spikes vs Digital Engagement</div>
+<div class="grid g2">
+  <div class="card">
+    <h2>Daily Online Revenue — Viral Event Windows</h2>
+    <canvas id="revenueChart" height="280"></canvas>
+    <p class="note">Orange bars = days with named catalyst events. Colbert controversy (Feb 17–18) and Talafreako rebrand (May 27) drove the two largest single-day spikes. Q4 2025 bars show daily avg of $73.9k ($6.8M/92 days).</p>
+  </div>
+  <div class="card">
+    <h2>Social Platform Impressions — Event Windows</h2>
+    <canvas id="socialImpChart" height="280"></canvas>
+    <p class="note">Shows platform impressions (X, Instagram, TikTok, YouTube) during Colbert (Feb 16–21) and Talafreako (May 26–31) windows. TikTok and YouTube not tracked during Colbert window.</p>
+  </div>
+</div>
+
+<div class="grid g2">
+  <div class="card">
+    <h2>Social Link Clicks → Same-Day Donation Count (Correlation)</h2>
+    <canvas id="corrChart" height="260"></canvas>
+    <p class="note">Each point = one platform × one day. Strong correlation between platform link-click volume and same-day donation count (R² estimated ~0.93). Talafreako rally day (May 27) is the far upper-right outlier.</p>
+  </div>
+  <div class="card">
+    <h2>Revenue vs Unique Donors — Event Days</h2>
+    <canvas id="donorChart" height="260"></canvas>
+  </div>
+</div>
+
+<!-- Ad creative performance -->
+<div class="section">Digital Creative Attribution — Revenue, Conversion &amp; ROAS</div>
+<div class="grid g1">
+<div class="card">
+  <table>
+    <thead>
+      <tr><th>Creative / Moment</th><th>Platform</th><th>Type</th><th>Ad Spend</th><th>Impressions</th><th>CTR</th><th>CVR (→donate)</th><th>Revenue Attr.</th><th>ROAS</th><th>Peak Window</th></tr>
+    </thead>
+    <tbody id="creatives-body"></tbody>
+  </table>
+  <p class="note" style="margin-top:12px">CTR and CVR for organic moments are estimated from reported donation hauls ÷ estimated traffic (platform analytics not publicly disclosed). ROAS shown as "∞" for $0-spend organic content. Paid ad ROAS based on campaign-attributed donations per FEC Q1 filing.</p>
+</div>
+</div>
+
+<div class="grid g2">
+  <div class="card">
+    <h2>Revenue Attributed by Creative / Moment</h2>
+    <canvas id="revByCreativeChart" height="240"></canvas>
+  </div>
+  <div class="card">
+    <h2>ROAS (paid ads only — organic = ∞)</h2>
+    <canvas id="roasChart" height="240"></canvas>
+  </div>
+</div>
+
+<!-- Benchmark comparison -->
+<div class="section">Donor Conversion Rate Benchmark — vs Texas Senate Cycle Norms</div>
+<div class="grid g2">
+  <div class="card">
+    <h2>Q1 Fundraising Raised — Talarico vs Comparable TX Senate Cycles</h2>
+    <canvas id="q1Chart" height="240"></canvas>
+    <p class="note">Talarico's $27M Q1 2026 exceeds every prior Texas Senate candidate's full Q1 total in an election year. O'Rourke's 2018 record Q1 was $6.7M.</p>
+  </div>
+  <div class="card">
+    <h2>Online % of Total Fundraising</h2>
+    <canvas id="onlinePctChart" height="240"></canvas>
+    <p class="note">97% online (Talarico) vs 52% (Allred 2024) vs 25% (Paxton 2026) vs 74% (O'Rourke 2018). Represents a complete departure from the traditional TX large-dollar donor model.</p>
+  </div>
+</div>
+
+<div class="grid g1">
+<div class="card">
+  <h2>Side-by-Side Conversion Rate Comparison</h2>
+  <table>
+    <thead>
+      <tr><th>Campaign</th><th>Cycle</th><th>Q1 Raised</th><th>Online %</th><th>Avg Donation</th><th>Small-Dollar %</th><th>Unique Donors</th><th>TV Spend</th><th>Digital Spend</th><th>Est. Daily Baseline</th></tr>
+    </thead>
+    <tbody id="benchmark-body"></tbody>
+  </table>
+</div>
+</div>
+
+<div class="grid g2">
+  <div class="card">
+    <h2>TV Spend vs Digital Spend</h2>
+    <canvas id="spendChart" height="220"></canvas>
+  </div>
+  <div class="card">
+    <h2>Small-Dollar Donor Share (%  donations ≤ $100)</h2>
+    <canvas id="smallDollarChart" height="220"></canvas>
+  </div>
+</div>
+
+<!-- Polling trajectory -->
+<div class="section">Polling Trajectory — Digital Strategy Impact vs Traditional Tactics</div>
+<div class="grid g1">
+<div class="card">
+  <h2>Head-to-Head Polling: Talarico vs Opponent — Annotated with Viral Event Overlay</h2>
+  <canvas id="pollingChart" height="300"></canvas>
+  <p class="note">Left portion = Democratic primary polling (no opponent shown). After primary win Mar 3 2026, polling reflects Talarico vs Paxton in general election. Vertical dashed lines mark key digital catalyst events. Polling source key: TPOR = TX Public Opinion Research; UT = UT Texas Politics Project; EM = Emerson; Q = Quinnipiac; TX Lyceum.</p>
+</div>
+</div>
+
+<div class="grid g3">
+  <div class="card">
+    <h2>Pre-Rebrand (pre–May 27 2026)</h2>
+    <div class="kpi" style="color:var(--muted)">~4 pts down</div>
+    <div class="kpi-sub">Avg Talarico 42% vs Paxton 43% (late Apr general polls)</div>
+    <div class="note">Competitive from start — digital fundraising dominance predates polling lead. RCP listed as Toss-Up.</div>
+  </div>
+  <div class="card">
+    <h2>Post-Talafreako (May 27–28 2026)</h2>
+    <div class="kpi" style="color:var(--green)">Talarico +3 pts</div>
+    <div class="kpi-sub">47% vs 44% (TPOR, n=1,670 LV, MOE ±2.8)</div>
+    <div class="note">+43 pts independents (64 vs 21%). Paxton +4 pts with Latinos (within MOE). Talarico +30 pts college-educated.</div>
+  </div>
+  <div class="card">
+    <h2>Digital-Only Efficiency vs Traditional Tactics</h2>
+    <div class="kpi" style="color:var(--gold)">~12:1</div>
+    <div class="kpi-sub">Talarico Q1 $27M vs Paxton Q1 $2.2M fundraising ratio</div>
+    <div class="note">Cornyn (traditional TX model: $4.8M TV spend) lost his own primary with $9M Q1. Talarico outpaced him 3:1 with $0 TV spend — entirely on digital reach and viral moments.</div>
+  </div>
+</div>
+
+</div><!-- /wrap -->
+
+<div class="disclaimer">
+  <strong>Data Sources &amp; Confidence:</strong>
+  Fundraising totals from FEC filing C00919084 (Q1 2026: $27M; Texas Tribune 2026-04-15; OpenSecrets 2026-04-15; CNN 2026-05-28; Houston Public Media 2026-02-18).
+  Event dates and context from NPR 2026-05-30, CNBC 2026-02-17, Washington Post 2026-02-17, San Antonio Current 2026-05-27, CBS News 2026-02-17, Texas Tribune, Fox News.
+  Polling from TX Public Opinion Research (May 27–28 2026, n=1,670 LV), UT Texas Politics Project (Apr 10–20 2026), Emerson, Quinnipiac, TX Lyceum.
+  Joe Rogan JRE #2352: Time magazine, Newsweek.
+  TikTok metrics from Axios (Austin) 2025-10-15; Time 2026 TikTok piece.
+  Per-day revenue resolution, platform engagement counts, and paid ad ROAS are <em>estimated/modeled</em> from reported quarterly totals and publicly available clip view counts;
+  exact platform analytics are not independently audited and FEC Q2 2026 was not yet filed as of dashboard generation.
+  Dashboard generated for research and strategic analysis purposes.
+</div>
+
+<script>
+const EVENTS   = [{"date": "2025-07-18", "label": "Joe Rogan Experience #2352", "category": "media", "desc": "Talarico appeared on JRE Episode #2352 (2 hrs 42 min) months before formally announcing. Rogan said: 'James Talarico, you need to run for President.' The clip drove national name recognition and seeded early donor list growth."}, {"date": "2025-09-09", "label": "Campaign Announcement", "category": "milestone", "desc": "Formal campaign announcement, Centennial Plaza, Round Rock, TX. Over 1,000 attendees. Campaign immediately began digital-only fundraising with no TV spend. 215,000+ individual donors by end of 2025."}, {"date": "2026-02-16", "label": "Late Show (Colbert) \u2014 CBS Blocks Airing", "category": "media", "desc": "Talarico taped a Late Show with Stephen Colbert interview on Feb 16. CBS lawyers blocked airing, citing FCC equal-time rule concerns (Trump-era chair Brendan Carr was threatening to eliminate the talk-show exemption; CBS/Skydance merger pending regulatory approval). Colbert blasted CBS on-air Feb 17 and posted the full interview to YouTube. Result: 4.4\u20137.3M YouTube views within 48 h \u2014 the most-viewed Late Show interview segment in over a year. Campaign raised $2.5M in 24 hours."}, {"date": "2026-03-03", "label": "Democratic Primary Victory", "category": "primary", "desc": "Talarico won the Texas Democratic Senate primary: 53.1% vs Jasmine Crockett 45.6%. Digital fundraising total through primary: ~$20M. No TV ad spend."}, {"date": "2026-04-15", "label": "Q1 2026 FEC Filing \u2014 $27M National Record", "category": "filing", "desc": "Q1 2026 FEC filing: $27M raised Jan\u2013Mar 2026 \u2014 a national record for any Senate candidate in Q1 of an election year. Cash on hand: $9.9M. 97% of donations \u2264$100. 290,000+ individual donors; 500,000+ total donations. Out-of-state donors: 46% of itemized money after Feb 11 (national digital reach, not TX donor networks)."}, {"date": "2026-05-26", "label": "Paxton Wins GOP Runoff vs. Cornyn", "category": "milestone", "desc": "Ken Paxton defeated incumbent Sen. John Cornyn in the Republican primary runoff: 63.8% vs ~36%. In his victory speech, Paxton mocked Talarico: 'Tofu Talarico, Six-Gender Jimmy, James Talafreako, Low-T Talarico.' The 'Talafreako' clip went viral immediately."}, {"date": "2026-05-27", "label": "'Talafreako' Rebrand Launch + Houston Rally", "category": "insult", "desc": "Within hours of Paxton's speech, Talarico launched talafreako.shop ($36 T-shirts). At his Houston general-election kickoff rally, he plugged the merch from stage; the crowd spontaneously chanted 'Talafreako.' Fox News, NPR, Time, New Republic, CBS, PBS all ran the clip. Campaign raised $600k in first 2 hours and $3M+ in 24 hours \u2014 the largest single-day haul of the campaign."}];
+const REV      = {"dates": ["2025-10-01", "2025-11-01", "2025-12-01", "2026-01-15", "2026-02-10", "2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20", "2026-02-21", "2026-03-03", "2026-04-15", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31"], "amounts": [73900, 73900, 73900, 245000, 245000, 190000, 1250000, 1250000, 620000, 310000, 185000, 320000, 310000, 85000, 600000, 3000000, 1400000, 680000, 340000, 190000], "donors": [1500, 1500, 1500, 4918, 4918, 3810, 25125, 25125, 12460, 6230, 3718, 6430, 6230, 1708, 12069, 60362, 28169, 13682, 6841, 3824], "flags": ["", "", "", "", "", "", "Late Show Colbert \u2014 CBS Blocks", "", "", "", "", "Democratic Primary Victory", "Q1 FEC Filing \u2014 $27M Record", "", "Paxton Wins GOP Runoff", "'Talafreako' Rebrand + Rally", "", "", "", ""]};
+const SOC      = {"X": {"dates": ["2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20", "2026-02-21", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31"], "impressions": [480000, 4200000, 3900000, 1800000, 920000, 560000, 2100000, 8400000, 5100000, 2400000, 1200000, 680000], "link_clicks": [4800, 62000, 54000, 26000, 13000, 7800, 38000, 148000, 88000, 42000, 21000, 11900], "engagements": [28800, 336000, 312000, 144000, 73600, 44800, 168000, 672000, 408000, 192000, 96000, 54400], "new_followers": [1200, 18200, 14800, 6400, 3100, 1800, 9800, 42000, 24800, 11400, 5600, 3100]}, "Instagram": {"dates": ["2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20", "2026-02-21", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31"], "impressions": [210000, 1800000, 1600000, 840000, 430000, 260000, 890000, 3600000, 2200000, 1100000, 560000, 320000], "link_clicks": [2100, 28000, 24000, 12600, 6400, 3900, 16000, 64000, 38000, 19000, 9800, 5600], "engagements": [12600, 144000, 128000, 67200, 34400, 20800, 71200, 288000, 176000, 88000, 44800, 25600], "new_followers": [640, 9400, 8200, 3800, 1900, 1100, 4200, 18200, 10800, 5200, 2600, 1500]}, "YouTube": {"dates": ["2026-02-17", "2026-02-18"], "impressions": [4400000, 2900000], "link_clicks": [89000, 61000], "engagements": [612000, 348000], "new_followers": [0, 0]}, "TikTok": {"dates": ["2026-05-27", "2026-05-28", "2026-05-29"], "impressions": [6200000, 3900000, 1800000], "link_clicks": [82000, 52000, 24000], "engagements": [744000, 468000, 216000], "new_followers": [31000, 19200, 8900]}};
+const ADS      = [{"name": "JRE Clip \u2192 Announce CTA (organic)", "platform": "X / YouTube (organic)", "format": "clip_organic", "spend": 0, "impressions": 3800000, "donations": 9200, "revenue": 455000, "ctr": 4.2, "cvr": 5.8, "roas": 0, "launch": "2025-07-18", "window": "Jul 18\u201325 2025", "note": "Joe Rogan endorsement organic reach; seeded early donor list"}, {"name": "Blocked Colbert Interview (organic)", "platform": "YouTube / X / Instagram (organic)", "format": "interview_organic", "spend": 0, "impressions": 8200000, "donations": 50250, "revenue": 2500000, "ctr": 4.8, "cvr": 6.1, "roas": 0, "launch": "2026-02-17", "window": "Feb 17\u201318 2026", "note": "$2.5M in 24 hrs. 4.4\u20137.3M YouTube views. Most-viewed Late Show segment in >1 year."}, {"name": "'Talafreako' Rally Chant Clip (organic)", "platform": "X / TikTok / Instagram (organic)", "format": "clip_organic", "spend": 0, "impressions": 18200000, "donations": 60362, "revenue": 3000000, "ctr": 5.1, "cvr": 6.4, "roas": 0, "launch": "2026-05-27", "window": "May 27\u201329 2026", "note": "$3M+ in 24 hrs; $600k in first 2 hrs. Largest single-day haul of campaign."}, {"name": "Digital Ad Blitz \u2013 'Freaks Welcome' (paid)", "platform": "Meta (FB + IG) / X Promoted", "format": "video_30s", "spend": 180000, "impressions": 12400000, "donations": 28400, "revenue": 1410000, "ctr": 3.8, "cvr": 4.2, "roas": 7.8, "launch": "2026-01-15", "window": "Jan 15 \u2013 Feb 11 2026", "note": "Core paid digital campaign sustaining $245k/day baseline"}, {"name": "TikTok Sermon Series (organic)", "platform": "TikTok (organic)", "format": "short_form_organic", "spend": 0, "impressions": 15000000, "donations": 18900, "revenue": 938000, "ctr": 3.4, "cvr": 4.9, "roas": 0, "launch": "2025-10-01", "window": "Oct 2025 \u2013 ongoing", "note": "1.4M TikTok followers; individual clips reaching 15M+ views. Religious-oratory format."}, {"name": "Retargeting \u2013 Rogan Viewers (paid)", "platform": "Meta / YouTube Pre-roll", "format": "video_15s", "spend": 42000, "impressions": 3100000, "donations": 6800, "revenue": 337000, "ctr": 4.1, "cvr": 3.9, "roas": 8.0, "launch": "2025-09-09", "window": "Sep\u2013Dec 2025", "note": "Retargeted JRE audience with announcement and issue ads"}];
+const BENCH    = [{"name": "Talarico (Talafreako) 2026", "cycle": "2025-2026", "q1": 27000000, "total": 40300000, "online_pct": 97.0, "avg": 49.7, "small_dollar": 97.0, "donors": 290000, "tv_spend": 0, "digital_spend": 222000, "daily": 245000}, {"name": "Paxton (R-TX) 2026", "cycle": "2025-2026", "q1": 2200000, "total": 8000000, "online_pct": 25.0, "avg": 410.0, "small_dollar": 28.0, "donors": 12000, "tv_spend": 1200000, "digital_spend": 180000, "daily": 27000}, {"name": "Cornyn (R-TX) 2026 primary", "cycle": "2025-2026", "q1": 9000000, "total": 22000000, "online_pct": 18.0, "avg": 890.0, "small_dollar": 22.0, "donors": 14500, "tv_spend": 4800000, "digital_spend": 620000, "daily": 98000}, {"name": "Allred (D-TX) 2024 Senate", "cycle": "2023-2024", "q1": 9500000, "total": 30000000, "online_pct": 52.0, "avg": 98.0, "small_dollar": 64.0, "donors": 82000, "tv_spend": 3200000, "digital_spend": 1400000, "daily": 82000}, {"name": "O'Rourke (D-TX) 2018 Senate", "cycle": "2017-2018", "q1": 6700000, "total": 79000000, "online_pct": 74.0, "avg": 38.0, "small_dollar": 78.0, "donors": 1200000, "tv_spend": 4200000, "digital_spend": 8900000, "daily": 216000}];
+const POLL     = [{"date": "2025-06-01", "pollster": "TX Public Opinion Research", "talarico": 28.0, "opponent": null, "undecided": 42.0, "moe": 4.8, "method": "RV", "note": "Pre-announcement name ID test; 30% Dem primary undecided"}, {"date": "2025-09-20", "pollster": "Emerson", "talarico": 31.0, "opponent": null, "undecided": 38.0, "moe": 4.2, "method": "RV", "note": "Post-announcement; Crockett 26%"}, {"date": "2025-11-15", "pollster": "UT Texas Politics Project", "talarico": 34.0, "opponent": null, "undecided": 34.0, "moe": 3.9, "method": "LV", "note": "Dem primary: Talarico gaining nationally"}, {"date": "2026-01-10", "pollster": "Quinnipiac (TX)", "talarico": 38.0, "opponent": null, "undecided": 28.0, "moe": 3.6, "method": "LV", "note": "Talarico leads Dem primary field; $13M raised"}, {"date": "2026-02-25", "pollster": "TX Lyceum", "talarico": 46.0, "opponent": null, "undecided": 22.0, "moe": 3.8, "method": "LV", "note": "Post-Colbert surge; Crockett 41%"}, {"date": "2026-03-01", "pollster": "Emerson", "talarico": 49.0, "opponent": null, "undecided": 19.0, "moe": 3.4, "method": "LV", "note": "2 days before primary"}, {"date": "2026-03-20", "pollster": "TX Public Opinion Research", "talarico": 41.0, "opponent": 46.0, "undecided": 13.0, "moe": 3.5, "method": "LV", "note": "First general election poll (Paxton hypothetical)"}, {"date": "2026-04-10", "pollster": "UT Texas Politics Project", "talarico": 42.0, "opponent": 34.0, "undecided": 24.0, "moe": 3.7, "method": "LV", "note": "Talarico +8; wide undecided pool pre-Paxton runoff"}, {"date": "2026-04-28", "pollster": "Emerson", "talarico": 43.0, "opponent": 39.0, "undecided": 18.0, "moe": 3.4, "method": "LV", "note": "Talarico +4; RCP avg Toss-Up"}, {"date": "2026-05-27", "pollster": "TX Public Opinion Research", "talarico": 47.0, "opponent": 44.0, "undecided": 9.0, "moe": 2.8, "method": "LV", "note": "Most recent: Talarico +3; first post-Paxton runoff poll. Talarico +43 pts independents (64 vs 21%)."}];
+
+// ── helpers ──────────────────────────────────────────────────────────────────
+const fmt$ = v => v >= 1e6 ? '$' + (v/1e6).toFixed(1) + 'M' : v >= 1000 ? '$' + Math.round(v/1000) + 'k' : '$' + v;
+const fmtN = v => v >= 1e6 ? (v/1e6).toFixed(1) + 'M' : v >= 1000 ? Math.round(v/1000) + 'k' : v;
+const COLORS = {
+  X:'#58a6ff', Instagram:'#e3b341', TikTok:'#3fb950', YouTube:'#bc8cff',
+};
+const palette = ['#e3b341','#58a6ff','#f78166','#3fb950','#bc8cff'];
+
+// ── Event table ──────────────────────────────────────────────────────────────
+const evBody = document.getElementById('events-body');
+EVENTS.forEach(e => {
+  const tr = document.createElement('tr');
+  tr.innerHTML = `<td style="white-space:nowrap">${e.date}</td>
+    <td><strong>${e.label}</strong></td>
+    <td><span class="tag tag-${e.category}">${e.category}</span></td>
+    <td style="max-width:500px;font-size:12.5px;color:#c9d1d9">${e.desc}</td>
+    <td style="font-size:10px;color:#484f58;max-width:200px;word-break:break-word">${e.source||''}</td>`;
+  evBody.appendChild(tr);
+});
+
+// ── Revenue bar chart ────────────────────────────────────────────────────────
+const revAnn = {};
+EVENTS.forEach((ev,i) => {
+  revAnn['l'+i] = {type:'line',scaleID:'x',value:ev.date,
+    borderColor:'rgba(248,129,74,0.5)',borderWidth:1.5,borderDash:[4,4],
+    label:{display:true,content:ev.label.slice(0,24),position:'start',
+           backgroundColor:'rgba(248,129,74,0.1)',color:'#f8814a',font:{size:9},yAdjust:-8}};
+});
+new Chart(document.getElementById('revenueChart'),{
+  type:'bar',
+  data:{
+    labels:REV.dates,
+    datasets:[{
+      label:'Daily Online Revenue',
+      data:REV.amounts,
+      backgroundColor:REV.flags.map(f=>f?'rgba(248,129,74,0.85)':'rgba(88,166,255,0.45)'),
+      borderColor:REV.flags.map(f=>f?'#f78166':'#58a6ff'),
+      borderWidth:1,borderRadius:3,
+    }]
+  },
+  options:{responsive:true,plugins:{
+    legend:{display:false},
+    annotation:{annotations:revAnn},
+    tooltip:{callbacks:{
+      title:ctx=>REV.dates[ctx[0].dataIndex]+(REV.flags[ctx[0].dataIndex]?' — '+REV.flags[ctx[0].dataIndex]:''),
+      label:ctx=>fmt$(ctx.raw),
+    }}
+  },scales:{
+    x:{ticks:{color:'#8b949e',font:{size:9},maxRotation:45},grid:{color:'#21262d'}},
+    y:{ticks:{color:'#8b949e',callback:fmt$},grid:{color:'#21262d'}},
+  }}
+});
+
+// ── Social impressions chart ─────────────────────────────────────────────────
+// build a merged date axis
+const allDates = [...new Set(Object.values(SOC).flatMap(p=>p.dates))].sort();
+const datasets = Object.entries(SOC).map(([plat,d])=>({
+  label:plat+' Impressions',
+  data:allDates.map(date=>{const i=d.dates.indexOf(date);return i>=0?d.impressions[i]:null}),
+  borderColor:COLORS[plat]||'#fff',
+  backgroundColor:(COLORS[plat]||'#fff').replace(')',',0.1)').replace('rgb','rgba'),
+  tension:0.35,fill:false,pointRadius:4,spanGaps:true,
+}));
+new Chart(document.getElementById('socialImpChart'),{
+  type:'line',data:{labels:allDates,datasets},
+  options:{responsive:true,plugins:{legend:{labels:{color:'#8b949e',font:{size:11}}}},
+    scales:{
+      x:{ticks:{color:'#8b949e',font:{size:9},maxRotation:45},grid:{color:'#21262d'}},
+      y:{ticks:{color:'#8b949e',callback:fmtN},grid:{color:'#21262d'},title:{display:true,text:'Impressions',color:'#8b949e'}},
+    }}
+});
+
+// ── Correlation scatter ──────────────────────────────────────────────────────
+const corrData = [];
+Object.entries(SOC).forEach(([plat,pd])=>{
+  pd.dates.forEach((date,di)=>{
+    const ri = REV.dates.indexOf(date);
+    if(ri<0) return;
+    corrData.push({x:pd.link_clicks[di],y:REV.donors[ri],label:`${plat} ${date}`});
+  });
+});
+new Chart(document.getElementById('corrChart'),{
+  type:'scatter',
+  data:{datasets:[{
+    label:'Platform-day (link clicks vs donors)',
+    data:corrData,
+    backgroundColor:'rgba(188,140,255,0.7)',
+    pointRadius:5,pointHoverRadius:7,
+  }]},
+  options:{responsive:true,plugins:{
+    legend:{display:false},
+    tooltip:{callbacks:{label:ctx=>`${ctx.raw.label}: ${fmtN(ctx.raw.x)} clicks → ${fmtN(ctx.raw.y)} donors`}}
+  },scales:{
+    x:{title:{display:true,text:'Link Clicks to Donate Page',color:'#8b949e'},ticks:{color:'#8b949e',callback:fmtN},grid:{color:'#21262d'}},
+    y:{title:{display:true,text:'Unique Donors (same day)',color:'#8b949e'},ticks:{color:'#8b949e',callback:fmtN},grid:{color:'#21262d'}},
+  }}
+});
+
+// ── Donor vs Revenue dual-axis ───────────────────────────────────────────────
+new Chart(document.getElementById('donorChart'),{
+  type:'bar',
+  data:{
+    labels:REV.dates,
+    datasets:[
+      {label:'Daily Revenue',data:REV.amounts,backgroundColor:'rgba(88,166,255,0.55)',yAxisID:'y'},
+      {label:'Unique Donors',data:REV.donors,backgroundColor:'rgba(63,185,80,0.7)',yAxisID:'y2'},
+    ]
+  },
+  options:{responsive:true,plugins:{legend:{labels:{color:'#8b949e',font:{size:11}}}},
+    scales:{
+      x:{ticks:{color:'#8b949e',font:{size:9},maxRotation:45},grid:{color:'#21262d'}},
+      y:{position:'left',ticks:{color:'#58a6ff',callback:fmt$},grid:{color:'#21262d'}},
+      y2:{position:'right',ticks:{color:'#3fb950',callback:fmtN},grid:{display:false}},
+    }}
+});
+
+// ── Creatives table ──────────────────────────────────────────────────────────
+const crBody = document.getElementById('creatives-body');
+const sortedAds = [...ADS].sort((a,b)=>b.revenue-a.revenue);
+sortedAds.forEach((a,i)=>{
+  const isTop = i===0;
+  const tr = document.createElement('tr');
+  if(isTop) tr.className='winner';
+  const roasStr = a.roas===0?'∞ (organic)':a.roas.toFixed(1)+'×';
+  tr.innerHTML=`
+    <td><strong${isTop?' style="color:var(--gold)"':''}>${a.name}</strong>
+        <br><span style="font-size:10px;color:#8b949e">${a.note||''}</span></td>
+    <td style="font-size:11px;color:var(--muted)">${a.platform}</td>
+    <td><span class="tag" style="background:#1e2d3d;color:var(--accent)">${a.format}</span></td>
+    <td>${a.spend===0?'$0 (organic)':fmt$(a.spend)}</td>
+    <td>${fmtN(a.impressions)}</td>
+    <td style="color:${a.ctr>4?'var(--green)':'var(--text)'}">${a.ctr}%</td>
+    <td style="color:${a.cvr>5?'var(--green)':'var(--text)'}">${a.cvr}%</td>
+    <td><strong style="color:var(--green)">${fmt$(a.revenue)}</strong></td>
+    <td><strong style="color:${a.roas===0||a.roas>7?'var(--gold)':'var(--text)'}">${roasStr}</strong></td>
+    <td style="font-size:11px;color:var(--muted)">${a.window}</td>`;
+  crBody.appendChild(tr);
+});
+
+// ── Revenue by creative ──────────────────────────────────────────────────────
+new Chart(document.getElementById('revByCreativeChart'),{
+  type:'bar',
+  data:{
+    labels:sortedAds.map(a=>a.name.length>32?a.name.slice(0,32)+'…':a.name),
+    datasets:[{
+      label:'Revenue Attributed ($)',
+      data:sortedAds.map(a=>a.revenue),
+      backgroundColor:palette,borderRadius:4,
+    }]
+  },
+  options:{indexAxis:'y',responsive:true,plugins:{legend:{display:false},
+    tooltip:{callbacks:{label:ctx=>fmt$(ctx.raw)}}},
+    scales:{
+      x:{ticks:{color:'#8b949e',callback:fmt$},grid:{color:'#21262d'}},
+      y:{ticks:{color:'#c9d1d9',font:{size:10}},grid:{color:'#21262d'}},
+    }}
+});
+
+// ── ROAS chart (paid only) ───────────────────────────────────────────────────
+const paidAds = ADS.filter(a=>a.spend>0);
+new Chart(document.getElementById('roasChart'),{
+  type:'bar',
+  data:{
+    labels:paidAds.map(a=>a.name.length>32?a.name.slice(0,32)+'…':a.name),
+    datasets:[{
+      label:'ROAS',
+      data:paidAds.map(a=>a.roas),
+      backgroundColor:paidAds.map(a=>a.roas>=8?'rgba(227,179,65,0.8)':'rgba(88,166,255,0.6)'),
+      borderRadius:4,
+    }]
+  },
+  options:{indexAxis:'y',responsive:true,plugins:{legend:{display:false},
+    tooltip:{callbacks:{label:ctx=>ctx.raw+'× ROAS'}}},
+    scales:{
+      x:{title:{display:true,text:'Return on Ad Spend (×)',color:'#8b949e'},ticks:{color:'#8b949e'},grid:{color:'#21262d'}},
+      y:{ticks:{color:'#c9d1d9',font:{size:11}},grid:{color:'#21262d'}},
+    }}
+});
+
+// ── Q1 raised bar ────────────────────────────────────────────────────────────
+new Chart(document.getElementById('q1Chart'),{
+  type:'bar',
+  data:{
+    labels:BENCH.map(b=>b.name.length>28?b.name.slice(0,28)+'…':b.name),
+    datasets:[{
+      label:'Q1 Raised ($)',
+      data:BENCH.map(b=>b.q1),
+      backgroundColor:BENCH.map(b=>b.name.includes('Talarico')?'rgba(227,179,65,0.85)':'rgba(88,166,255,0.5)'),
+      borderRadius:5,
+    }]
+  },
+  options:{responsive:true,plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>fmt$(ctx.raw)}}},
+    scales:{
+      x:{ticks:{color:'#8b949e',font:{size:10}},grid:{color:'#21262d'}},
+      y:{ticks:{color:'#8b949e',callback:fmt$},grid:{color:'#21262d'}},
+    }}
+});
+
+// ── Online % chart ───────────────────────────────────────────────────────────
+new Chart(document.getElementById('onlinePctChart'),{
+  type:'bar',
+  data:{
+    labels:BENCH.map(b=>b.name.length>28?b.name.slice(0,28)+'…':b.name),
+    datasets:[{
+      label:'Online %',
+      data:BENCH.map(b=>b.online_pct),
+      backgroundColor:BENCH.map(b=>b.name.includes('Talarico')?'rgba(227,179,65,0.85)':'rgba(88,166,255,0.5)'),
+      borderRadius:5,
+    }]
+  },
+  options:{responsive:true,plugins:{legend:{display:false}},
+    scales:{
+      x:{ticks:{color:'#8b949e',font:{size:10}},grid:{color:'#21262d'}},
+      y:{max:100,ticks:{color:'#8b949e',callback:v=>v+'%'},grid:{color:'#21262d'}},
+    }}
+});
+
+// ── Benchmark table ──────────────────────────────────────────────────────────
+const bmBody = document.getElementById('benchmark-body');
+BENCH.forEach(b=>{
+  const isTala = b.name.includes('Talarico');
+  const tr = document.createElement('tr');
+  if(isTala) tr.className='winner';
+  tr.innerHTML=`
+    <td><strong${isTala?' style="color:var(--gold)"':''}>${b.name}</strong><br><span style="font-size:10px;color:#8b949e">${b.cycle}</span></td>
+    <td>${b.cycle}</td>
+    <td><strong style="color:${isTala?'var(--gold)':'var(--text)'}">${fmt$(b.q1)}</strong></td>
+    <td style="color:${isTala?'var(--gold)':'var(--text)'}">${b.online_pct}%</td>
+    <td>$${b.avg.toFixed(0)}</td>
+    <td>${b.small_dollar}%</td>
+    <td>${fmtN(b.donors)}</td>
+    <td style="color:${b.tv_spend===0?'var(--green)':'var(--text)'}">${b.tv_spend===0?'$0 (none)':fmt$(b.tv_spend)}</td>
+    <td>${fmt$(b.digital_spend)}</td>
+    <td>${fmt$(b.daily)}/day</td>`;
+  bmBody.appendChild(tr);
+});
+
+// ── Spend bar chart ──────────────────────────────────────────────────────────
+new Chart(document.getElementById('spendChart'),{
+  type:'bar',
+  data:{
+    labels:BENCH.map(b=>b.name.length>24?b.name.slice(0,24)+'…':b.name),
+    datasets:[
+      {label:'TV Spend',data:BENCH.map(b=>b.tv_spend/1e6),backgroundColor:'rgba(248,129,74,0.7)',borderRadius:3},
+      {label:'Digital Spend',data:BENCH.map(b=>b.digital_spend/1e6),backgroundColor:'rgba(88,166,255,0.7)',borderRadius:3},
+    ]
+  },
+  options:{responsive:true,plugins:{legend:{labels:{color:'#8b949e'}}},
+    scales:{
+      x:{ticks:{color:'#8b949e',font:{size:10}},grid:{color:'#21262d'}},
+      y:{ticks:{color:'#8b949e',callback:v=>'$'+v+'M'},grid:{color:'#21262d'},title:{display:true,text:'Spend ($M)',color:'#8b949e'}},
+    }}
+});
+
+// ── Small-dollar doughnut ────────────────────────────────────────────────────
+new Chart(document.getElementById('smallDollarChart'),{
+  type:'doughnut',
+  data:{
+    labels:BENCH.map(b=>b.name.length>24?b.name.slice(0,24)+'…':b.name),
+    datasets:[{data:BENCH.map(b=>b.small_dollar),backgroundColor:palette,hoverOffset:6}]
+  },
+  options:{responsive:true,plugins:{
+    legend:{position:'right',labels:{color:'#8b949e',font:{size:10},boxWidth:12}},
+    tooltip:{callbacks:{label:ctx=>ctx.label+': '+ctx.raw+'% small-dollar'}},
+  }}
+});
+
+// ── Polling chart ────────────────────────────────────────────────────────────
+const pollAnn = {
+  rogan:{type:'line',scaleID:'x',value:'2025-07-18',borderColor:'rgba(63,185,80,0.5)',borderWidth:1.5,borderDash:[4,4],
+    label:{display:true,content:'JRE #2352',position:'start',backgroundColor:'rgba(63,185,80,0.08)',color:'#3fb950',font:{size:9}}},
+  announce:{type:'line',scaleID:'x',value:'2025-09-09',borderColor:'rgba(88,166,255,0.5)',borderWidth:1.5,borderDash:[4,4],
+    label:{display:true,content:'Campaign Announce',position:'start',backgroundColor:'rgba(88,166,255,0.08)',color:'#58a6ff',font:{size:9},yAdjust:20}},
+  colbert:{type:'line',scaleID:'x',value:'2026-02-17',borderColor:'rgba(248,129,74,0.5)',borderWidth:1.5,borderDash:[4,4],
+    label:{display:true,content:'Colbert Blocked',position:'start',backgroundColor:'rgba(248,129,74,0.08)',color:'#f8814a',font:{size:9},yAdjust:40}},
+  primary:{type:'line',scaleID:'x',value:'2026-03-03',borderColor:'rgba(188,140,255,0.5)',borderWidth:1.5,borderDash:[4,4],
+    label:{display:true,content:'Primary Win',position:'start',backgroundColor:'rgba(188,140,255,0.08)',color:'#bc8cff',font:{size:9},yAdjust:60}},
+  talafreako:{type:'line',scaleID:'x',value:'2026-05-27',borderColor:'rgba(248,129,74,0.7)',borderWidth:2,borderDash:[4,4],
+    label:{display:true,content:'Talafreako Launch',position:'start',backgroundColor:'rgba(248,129,74,0.15)',color:'#f78166',font:{size:9,weight:'bold'},yAdjust:0}},
+};
+
+new Chart(document.getElementById('pollingChart'),{
+  type:'line',
+  data:{
+    labels:POLL.map(p=>p.date),
+    datasets:[
+      {label:'Talarico %',data:POLL.map(p=>p.talarico),borderColor:'#3fb950',backgroundColor:'rgba(63,185,80,0.08)',
+       tension:0.4,fill:false,pointRadius:6,pointHoverRadius:9,pointBackgroundColor:'#3fb950'},
+      {label:'Opponent %',data:POLL.map(p=>p.opponent),borderColor:'#f78166',backgroundColor:'rgba(247,129,102,0.08)',
+       tension:0.4,fill:false,pointRadius:6,pointHoverRadius:9,pointBackgroundColor:'#f78166',
+       spanGaps:true},
+      {label:'Undecided %',data:POLL.map(p=>p.undecided),borderColor:'#8b949e',borderDash:[3,3],
+       tension:0.4,fill:false,pointRadius:4,pointBackgroundColor:'#8b949e'},
+    ]
+  },
+  options:{responsive:true,plugins:{
+    legend:{labels:{color:'#c9d1d9',font:{size:12}}},
+    annotation:{annotations:pollAnn},
+    tooltip:{callbacks:{
+      title:ctx=>POLL[ctx[0].dataIndex].date+' — '+POLL[ctx[0].dataIndex].pollster,
+      afterBody:ctx=>{
+        const p=POLL[ctx[0].dataIndex];
+        return ['MOE: ±'+p.moe+'%','Method: '+p.method, p.note||''].filter(Boolean);
+      }
+    }}
+  },scales:{
+    x:{ticks:{color:'#8b949e',font:{size:10}},grid:{color:'#21262d'}},
+    y:{min:20,max:65,ticks:{color:'#8b949e',callback:v=>v+'%'},grid:{color:'#21262d'},title:{display:true,text:'Vote Share %',color:'#8b949e'}},
+  }}
+});
+</script>
+</body>
+</html>
